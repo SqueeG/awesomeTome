@@ -1,0 +1,18 @@
+I made the following changes from the source material (the Tomes), not counting 
+fixed typos and formatting issues:
+
+* All of the skill point 
+
+* The Marshall's tower shield proficiency was changed to great shield proficiency.
+
+* Skill feats:
+  - Changed the rank 19 ability of Battlefield Surgeon to cost the same as a True Resurrection.
+  - Changed the rank 4 ability of Con Artist from "bonus on Diplomacy checks" to "ranks in the Bluff skill".
+  - Added "This ability can only be used once per round." to the end of the rank 4 ability of Deft Fingers.
+  - Added "until they lose sight of you" to the rank 19 ability of Dreadful Demeanor (it otherwise has no duration).
+  - Removed Leap of the Heavens until a better version is made.
+  - Changed the save DC on the rank 14 ability of Master of Terror to 10 + 1/2 char level + cha modifier, instead of full character level.
+  - Changed "1/2 your caster level" to "1/2 your character level" in the Professional Luddite skill.
+  - Removed Super Scaler until a better version is made.
+
+-- Surgo

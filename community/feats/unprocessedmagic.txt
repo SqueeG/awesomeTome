@@ -1,0 +1,47 @@
+Spell Focus [Metamagic]
+To you, everything looks like a nail.
+This is a Metamagic feat that scales with the highest-level spell you can cast.
+
+Benefits: Select one school of magic. Whenever you cast a spell of that school, its save DC is increased by 2. This bonus does not stack with any other feats.
+1: Your understanding of your school surpasses your peers. When you cast a spell of your focused school, you gain a +2 bonus to any attack rolls involved, and any creatures that take HP damage from a spell of your focused school on the round the spell is cast take additional damage equal to your caster level or three times the spell's level, whichever is less.
+3: You intuitively understand the similarities between spells of your focused school. If you prepare spells, then you may lose any prepared spell from your focused school to cast a spell you know of the same school that is at least one level lower. If you already cast spontaneously, then you know one additional spell of that school for each level of spells you can cast.
+6: When you cast a spell from your focused school, you gain a +4 bonus to the caster level check to overcome spell resistance. This bonus does not stack with any other feats.
+9: If you prepare spells, then you may lose any prepared spell to cast a spell you know from your focused school that is at least one level lower. If you already cast spontaneously, then you know two additional spells of that school for each level of spells you can cast (instead of one from the level 3 ability).
+Special: This feat may be selected multiple times. Its effects do not stack; instead, each instance of the feat applies to a different school of magic.
+
+
+Bottomless Magic [Metamagic]
+Some people rely on other abilities when their spells run out. Others...don't.
+This is a Metamagic feat that scales with the highest-level spell you can cast.
+
+Benefits: If one of your spells is interrupted for any reason, any resources used to power that spell (spell slots, material components, XP, etc.) are not expended.
+1: You have one additional spell slot, which can hold a spell of any level you are able to cast.
+3: You may restore one expended daily spell slot with a 15-minute ritual. If you prepare spells, this also fills the slot with any spell it can normally hold.
+6: Your casting attribute counts as being 4 points higher for purposes of determining bonus spells (this will usually give you one extra spell slot each at half of your spell levels).
+9: If you use one of your spells in a counterspelling attempt, or if one of your spells is counterspelled, your spell slot is not consumed.
+
+
+Timeless Magic [Metamagic]
+Some wizards try to live a long time. You try to live more in the same amount of time.
+This is a Metamagic feat that scales with the highest-level spell you can cast.
+
+Benefits: You may cast a spell with a 1-round casting time as a standard action (the spell goes off immediately).
+1: You may double the duration of any spell you cast, unless the duration is instantaneous, concentration, or permanent.
+3: When you cast a spell with a duration of concentration (or concentration + X rounds), you may cause the spell's effects to persist one additional round after you cease concentrating.
+6: If a spell at least 5 levels lower than the highest-level spell you can cast normally has a casting time of one round or less, you may cast it as a swift action.
+9: You may cast a spell and maintain concentration on another with the same action, but you must succeed on a Concentration check (DC 20 + spell levels of both spells) or lose both.
+
+
+Stealth Magic [Metamagic]
+You hold your cards close to your chest. It makes it harder to tell when you pull one out of your sleeve.
+This is a Metamagic feat that scales with the highest-level spell you can cast.
+
+Benefits: The Spellcraft DC to identify any spell you cast is increased by 5. Someone using detect magic, arcane sight or a similar spell must succeed on a caster level check to detect the magic auras of your spells (DC 10 + your caster level).
+1: You can ignore the verbal components of your spells, as if they were affected by the Silent Spell metamagic (no effect on spells that cannot be modified by Silent Spell).
+3: Your spells catch people off-guard. The targets of your spells cannot use Uncanny Dodge, Evasion, Improved Evasion, or Slippery Mind to resist them.
+6: You may perform the somatic components of your spell with a hand that is also holding an object if you succeed on a Sleight of Hand check, DC 10 + spell level (failure means you lose the spell). Opponents must make a Spot check that beats your Sleight of Hand result in order to identify the spell based on its somatic component (and since it's probably silent, that's likely the only option). This ability does not negate arcane spell failure due to armor.
+9: You can get spells past peoples' defenses in sneaky ways. Whenever someone attempts a saving throw against one of your spells using their highest save, they must use their median save instead, unless you choose otherwise.
+
+
+
+
