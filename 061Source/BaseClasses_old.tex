@@ -1,0 +1,1047 @@
+
+\documentclass[10pt]{article}
+
+\usepackage{multicol}
+\usepackage{floatflt}
+\pagestyle{empty}
+
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+\textheight 8.9in
+\oddsidemargin 1in
+\evensidemargin \oddsidemargin
+\textwidth 7in
+%\setlength {\parindent} {20pt}
+%\setlength {\parindent} {0pt}
+\oddsidemargin -0.25in
+
+\newcommand{\ability}[2]{\smallskip \noindent \textbf{#1} #2}
+\newcommand{\classname}[1]{\noindent{\huge \textbf{#1}}}
+\newcommand{\quot}[1]{\emph{#1}\medskip}
+\newcommand{\desc}[1]{#1 \medskip}
+\newcommand{\example}[1]{\emph{#1}}
+\newcommand{\spell}[1]{\emph{#1}}
+\newcommand{\spelllist}[1]{\smallskip \noindent \underline{\large \textbf{#1}}}
+
+
+\newcommand{\itemspace}[0]{\setlength{\itemsep}{-1mm}}
+\newcommand{\half}[0]{\ensuremath{\frac{1}{2}}}
+
+\begin{document}
+
+%{\huge Base Classes \\ \Large \hspace*{2cm} from Races of War, Dungeonomicon, and Tome of Fiends}
+%\vspace{1cm}
+
+\classname{Assassin}
+
+\quot{``I kill people. Individually, you are a person. Collectively, I think you count as people.''}
+
+\desc{An assassin is a master of the art of killing, a vicious weapon honed by experience and inclination to learn the myriad ways to end a life. Unlike common warriors or rogues, an Assassin does not study various fighting arts or muddle his training with martial dirty tricks, he instead studies the anatomy of the various creatures of wildly different anatomies and forms of existence, and he uses this knowledge to place his blows in areas vital for biological or mystical reasons. Stealth and sudden violence are his hallmarks, and various exotic tools and killing methods become his tools.}
+
+\desc{While most societies consider assassination to be a vile art, or at best a dishonorable or unvalorous one, the reasons that drive these killers vary. Cold-hearted mercenaries share a skill set with dedicated demon-hunters, differing only in the application of their skills. Only the most na\"ive student of ethics believes that all killing is evil, or that nobility cannot be found in a mercifully quick death.}
+
+\ability{Alignment:}{An Assassin may be of any alignment.}
+
+\ability{Races:}{Any}
+
+\ability{Starting Gold:}{6d4x10 gp (150 gold)}
+
+\ability{Starting Age:}{As Rogue.}
+
+\ability{Hit Die:}{d6}
+
+\ability{Class Skills:}{The Assassin's skills (and the key ability for each skill) are Balance (Dex), Bluff (Cha), Climb (Str), Concentration (Con), Craft (Int), Diplomacy (Cha), Disable Device (Int), Disguise (Cha), Gather Information (Cha), Hide (Dex), Intimidate (Cha), Jump (Str), Knowledge (all) (Int), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Search (Int), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Spot (Wis), Swim (Str), Tumble (Dex), and Use Magic Device (Cha).}
+
+\ability{Skills/Level:}{6 + Intelligence Bonus}
+
+\begin{table}[htb]
+\begin{small}
+\begin{tabular}{lp{1.9cm}p{0.7cm}p{0.7cm}p{0.7cm}l}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special\\
+1st &+0 &+2 &+2 &+0 &Poison Use, Death Attack +3d6, Personal Immunity, Spellcasting\\
+2nd &+1 &+3 &+3 &+0 &Uncanny Dodge, Death Attack +4d6\\
+3rd &+2 &+3 &+3 &+1 &Hide in Plain Sight, Death Attack +5d6\\
+4th &+3 &+4 &+4 &+1 &Cloak of Discretion, Death Attack +6d6\\
+5th &+3 &+4 &+4 &+1 &Traps, Trapmaking, Death Attack +7d6\\
+6th &+4 &+5 &+5 &+2 &Palm Weapon, Death Attack +8d6\\
+7th &+5 &+5 &+5 &+2 &Full Death Attack, Death Attack +9d6\\
+8th &+6/+1 &+6 &+6 &+2 &Nerve of the Assassin, Death Attack +10d6\\
+9th &+6/+1 &+6 &+6 &+3 &Improved Uncanny Dodge, Death Attack +11d6\\
+10th &+7/+2 &+7 &+7 &+3 &Skill Mastery, Death Attack +12d6\\
+11th &+8/+3 &+7 &+7 &+3 &Poisonmaster, Death Attack +13d6\\
+12th &+8/+3 &+8 &+8 &+4 &Personal Immunity, Death Attack +14d6\\
+13th &+9/+4 &+8 &+8 &+4 &Exotic Method, Death Attack +15d6\\
+14th &+10/+5 &+9 &+9 &+4 &Personal Immunity, Death Attack +16d6\\
+15th &+11/+6/+6 &+9 &+9 &+5 &Killer's Proof, Death Attack +17d6\\
+16th &+12/+7/+7 &+10 &+10 &+5 &Exotic Method, Death Attack +18d6\\
+17th &+12/+7/+7 &+10 &+10 &+5 &Death by a Thousand Cuts, Death Attack +19d6\\
+18th &+13/+8/+8 &+11 &+11 &+6 &Mind Blank, Death Attack +20d6\\
+19th &+14/+9/+9 &+11 &+11 &+6 &Exotic Method, Death Attack +21d6\\
+20th &+15/+10/+10 &+12 &+12 &+6 &Killing Strike, Death Attack +22d6\\
+\end{tabular}
+\end{small}
+\end{table}
+
+\begin{floatingfigure}{3.9in}
+\begin{small}
+\noindent\begin{tabular}{lllllllllllllllll}
+ & \multicolumn{7}{c}{Assassin Spells Per Day}  &   &\multicolumn{7}{c}{Assassin Spells Known}\\
+  &0 &1 &2 &3 &4 &5 &6 &  &  &0 &1 &2 &3 &4 &5 &6\\
+1 &2 &- &- &- &- &- &- &  &1 &4 &- &- &- &- &- &-\\
+2 &3 &0 &- &- &- &- &- &  &2 &5 &2 &- &- &- &- &-\\
+3 &3 &1 &- &- &- &- &- &  &3 &6 &3 &- &- &- &- &-\\
+4 &3 &2 &0 &- &- &- &- &  &4 &6 &3 &2 &- &- &- &-\\
+5 &3 &3 &1 &- &- &- &- &  &5 &6 &4 &3 &- &- &- &-\\
+6 &3 &3 &2 &- &- &- &- &  &6 &6 &4 &3 &- &- &- &-\\
+7 &3 &3 &2 &0 &- &- &- &  &7 &6 &4 &4 &2 &- &- &-\\
+8 &3 &3 &3 &1 &- &- &- &  &8 &6 &4 &4 &3 &- &- &-\\
+9 &3 &3 &3 &2 &- &- &- &  &9 &6 &4 &4 &3 &- &- &-\\
+10 &3 &3 &3 &2 &0 &- &- &  &10 &6 &4 &4 &4 &2 &- &-\\
+11 &3 &3 &3 &3 &1 &- &- &  &11 &6 &4 &4 &4 &3 &- &-\\
+12 &3 &3 &3 &3 &2 &- &- &  &12 &6 &4 &4 &4 &3 &- &-\\
+13 &3 &3 &3 &3 &2 &0 &- &  &13 &6 &4 &4 &4 &4 &2 &-\\
+14 &3 &3 &3 &3 &3 &1 &- &  &14 &6 &4 &4 &4 &4 &3 &-\\
+15 &3 &3 &3 &6 &3 &2 &- &  &15 &6 &4 &4 &4 &4 &3 &-\\
+16 &3 &3 &3 &3 &3 &2 &0 &  &16 &6 &5 &4 &4 &4 &4 &2\\
+17 &3 &3 &3 &3 &3 &3 &1 &  &17 &6 &5 &5 &4 &4 &4 &3\\
+18 &3 &3 &3 &3 &3 &3 &2 &  &18 &6 &5 &5 &5 &4 &4 &3\\
+19 &3 &3 &3 &3 &3 &3 &3 &  &19 &6 &5 &5 &5 &5 &4 &4\\
+20 &3 &3 &3 &3 &3 &3 &3 &  &20 &6 &5 &5 &5 &5 &5 &4\\
+\end{tabular}
+\end{small}
+\end{floatingfigure}
+
+\noindent All of the following are Class Features of the Assassin class.
+
+\ability{Weapon and Armor Proficiency:}{Assassins are proficient with all Light Weapons, as well as simple weapons, repeating crossbows, and hand crossbows. At first level, an Assassin gains proficiency with one Exotic Weapon of her choice. Assassins are proficient with Light Armor but not with shields.}
+
+\ability{Spellcasting:}{The Assassin is an Arcane Spellcaster with the same spells per day and spells known progression as a Bard, except that he gains no more than three spell slots per level. An Assassin's spells known may be chosen from the Sorcerer/Wizard list, and must be from the schools of Divination, Illusion, or Necromancy. To cast an Assassin spell, she must have an Intelligence at least equal to 10 + the Spell level. The DC of the Assassin's spells is Intelligence based and the bonus spells are Intelligence based.}
+
+\ability{Poison Use (Ex):}{An Assassin may prepare, apply, and use poison without any chance of poisoning herself.}
+
+\ability{Death Attack (Ex):}{An Assassin may spend a full-round action to study an opponent who would be denied their Dexterity bonus if she instead attacked that target. If she does so, her next attack is a Death Attack if she makes it within 1 round. A Death Attack inflicts a number of extra dice of damage equal to her Assassin level plus two dice, but only if the target is denied its Dexterity Bonus to AC against that attack. Special attacks such as a coup de grace may be a Death Attack. Assassins are well trained in eliminating magical or distant opponents, and do not have to meet the stringent requirements of a sneak attack, though if a character has both sneak attack and death attack, they stack if the character meets the requirements of both. As long as the victim is denied their dexterity against attacks from the assassin during the study action and the attack itself, it counts as a death attack. An Assassin may load a crossbow simultaneously with his action to study his target if he has a Base Attack Bonus of +1 or more.}
+
+\ability{Personal Immunity (Ex):}{Choose four poisons, an Assassin is immune to all four of those poisons, even if they are made available in a stronger strength. At levels 5, 7, and 12 the Assassin may choose one more type of poison to become immune to. At level 14, an Assassin becomes immune to all poisons.}
+
+\ability{Uncanny Dodge (Ex):}{Starting at 2nd level, an Assassin can react to danger before his senses would normally allow him to do so. He retains her Dexterity bonus to AC (if any) even if she is caught flat-footed or struck by an invisible attacker. However, he still loses her Dexterity bonus to AC if immobilized. If an Assassin already has uncanny dodge from a different class he automatically gains improved uncanny dodge (see below) instead.}
+
+\ability{Hide in Plain Sight (Ex):}{A 3rd level Assassin can hide in unusual locations, and may hide in areas without cover or concealment without penalty. An Assassin may even hide while being observed. This ability does not remove the -10 penalty for moving at full speed, or the -20 penalty for running or fighting.}
+
+\ability{Cloak of Discretion (Su):}{At 4th level, an Assassin is protected by a constant \emph{Nondetection} effect, with a caster level equal to his character level.}
+
+\ability{Trapfinding:}{At 5th level, Assassins can use the Search skill to locate traps when the task has a Difficulty Class higher than 20. Finding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. Finding a magic trap has a DC of 25 + the level of the spell used to create it. Assasins can use the Disable Device skill to disarm magic traps. A magic trap generally has a DC of 25 + the level of the spell used to create it. An Assassin who beats a trap's DC by 10 or more with a Disable Device check can study a trap, figure out how it works, and bypass it (with her party) without disarming it.}
+
+\ability{Trapmaking:}{At 5th level, the Assassin learns to build simple mechanical traps in out of common materials. As long as has access to ropes, flexible material like green wood, and weapon-grade materials like sharpened wooden sticks or steel weapons, he can build an improvised trap in 10 minutes. He can build any non-magical trap on the "CR 1" trap list that doesn't involve a pit. These traps have a Search DC equal to 20 + the Assassin's level, have a BAB equal to his own, and are always single-use traps. He may add poison to these traps, if he has access to it, but it will dry out in an hour.}
+
+\ability{Palm Weapon (Su):}{At 6th level, the Assassin learns to conceal weapons with supernatural skill. Any weapon successfully concealed with Sleight of Hand cannot be found with divination magic.}
+
+\ability{Full Death Attack:}{At 7th level, if the Assassin studies an opponent to perform a Death Attack, she can make a full attack during the next round where every attack inflicts Death Attack damage as long as the target was denied their Dexterity bonus to AC against the first attack in the full attack action.}
+
+\ability{Nerve of the Killer:}{At 8th level, an Assassin gains a limited immunity to compulsion and charm effects. While studying a target for a Death Attack, and for one round afterward, he counts as if he were within a protection from evil effect. This does not confer a deflection bonus to AC.}
+
+\ability{Improved Uncanny Dodge (Ex):}{An Assassin of 9th level or higher can no longer be flanked. This defense denies another character the ability to sneak attack the character by flanking him, unless the attacker has at least four more levels in a class that provides sneak attack than the target. If a character already has uncanny dodge (see above) from a second class, the character automatically gains improved uncanny dodge instead, and the levels from the classes that grant uncanny dodge stack to determine the minimum level required to flank the character.}
+
+\ability{Skill Mastery (Ex):}{At 10th level, an Assassin becomes so certain in the use of certain skills that she can use them reliably even under adverse conditions. When making a skill check with Climb, Disable Device, Hide, Move Silently, Search, Spellcraft, Use Magic Device, Use Rope, or Swim, she may take 10 even if stress and distractions would normally prevent her from doing so.}
+
+\ability{Poisonmaster:}{At 11th level, the Assassin learns alchemic secrets for creating short-term poisons. By expending an entire healer's kit worth of materials and an hour of time, he can synthesize one dose of any poison in the DMG. This poison degrades to uselessness in one week.}
+
+\ability{Exotic Method:}{At 13th, 16th, and 19th level the Assassin learns an exotic form of killing from the list below. Once chosen, this ability does not change:}
+\begin{itemize}\itemspace
+
+    \item \ability{Carrier:}{\spell{contagion} as a swift action spell-like ability.}
+    \item \ability{Poison of the Cockatrice:}{Twice per day, the Assassin can cast \spell{flesh to stone} as a swift action spell-like ability.}
+    \item \ability{Killer Faerie Arts:}{Twice per day, the Assassin can cast \spell{polymorph other} as a swift action spell-like ability.}
+    \item \ability{Proxy Assassin:}{Twice per day, the Assassin can cast \spell{summon monster VII} as a spell-like ability. This effect lasts 10 minutes.}
+    \item \ability{Death By Plane:}{Once per day, the Assassin can cast \spell{plane shift} as a spell-like ability.}
+    \item \ability{Dimesional Rip:}{Once per day, the Assassin can cast \spell{implosion} as a spell-like ability. The duration of this effect is three rounds.}
+    \item \ability{New School:}{The Assassin may now choose spells known from a new school.}
+\end{itemize}
+
+\ability{Killer's Proof (Su):}{At 15th level, the Assassin learns to steal the souls of those he kills. If he is holding an onyx worth at least 100 GP when he kills an enemy, he may place their soul within the gem as if he has cast soul bind on them at the moment of their death.}
+
+\ability{Death by a Thousand Cuts:}{At 17th level, the assassin has learned to kill even the hardiest of foes by reducing their physical form to shambles. Every successful Death attack inflicts a cumulative -2 Dexterity penalty to the Assassin's victim. These penalties last one day.}
+
+\ability{Mind Blank (Su):}{At 18th level, the Assassin is protected by a constant \spell{mind blank} effect.}
+
+\ability{Killing Strike (Su):}{At 20th level, the Assassin's Death Attacks bypass his victim's DR and hardness.}
+
+\newpage
+
+
+\classname{Barbarian}
+
+\quot{``My name is Sharptooth of the Wolf Tribe. Your women, lands, and riches are mine.''}
+
+\desc{Playing a Barbarian: Playing a Barbarian is actually very easy. In general, you hit things, and they fall down. A Barbarian's action in almost any circumstance can plausibly be "I hit it with my great axe!" As such, a Barbarian character can be a good method to introduce a new player to the game or kill some orcs when you've had a few glasses of brew.}
+
+\ability{Alignment:}{Every alignment has its share of Barbarians, however more Barbarians are of Chaotic alignment than of Lawful Alignment.}
+
+\ability{Races:}{Anybody can become a barbarian, and in areas with little in the way of civilization, a lot of people do.}
+
+\ability{Starting Gold:}{4d6x10 gp (140 gold)}
+
+\ability{Starting Age:}{As Barbarian.}
+
+\ability{Hit Die:}{d12}
+
+\ability{Class Skills:}{The Barbarian's class skills (and the key ability for each skill) are Balance (Dex), Climb (Str), Hide (Dex), Intimidate (Cha), Jump (Str), Knowledge: Nature (Int), Listen (Wis), Move Silently (Dex), Sense Motive (Wis), Spot (Wis), Survival (Wis), and Swim (Str).}
+
+\ability{Skills/Level:}{4 + Intelligence Bonus}
+
+\begin{table}[htb]
+\begin{small}
+\begin{tabular}{lp{3cm}p{0.7cm}p{0.7cm}p{0.7cm}l}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special\\
+1st &+1 &+2 &+0 &+0 &Rage, Fast Healing 1\\
+2nd &+2 &+3 &+0 &+0 &Rage Dice +1d6, Combat Movement +5'\\
+3rd &+3 &+3 &+1 &+1 &Battle Hardened\\
+4th &+4 &+4 &+1 &+1 &Rage Dice +2d6, Combat Movement +10'\\
+5th &+5 &+4 &+1 &+1 &Sidestep Hazards , Fast Healing 5\\
+6th &+6/+1 &+5 &+2 &+2 &Rage Dice +3d6, Combat Movement +15'\\
+7th &+7/+2 &+5 &+2 &+2 &Great Blows\\
+8th &+8/+3 &+6 &+2 &+2 &Rage Dice +4d6, Combat Movement +20'\\
+9th &+9/+4 &+6 &+3 &+3 &Great Life\\
+10th &+10/+5 &+7 &+3 &+3 &Rage Dice +5d6, Combat Movement +25', Fast Healing 10\\
+11th &+11/+6/+6 &+7 &+3 &+3 &Call the Horde\\
+12th &+12/+7/+7 &+8 &+4 &+4 &Rage Dice +6d6, Combat Movement +30'\\
+13th &+13/+8/+8 &+8 &+4 &+4 &Watched by Totems\\
+14th &+14/+9/+9 &+9 &+4 &+4 &Rage Dice +7d6, Combat Movement +35'\\
+15th &+15/+10/+10 &+9 &+5 &+5 &Primal Assault, Fast Healing 15\\
+16th &+16/+11/+11/+11 &+10 &+5 &+5 &Rage Dice +8d6, Combat Movement +40'\\
+17th &+17/+12/+12/+12 &+10 &+5 &+5 &Savagery\\
+18th &+18/+13/+13/+13 &+11 &+6 &+6 &Rage Dice +9d6, Combat Movement +45'\\
+19th &+19/+14/+14/+14 &+11 &+6 &+6 &One With The Beast\\
+20th &+20/+15/+15/+15 &+12 &+6 &+6 &Rage Dice +10d6, Combat Movement +50', Fast Healing 20\\
+\end{tabular}
+\end{small}
+\end{table}
+
+
+
+
+\ability{Weapon and Armor Proficiency:}{Barbarians are proficient with simple weapons, martial weapons, light armor, medium armor and with shields.}
+
+\ability{Rage (Ex):}{When doing melee damage to a foe or being struck by a foe, a Barbarian may choose to enter a Rage as an immediate action. While Raging, a Barbarian gains a +2 morale bonus to hit and damage in melee combat and may apply any Rage Dice he has to his melee damage rolls. He also gains a +2 to saves, a -2 to AC, and he gains DR X/-- with "X" being equal to half his Barbarian level +2 (rounded down). For example, a 1st level Barbarian has DR 3/-- while Raging and a 10th level Barbarian has DR 7/-- while Raging. While Raging, a Barbarian may not cast spells, activate magic items, use spell-like abilities, or drop his weapons or shield. Rage lasts until he has neither struck an enemy for three consecutive rounds nor suffered damage from an enemy for three consecutive rounds. He may voluntarily end a Rage as a full-round action.}
+
+\ability{Fast Healing:}{Barbarians shrug off wounds that would cripple a lesser man, and have learned to draw upon deep reserves of energy and stamina. At 1st level, they gain Fast Healing 1. At 5th level this becomes Fast Healing 5, Fast Healing 10 at 10th level, Fast Healing 15 at 15th level, and Fast Healing 20 at 20th level. This healing only applies while he is not raging. \smallskip
+
+If a Barbarian ever multi-classes, he permanently loses this ability. A multiclass character does not gain this ability.  A character with 4 or more levels of Barbarian gains this ability even if multiclassed.}
+
+\ability{Rage Dice:}{While Raging, a Barbarian may add these dice of damage to each of his melee attacks. These dice are not multiplied by damage multipliers, and are not applied to any bonus attacks beyond those granted by Base Attack Bonus. These dice are not sneak attack dice, and do not count as sneak attack dice for the prerequisites of prestige classes or feats.}
+
+\ability{Combat Movement:}{While Raging, a Barbarian moves faster in combat, and may add his Combat Movement to his speed when he takes a move action to move.}
+
+\ability{Battle Hardened:}{At 3th level, a Raging Barbarian's mind has been closed off from distractions by the depths of his bloodlust and battle fury. While Raging, he may use his Fortitude Save in place of his Will Save. If he is under the effects of a compulsion or fear effect, he may act normally while Raging as if he was inside a \spell{protection from evil} effect.}
+
+\ability{Sidestep Hazards (Ex):}{At 5th level, a Raging Barbarian learns to sidestep hazards with an intuitive and primal danger sense. While Raging, he may use his Fortitude Save in place of his Reflex Save.}
+
+\ability{Great Blows (Ex):}{At 7th level, a Raging Barbarian's melee attacks are Great Blows. Any enemy struck by the Barbarian's melee or thrown weapon attacks must make a Fort Save or be stunned for one round. No enemy can be targeted by this ability more than once a round, and the save DC for this ability is 10 + half the Barbarian's HD + his Constitution modifier.}
+
+\ability{Great Life (Ex):}{While Raging, a 9th level Barbarian is immune to nonlethal damage, death effects, stunning, critical hits, negative levels, and ability damage (but not ability drain).}
+
+\ability{Call the Horde (Ex):}{An 11th level Barbarian becomes a hero of his people. He gains the Command feat as a bonus feat, but his followers must be Barbarians. In campaigns that do not use Leadership feats, he instead gains a +2 unnamed bonus to all saves.}
+
+\ability{Watched by Totems (Ex):}{At 13th level, a Barbarian may immediately reroll any failed save. He may do this no more than once per failed save.}
+
+\ability{Primal Assault (Ex):}{At 15th level, a Raging Barbarian may choose to radiate an effect similar to an \spell{antimagic field} when he enters a Rage, with a caster level equal to his HD. Unlike a normal antimagic field, this effect does not suppress magic effects on him or the effects of magic items he is wearing or holding.}
+
+\ability{Savagery (Ex):}{At 17th level, a Raging Barbarian may take a full round action to make a normal melee attack that has an additional effect similar to a mordenkainen's disjunction. Unlike a normal mordenkainen's disjunction, this effect only targets a single item or creature struck.}
+
+\ability{One With The Beast:}{At 19th level, a Barbarian may no longer needs to be in a Rage to use any Barbarian ability.}
+
+\newpage
+
+\classname{Fighter}
+
+\quot{``I've seen this kind of fire-breathing chicken-demon before. We're going to need more rope. Also a bigger cart.''}
+
+\desc{The Fighter is a versatile combatant who is able to actively disrupt the activities of his enemies. Fighters represent plucky heroes and grizzled veterans, but they always appear to surmount impossible odds. Which means in retrospect that the odds weren't all that impossible. At least, not for someone with a Fighter's talents.}
+
+\desc{Playing a Fighter: Fighters are often handed to beginning players in order to help them learn the ropes. This is a cruel practice that dates back to when the Fighter was explicitly a weak class that players were forced to play to the (quit proximate) death if for whatever reason they didn't roll well enough on their stats to play a real character. The Fighter described here is not the hazing ritual of old, but it is a more complicated character than many others, being the non-magical equivalent to the Wizard. Beginning characters should probably be given a Barbarian, Conduit, or Rogue character to introduce them to the game mechanics of D\&D.}
+
+\desc{A Fighter has an answer for virtually any circumstance and a great deal of adaptability and flexibility, and benefits greatly from being played by a player who actually knows how far a Roper's strands or a Beholder's rays reach. The Fighter character is archetypically a character who uses her opponent's limitations against them, and it really slows down play if the player needs to have those limitations explained during combat. As such, a full classed Fighter is recommended for experienced players of the game.}
+
+\desc{That being said, a level or two of Fighter can give some breadth and resilience to almost any martial build, and makes a good multiclassing dip even (sometimes especially) for inexperienced players.}
+
+\ability{Alignment:}{Every alignment has its share of Fighters, however more Fighters are of Lawful alignment than of Chaotic Alignment.}
+
+\ability{Races:}{Every humanoid race has warriors, but actual Fighters are rarer in societies that don't value logistics and planning. So while there are many Fighters among the Hobgoblins, Dwarves, and Fire Giants, a Fighter is rarely seen among the ranks of the Orcs, Gnomes, or Ogres.}
+
+\ability{Starting Gold:}{6d6x10 gp (210 gold)}
+
+\ability{Starting Age:}{As Fighter.}
+
+\ability{Hit Die:}{d10}
+
+\ability{Class Skills:}{The Fighter's class skills (and the key ability for each skill) are Balance (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Handle Animal (Cha), Intimidate (Cha), Jump (Str), Knowledge (all skills individually) (Int), Listen (Wis), Move Silently (Dex), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spot (Wis), Survival (Wis), Swim (Str), Tumble (Dex), and Use Rope (Dex).}
+
+\ability{Skills/Level:}{6 + Intelligence Bonus}
+
+\begin{table}[tbh]
+\begin{small}
+\begin{tabular}{lp{3cm}p{0.7cm}p{0.7cm}p{0.7cm}l}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special\\
+1st &+1 &+2 &+2 &+2 &Weapons Training, Combat Focus\\
+2nd &+2 &+3 &+3 &+3 &Bonus Feat\\
+3rd &+3 &+3 &+3 &+3 &Problem Solver, Pack Mule\\
+4th &+4 &+4 &+4 &+4 &Bonus Feat\\
+5th &+5 &+4 &+4 &+4 &Logistics Mastery, Active Assualt\\
+6th &+6/+1 &+5 &+5 &+5 &Bonus Feat\\
+7th &+7/+2 &+5 &+5 &+5 &Forge Lore, Improved Delay\\
+8th &+8/+3 &+6 &+6 &+6 &Bonus Feat\\
+9th &+9/+4 &+6 &+6 &+6 &Foil Action\\
+10th &+10/+5 &+7 &+7 &+7 &Bonus Feat\\
+11th &+11/+6/+6 &+7 &+7 &+7 &Lunging Attacks\\
+12th &+12/+7/+7 &+8 &+8 &+8 &Bonus Feat\\
+13th &+13/+8/+8 &+8 &+8 &+8 &Array of Stunts\\
+14th &+14/+9/+9 &+9 &+9 &+9 &Bonus Feat\\
+15th &+15/+10/+10 &+9 &+9 &+9 &Greater Combat Focus\\
+16th &+16/+11/+11/+11 &+10 &+10 &+10 &Bonus Feat\\
+17th &+17/+12/+12/+12 &+10 &+10 &+10 &Improved Foil Action\\
+18th &+18/+13/+13/+13 &+11 &+11 &+11 &Bonus Feat\\
+19th &+19/+14/+14/+14 &+11 &+11 &+11 &Intense Focus, Supreme Combat Focus\\
+20th &+20/+15/+15/+15 &+12 &+12 &+12 &Bonus Feat\\
+\end{tabular}
+\end{small}
+\end{table}
+
+
+\noindent All of the following are Class Features of the Fighter class.
+
+\ability{Weapon and Armor Proficiency:}{Fighters are proficient with all simple and Martial Weapons. Fighters are proficient with Light, Medium, and Heavy Armor and with Shields and Great Shields.}
+
+\ability{Weapons Training (Ex):}{Fighters train obsessively with armor and weapons of all kinds, and using a new weapon is easy and fun. By practicing with a weapon he is not proficient with for a day, a Fighter may permanently gain proficiency with that weapon by succeeding at an Intelligence check DC 10 (you may not take 10 on this check).}
+
+\ability{Combat Focus (Ex):}{A Fighter is at his best when the chips are down and everything is going to Baator in a handbasket. When the world is on fire, a Fighter keeps his head better than anyone. If the Fighter is in a situation that is stressful and/or dangerous enough that he would normally be unable to "take 10" on skill checks, he may spend a Swift Action to gain Combat Focus. A Fighter may end his Combat Focus at any time to reroll any die roll he makes, and if not used it ends on its own after a number of rounds equal to his Base Attack Bonus.}
+
+\ability{Problem Solver (Ex):}{A Fighter of 3rd level can draw upon his intense and diverse training to respond to almost any situation. As a Swift action, he may choose any [Combat] feat he meets the prerequisites for and use it for a number of rounds equal to his base attack bonus. This ability may be used once per hour.}
+
+\ability{Pack Mule (Ex):}{Fighters are used to long journeys with a heavy pack and the use of a wide variety of weaponry and equipment. A 3rd level Fighter suffers no penalties for carrying a medium load, and may retrieve stored items from his person without provoking an attack of opportunity.}
+
+\ability{Logistics Mastery (Ex):}{Fighters are excellent and efficient logisticians. When a Fighter reaches 5th level, he gains a bonus to his Command Rating equal to one third his Fighter Level.}
+
+\ability{Active Assault (Ex):}{A 5th level Fighter can flawlessly place himself where he is most needed in combat. He may take a 5 foot step as an immediate action. This is in addition to any other movement he takes during his turn, even another 5 foot step.}
+
+\ability{Forge Lore:}{A 7th level Fighter can produce magical weapons and equipment as if he had a Caster Level equal to his ranks in Craft.}
+
+\ability{Improved Delay (Ex):}{A Fighter of 7th level may delay his action in one round without compromising his Initiative in the next round. In addition, a Fighter may interrupt another action with his delayed action like it was a readied action (though he does not have to announce his intentions before hand).}
+
+\ability{Foil Action (Ex):}{A 9th level Fighter may attempt to monkeywrench any action an opponent is taking. The Fighter may throw sand into a beholder's eye, bat aside a key spell component, or strike a weapon hand with a thrown object, but the result is the same:}{the opponent's action is wasted, and any spell slots, limited ability uses, or the like used to power it are expended. A Fighter must be within 30 feet of his opponent to use this ability, and must hit with a touch attack or ranged touch attack. Using Foil Action is an Immediate action. At 17th level, Foil Action may be used at up to 60 feet.}
+
+\ability{Lunging Attacks (Ex):}{The battlefield is an extremely dangerous place, and 11th level Fighters are expected to hold off Elder Elementals, Hezrous, and Hamatulas. Fighters of this level may add 5 feet to the reach of any of their weapons.}
+
+\ability{Array of Stunts (Ex):}{A 13th level Fighter may take one extra Immediate Action between his turns without sacrificing a Swift action during his next turn.}
+
+\ability{Greater Combat Focus (Ex):}{At 15th level, a Fighter may voluntarily expend his Combat Focus as a non-action to suppress any status effect or ongoing spell effect on himself for his Base Attack Bonus in rounds.}
+
+\ability{Intense Focus (Ex):}{A 19th level Fighter may take an extra Swift Action each round (in addition to the extra Immediate Action he can take from Array of Stunts).}
+
+\ability{Supreme Combat Focus (Ex):}{A 19th level Fighter may expend his Combat Focus as a non-action to take 20 on any die roll. He must elect to use Supreme Combat Focus before rolling the die.}
+
+\newpage
+
+
+\classname{Jester}
+
+\quot{``Well no, but if I was doing it to anyone else, you'd think it was funny.''}
+
+\desc{To be a Jester is to see the joke in every tragedy. For them, life's a party, and most poor bastards are not invited. They live hard, play hard, and laugh hard knowing that at any moment their life might be cut short by an uncaring world. Jesters may play at being buffoons, but each is a student of life and of people, and they understand not only what makes people laugh, but what makes them cry. As adventurers, they often appreciate baubles and magical trinkets as much as anyone else, but their main goal is to have fun. When fighting enemies, their sense of humor takes a macabre and dark turn, becoming cruel and vicious to better demoralize their foe. As followers of the Laughing God Who Has No Temples, they are generally disrespectful atheists who wander the world looking for excitement and amusement, righting wrongs or committing crimes as the mood takes them.}
+
+\ability{Alignment:}{A Jester may be of any non-Lawful alignment.}
+
+\ability{Races:}{Jesters appear in all cultures and all races have need of buffoons.}
+
+\ability{Starting Gold:}{6d4x10 gp (150 gold)}
+
+\ability{Starting Age:}{As Rogue.}
+
+\ability{Hit Die:}{d6}
+
+\ability{Class Skills:}{The Jester's skills (and the key ability for each skill) are Balance (Dex), Bluff (Cha), Climb (Str), Concentration (Con), Craft (Int), Diplomacy (Cha), Disable Device (Int), Disguise (Cha), Gather Information (Cha), Hide (Dex), Intimidate (Cha), Jump (Str), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Search (Int), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Spot (Wis), Swim (Str), Tumble (Dex), and Use Magic Device (Cha).}
+
+\ability{Skills/Level:}{6 + Intelligence Bonus}
+
+\begin{table}[tbh]
+\begin{small}
+\begin{tabular}{lp{2cm}p{0.7cm}p{0.7cm}p{0.7cm}p{5cm}lllllll}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special &\multicolumn{7}{c}{Spells Per Day}\\
+&&&&&&0 &1 &2 &3 &4 &5 &6\\
+1st &+0 &+0 &+2 &+0 &Harlequin's Mask, Ignore Components, Poison Use &2 &- &- &- &- &- &-\\
+2nd &+1 &+0 &+3 &+0 &Laugh It Off &3 &0 &- &- &- &- &-\\
+3rd &+2 &+1 &+3 &+1 &+1d6 Sneak Attack, Power Slide &3 &1 &- &- &- &- &-\\
+4th &+3 &+1 &+4 &+1 &Jester's Fient &3 &2 &0 &- &- &- &-\\
+5th &+3 &+1 &+4 &+1 &Cruel Comment &3 &3 &1 &- &- &- &-\\
+6th &+4 &+2 &+5 &+2 &+2d6 sneak Attack &3 &3 &2 &- &- &- &-\\
+7th &+5 &+2 &+5 &+2 &Sight Gag &3 &3 &2 &0 &- &- &-\\
+8th &+6/+1 &+2 &+6 &+2 &Low Comedy, Slapstick &3 &3 &3 &1 &- &- &-\\
+9th &+6/+1 &+3 &+6 &+3 &+3d6 sneak Attack &3 &3 &3 &2 &- &- &-\\
+10th &+7/+2 &+3 &+7 &+3 &Jack-in-the-Box King &3 &3 &3 &2 &0 &- &-\\
+11th &+8/+3 &+3 &+7 &+3 &+4d6 sneak Attack &3 &3 &3 &3 &1 &- &-\\
+12th &+8/+3 &+4 &+8 &+4 &Killer Clown &3 &3 &3 &3 &2 &- &-\\
+13th &+9/+4 &+4 &+8 &+4 &+5d6 sneak Attack &3 &3 &3 &3 &2 &0 &-\\
+14th &+10/+5 &+4 &+9 &+4 &Annoy the Gods &4 &3 &3 &3 &3 &1 &-\\
+15th &+11/+6/+6 &+5 &+9 &+5 &+6d6 sneak Attack &4 &4 &3 &3 &3 &2 &-\\
+16th &+12/+7/+7 &+5 &+10 &+5 &Prat Fall &4 &4 &4 &3 &3 &2 &0\\
+17th &+12/+7/+7 &+5 &+10 &+5 &+7d6 sneak Attack &4 &4 &4 &4 &3 &3 &1\\
+18th &+12/+7/+7 &+5 &+10 &+5 &Last Trick &4 &4 &4 &4 &4 &3 &2\\
+19th &+14/+9/+9 &+6 &+11 &+6 &+8d6 sneak Attack &4 &4 &4 &4 &4 &4 &3\\
+20th &+15/+10/+10 &+6 &+12 &+6 &Eternal Trickster &4 &4 &4 &4 &4 &4 &4\\
+
+\end{tabular}
+\end{small}
+\end{table}
+
+\noindent All of the following are Class Features of the Jester class.
+
+\ability{Weapon and Armor Proficiency:}{Jesters are proficient with light armor but not with shields of any kind. A Jester is proficient with no weapons, but suffers no attack penalty for using a weapon with which they are not proficient or which is made for a character of a different size than themselves. Even, perhaps especially, improvised weapons may be used without the usual -4 penalty.}
+
+\ability{Spellcasting:}{The Jester is an Arcane Spellcaster with the same spells per day progression as a Bard. A Jester casts spells from the Jester Spell List (below). A Jester automatically knows every spell on his spell list. He can cast any spell he knows without preparing them ahead of time, provided that spell slots of an appropriate level are still available. To cast a Jester spell, he must have a Charisma at least equal to 10 + the Spell level. The DC of the Jester's spells is Charisma based and the bonus spells are Charisma based.}
+
+\begin{floatingfigure}{3in}
+\spelllist{Jester Spells:}
+
+\ability{0th Level:}{\emph{Alarm, Detect Magic, Detect Poison, Grease, Unseen Servant, Ventriloquism.}}
+
+\ability{1st Level:}{\emph{Fire Trap, Glitterdust, Magic Mouth, Misdirection, Pyrotechnics, Reduce Person, Sleet Storm, Tasha's Uncontrollable Hideous Laughter, Teleport Trap, Touch of Idiocy.}}
+
+\ability{2nd Level:}{\emph{Baleful Transposition, Explosive Runes, Glyph of Warding, Rage, Rope Trick, Secret Page, sepia snake sigil, Unluck.}}
+
+\ability{3rd Level:}{\emph{Feeblemind, Minor Globe of Invulnerability, Modify Memory, Mordenkainen's Faithful Hound, Nightmare, Servant Horde, Shrink Item.}}
+
+\ability{4th Level:}{\emph{Globe of Invulnerability, Greater Glyph of Warding, Insect Plague, Persistent Image, Sword of Deception, Symbol of Weakness, Tree Shape, Wood Rot.}}
+
+\ability{5th Level:}{\emph{Bigby's Interposing Hand, Energy Immunity, Eyebite, Repulsion, Screen, Symbol of Insanity, Telekinesis.}}
+
+\ability{6th Level:}{\emph{Creeping Doom, Insanity, Refuge, Symbol of Sleep, Symbol of Stunning, Temporal Stasis.}}
+
+\end{floatingfigure}
+
+
+\ability{Poison Use (Ex):}{A Jester may prepare, apply, and use poison without any chance of poisoning himself.}
+
+\ability{Ignore Components:}{A Jester may cast spells from the Jester list without using material components, regardless of whether they are costly or not. This has no effect on any spells that a Jester casts from any other spell-list.}
+
+\ability{Harlequin's Mask (Ex):}{As long as a Jester's face is painted, masked, or adorned in the manner of a harlequin or other comedic figure, he is immune to compulsion effects.}
+
+\ability{Laugh It Off (Ex):}{Fate protects fools and little children, and Jesters certainly adopt the role of fools. At 2nd level, a Jester may add his Charisma modifier as a morale bonus to his saves.}
+
+\ability{Power Slide (Ex):}{If a 3rd level Jester takes damage from an attack, he may allow herself to be flung backwards, thereby lessening the impact. He may make a Balance check with a DC equal to the damage inflicted and if she succeeds, he suffers only half damage. This is a skill check, not a Saving Throw, so abilities such as Evasion do not apply. He is moved away from the source of damage by 5' for every 5 points of damage (or part there of) negated in this way. If there is not enough space for him to move, he suffers a d6 of damage for each square not moved. If he passes through an occupied square, the Jester would have to make a tumble check to avoid attacks of opportunity. \smallskip
+
+If this ability is gained from another class, then the Jester may choose to increase or decrease the total distance moved by 50\% (so a Power Slide that negated 12 points of damage can cause him to move 5', 10', or 15' at her choice).}
+
+\ability{Sneak Attack (Ex):}{At 3rd level, a Jester gains the ability to make sneak attacks as a rogue would. At 3rd level, his sneak attacks inflict 1 extra d6 of damage, and this increases by 1d6 at levels 6, 9, 11, 13, 15, 17, and 19.}
+
+\ability{Jester's Feint (Ex):}{At 4th level, a Jester learns to shock and unnerve his enemies by throwing unexpected objects at them. At a swift action, he may toss a brightly colored object in the square of an enemy with a Sleight of Hand Check opposed by the enemy's Spot check. If it succeeds, the enemy is denied his Dex bonus for the Jester's next attack.
+
+Some Jesters use objects with magical or alchemic effects that act in an enemy's square to use with this ability, while others use colored balls, fruit, pieces of cloth or scarves, or other cast-off materials that fit the requirement of being brightly colored. Wealthy, desperate, or foolish Jesters sometime used coins or gems.}
+
+\ability{Cruel Comment (Ex):}{At 5th level, the Jester has learned to say extremely funny but hurtful things about others. As a swift action, the Jester can make a Bluff check opposed by the target's level plus Charisma check. If the target fails this check, he suffers a -4 to attack rolls, saves, and all other checks. This effect lasts 3 rounds. This is a language-dependant ability.}
+
+\ability{Sight Gag:}{At 7th level, the Jester may apply the Silent Spell and Still Spell metamagics spontaneously to his spells, but only if he casts them as full-round actions. This ability only works with spells on the Jester list, and it does not increase the spell's level or slot used.}
+
+\ability{Low Comedy (Ex):}{By using this ability, a Jester of 8th level or higher can double the armor check penalty of an opponent within 50 feet that he hits with a ranged touch attack. Using this ability is an attack action and counts as a thrown weapon. The penalty can be restored to its normal value with 10 minutes and a bar of soap.}
+
+\ability{Slapstick (Ex):}{At 8th level, any successful sneak attack also inflict a -2 Dex penalty to an enemy for one round.}
+
+\ability{Jack-in-the-Box King (Sp):}{Twice per day, a 10th level Jester may use fabricate or major creation as a spell-like ability, but only if he is constructing weapons or traps.}
+
+\ability{Killer Clown (Ex):}{At 12th level, so long as he meets the requirements of his Harlequin's face ability, the Jester can make a special Intimidate check as a move action. If successful, this check causes the enemy to suffer the panicked condition for a round per Jester level. This is a mind-effecting fear effect.}
+
+\ability{Annoy the Gods (Su):}{As world-class pranksters, Jesters must learn to avoid the curses and transformations of enemies with a sense of humor. Any time a 14th level Jester has spent at least one round as the victim of an effect that could be removed by a break enchantment effect, the effect is removed.}
+
+\ability{Prat Fall (Ex):}{At 16th level, any time a Jester strikes an enemy with a sneak attack, the Jester can make a free Trip attack that does not provoke an Attack of Opportunity. This ability cannot be used on any one enemy more than once a round. The Jester may not be tripped if this fails, and it may be used with ranged sneak attacks. The Jester may substitute his Dexterity modifier for his Strength modifier for the opposed test to trip his foe.}
+
+\ability{Last Trick (Su):}{At 18th level, the Jester can turn even his death into a joke. Any time the Jester is killed or knocked unconscious, one of his spells known is cast as if it were spell in a contingency effect.}
+
+\ability{Eternal Trickster (Ex):}{At 20th level, the Jester can become a personification of the Laughing God Who has No Temples. While meeting the requirements of his Harlequin's Mask ability, he does not age and is under the effects of a mind blank effect.}
+
+
+\newpage
+
+\classname{Knight}
+
+\quot{``Do you hear me you big lizard? You unhand that young man this instant!''}
+
+\desc{Knights are more than a social position, in fact many knights don't have any social standing at all. These knight errants uphold the values of honor, and make a name for themselves adventuring.}
+
+\desc{Playing a Knight: A Knight has the potential to dish out tremendous damage to a single opponent, and it is tempting to think of them as monster killers. However, it is best to realize in advance that the Knight does not often realize their tremendous damage output. The threat of the Knight's Designate Opponent ability is just that -- a threat. A Knight excels at defensive tasks, and attacking a Knight is often one of the least effective options an opponent might exercise.}
+
+\desc{So by making it be a logical combat action for your opponents to attack your party's defensive expert, you've really contributed a lot to the party. A Knight can take a lot of the heat off the rest of the party. So don't get frustrated if enemies constantly interrupt your Designate Opponent action -- that's the whole point. A Knight's role is to protect others, and the best way you can do that is to provide a legitimate threat to your opponents.}
+
+\ability{Alignment:}{Many Knights are Lawful. But not all of them. You have to maintain your code of conduct, but plenty of Chaotic creatures can do that too.}
+
+\ability{Races:}{Knights require a fairly social background to receive their training. After all, a solitary creature generally has little use for honor. As such, while Knights often spend tremendous amounts of time far from civilization, they are almost exclusively recruited from the ranks of races that are highly urban in nature.}
+
+\ability{Starting Gold:}{6d6x10 gp (210 gold)}
+
+\ability{Starting Age:}{As Fighter.}
+
+\ability{Hit Die:}{d12}
+
+\ability{Class Skills:}{The Knight's class skills (and the key ability for each skill) are Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Intimidate (Cha), Jump (Str), Knowledge (History, Nobility, and Geography) (Int), Listen (Wis), Perform (Cha), Ride (Dex), Sense Motive (Wis), Spot (Wis), and Swim (Str).}
+
+\ability{Skills/Level:}{4 + Intelligence Bonus}
+
+
+
+\begin{table}[tbh]
+\begin{small}
+\begin{tabular}{lp{2cm}p{1cm}p{1cm}p{0.7cm}l}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special\\
+1st &+1 &+0 &+0 &+2 &Designate Opponent, Mounted Combat, Code of Conduct\\
+2nd &+2 &+0 &+0 &+3 &Damage Reduction\\
+3rd &+3 &+1 &+1 &+3 &Energy Resistance, Speak to Animals\\
+4th &+4 &+1 &+1 &+4 &Immunity to Fear, Knightly Spirit\\
+5th &+5 &+1 &+1 &+4 &Command\\
+6th &+6/+1 &+2 &+2 &+5 &Defend Others, Quick Recovery\\
+7th &+7/+2 &+2 &+2 &+5 &Bastion of Defense, Draw Fire\\
+8th &+8/+3 &+2 &+2 &+6 &Mettle, Spell Shield\\
+9th &+9/+4 &+3 &+3 &+6 &Sacrifice\\
+10th &+10/+5 &+3 &+3 &+7 &Knightly Order\\
+\end{tabular}
+\end{small}
+\end{table}
+
+\noindent All of the following are Class Features of the Knight class.
+
+\ability{Weapon and Armor Proficiency:}{Knights are proficient with all simple weapons and Martial Weapons. Knights are proficient with Light, Medium, and Heavy Armor, Shields and Great Shields.}
+
+\ability{Designate Opponent (Ex):}{As a Swift Action, a Knight may mark an opponent as their primary foe. This foe must be within medium range and be able to hear the Knight's challenge. If the target creature inflicts ay damage on the Knight before the Knight's next turn, the attempt fails. Otherwise, any attacks the Knight uses against the opponent during her next turn inflict an extra d6 of damage for each Knight level. This effect ends at the end of her next turn, or when she has struck her opponent a number of times equal to the number of attacks normally allotted her by her Base Attack Bonus. \smallskip
+
+\example{Example: Vayn is a 6th level Knight presently benefiting from a haste spell, granting her an extra attack during a Full Attack action. On her turn she designates an Ettin as her primary opponent, and the Ettin declines to attack her during the ensuing turn. When her next turn comes up, she uses a Full Attack and attacks 3 times. The first two hits inflict an extra 6d6 of damage, and then she designates the Ettin as her opponent again. It won't soon ignore her!}}
+
+\ability{Mounted Combat:}{A Knight gains Mounted Combat as a bonus feat at 1st level. If she already has Mounted Combat, she may gain any Combat feat she meets the prerequisites for instead.}
+
+\ability{Code of Conduct:}{A Knight must fight with honor even when her opponents do not. Indeed, a Knight subscribes to honor to a degree far more than that which is strictly considered necessary by other honorable characters. Actions which even hint at the appearance of impropriety are anathema to the Knight:
+
+\begin{itemize} \itemspace
+    \item A Knight must not accept undo assistance from allies even in combat. A Knight must refuse bonuses from Aid Another actions.
+    \item A Knight must refrain from the use poisons of any kind, even normally acceptable poisons such as blade toxins.
+    \item A Knight may not voluntarily change shape, whether she is impersonating a specific creature or not.
+    \item A Knight may not sell Magic Items.
+\end{itemize}
+
+A Knight who fails to abide by her code of conduct loses the ability to use any of her Knightly abilities which require actions until she atones.}
+
+\ability{Damage Reduction (Ex):}{A Knight trains to suffer the unbearable with chivalry and grace. At 2nd level, she gains Damage Reduction of X/-, where X is half her Knight level, rounded down.}
+
+\ability{Energy Resistance (Ex):}{A Knight may protect herself from energy types that she expects. As a Swift Action, a 3rd level Knight may grant herself Energy Resistance against any energy type she chooses equal to her Knight Level plus her Shield Bonus. This energy resistance lasts until she spends a Swift Action to choose another Energy type or her Shield bonus is reduced.}
+
+\ability{Speak to Animals (Ex):}{A Knight can make herself understood by beasts. Her steed always seems to be able to catch the thrust of anything she says. A 3rd level Knight gains a bonus to any of her Ride and Handle Animal checks equal to half her Knight Level. In addition, there is no limit to how many tricks she can teach a creature, and her her Handle Animal checks are not penalized for attempting to get a creature to perform a trick it does not know.}
+
+\ability{Immunity to Fear (Ex):}{At 4th level, a Knight becomes immune to [Fear] effects.}
+
+\ability{Knightly Spirit (Ex):}{As a Move Equivalent Action, a 4th level Knight may restore any amount of attribute damage or drain that she has suffered.}
+
+\ability{Command:}{A Knight gains Command as a bonus feat at level 5.}
+
+\ability{Defend Others (Ex):}{A 6th level Knight may use her own body to defend others. Any ally adjacent to the Knight gains Evasion, though she does not.}
+
+\ability{Quick Recovery (Ex):}{If a 6th level Knight is stunned or dazed during her turn, that condition ends at the end of that turn. \smallskip
+
+\example{Example: Vayn is hit by a mindblast and would be stunned for 7 turns. She misses her next action and then shakes off the condition ready to fight.}}
+
+\ability{Bastion of Defense (Ex):}{A 7th level Knight can defend others with great facility. All adjacent allies except the Knight gain a +2 Dodge bonus to their Armor Class and Reflex Saves.}
+
+\ability{Draw Fire (Ex):}{A 7th level Knight can exploit the weaknesses of unintelligent opponents. With a Swift Action, she may pique the interest of any mindless opponent within medium range. That creature must make a Willpower Save (DC 10 + \half\  Hit Dice + Constitution Modifier) or spend all of its actions moving towards or attacking the Knight. This effect ends after a number of rounds equal to the Knight's class level.}
+
+\ability{Mettle (Ex):}{An 8th level Knight who succeeds at a Fortitude Partial or Willpower Partial save takes no effect as if she had immunity. \smallskip
+
+\example{For example, if Vayn was hit with an inflict wounds spell and made her saving throw, she would take no damage instead of the partial effect in the spell description (half damage in this case).}}
+
+\ability{Spell Shield (Ex):}{An 8th level Knight gains Spell Resistance of 5 + her character level. This Spell Resistance is increased by her shield bonus to AC if she has one.}
+
+\ability{Sacrifice (Ex):}{As an immediate action, a 9th level Knight may make herself the target of an attack or targeted effect that targets any creature within her reach.}
+
+\ability{Knightly Order:}{What is a powerful Knight without a descriptive adjective? Upon reaching 10th level, a Knight must join or found a Knightly order. From this point on, she may ignore one of the prerequisites for joining a Knightly Order prestige class. In addition, becoming a member of an order has special meaning for a 10th level Knight, and she gains an ability related to the order she joins. Some sample orders are listed below:}
+
+\begin{itemize}\itemspace
+    \item \ability{Angelic Knight:}{The Angelic Knights are a transformational order that attempts to live by the precepts of the upper planes. An Angelic Knight gains wings that allow her to fly at double her normal speed with perfect maneuverability. Also an Angelic Knight benefits from protection from evil at all times.}
+    \item \ability{Bane Knight:}{The Bane Knights stand for running around burning the countryside with extreme burning. Bane Knights are immune to fire and do not have to breathe. In addition, a Bane Knight may set any unattended object on fire with a Swift Action at up to Medium Range.}
+    \item \ability{Chaos Knight:}{Chaos Knights stand for madness and Giant Frog. With the powers of Giant Frog, they can Giant Frog. Also their natural armor bonus increases by +5 and they are immune to sleep effects.}
+    \item \ability{Dragon Knight:}{Dedicated to the Platinum Dragon, the Dragon Knights serve love and justice in equal measure as dishes to those who need them. A Dragon Knight gains a +5 bonus to Sense Motive and any armor she wears has its enhancement bonus increased to +5 (it also gains a platinum sheen in the process, and as a side effect a Dragon Knight is never dirty for more than a few seconds).}
+    \item \ability{Elemental Knight:}{The Elemental Knights may be dedicated to a particular element, or somehow dedicated to all of them. An Elemental Knight can planeshift at will to any Inner plane or the Prime Material plane. Also, she is immune to stunning and always benefits from atune form when on any Inner Plane.}
+    \item \ability{Fey Knight:}{Using the powers of the Sprites, the Fey Knight has many fairy strengths. Firstly, she gains DR 10/Iron. Also, any of her attacks may do non-lethal damage at any time if this is desired. Also she never ages and does not need to drink.}
+    \item \ability{Great Knight:}{Clad in opulent armor, the Great Knight cares only for her own power. The Great Knight gains a +4 bonus on Disarm or Sunder tests, and gains a +4 Profane bonus to her Strength.}
+    \item \ability{Hell Knight:}{Forged in the sulphurous clouds of Baator, the Hell Knight is bathed in an evil radiance. In addition to being granted a ceremonial weapon made of green steel, a Hell Knight gains the coveted see in darkness ability of the Baatorians. Also, she has an inherent ability to know what every creature within 60' of finds most repugnant.}
+    \item \ability{Imperial Knight:}{The great Empire needs champions able to unswervingly support its interests, and the Imperial Knight is one of the best. She may impose a zone of truth at will as a Supernatural ability, and all of her attacks are Lawfully aligned. Also, she continuously benefits from magic circle against Chaos.}
+\end{itemize}
+
+\newpage
+
+
+\classname{Monk}
+
+\quot{``I am a Grand Master of Flowers. You are not.''}
+
+\desc{Fantasy literature's view of the ``martial artist'' has about as much to do with a real martial artist as its view of salamanders has to do with real salamanders. But let's face the facts: Monks are totally sweet. They flip out and kill people with their hands. A Monk does not practice any "real" martial art, we call those people "Fighters" -- a Monk practices an entirely magical martial art that only works in areas where badgers can talk and winged horses can fly.}
+
+\desc{Every Monk follows a different martial path that involves jumping super high and having glowing things coming off of their hands when they perform their super moves. Some monks use weapons, but most just use their hands and feet to devastating effect. Some Monks shout the names of their techniques in battle to demoralize their opponents, others stay aloof and silent during even the toughest of challenges.}
+
+\ability{Alignment:}{Monks may be of any alignment. Really. If a bar brawl breaks out, some Monks will try to break it up, other Monks will join in. Whatever.}
+
+\ability{Races:}{Because the martial paths of a Monk embrace all manners of comportment, from Stoic Lawfulness to Boisterous Chaos, almost every sapient race has those who take up the monk's path. With its lack of emphasis on ranged weaponry, few of the slower races turn towards these magical combat styles, and halflings and dwarves rarely become monks. The discipline emphasizes physical strength as much as it emphasizes perceptiveness and inner strength, so orcs are as likely to become monks as Kuo-Toa are.}
+
+\ability{Starting Gold:}{2d4x10 gp (50 gold)}
+
+\ability{Starting Age:}{As Monk.}
+
+\ability{Hit Die:}{d8}
+
+\ability{Class Skills:}{The Monk's class skills (and the key ability for each skill) are Balance (Dex), Climb (Str), Concentration (Con), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Hide (Dex), Jump (Str), Knowledge (all skills individually) (Int), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spot (Wis), Swim (Str), and Tumble (Dex).}
+
+\ability{Skills/Level:}{4 + Intelligence Bonus}
+
+\begin{table}[tbh]
+\begin{small}
+\begin{tabular}{lp{3cm}p{0.7cm}p{0.7cm}p{0.7cm}p{6.5cm}l}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special &AC Bonus\\
+1st &+1 &+2 &+2 &+2 &Armored in Life, Fatal Strike, Willow Step, Fighting Style &+4\\
+2nd &+2 &+3 &+3 &+3 &Rain of Flowers, Abundant Leap &+5\\
+3rd &+3 &+3 &+3 &+3 &Fighting Style &+5\\
+4th &+4 &+4 &+4 &+4 &Diamond Soul &+6\\
+5th &+5 &+4 &+4 &+4 &Fighting Style &+6\\
+6th &+6/+1 &+5 &+5 &+5 &Walk of a Thousand Steps &+7\\
+7th &+7/+2 &+5 &+5 &+5 &Fighting Style &+7\\
+8th &+8/+3 &+6 &+6 &+6 &Immaculate Diamond Soul &+8\\
+9th &+9/+4 &+6 &+6 &+6 &Master Fighting Style &+8\\
+10th &+10/+5 &+7 &+7 &+7 &Leap of the Clouds &+9\\
+11th &+11/+6/+6 &+7 &+7 &+7 &Master Fighting Style &+9\\
+12th &+12/+7/+7 &+8 &+8 &+8 &Master of the Four Winds &+10\\
+13th &+13/+8/+8 &+8 &+8 &+8 &Master Fighting Style &+10\\
+14th &+14/+9/+9 &+9 &+9 &+9 &Master of the Four Seasons &+11\\
+15th &+15/+10/+10 &+9 &+9 &+9 &Grand Master Fighting Style &+11\\
+16th &+16/+11/+11/+11 &+10 &+10 &+10 &Master of Diamond Soul &+12\\
+17th &+17/+12/+12/+12 &+10 &+10 &+10 &Grand Master Fighting Style &+12\\
+18th &+18/+13/+13/+13 &+11 &+11 &+11 &Perfect Mastery &+13\\
+19th &+19/+14/+14/+14 &+11 &+11 &+11 &Grand Master Fighting Style &+13\\
+20th &+20/+15/+15/+15 &+12 &+12 &+12 &Grand Master of Flowers &+14\\
+\end{tabular}
+\end{small}
+\end{table}
+
+\noindent All of the following are Class Features of the Monk class.
+
+\ability{Weapon and Armor Proficiency:}{Monks are proficient with all simple weapons, as well any weapon defined as a special monk weapon, such as the sai, the nunchuka, the kama, the shuriken, and the triple staff. Monks are not proficient with any armor or shields of any kind.}
+
+\ability{Armored in Life (Su):}{A Monk has a special Armor bonus whenever they are not using armor or shields that he is not proficient in. This Armor Bonus applies against Touch Attacks and Incorporeal Touch Attacks, and has a value of +4. Every even numbered class level, the Armored in Life bonus increases by 1. If the Monk wears armor which he is proficient in (for example: normal clothing) that has an enhancement bonus, that enhancement bonus applies to his Armored in Life Armor Bonus.}
+
+\ability{Wilow Step (Su):}{A true monk does not seek to outrun the fist, but to anticipate it. If a Monk would be allowed to add his Dexterity modifier to a Reflex Save or Armor Class, he may add his Wisdom bonus (if positive) instead.}
+
+\ability{Fatal Strike (Su):}{A Monk has a natural weapon Slam in addition to whatever else he is capable of doing. As a natural slam attack, if he uses no other natural or manufactured weapons he adds his Strength and a half to damage and may make iterative attacks if he has sufficient BAB. If the slam is used with other weaponry, it becomes a secondary natural attack, suffers a -5 penalty to-hit, and adds only half his Strength modifier to damage. A monk's slam attack does a base of 1d8 damage for a medium sized monk and does more or less damage as appropriate if the Monk is larger or smaller than medium size.}
+
+\ability{Fighting Style (Su):}{At levels 1, 3, 5, and 7, the Monk learns a Fighting Style. Each Fighting style requires a Swift Action to activate, lasts one round, and is usable at will. Each Fighting Style must have a name (see Naming Your Fighting Style below), and provides two bonuses from the Fighting Style Abilities:}
+Fighting Style Abilities
+\begin{itemize}\itemspace
+    \item While Active, your Fighting Style provides a +4 Dodge Bonus to AC.
+    \item While Active, your Fighting Style provides a +4 Dodge Bonus to Saving Throws.
+    \item While Active, your Fighting Style forces any opponent struck by your slam attack to make a Fortitude Save (DC 10 + \half\  your character level + your Wisdom Modifier) or become stunned for one round.
+    \item While Active, your Fighting Style allows you to make an attack of opportunity against any opponent who attacks you. This attack of opportunity must be a trip or disarm attempt.
+    \item While Active, your Fighting Style provides you with concealment.
+    \item While Active, your Fighting Style provides a +30' Insight Bonus to your movement rate.
+    \item While Active, your Fighting Style allows your slam attacks to ignore hardness and DR.
+    \item While Active, your Fighting Style provides any bonuses it gives to your slam attack to any attack you make with any weapon.
+    \item While Active, your Fighting Style causes your slam attack to inflict piercing damage and to inflict 2 points of Constitution damage.
+    \item While Active, your Fighting Style causes your slam attack to inflict slashing damage and to reduce your opponent's movement rate by 10' every time they suffer damage from it. This movement rate reduction can be healed like ability damage (treating 5' of movement as 1 point of ability damage).
+    \item While Active, your Fighting Style allows you to move through occupied spaces as if they were unoccupied and you provoke no attacks of opportunity for your movement.
+\end{itemize}
+
+\ability{Rain of Flowers (Su):}{Any time a 2nd level Monk inflicts lethal damage, he may elect to inflict non-lethal damage instead. Any time a Monk inflicts non-lethal damage, he may elect to inflict lethal damage instead.}
+
+\ability{Abundant Leap (Su):}{At 2nd level, a Monk's ability to jump is unbounded by his height. In addition, the DC for any jump check is divided by two.}
+
+\ability{Diamond Soul (Su):}{At 4th level, the Monk gains Spell Resistance equal to 5 + his character level. At 8th level, his soul becomes immaculate and his Spell Resistance improves to 10 + character level, and at 16th level he masters his diamond soul and his spell resistance improves to 15 + character level.}
+
+\ability{Walk of a Thousand Steps:}{Once per day, a Monk of sixth level or higher may activate a Fighting Style and extend its duration to 1 round/level rather than 1 round. Activating this Fighting Style is still a Swift Action. Other Fighting Styles may be activated during this period, though their duration is normally going to be only 1 round.}
+
+\ability{Master Fighting Style (Su):}{At levels 9, 11, and 13, the Monk learns a Master Fighting Style. Each Master Fighting style requires a Swift Action to activate, lasts one round, and is usable at will. Each Master Fighting Style must have a name (see Naming Your Fighting Style below), and provides two bonuses from the Master Fighting Style Abilities. When a Monk gains a new Master Fighting Style, he may replace one of his Fighting Styles with a different Fighting Style.}
+Master Fighting Style Abilities:
+\begin{itemize}\itemspace
+    \item While Active, your Master Fighting Style allows you to teleport yourself and everything you are physically carrying 60 feet in any direction as a free action usable once per round.
+    \item While Active, your Master Fighting Style provides total concealment.
+    \item While Active, your Master Fighting Style transforms your slam attacks into Force effects that inflict Force damage.
+    \item While Active, your Master Fighting Style affects any creature struck with your slam attack with a banishment effect that transports it back to its home plane unless it succeeds at a Will save (DC 10 + \half\  character level + Wisdom Modifier). Outsiders suffer a -4 penalty to their saving throw. A creature so banished, may not return to the plane it was banished from for a year.
+    \item While Active, your Master Fighting Style forces any creature struck by your slam attack to make a Reflex Save (DC 10 + \half\  character level + Wisdom Modifier) or be helpless for one round.
+    \item While Active, your Master Fighting Style provides you the effect of an air walk spell, and gives you a +20' Competence bonus to your speed.
+    \item While Active, your Master Fighting Style affects any opponent you successfully trip or bulrush with the violent thrust version of telekinesis, with a caster level equal to your character level. There is no saving throw against this effect.
+    \item While Active, your Master Fighting Style allows you to shoot fire out of your hands or mouth as a standard action. The fire can be shot out to medium range, requires a ranged touch attack, and inflicts 1d6 of fire damage per character level if it hits.
+    \item While Active, your Master Fighting Style causes your slam attack to inflict vile damage.
+    \item While Active, your Master Fighting Style forces every creature within 10 feet of you to make a Will save (DC 10 + \half\  character level + Wisdom Modifier) or become panicked for one minute.
+    \item While Active, your Master Fighting Style affects any target you strike with your slam attack with a targeted version greater dispelling with a caster level equal to your character level.
+    \item While Active, your Master Fighting Style causes 5d6 of Sonic damage to everything within 30 feet of you when you inflict damage with your slam attack against any target. You are immune to Sonic damage while your Master Fighting Style is active.
+    \item Instead of gaining a Master Fighting Style Ability, you may choose two regular Fighting Style Abilties.
+\end{itemize}
+
+\begin{floatingfigure}{3.6in}
+\begin{small}
+\noindent Naming your Fighting Style: Roll a d10, or choose an adjective, an animal, and a noun:\\
+
+\noindent \begin{tabular}{|ll||ll||ll|} \hline
+1&Running&1&Ox&1&Fist\\
+2&Hungry&2&Tiger&2&Stance\\
+3&Angry&3&Dragon&3&Spinning Kick\\
+4&Naked&4&Crane&4&Attack\\
+5&Drunken&5&Monkey&5&Technique\\
+6&Fortunate&6&Turtle&6&Style\\
+7&Lazy&7&Manticore&7&Dance\\
+8&Swift&8&Serpent&8&Movement\\
+9&Powerful&9&Hummingbird&9&Touch\\
+10&Enlightened&10&Demon&10&Fu\\ \hline
+\end{tabular}
+Note from the authors: Feel free to add any adjectives, animals, or nouns that you want. There's no reason that your character's fighting style has to be called "Naked Tiger Stance" rather than "Astonished Centaur Defense".
+\end{small}
+\end{floatingfigure}
+
+
+\ability{Leap of the Clouds (Su):}{At 10th level, the DC for any jump check is divided by 5.}
+
+\ability{Master of the Four Winds (Su):}{The Monk's breath of life is carried on the winds of fate. At 12th level, if the monk is restored to life, he doesn't lose a level for doing so.}
+
+\ability{Master of the Four Seasons:}{Time passes relentlessly in the world, but for a monk of 14th level, the change of seasons is as no change at all. He no longer appears to age, never accumulates any additional penalties for growing older and will never die of old age.}
+
+\ability{Grand Master Fighting Style (Su):}{At levels 15, 17, and 19, the Monk learns a Grand Master Fighting Style. Each Grand Master Fighting style requires a Swift Action to activate, lasts one round, and is usable at will. Each Grand Master Fighting Style must have a name (see Naming Your Fighting Style below), and provides two bonuses from the Grand Master Fighting Style Abilities. When a Monk gains a new Grand Master Fighting Style, he may replace one of his Fighting Styles or Master Fighting Style with a different Style of the same type. Grand Master Fighting Style Abilities:}
+
+\begin{itemize}\itemspace
+    \item While Active, your Grand Master Fighting Style makes you and everything you are carrying incorporeal, your slam attacks are incorporeal touch attacks.
+    \item While Active, your Grand Master Fighting Style slows down time to the point where you can act twice each round, you do not gain an extra Swift Action during your extra actions.
+    \item While Active, your Grand Master Fighting Style allows you to punch a hole through space and time, allowing you to open a travel version of gate with a slam attack.
+    \item While Active, your Grand Master Fighting Style prevents all [Teleport] effects from entering or exiting within 1 mile of your location.
+    \item While Active, your Grand Master Fighting Style causes your slam attacks to reduce the spell resistance of enemies by an equal amount to the damage the slam attack inflicts.
+    \item While Active, your Grand Master Fighting Style forces every creature struck with your slam attack to make a Fortitude save (DC 10 + \half\  character level + Wisdom Modifier) or die.
+    \item While Active, your Grand Master Fighting Style affects any target you strike with your slam attack with a disintegrate effect, with a caster level equal to your character level (DC 10 + \half\  character level + Wisdom Modifier).
+    \item While Active, your Grand Master Fighting Style causes you to regenerate. You recover a number of points of nonlethal damage each round equal to your character level. Unarmed or Slam attacks inflict regular damage.
+    \item While Active, your Grand Master Fighting Style forces any opponent you strike with your slam attack to make a Willpower save (DC 10 + \half\  character level + Wisdom Modifier) or become feeble minded.
+    \item While Active, your Grand Master Fighting Style affects every target you strike with a slam attack with the violent thrust version of telekinesis, with a caster level equal to your character level. There is no saving throw against this effect.
+    \item Instead of gaining a Grand Master Fighting Style Ability, you may choose two Master Fighting Style Abilties.
+\end{itemize}
+
+\ability{Perfect Mastery:}{Once per day, a Monk of 18th level or higher may activate a Fighting Style, Master Fighting Style, or Grand Master Fighting Style and extend its duration to 1 round/level rather than 1 round. Activating this style is still a Swift Action. Other styles may be activated during this period, though their duration is normally going to be only 1 round.}
+
+\ability{Grand Master of Flowers:}{At 20th level, the Monk becomes an Outsider, and immortal of legend. He gains the augmented subtype of his previous type, and has Damage Reduction of 20/Epic.}
+
+\newpage
+
+\classname{Samurai}
+
+\quot{``My ancestors had words for people who would do such a thing. They were not nice words.''}
+
+\desc{The war torn countrysides of many a land are held together with tremendous amounts of dedicated work by masters of weaponry and honor. These martial specialists represent the structure of society by their very existence, and beat the living crap out of any who would dare to stand against it.}
+
+\desc{At least, that's the idea. In truth, there are those who take upon the mantle of the Samurai only to betray its ideals. Those who trample the fabric of the social network they are supposedly sworn to protect.}
+
+\ability{Alignment:}{The Samurai can be of any alignment. All of them must maintain the veneer of honor and civility, though there is no reason that they have to actually be Lawful.}
+
+\ability{Races:}{The Samurai is primarily found in societies where the law of the land is held in primacy over other things. So while a Samurai himself does not have to be Lawful, Lawful races bear the vast majority of Samurai.}
+
+\ability{Starting Gold:}{4d6x10 gp (140 gold), plus one masterwork weapon.}
+
+\ability{Starting Age:}{As Fighter.}
+
+\ability{Hit Die:}{d8}
+
+\ability{Class Skills:}{The Samurai's class skills (and the key ability for each skill) are Balance (Dex), Climb (Str), Concentration (Con), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Hide (Dex), Jump (Str), Knowledge (all skills individually) (Int), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Sense Motive (Wis), Swim (Str), and Tumble (Dex).}
+
+\ability{Skills/Level:}{4 + Intelligence Bonus}
+
+
+
+\begin{table}[tbh]
+\begin{small}
+\begin{tabular}{lp{3cm}p{0.7cm}p{0.7cm}p{0.7cm}l}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special\\
+1st &+1 &+0 &+0 &+2 &Ancestral Weaponry, Pledge of Loyalty\\
+2nd &+2 &+0 &+0 &+3 &Horde Breaker\\
+3rd &+3 &+1 &+1 &+3 &Kiai!\\
+4th &+4 &+1 &+1 &+4 &Whirlwind Attack\\
+5th &+5 &+1 &+1 &+4 &Ancestral Guidance\\
+6th &+6/+1 &+2 &+2 &+5 &Blindfighting, Terrible Blows\\
+7th &+7/+2 &+2 &+2 &+5 &Iaijutsu\\
+8th &+8/+3 &+2 &+2 &+6 &Parry Magic\\
+9th &+9/+4 &+3 &+3 &+6 &Subtle Cut\\
+10th &+10/+5 &+3 &+3 &+7 &Blade of Devastation\\
+11th &+11/+6/+6 &+3 &+3 &+7 &Iaijutsu Focus\\
+12th &+12/+7/+7 &+4 &+4 &+8 &Cut Magic\\
+13th &+13/+8/+8 &+4 &+4 &+8 &Deny Arcane Defenses\\
+14th &+14/+9/+9 &+4 &+4 &+9 &Final Cut\\
+15th &+15/+10/+10 &+5 &+5 &+9 &Iaijatsu Master\\
+16th &+16/+11/+11/+11 &+5 &+5 &+10 &Reflect Magic\\
+17th &+17/+12/+12/+12 &+5 &+5 &+10 &Blade of Souls\\
+18th &+18/+13/+13/+13 &+6 &+6 &+11 &Deny Armor\\
+19th &+19/+14/+14/+14 &+6 &+6 &+11 &Iaijutsu Grandmaster\\
+20th &+20/+15/+15/+15 &+6 &+6 &+12 &Scrolls of Wisdom\\
+\end{tabular}
+\end{small}
+\end{table}
+
+\noindent All of the following are Class Features of the Samurai class.
+
+\ability{Weapon and Armor Proficiency:}{Samurai are proficient with all simple and martial weapons, as well as a single Exotic weapon appropriate to the Samurai's tradition. Samurai are proficient with Light and Medium Armor, but not with shields of any kind.}
+
+\ability{Ancestral Weaponry:}{Every culture with a Samurai tradition has a signature weapon that Samurai from that culture use. Whether it is the Spiked Chain of the Hobgoblin Khanate of Khadun or the Katana of the Human Empire of Rokugan, the weapon serves as a symbol of the office and prowess of the Samurai. \smallskip
+
+A samurai can only have one weapon designated as his Ancestral Weapon at a time, and this weapon must be a masterwork weapon exalted by the Samurai's warrior culture. He must perform a 24 hour ritual to call his ancestral spirits into the weapon and designate it as his Ancestral Weapon. This ritual costs 100 gp in incense and offerings, and once performed grants the following abilities:}
+
+\begin{itemize}\itemspace
+    \item Counts as his Ancestral Weapon for all Samurai abilities.
+    \item Has a minimum enhancement bonus to attack and damage equal to his level divided by three (maximum of +5 for a samurai of 20th level or lower).
+    \item The Ancestral weapon has double HPs and +10 Hardness, and has the Ghost Touch special property.
+\end{itemize}
+
+\example{Example: Bandy Humaido is a halfling samurai, and his people greatly extort the halfling skiprock as a weapon of war -- but because the skiprock is thrown weapon ammunition, it is inappropriate as an Ancestral Weapon (which, of course, you could only have one of). As such, Bandy instead draws the power of his ancestors into a short sword.}
+
+\ability{Pledge of Loyalty:}{Samurai pledge their loyalty to a Lord, a figure of temporal power and head of a noble family or clan. To retain this Lord, they must follow this Lord's orders and uphold any Code of Conduct the Lord obeys. As long as a Samurai does these two things, he cannot be forced to act against his Lord or Lord's family by mind-affecting effects.\smallskip
+
+Samurai who have broken their vows to their lord are called ronin, while samurai who have never been pledged to a lord or are unwilling to do so are weaponmasters called kensai, sword saints, or simply "master swordsman" or other descriptive title. Regardless of their name, Samurai without a Lord receive a +4 bonus against mind-affecting effects.}
+
+\ability{Horde Breaker:}{A Samurai gains Horde Breaker as a bonus feat at 2nd level. If the Samurai already has this feat, he may choose a [Combat] Feat instead, but only if he meets the prerequisites of that feat.}
+
+\ability{Kiai! (Ex):}{At 3rd level, a Samurai may convert a successful strike into a confirmed critical hit. He may use this ability a number of times per day equal to his half his Samurai level +2. This ability is a free action that is declared after the strike is rolled and confirmed as a hit, but before damage is rolled. This ability cannot be used on Attacks of Opportunity.}
+
+\ability{Whirlwind Attack:}{A Samurai gains Whirlwind Attack as a bonus feat at 4th level.}
+
+\ability{Ancestral Guidance(Sp):}{At 5th level, a Samurai may seek guidance from his ancestors. This counts as a commune effect that can be used once a day. A samurai can also seek guidance from other peoples' ancestors if they are available. This works like a speak with dead effect that may be used once per day.}
+
+\ability{Blindfighting:}{A Samurai gains Blindfighting as a bonus feat at 6th level. If the Samurai already has this feat, he may choose a [Combat] Feat instead, but only if he meets the prerequisites of that feat.}
+
+\ability{Terrible Blows (Su):}{At 6th level, a Samurai's Ancestral Weapon bypasses Damage Reduction and ignores Hardness.}
+
+\ability{Iaijutsu (Ex):}{When a 7th level Samurai has the Edge on an opponent, he may take an attack of opportunity against that opponent as an immediate action at any time.}
+
+\ability{Parry Magic (Su):}{At 8th level, a Samurai may use his Ancestral Weapon to parry magic targeted at him with Attacks of Opportunity provoked by the targeted effect. If he can make an attack roll against an AC equal to the spell or effect's DC with this Attack of Opportunity, the effect is automatically dispelled.}
+
+\ability{Subtle Cut:}{A Samurai gains Subtle Cut as a bonus feat at 9th level. If the Samurai already has this feat, he may choose another [Combat] Feat instead, but only if he meets the prerequisites of that feat.}
+
+\ability{Blade of Devastation (Su):}{At 10th level, the Samurai may attack enemies within his reach through objects and walls, his Ancestral Weapon automatically destroying any unattended object or wall in the way with a Hardness less than 20. As a result, enemies do not gain cover bonuses against an attacking Samurai. This effect can also pierce [force] effects.\smallskip
+
+As a standard action, he can also destroy unattended objects of any Hardness with a successful Ancestral weapon attack, or dispel up to a 10' by 10' section of a [force] effect.}
+
+\ability{Iaijutsu Focus (Ex):}{At 11th level, a Samurai may make up to his per round limit of Attacks of Opportunity against any opponent(s) that he threatens as an immediate action.}
+
+\ability{Cut Magic (Su):}{At 12th level, a Samurai may attack ongoing spell effects by attacking the square they are in for Area of Effect effects or the object or person for targeted effects (which does damage as normal to the object or person). This attack is handled like the Samurai's Parry Magic ability, but it only dispels a 10' by 10' section of an Area of Effect spell or spell-like ability.}
+
+\ability{Deny Caster Defenses (Ex):}{At 13th level, a Samurai attacking with his Ancestral Weapon ignores any AC bonuses on his targets that come from spells or spell-like abilities.}
+
+\ability{Final Cut(Ex):}{At 14th level, a Samurai's Ancestral Weapon gains the Vorpal Special quality, even if it is not a slashing weapon.}
+
+\ability{Iaijatsu Master(Ex):}{At 15th level, any enemy struck by a Samurai's Attacks of Opportunity must make a Fortitude save against a DC equal to 10 + half the Samurai's HD +the Samurai's Wisdom bonus or be dazed for one round. A successful save against this effect makes the enemy immune to this effect for five rounds.}
+
+\ability{Reflect Magic(Su) :}{At 16th level, an spell effect that would be dispelled by a successful use of the Samurai's Parry Magic ability can instead be reflected back on the caster, as per a spell turning effect.}
+
+\ability{Blade of Souls:}{At 17th level, any enemy killed by a Samurai's Ancestral Weapon has his soul sucked into it, and this enemy cannot be raised, resurrected, or otherwise returned to life until the Ancestral Blade is broken. Each time the Ancestral Weapon takes a soul, the Samurai gains a single bonus use of his Kiai! ability that must be used before the next sunrise.}
+
+\ability{Deny Armor(Su):}{At 18th level, a Samurai attacking with his Ancestral Weapon ignores any AC bonuses on his targets that come from armor or natural armor.}
+
+\ability{Iaijutsu Grandmaster (Ex):}{At 19th level, any Attack of opportunity made by the Samurai is automatically a confirmed critical hit.}
+
+\ability{Scrolls of Wisdom:}{At 20th level, the Samurai has reached the pinnacle of his art, and he may compose a treatise of his collected wisdom. If he spends one month composing this treatise, he may distribute it and spread his wisdom. Anyone who reads this treatise gains a +2 competence bonus to attack characters with Samurai levels, but a -8 penalty to attack the writer of the treatise.\\
+
+In addition, a Samurai who writes his treatise no longer takes ability penalties for aging as long as one copy of the treatise exists.}
+
+\newpage
+
+\classname{Summoner}
+
+\quot{``Watch me pull a rhinoceros out of my hat.''}
+
+\ability{Alignment:}{A Summoner may be of any alignment.}
+
+\ability{Races:}{Summoners appear in every race. Halflings in particular are very likely to adopt the way of the Summoner.}
+
+\ability{Starting Gold:}{4d4x10 gp (100 gold)}
+
+\ability{Starting Age:}{As Rogue.}
+
+\ability{Hit Die:}{d6}
+
+\ability{Class Skills:}{The Summoner's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Decipher Script (Int), Diplomacy (Cha), Escape Artist (Dex), Handle Animal (Cha), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (nature) (Int), Knowledge (the planes) (Int), Profession (Wis), Ride (Dex), Sense Motive (Cha), and Spellcraft (Int).}
+
+\ability{Skills/Level:}{4 + Intelligence Bonus}
+
+
+\begin{table}[tbh]
+\begin{small}
+\begin{tabular}{lp{1.2cm}p{0.7cm}p{0.7cm}p{0.7cm}p{4.7cm}llllllllll}
+Level  &Base Attack  Bonus &Fort Save &Ref Save &Will Save &Special & \multicolumn{10}{c}{Spells Per Day}\\
+&&&&&& 0 &1 &2 &3 &4 &5 &6 &7 &8 &9\\
+1st &+0 &+0 &+2 &+2 &Rapid Summoning, Summoned Cohort, Armored Casting, Aura &5 &3 &- &- &- &- &- &- &- &-\\
+2nd &+1 &+0 &+3 &+3 &Sudden Extend &6 &4 &- &- &- &- &- &- &- &-\\
+3rd &+1 &+1 &+3 &+3 &Advanced Learning &6 &5 &- &- &- &- &- &- &- &-\\
+4th &+2 &+1 &+4 &+4 &Extended Summoning: 1st level &6 &6 &3 &- &- &- &- &- &- &-\\
+5th &+2 &+1 &+4 &+4 &Advanced Learning &6 &6 &4 &- &- &- &- &- &- &-\\
+6th &+3 &+2 &+5 &+5 &Master Tactician &6 &6 &5 &3 &- &- &- &- &- &-\\
+7th &+3 &+2 &+5 &+5 &Advanced Learning, Summon &6 &6 &6 &4 &- &- &- &- &- &-\\
+8th &+4 &+2 &+6 &+6 &  &6 &6 &6 &5 &3 &- &- &- &- &-\\
+9th &+4 &+3 &+6 &+6 &Advanced Learning, Extended Summoning: 2nd level &6 &6 &6 &6 &4 &- &- &- &- &-\\
+10th &+5 &+3 &+7 &+7 &Medium Armor Proficiency &6 &6 &6 &6 &5 &3 &- &- &- &-\\
+11th &+5 &+3 &+7 &+7 &Advanced Learning, Improved Summoning &6 &6 &6 &6 &6 &4 &- &- &- &-\\
+12th &+6/+1 &+4 &+8 &+8 &Advanced Aid &6 &6 &6 &6 &6 &5 &3 &- &- &-\\
+13th &+6/+1 &+4 &+8 &+8 &Advanced Learning &6 &6 &6 &6 &6 &6 &4 &- &- &-\\
+14th &+7/+2 &+4 &+9 &+9 &Extended Summoning: 3rd level &6 &6 &6 &6 &6 &6 &5 &3 &- &-\\
+15th &+7/+2 &+5 &+9 &+9 &Advanced Learning, Improved Summoning &6 &6 &6 &6 &6 &6 &6 &4 &- &-\\
+16th &+8/+3 &+5 &+10 &+10 &Shield Proficiency &6 &6 &6 &6 &6 &6 &6 &5 &3 &-\\
+17th &+8/+3 &+5 &+10 &+10 &Advanced Learning &6 &6 &6 &6 &6 &6 &6 &6 &4 &-\\
+18th &+9/+4 &+6 &+11 &+11 &  &6 &6 &6 &6 &6 &6 &6 &6 &5 &3\\
+19th &+9/+4 &+6 &+11 &+11 &Advanced Learning, Extended Summoning: 4th level &6 &6 &6 &6 &6 &6 &6 &6 &6 &4\\
+20th &+10/+5 &+6 &+12 &+12 &Perfect Summon &6 &6 &6 &6 &6 &6 &6 &6 &6 &6\\
+\end{tabular}
+\end{small}
+\end{table}
+
+\noindent All of the following are Class Features of the Summoner class.
+
+\ability{Weapon and Armor Proficiency:}{Summoners are proficient with all simple weapons, as well as the bola, the whip, the net, and the harpoon. Summoners are proficient with light armor but not with shields of any kind. At 10th level, a Summoner gains proficiency with Medium Armor. At 16th level, the Summoner gains proficiency with shields.}
+
+\ability{Spellcasting:}{The Summoner is an Arcane Spellcaster with the same spells per day progression as a Sorcerer. A Summoner casts spells from the Summoner Spell List (below). A Summoner automatically knows every spell on her spell list. She can cast any spell she knows without preparing them ahead of time, provided that spell slots of an appropriate level are still available.To cast a Summoner spell, she must have a Charisma at least equal to 10 + the Spell level. The DC and bonus spells of the Summoner's spells is Charisma based.}
+
+\ability{Rapid Summoning:}{A Summoner can cast summoning spells in less time than most other casters. Any Conjuration spell of the [Summoning] subschool that a Summoner casts that would have a casting time of one full round have a casting time of 1 standard action instead. This ability has no effect on spells which already require less than one full round to cast, nor does it affect spells with a casting time greater than one full round.}
+
+\ability{Summoned Cohort:}{Once per day when a Summoner casts a Conjuration spell of the [Summoning] subschool, she may extend its duration to 24 hours. This ability is not cumulative with other effects that increase the duration of a spell.}
+
+\ability{Armored Casting:}{A Summoner casts arcane spells, but she is not affected by the arcane spell failure of any armor or shield she is proficient with. This ability only applies to her Summoner spells, if she is able to cast any other arcane spells, they are affected by arcane spell failure normally.}
+
+\ability{Aura:}{A Summoner's strong connection to the outer planes causes them to be detected very strongly of whatever alignment she has. For purposes of spells like detect chaos, levels in Summoner count as Outsider hit dice.}
+
+\ability{Sudden Extend:}{At 2nd level, the Summoner gains Sudden Extend as a bonus feat. If she already has Sudden Extend, she may gain any metamagic feat that she qualifies for instead.}
+
+\ability{Advanced Learning:}{At 3rd level and every two levels afterwards, the Summoner may permanently add one spell to her spell list. This spell must be of a level she can already cast, and it must be of the Conjuration school. Only spells from the Cleric, Druid, or Wizard spell list may be added in this way.}
+
+\ability{Extend Summoning:}{Conjuration spells of the [Summoning] subschool that the Summoner casts can be affected by the Extend Spell metamagic for free. At 4th level, the Summoner may apply this free spell extending to spells of 1st level or lower. At 9th level, she may apply it to 2nd level spells, at 14th level she may apply it to 3rd level spells, and at 19th level she may apply Extend Spell for free to 4th level spells.}
+
+\ability{Master Tactician:}{A Summoner learns to fight with many allies. At 6th level, any ally within 30 feet of her may gain a +4 bonus for flanking instead of the normal +2 bonus as long as they can perceive the Summoner.}
+
+\ability{Summon (Sp):}{At 7th level, a Summoner can attempt to summon outsiders with an alignment identical to her own. Summoning another creature of the same character level has a 40\% chance of success, and summoning a creature of a lower level increases the chances of success by 10\% for every level the Summoner's level exceeds the CR of the target.}
+
+\ability{Advanced Aid (Ex):}{A Summoner of 12th level may take the Aid Another action as a free action once per round.}
+
+\ability{Improved Summoning:}{At 11th level, the Summoner's chances to summon an outsider increase by 10\%. This chance increases by another 10\% at 15th level.}
+
+\ability{Perfect Summon:}{At 20th level, the Summoner's summon power has a 100\% chance of success, even when summoning a creature of equal level to herself.}
+
+
+\spelllist{Summoner Spell List:}
+
+\ability{0th level:}{\emph{Anticipate Teleportation, Caltrops, Darkness, Detect Magic, Detect Poison, Light, Protection from Alignment, Read Magic, Resist Planar Alignment}}
+
+\ability{1st level:}{\emph{Avoid Planar Effects, Comprehend Languages, Grease, Portal Beacon, Summon Frost Beast I, Summon Monster I, Summon Nature's Ally I, Summon Undead I, Wall of Smoke}}
+
+\ability{2nd level:}{\emph{Analyze Portal, Baleful Transposition, Dimension Hop, Daylight, Deeper Darkness, Entangle, Phantom Steed, Planar Tolerance, Portal Alarm, Regroup, Sleet Storm, Summon Frost Beast II, Summon Monster II, Summon Nature's Ally II, Summon Undead II, Tongues, Web, Wind Wall}}
+
+\ability{3rd level:}{\emph{Clairaudience/Clairvoyance, Dimension Step, dimensional anchor, Greater Anticipate Teleportation, Magic Circle Against Alignment, Plant Growth, Stinking Cloud, Summon Frost Beast III, Summon Monster III, Summon Nature's Ally III, Summon Undead III, Vipergout, Wall of Ice}}
+
+\ability{4th level:}{\emph{Dimension Door, Dismissal, Drawmij's Instant Summons, lesser planar ally, lesser planar binding, Summon Frost Beast IV, Summon Monster IV, Summon Nature's Ally IV, Summon Undead IV, Wall of Fire}}
+
+\ability{5th level:}{\emph{Dimension Shuffle, Dimensional Lock, Evard's Black Tentacles, Greater Dimension Door, Planeshift, Summon Frost Beast V, Summon Monster V, Summon Nature's Ally V, Summon Undead V, Teleport, Wall of Iron, Wall of Stone, Word of Recall}}
+
+\ability{6th level:}{\emph{Antipathy, Greater Planeshift, Planar Ally, Planar Binding, Planar Bubble, Summon Frost Beast VI, Summon Monster VI, Summon Nature's Ally VI, Sympathy, Wall of Thorns}}
+
+\ability{7th level:}{\emph{Binding, Forcecage, Greater Teleport, Maze, Shadowwalk, Summon Frost Beast VII, Summon Monster VII, Summon Nature's Ally VII, Teleport Object}}
+
+\ability{8th level:}{\emph{Freedom, Greater Planar Ally, Greater Planar Binding, Shades, Summon Frost Beast VIII, Summon Golem, Summon Monster VIII, Summon Nature's Ally VIII}}
+
+\ability{9th level:}{\emph{Elemental Swarm, Gate, Imprisonment, Refuge, Summon Elemental Monolith, Summon Frost Beast IX, Summon Monster IX, Summon Nature's Ally IX, Teleportation Circle, Unbinding}}
+
+\newpage
+
+
+\classname{Thief Acrobat}
+
+\quot{``They put their safe on the ceiling, it's like they wanted me to take these scrolls.''}
+
+\desc{While the common rogue is a thief, con-man, and scout extraordinaire, the thief acrobat is a highly trained specialist in the art of housebreaking and feats of dexterity and acrobatics. As an adventurer, they are masters of negotiating difficult terrain and situations with flair and panache. Masters of athletics and gymnastics, they hone their art to a level that seems to be magical to the initiated. Most use these skills to gain the easy score or poorly defended hoard, but some take up the life of an adventurer as a chance to test their purely mortals skills against the world full of magic and supernatural creatures.}
+
+\ability{Alignment:}{Any.}
+
+\ability{Races:}{Any}
+
+\ability{Starting Gold:}{4d4x10 gp (100 gold)}
+
+\ability{Starting Age:}{As Rogue}
+
+\ability{Hit Die:}{d6}
+
+\ability{Class Skills:}{The Thief Acrobat's skills (and the key ability for each skill) are Appraise (Int), Balance (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disable Device (Int), Escape Artist (Dex), Hide (Dex), Jump (Str), Listen (Wis), Move Silently (Dex), Perform (Cha), Profession (Wis), Search (Int), Sense Motive (Wis), Sleight of Hand (Dex), Spot (Wis), Swim (Str), Tumble (Dex), Use Magic Device (Cha), and Use Rope (Dex).}
+
+\ability{Skills/Level:}{6 + Intelligence Bonus}
+
+\begin{table}[tbh]
+\begin{small}
+\begin{tabular}{lp{0.7cm}p{0.7cm}p{0.7cm}p{0.7cm}l}
+Level  &Base Attack  Bonus &Fort Save &Ref Save &Will Save &Special\\
+1st &+0 &+0 &+2 &+0 &Acrobatic Flair, Trapfinding, Pole Jump\\
+2nd &+1 &+0 &+3 &+0 &+1d6 Sneak Attack, Evasion\\
+3rd &+2 &+1 &+3 &+1 &Sure Climb, Kip Up\\
+4th &+3 &+1 &+4 &+1 &Detect Magic, Grapple Line\\
+5th &+3 &+1 &+4 &+1 &+2d6 Sneak Attack, Rapid Stealth\\
+6th &+4 &+2 &+5 &+2 &Mercurial Charge\\
+7th &+5 &+2 &+5 &+2 &+3d6 Sneak Attack, Unsettling Choreography\\
+8th &+6/+1 &+2 &+6 &+2 &Improved Evasion\\
+9th &+6/+1 &+3 &+6 &+3 &+4d6 Sneak Attack, Athletic Cascade\\
+10th &+7/+2 &+3 &+7 &+3 &Skill Mastery\\
+11th &+8/+3 &+3 &+7 &+3 &+5d6 Sneak Attack, Aggressive Stealth\\
+12th &+8/+3 &+4 &+8 &+4 &Dedicated Evasion\\
+13th &+9/+4 &+4 &+8 &+4 &+6d6 Sneak Attack, Power Slide\\
+14th &+10/+5 &+4 &+9 &+4 &Shadow Tumble\\
+15th &+11/+6/+6 &+5 &+9 &+5 &+7d6 Sneak Attack\\
+16th &+12/+7/+7 &+5 &+10 &+5 &Death From Above\\
+17th &+12/+7/+7 &+5 &+10 &+5 &+8d6 Sneak Attack\\
+18th &+13/+8/+8 &+6 &+11 &+6 &Supreme Skill Mastery\\
+19th &+14/+9/+9 &+6 &+11 &+6 &+9d6 Sneak Attack\\
+20th &+15/+10/+10 &+6 &+12 &+6 &Supreme Evasion\\
+\end{tabular}
+\end{small}
+\end{table}
+
+\noindent All of the following are Class Features of the Thief Acrobat class.
+
+\ability{Weapon and Armor Proficiency:}{Thief Acrobats are proficient with all simple weapons, as well as the sap, the shortsword, the whip, the bolas, the long staff, and the shuriken. Thief Acrobats are proficient with light armor but not with shields of any kind.}
+
+\ability{Trapfinding:}{At 1st level, Thief Acrobats can use the Search skill to locate traps when the task has a Difficulty Class higher than 20. Finding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. Finding a magic trap has a DC of 25 + the level of the spell used to create it. Thief Acrobats can use the Disable Device skill to disarm magic traps. A magic trap generally has a DC of 25 + the level of the spell used to create it. An Thief Acrobat who beats a trap's DC by 10 or more with a Disable Device check can study a trap, figure out how it works, and bypass it (with her party) without disarming it.}
+
+\ability{Acrobatic Flair (Ex):}{A Thief Acrobat may move her full movement while using the Tumble or Balance skill without suffering a penalty or increasing the DC of her check.}
+
+\ability{Pole Jump (Ex):}{If holding a pole, spear, staff, long staff, or other pole-like object in both hands, a Thief Acrobat can add twice her reach to her final distance moved during a Jump check, and in this instance her jump distances are not limited by her height.}
+
+\ability{Sneak Attack (Ex):}{At 2nd level, a Thief Acrobat gains the sneak attack ability as a Rogue. Her sneak attacks inflict an extra d6 of damage at 2nd level. This damage increases by 1d6 at levels 5, 7, 9, 11, 13, 15, 17, and 19.}
+
+\ability{Evasion (Ex):}{If a 2nd level Thief Acrobat succeeds in a Reflex Save to halve damage, she suffers no damage instead.}
+
+\ability{Sure Climb (Ex):}{At 3rd level, a Thief Acrobat gains a climb speed equal to half her land speed.}
+
+\ability{Kip Up (Ex):}{At 3rd level, a Thief Acrobat may stand up from prone as a free action that does not provoke an attack of opportunity.}
+
+\ability{Detect Magic (Sp):}{At 4th level, a Thief Acrobat may use detect magic at-will as a spell-like ability. A Thief Acrobat may use her Appraise Skill in place of her Spellcraft in order to glean additional information from her detect magic.}
+
+\ability{Grapple Line:}{At 4th level, a Thief Acrobat becomes a master of using grapples and grappling lines. By firing a missile weapon designed as a grappling weapon at an unoccupied square and doing at least 1 point of damage to an object filling that square (wall, ceiling, statue, etc) or a securely affixed object (ceiling post, small statue affixed to floor, etc), a Thief Acrobat can run a rope from his current potion to that location as a full round action. He may then use this rope to make Balance or Climb checks as normal.
+
+Weapons designed as grappling weapons have a simple pulley and loop attached at the end and are balanced for this modification, and have at least a 50' length of strong thread running through it and connected to a rope so that it can be pulled through swiftly. They cost an additional +1 GP each (ammunition costs as much as normal weapons), and suffer a 5 ft reduction in range increment. Many grappling weapons are made out of adamantite in order to better penetrate hard materials like stone.}
+
+\ability{Rapid Stealth (Ex):}{At level 5, the Thief Acrobat does not suffer the -10 penalty to Move Silently or Hide for moving at her full normal speed. She still suffers the normal -20 penalties to hide and move silently for running or fighting if she performs those actions.}
+
+\ability{Mercurial Charge (Ex):}{At level 6, a Thief Acrobat need not move in a straight line to charge, nor must she charge the closest available space. She still may not move back on herself during a charge, and her charge move still ends as soon as she threatens her target.}
+
+\ability{Unsettling Choreography (Ex):}{A Thief Acrobat of 7th level is adept at making other creatures fall down, and may use her Dexterity Modifier in place of her Strength modifier when making a trip or bullrush attempt.}
+
+\ability{Improved Evasion (Ex):}{When a Thief Acrobat of 8th level fails a Reflex Save to halve damage, she takes half damage anyway.}
+
+\ability{Athletic Cascade (Ex):}{At 9th level, if a Thief Acrobat moves before making an attack, for the purposes of flanking she may count any square she has moved through as threatening an opponent, in addition to the space she is actually attacking from. In this manner, she may even flank with herself.}
+
+\ability{Skill Mastery (Ex):}{At 10th level, a Thief Acrobat is able to take 10 on any Appraise, Balance, Disable Device, Jump, Hide, Move Silently, and Tumble checks even in stressful or dangerous situations.}
+
+\ability{Aggressive Stealth (Ex):}{A Thief Acrobat of 11th level does not suffer the -20 penalty to Hide or Move Silently checks for running or fighting.}
+
+\ability{Dedicated Evasion (Ex):}{At 12th level, a Thief Acrobat gains the ability to evade with almost supernatural skill. As a standard action, she can add her Thief Acrobat level as a Dodge bonus to her Reflex Saves and AC for one round.}
+
+\ability{Power Slide (Ex):}{If a 13th level Thief Acrobat takes damage from an attack, she may allow herself to be flung backwards , thereby lessening the impact. She may make a Balance check with a DC equal to the damage inflicted and if she succeeds, she suffers only half damage. This is a skill check, not a Saving Throw, so abilities such as Evasion do not apply. She is moved away from the source of damage by 5' for every 5 points of damage (or part there of) negated in this way. If there is not enough space for her to move, she suffers a d6 of damage for each square not moved. If she passes through an occupied square, the Thief Acrobat would have to make a tumble check to avoid attacks of opportunity.}
+
+\ability{Shadow Tumble (Su):}{At 14th level, a Thief Acrobat has learned to tumble through the Plane of Shadow. She may make a tumble check with a DC equal to 10 plus five for every square she wishes to pass through another plane of existence. Intervening terrain, even walls of force have no effect on movement through the plane of shadow. The Thief Acrobat's total distance moved does not increase, no matter how much of it may be taken through the plane of shadow.}
+
+\ability{Death From Above (Ex):}{At 16th level, the Thief Acrobat has learned to used the energy of a fall to devastating effect. If the Thief Acrobat can fall at least 30' (by falling from a height or by using a Jump check) and end in her enemy's square, any attacks made at the end of that fall do triple damage. Sneak Attack is not multiplied in this way.}
+
+\ability{Supreme Skill Mastery:}{At 19th level, a Thief Acrobat is able to take 20 on any Appraise, Balance, Disable Device, Jump, Hide, Move Silently, and Tumble checks even in stressful or dangerous situations, and does not take twenty times as long as usual for taking 20.}
+
+\ability{Supreme Evasion (Ex):}{At 20th level, a Thief acrobat takes no damage from any effect requiring a Reflex save.}
+
+
+
+\end{document}

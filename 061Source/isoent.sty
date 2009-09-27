@@ -1,0 +1,676 @@
+% beginning of isoent.sty
+% This package provides all fonts and special characters required to
+% produce the glyphs for the character entities defined in ISO 8879.
+% Invoke this package with '\usepackage{isoent}' in the preamble.
+
+% Copyright (c) 2000,2007
+%   Vidar Bronken Gundersen, Rune Mathisen
+%   http://www.bitjungle.com/isoent
+% All rights reserved.
+%
+% Redistribution and use in source and binary forms, with or without
+% modification, are permitted provided that the following conditions are met:
+%
+%   * Redistributions of source code must retain the above copyright
+%     notice, this list of conditions and the following disclaimer.
+%   * Redistributions in binary form must reproduce the above copyright
+%     notice, this list of conditions and the following disclaimer in the
+%     documentation and/or other materials provided with the distribution.
+%   * Neither the name of the <organization> nor the
+%     names of its contributors may be used to endorse or promote products
+%     derived from this software without specific prior written permission.
+%
+% THIS SOFTWARE IS PROVIDED BY <copyright holder> ``AS IS'' AND ANY
+% EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+% WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+% DISCLAIMED. IN NO EVENT SHALL <copyright holder> BE LIABLE FOR ANY
+% DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+% (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+% LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+% ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+% (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+% SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+%    Last modification (see \ProvidesPackage below)
+
+% You have to download missing packages yourself.
+% See the 'Notes' section in the reference for more
+% information.
+
+% You need
+% standard LaTeX packages
+%    amssymb
+%    amsfonts            (cyracc; see below)
+%    amsbsy
+%    pifont
+%    textcomp
+%    fontenc:T1
+%    color               (part of graphics bundle)
+% and extra packages
+%    wasysym
+%    mathrsfs
+%    rgr                 rgreek fonts (yannis)
+%    stamaryrd           (only for iso-9573-13 entities)
+% which can be found at http://www.ctan.org/find.html
+
+
+% Now included in this .sty file:
+%    localdef.tex        abbrevated macros
+%    boxdrawings.tex     extracted from 'sgmlent' by Taco Hoekwater
+%    cyracc.def          copied from amstex directory
+%    rgreekmacros.tex    commented digamma
+
+% When creating the reference, we wanted
+% Type1 fonts for symbols in the latex base:
+%    textcomp.sty        commented symbols
+% Defined both in
+% plain LaTeX (scalable Type1 font)
+% and textcomp (bitmap font):
+
+%\DeclareTextAccentDefault{\textcircled}{TS1}
+%\DeclareTextSymbolDefault{\textdagger}{TS1}
+%\DeclareTextSymbolDefault{\textdaggerdbl}{TS1}
+%\DeclareTextSymbolDefault{\textbullet}{TS1}
+%\DeclareTextSymbolDefault{\texttrademark}{TS1}
+%\DeclareTextSymbolDefault{\textsterling}{TS1}
+%\DeclareTextSymbolDefault{\textsection}{TS1}
+%\DeclareTextSymbolDefault{\textcopyright}{TS1}
+%\DeclareTextSymbolDefault{\textregistered}{TS1}
+%\DeclareTextSymbolDefault{\textdegree}{TS1}
+%\DeclareTextSymbolDefault{\textparagraph}{TS1}
+%%%\input{ts1enc.def}
+%\UndeclareTextCommand{\textsterling}{OT1}
+%\UndeclareTextCommand{\textdollar}  {OT1}
+%\UndeclareTextCommand{\textperthousand}{T1}
+
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{isoent}
+             [2001/01/14
+                 Fonts and symbols needed for ISO character entities]
+
+
+% ......................................................................
+% Load `regular' symbol packages
+
+% font packages
+
+\RequirePackage{amssymb}%[1995/01/01]
+%\RequirePackage{amsfonts}   % loaded by amssymb
+\RequirePackage{amsbsy}
+\RequirePackage{pifont}
+\RequirePackage{textcomp}%[1999/02/24]
+
+% missing ps-type1 fonts
+%\RequirePackage[T1]{fontenc}
+
+% non-standard packages
+
+\RequirePackage{wasysym}%[1997/11/01]
+\RequirePackage{mathrsfs}
+%\RequirePackage{stmaryrd}  % needed for iso-9573-13, not iso-8879
+
+\RequirePackage{color}
+
+% ......................................................................
+% Setup non-Latin font environments
+
+% Cyrillic characters
+% cyracc.def is copied from plain tex version of amsfonts package
+%\input cyracc.def
+% (inserted at end of this file)
+\font\tencyr=wncyr10
+\def\cyr{\tencyr\cyracc}
+
+% Modern greek fonts
+% rgreekmacros.tex in rgr/yannis package has been modified
+% comment out line 128 \def\digamma
+%\input{rgreekmacros.tex}
+% (inserted at end of this file)
+\def\mgrk#1{{\beginmgreek #1 \endmgreek}}
+
+
+% .......................................................................
+%\input{localdef.tex}
+
+% beginning of localdef.tex
+% Abbrevated macros for long control sequences
+
+% Much of the following material is based on (and inspired by) the
+% work of Taco Hoekwater <taco.hoekwater(at)wkap.nl>
+% http://www.cybercomm.nl/~bittext/fonts/sgmlent.zip
+
+% For slashed fractions: \sfrac{1}{2}
+% From: joel(at)wmi0.wmi.com (Joel Coltoff)
+% Newsgroups: comp.text.tex
+
+    \newcommand{\sfrac}[2]{\leavevmode\kern.1em
+            \raise.5ex\hbox{\footnotesize #1}\kern-.1em
+                    /\kern-.15em\lower.25ex\hbox{\footnotesize #2}}
+
+% isotech
+
+\def\sqangle{\mathord{\hbox{\vrule width .4pt height 1ex depth 0pt 
+       \kern -.4pt \vrule width 1ex height .4pt depth 0pt}}}
+
+% isoamsr
+
+% the \backsim requires the amssymb package
+\def\backcong{{\mathrel{\raise -.3ex
+                        \hbox{$\displaystyle\backsim$}\atop
+                        \raise.3ex\hbox{$\displaystyle =$}}}}
+
+% isolat2
+
+\def\hstrok{\leavevmode\raise .7ex\rlap{-}h}    
+\def\Hstrok{\leavevmode\raise .55ex\rlap{\kern .2ex --}H}
+\def\tstrok{\leavevmode\raise .25ex\rlap{\kern .1ex -}t}
+\def\Tstrok{\leavevmode\raise .25ex\rlap{\kern .22ex --}T}
+
+\def\midot#1{\leavevmode\raise .6ex\rlap{\kern .4ex .}#1}
+\def\lmidot{\midot{l}}
+\def\Lmidot{\midot{L}}
+
+% isopub
+
+\def\marker{\leavevmode\kern .5ex\vrule width .5ex height 1.2ex depth 0pt}
+\def\hybull{\leavevmode\vrule width 1ex height .8ex depth -.6ex}
+\def\nldr{{\hbox to 0.6em{\hfil.\hfil\hfil.\hfil}}}
+\def\mldr{{\hbox to 1em{\hfil.\hfil\hfil.\hfil\hfil.\hfil}}}
+
+\def\block{\leavevmode\vrule width 1ex height 1.2ex depth 0pt}
+\def\uhblk{\leavevmode\vrule width 1ex height 1.2ex depth -.6ex}
+\def\lhblk{\leavevmode\vrule width 1ex height .6ex depth 0pt}
+
+% cropping
+
+% \thinhrule used by crop symbols
+\def\thinhrule{\vrule width 10pt height 0.2 pt depth  0pt }
+
+\def\dlcrop{\leavevmode\thinhrule
+    \kern 2pt \vrule width .2pt  height -2pt depth 12pt}
+\def\drcrop{\leavevmode \vrule width .2pt  
+height -2pt depth 12pt \kern 2pt \thinhrule }
+\def\ulcrop{\leavevmode\thinhrule \kern 2pt 
+    \vrule width .2pt  height 12pt depth -2pt}
+\def\urcrop{\leavevmode \vrule width .2pt  height
+  12pt depth -2pt\kern 2pt \thinhrule}
+
+% end of localdef.tex
+
+
+% ......................................................................
+%\input{boxdrawings.tex}
+
+% beginning of boxdrawings.tex
+% Abbrevated macros for box drawing symbols
+
+% Note: Problem with displaying the symbols in tablular environment
+
+%\expandafter\ifx\csname sgment.def\endcsname\relax \else\endinput\fi
+%\expandafter\edef\csname sgment.def\endcsname{%
+%       \catcode`\noexpand\@=\the\catcode`\@\space}
+
+\chardef\tempcat=\the\catcode`\@
+\catcode`\@=11
+
+\newcount\@tempcnta
+\newcount\@tempcntb
+\newcount\@tempcntc
+
+\newdimen\boxheight
+\newdimen\boxwidth            
+\def\Boxwidth{.01em} 
+\def\@box#1{\relax 
+    \ifvmode \noindent\hbox{}\fi
+    \boxheight=.01\baselineskip 
+    \boxwidth=.01\baselineskip
+    \setbox0\hbox to 100\boxwidth {#1\hss}\ht0=0pt
+    \raise.2\baselineskip\box0}
+
+%
+%  #1=horizontal offset #2=start #3=end (depth)
+%
+\def\@sgmlv(#1,#2,#3){\@tempcnta=#1 
+    \rlap{%
+    \ifnum\@tempcnta=45
+       \hbox to 100\boxwidth {\kern 41\boxwidth 
+                \vrule width 4\boxheight                 
+            height #2\boxheight depth #3\boxheight \hss }%                                                 
+    \else
+        \ifnum\@tempcnta=55
+            \hbox to 100\boxwidth {\kern 55\boxwidth   
+                \vrule width 4\boxheight  
+                height #2\boxheight depth #3\boxheight \hss }%                                                 
+        \else
+            \hbox to 100\boxwidth {\kern 48\boxwidth   
+                \vrule width 4\boxheight 
+                height #2\boxheight depth #3\boxheight \hss }%                                                 
+        \fi
+    \fi 
+    }}                                                       
+\def\@sgmlh(#1,#2,#3){%
+    \@tempcnta=#2 
+    \ifnum\@tempcnta <50 
+        \advance \@tempcnta by 1 \fi
+    \ifnum\@tempcnta >50 
+        \advance \@tempcnta by -1 \fi
+    \@tempcntb=#3 
+    \advance\@tempcnta by -#1
+    \ifnum\@tempcntb=0 
+        \@tempcntc=2 \@tempcntb=2  
+    \else
+        \ifnum\@tempcntb=5 
+            \@tempcntc=-4 \@tempcntb=8
+        \else
+            \ifnum\@tempcntb=-5 
+                \@tempcntc=8 \@tempcntb=-4  
+            \fi 
+        \fi 
+    \fi 
+    \@tempdima=\@tempcntb\boxheight
+    \@tempdimb=\@tempcntc\boxheight
+    \rlap{%
+        \kern #1\boxwidth 
+        \vrule width \@tempcnta\boxwidth height 
+            \@tempdima depth \@tempdimb
+        }%
+    }
+\def\boxh  {\@box{\@sgmlh(0,100,0)}}      
+\def\boxv  {\@box{\@sgmlv(50,50,50)}}
+\def\boxur {\@box{\@sgmlh(50,100,0)\@sgmlv(50,50,0)}}
+\def\boxul {\@box{\@sgmlv(50,50,0)\@sgmlh(0,50,0)}}
+\def\boxdl {\@box{\@sgmlv(50,0,50)\@sgmlh(0,50,0)}}
+\def\boxdr {\@box{\@sgmlv(50,0,50)\@sgmlh(50,100,0)}}
+\def\boxvr {\@box{\@sgmlv(50,50,50)\@sgmlh(50,100,0)}}
+\def\boxhu {\@box{\@sgmlv(50,50,0)\@sgmlh(0,100,0)}}
+\def\boxvl {\@box{\@sgmlv(50,50,50)\@sgmlh(0,50,0)}}
+\def\boxhd {\@box{\@sgmlv(50,0,50)\@sgmlh(0,100,0)}}
+\def\boxvh {\@box{\@sgmlv(50,50,50)\@sgmlh(0,100,0)}}
+\def\boxvR {\@box{\@sgmlh(50,100,5)\@sgmlh(50,100,5)%
+                         \@sgmlv(50,50,50)}}
+\def\boxhU {\@box{\@sgmlv(45,50,0)\@sgmlv(55,50,0)%
+                         \@sgmlh(0,100,0)}}
+\def\boxvL {\@box{\@sgmlh(0,50,5)\@sgmlh(0,50,-5)%
+                         \@sgmlv(50,50,50)}}
+\def\boxhD {\@box{\@sgmlv(45,0,50)\@sgmlv(55,0,50)%
+                         \@sgmlh(0,100,0)}}
+\def\boxvH {\@box{\@sgmlh(0,100,5)\@sgmlh(0,100,-5)%
+                    \@sgmlv(50,50,-5)\@sgmlv(50,-5,50)}}
+\def\boxH  {\@box{\@sgmlh(0,100,5)\@sgmlh(0,100,-5)}}
+\def\boxV  {\@box{\@sgmlv(45,50,50)\@sgmlv(55,50,50)}}
+\def\boxUR {\@box{\@sgmlh(45,100,-5)\@sgmlh(55,100,5)%
+                         \@sgmlv(45,50,5)\@sgmlv(55,50,-5)}}
+\def\boxUL {\@box{\@sgmlv(55,50,5)\@sgmlv(45,50,-5)%
+                         \@sgmlh(0,45,5)\@sgmlh(0,55,-5)}}
+\def\boxDL {\@box{\@sgmlh(0,55,5)\@sgmlh(0,45,-5)%
+                         \@sgmlv(45,-5,50)\@sgmlv(55,5,50)}}
+\def\boxDR {\@box{\@sgmlh(45,100,5)\@sgmlh(55,100,-5)%
+                         \@sgmlv(45,5,50)\@sgmlv(55,-5,50)}}
+\def\boxVR {\@box{\@sgmlh(55,100,5)\@sgmlh(55,100,-5)%
+        \@sgmlv(55,50,-5)\@sgmlv(55,-5,50)\@sgmlv(45,50,50)}}
+\def\boxHU {\@box{\@sgmlh(0,45,5)\@sgmlh(55,100,5)%
+        \@sgmlh(0,100,-5)\@sgmlv(45,50,-5)\@sgmlv(55,50,-5)}}
+\def\boxVL {\@box{\@sgmlh(0,45,5)\@sgmlh(0,45,-5)%
+        \@sgmlv(45,50,-5)\@sgmlv(45,-5,50)\@sgmlv(55,50,50)}}
+\def\boxHD {\@box{\@sgmlh(0,100,5)\@sgmlh(0,45,-5)%
+        \@sgmlh(55,100,-5)\@sgmlv(45,-5,50)\@sgmlv(55,-5,50)}}
+\def\boxVH {\@box{\@sgmlh(0,45,5)\@sgmlh(55,100,5)%
+        \@sgmlh(0,45,-5)\@sgmlh(55,100,-5)\@sgmlv(45,50,-5)%
+        \@sgmlv(45,-5,50)\@sgmlv(55,50,-5)\@sgmlv(55,-5,50)}}
+\def\boxVr {\@box{\@sgmlv(45,50,50)\@sgmlv(55,50,50)%
+                         \@sgmlh(55,100,0)}}
+\def\boxHu {\@box{\@sgmlh(0,100,5)\@sgmlh(0,100,-5)%
+                         \@sgmlv(50,50,-5)}}
+\def\boxVl {\@box{\@sgmlv(45,50,50)\@sgmlv(55,50,50)%
+                         \@sgmlh(0,45,0)}}
+\def\boxHd {\@box{\@sgmlh(0,100,5)\@sgmlh(0,100,-5)% 
+                         \@sgmlv(50,-5,50)}}
+\def\boxVh {\@box{\@sgmlh(0,45,0)\@sgmlh(55,100,0)%
+                        \@sgmlv(45,50,50)\@sgmlv(55,50,50)}}
+\def\boxuR {\@box{\@sgmlh(50,100,5)\@sgmlh(50,100,-5)%
+                         \@sgmlv(50,50,5)}}
+\def\boxUl {\@box{\@sgmlv(45,50,0)\@sgmlv(55,50,0)%
+                         \@sgmlh(0,55,0)}}
+\def\boxdL {\@box{\@sgmlh(0,50,5)\@sgmlh(0,50,-5)%
+                         \@sgmlv(50,5,50)}}
+\def\boxDr {\@box{\@sgmlv(45,0,50)\@sgmlv(55,0,50)%
+                         \@sgmlh(45,100,0)}}
+\def\boxUr {\@box{\@sgmlv(45,50,0)\@sgmlv(55,50,0)%
+                         \@sgmlh(45,100,0)}}
+\def\boxuL {\@box{\@sgmlh(0,50,5)\@sgmlh(0,50,-5)%
+                         \@sgmlv(50,50,5)}}
+\def\boxDl {\@box{\@sgmlv(45,0,50)\@sgmlv(55,0,50)%
+                         \@sgmlh(0,55,0)}}
+\def\boxdR {\@box{\@sgmlh(50,100,5)\@sgmlh(50,100,-5)%
+                         \@sgmlv(50,5,50)}}
+
+\catcode`\@=\tempcat
+% end of boxdrawings.tex
+
+% ......................................................................
+%\input{cyracc-stripped.tex}
+% identical to cyracc.def in plain tex version of amsfonts package
+
+%% @texfile{
+%%     filename="cyracc.def",
+%%     version="2.2",
+%%     date="4-JAN-1995",
+%%     filetype="TeX: option",
+%%     copyright="Copyright (C) American Mathematical Society,
+%%            all rights reserved.  Copying of this file is
+%%            authorized only if either:
+%%            (1) you make absolutely no changes to your copy
+%%                including name; OR
+%%            (2) if you do make changes, you first rename it to some
+%%                other name.",
+%%     author="American Mathematical Society",
+%%     keywords="amsfonts, tex, cyrillic",
+%%     abstract="This file contains definitions of accents and 
+%%         special characters required for use of cyrillic fonts 
+%%         arranged according to the AMS scheme.
+%%      The \font specification(s) should be made elsewhere, and should include
+%%              \newfam\cyrfam
+%%              \font\...cyr=wncyr...   (e.g. \font\tencyr=wncyr10 )
+%%      An appropriate definition for cyrillic, usable in math and text, is
+%%              \def\cyr{\fam\cyrfam\...cyr\cyracc}
+
+\chardef\tempcat=\the\catcode`\@
+\catcode`\@=11
+
+%  The first set of definitions is what will be in effect outside of cyrillic,
+%  i.e., in transliterated text.
+
+%  Definition of \cydot is not ideal; real dot should be in an accent font.
+\def\cydot{{\mathsurround=0pt$\cdot$}}
+
+%  \ubar is the definition of \b from PLAIN; it may not work in math mode.
+\def\ubar#1{\oalign{#1\crcr\hidewidth
+    \vbox to.2ex{\hbox{\char22}\vss}\hidewidth}}
+
+%  Soft and hard signs are represented in transliteration by prime and
+%  double prime respectively.
+\def\cprime{\/{\mathsurround=0pt$'$}}
+\def\Cprime{{\mathsurround=0pt$'$}}
+\def\cdprime{\/{\mathsurround=0pt$''$}}
+\def\Cdprime{{\mathsurround=0pt$\ubar{\hbox{$''$}}$}}
+
+\def\dbar{dj}           % make real barred d when accent font available
+\def\Dbar{Dj}           %  ""
+
+%  It would be nice to make these control sequences unnecessary; that will
+%  probably require d to become active.
+\def\dz{dz}
+\def\Dz{Dz}
+\def\dzh{dzh\cydot }
+\def\Dzh{Dzh\cydot }
+
+
+%  Stress marks are sometimes used in cyrillic text, mainly for pedagogic
+%  reasons.  These definitions support stress marks within {\cyr ...};
+%  in transliteration, they are suppressed.  Stress is indicated in
+%  input by \! preceding a letter on which a stress mark is to appear;
+%  an acute accent will appear in the output.  Since \! is also a plain
+%  command, for negative thin space in math mode, test for math mode and
+%  include the plain definition as appropriate.
+
+\def\@gobble#1{}
+\def\@testgrave{\`}
+\def\@stressit{\futurelet\chartest\@stresschar }
+
+\def\@stresschar#1{%
+  \ifx #1y\def\result{\futurelet\chartest\@yligature}%
+  \else \ifx #1Y\def\result{\futurelet\chartest\@Yligature}%
+  \else \ifx\chartest\@testgrave \def\result{\accent"26 }%
+  \else \def\result{\accent"26 #1}%
+  \fi \fi \fi
+  \result }
+
+\def\@yligature{%
+  \ifx a\chartest \def\result{\accent"26 \char"1F \@gobble}%
+  \else \ifx u\chartest \def\result{\accent"26 \char"18 \@gobble}%
+  \else \def\result{\accent"26 y}%
+  \fi \fi
+  \result }
+
+\def\@Yligature{%
+  \ifx a\chartest \def\result{\accent"26 \char"17 \@gobble}%
+  \else \ifx A\chartest \def\result{\accent"26 \char"17 \@gobble}%
+  \else \ifx u\chartest \def\result{\accent"26 \char"10 \@gobble}%
+  \else \ifx U\chartest \def\result{\accent"26 \char"10 \@gobble}%
+  \else \def\result{\accent"26 Y}%
+  \fi \fi \fi \fi
+  \result }
+
+\def\!{\ifmmode \mskip-\thinmuskip \fi}
+
+
+%  These are the definitions that will produce cyrillic letters within
+%  {\cyr ...} for letters represented in input by control sequences and
+%  accented latin letters.
+
+\def\cyracc{%
+  \def\cydot{{\kern0pt}}%
+  \def\cprime{\char"7E }\def\Cprime{\char"5E }%
+  \def\cdprime{\char"7F }\def\Cdprime{\char"5F }%
+  \def\dbar{dj}\def\Dbar{Dj}%
+  \def\dz{\char"1E }\def\Dz{\char"16 }%
+  \def\dzh{\char"0A }\def\Dzh{\char"02 }%
+  \def\'##1{\if c##1\char"0F %
+    \else \if C##1\char"07 %
+    \else \accent"26 ##1\fi \fi }%
+  \def\`##1{\if e##1\char"0B %
+    \else \if E##1\char"03 %
+    \else \errmessage{accent \string\` not defined in cyrillic}%
+        ##1\fi \fi }%
+  \def\=##1{\if e##1\char"0D %
+    \else \if E##1\char"05 %
+    \else \if \i##1\char"0C %
+    \else \if I##1\char"04 %
+    \else \errmessage{accent \string\= not defined in cyrillic}%
+        ##1\fi \fi \fi \fi }%
+  \def\u##1{\if \i##1\accent"24 i%
+    \else \accent"24 ##1\fi }%
+  \def\"##1{\if \i##1\accent"20 \char"3D %
+    \else \if I##1\accent"20 \char"04 %
+    \else \accent"20 ##1\fi \fi }%
+  \def\!{\ifmmode \def\result{\mskip-\thinmuskip}%
+    \else \def\result{\@stressit}\fi \result}}
+
+
+%       If cyrillic strings are to be included in \mark's, the accents need
+%       to be kept in unexpanded form until the \mark's are interpreted.
+%       See note on \mark below for details.
+
+\def\keep@cyracc{\let\cyr=\relax \let\i=\relax
+        \let\ubar=\relax \let\cydot=\relax
+        \let\cprime=\relax \let\Cprime=\relax
+        \let\cdprime=\relax \let\Cdprime=\relax
+        \let\dbar=\relax \let\Dbar=\relax
+        \let\dz=\relax \let\Dz=\relax
+        \let\dzh=\relax \let\Dzh=\relax
+        \let\'=\relax \let\`=\relax \let\==\relax
+        \let\u=\relax \let\"=\relax \let\!=\relax }
+
+
+\catcode`\@=\tempcat
+%\endinput
+
+% end of cyracc-stripped.tex
+
+
+% ......................................................................
+%\input{rgreekmacros-hack.tex}
+% Almost identical to the rgreekmacros.tex provided with the rgreek fonts.
+% commented out line: /def/digamma
+
+% beginning of rgreekmacros-hack.tex
+
+% These macros initialize the modern greek fonts.
+% ftp://ftp.tex.ac.uk/tex-archive/fonts/greek/yannis/
+
+\def\lt{<}
+\def\gt{>}
+\newcount\fontnumber
+\fontnumber=0
+\newif\ifoneaccent\oneaccenttrue
+\def\ifnextchar#1#2#3{\let\tempe #1\def\tempa{#2}\def\tempb{#3}\futurelet
+  \tempc\ifnch}
+\def\ifnch{\ifx\tempc\tempe\let\tempd\tempa\else\let\tempd\tempb\fi\tempd}
+\def\gobble#1{}
+\def\greekmode{%
+\catcode`\<=13%
+\catcode`\>=13%
+\catcode`\'=11%
+\catcode`\`=13%
+\catcode`\~=11%
+\catcode`\"=13%
+\lccode`\<=`\<%
+\lccode`\>=`\>%
+\lccode`\'=`\'%
+\lccode`\~=`\~%
+\lccode`\"=`\"%
+\def\rg{\fontnumber=1\tengr}%
+\def\sl{\fontnumber=2\tengrsl}%
+\def\it{\fontnumber=3\tengrit}%
+\def\bf{\fontnumber=4\tengrbf}%
+\def\smc{\fontnumber=5\tengrsmc}%
+\def\I##1{\setbox0\hbox{##1}\ifdim\ht0=1ex\accent'174 ##1%
+  \else{\ooalign{\hidewidth\char'174\hidewidth\crcr\unhbox0}}\fi}}%
+\newcount\vwl
+\newcount\acct
+{
+  \greekmode
+  \gdef>{\ifnextchar ~{\expandafter\smoothcircumflex\gobble}{\char\lq\>}}
+  \gdef<{\ifnextchar ~{\expandafter\roughcircumflex\gobble}{\char\lq\<}}
+  \gdef\smoothcircumflex#1{\acct=\rq134 \vwl=\lq#1 \dobreathingcircumflex}
+  \gdef\roughcircumflex#1{\acct=\rq100 \vwl=\lq#1 \dobreathingcircumflex}
+  \gdef\dobreathingcircumflex{\ifnum\vwl\lt\rq140 %if uppercase
+    \char\the\acct\kern -.2em\char\the\vwl\else
+    \doaccent\fi}
+  \gdef\doaccent{\accent\the\acct \char\the\vwl\relax}
+  \gdef"{\ifnextchar '{\expandafter\diaeresisacute\gobble}{\accent\lq\"}}
+  \gdef\diaeresisacute#1{\accent\rq043 #1}
+  \gdef`{'}
+}
+ 
+\newif\ifgreek\greekfalse
+ 
+\def\begingreek{\bgroup\font\tengr=rgrrg10\font\tengrsl=rgrsl10%
+\font\tengrbf=rgrbf10\font\tengrit=rgrti10\font\tengrsmc=rgrsc10%
+\greektrue\greekmode\rg}
+\def\beginmgreek{\bgroup\font\tengr=mrgrrg10\font\tengrsl=mrgrsl10%
+\font\tengrbf=mrgrbf10\font\tengrit=mrgrti10\font\tengrsmc=rgrsc10%
+\greektrue\greekmode\rg}
+\def\endgreek{\egroup}
+\def\endmgreek{\egroup}
+\def\monotoniko{%
+\font\tengr=mrgrrg10\font\tengrsl=mrgrsl10%
+\font\tengrbf=mrgrbf10\font\tengrit=mrgrti10%
+\ifnum\fontnumber=5\smc%
+  \else\ifnum\fontnumber=4\bf%
+    \else\ifnum\fontnumber=3\it%
+      \else\ifnum\fontnumber=2\sl%
+        \else\rg%
+      \fi%
+    \fi%
+  \fi%
+\fi%
+}
+\def\polutoniko{%
+\font\tengr=rgrrg10\font\tengrsl=rgrsl10%
+\font\tengrbf=rgrbf10\font\tengrit=rgrti10%
+\ifnum\fontnumber=5\smc%
+  \else\ifnum\fontnumber=4\bf%
+    \else\ifnum\fontnumber=3\it%
+      \else\ifnum\fontnumber=2\sl%
+        \else\rg%
+      \fi%
+    \fi%
+  \fi%
+\fi%
+}
+\let\math=$%
+{\catcode`\$=13%
+\gdef\greekdelims{\catcode`\$=13%
+\def${\ifgreek\endgreek\else\begingreek\fi}
+\def\display{\math\math}\def\enddisplay{\math\math}}}
+\def\grave#1{{\edef\next{\the\font}\smc\accent\rq001\next#1}}
+\def\roughgrave#1{{\edef\next{\the\font}\smc\accent\rq002\next#1}}
+\def\smoothgrave#1{{\edef\next{\the\font}\smc\accent\rq003\next#1}}
+\def\diaeresisgrave#1{{\edef\next{\the\font}\smc\accent\rq004\next#1}}
+\def\diaeresiscircumflex#1{{\edef\next{\the\font}\smc\accent\rq005\next#1}}
+\def\breve#1{{\edef\next{\the\font}\smc\accent\rq006\next#1}}
+\def\macron#1{{\edef\next{\the\font}\smc\accent\rq007\next#1}}
+\def\rhorough{{\tengrsmc
+\ifnum\fontnumber=5\char\rq162
+  \else\ifnum\fontnumber=4\char\rq016
+    \else\ifnum\fontnumber=3\char\rq014
+      \else\ifnum\fontnumber=2\char\rq012
+        \else\char\rq010
+      \fi
+    \fi
+  \fi
+\fi
+}}
+\def\rhosmooth{{\tengrsmc
+\ifnum\fontnumber=5\char\rq162
+  \else\ifnum\fontnumber=4\char\rq017
+    \else\ifnum\fontnumber=3\char\rq015
+      \else\ifnum\fontnumber=2\char\rq013
+        \else\char\rq011
+      \fi
+    \fi
+  \fi
+\fi
+}}
+%\def\digamma{{\smc\char\rq135}}
+\def\smallDigamma{{\smc\char\rq140}}
+\def\Digamma{{\tengrsmc
+\ifnum\fontnumber=5\char\rq021
+  \else\ifnum\fontnumber=4\char\rq027
+    \else\ifnum\fontnumber=3\char\rq025
+      \else\ifnum\fontnumber=2\char\rq023
+        \else\char\rq021
+      \fi
+    \fi
+  \fi
+\fi
+}}
+\def\vardigamma{{\tengrsmc
+\ifnum\fontnumber=5\char\rq020
+  \else\ifnum\fontnumber=4\char\rq026
+    \else\ifnum\fontnumber=3\char\rq024
+      \else\ifnum\fontnumber=2\char\rq022
+        \else\char\rq020
+      \fi
+    \fi
+  \fi
+\fi
+}}
+\def\understroke{{\smc\char\rq046}}
+\def\overstroke{{\smc\char\rq044}}
+\def\sanpi{{\smc\char\rq136}}
+\def\Sanpi{{\smc\char\rq137}}
+\def\qoppa{{\smc\char\rq133}}
+\def\varqoppa{{\smc\char\rq134}}
+\def\Qoppa{{\smc\char\rq103}}
+\def\Tao{{\smc\char\rq177}}
+\def\ssh{\breve{s}}\def\SSH{\breve{S}}
+\def\dz{\breve{z}}\def\DZ{\breve{Z}}
+\def\psh{\breve{y}}\def\PSH{\breve{Y}}
+\def\ksh{\breve{x}}\def\KSH{\breve{X}}
+\def\inviota{{\smc\char\rq126}}
+\def\grMF{{\smc\char\rq030\char\rq031\char\rq032\char\rq033}\-{\smc%
+\char\rq034\char\rq036\char\rq037\char\rq032}}
+\def\MF{{\smc\char\rq030\char\rq031\char\rq032\char\rq033}\-{\smc%
+\char\rq040\char\rq036\char\rq037\char\rq032}}
+ 
+%\endinput
+ 
+% end of rgreekmacros-hack.tex
+
+\endinput
+% end of isoent.sty
