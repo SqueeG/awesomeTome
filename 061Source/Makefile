@@ -65,8 +65,10 @@ SOURCES =
 	community/classes/masterofwrath.tex \
 	community/classes/ranger.tex \
 	community/classes/shadowwarrior.tex \
+	community/classes/sohei.tex \
 	community/classes/spherelock.tex \
 	community/prestige/arcanearcher.tex \
+	community/prestige/arcanestrategist.tex \
 	community/prestige/berzerker.tex \
 	community/prestige/bignob.tex \
 	community/prestige/bladefighter.tex \
@@ -75,8 +77,10 @@ SOURCES =
 	community/prestige/dragondisciple.tex \
 	community/prestige/drunkenmaster.tex \
 	community/prestige/eldritchknight.tex \
+	community/prestige/enlighteneddisciple.tex \
 	community/prestige/gentlemonk.tex \
 	community/prestige/invisibleblade.tex \
+	community/prestige/maelstrom.tex \
 	community/prestige/meteorninja.tex \
 	community/prestige/ogremage.tex \
 	community/prestige/tigermonk.tex \
@@ -134,4 +138,4 @@ clean:
 .PHONY: clean
 
 complete:
-	make clean && make && cp ./entire.pdf ./Tome061beta.pdf && make clean
+	rm -f ./TomeTesting.pdf && make clean && make && cp ./entire.pdf ./TomeTesting.pdf && make clean

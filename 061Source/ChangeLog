@@ -1,11 +1,12 @@
 Version 0.6.1
-	*Arcane Archer, Bladesinger, Dragon Disciple, and Eldritch Knight
-	prestige classes added to community section
-	*credits finally updated to reflect the creators of the new material
+	* Iaimeki’s Arcane Archer, Bladesinger, Dragon Disciple, and Eldritch Knight prestige classes added to community section
+	* Koumei’s Enlightened Disciple, and _______prestige classes added, as well as her Sohei base class
+	* credits finally updated to reflect the creators of the new material
 	* Mister Sinister’s armors added to fill in gaps
 	* Death Knight table fixed to use standard formatting
 	* Stone fiendish sphere fixed
 	* As always, minor typo/formatting/grammatical/consistency fixes
+	* Imported source code to a Subversion repository and began committing changes	
 
 Version 0.6:
 	* Big Nob, Disciple of the Spirit Wave, Drunken Master, Gentle Monk
@@ -24,19 +25,15 @@ Version 0.5:
 	* Made "Beating Back Chaos" into a subsection as it should be.
 	* Added the Marshal class for real this time.
 	* Added the Kantian paladin by Iaimeki.
-	* Added the Shadow Warrior by Cielingcat, partially (it needs
-	finishing by Cielingcat before it really gets put in).
+	* Added the Shadow Warrior by Cielingcat, partially (it needs finishing by Cielingcat before it really gets put in).
 	* Added the well-loved "High adventure in the lower planes" bits from the Tome of Fiends.
 	* Added a Makefile.
-	* Added the "To Rule in Hell", "Wondrous Architecture of the Lower
-	Planes" and "Rulership of the Lower Planes" sections of the Tome of Fiends.
-	* Added the \business command (required for "Rulership of the Lower
-	Planes").
+	* Added the "To Rule in Hell", "Wondrous Architecture of the Lower Planes" and "Rulership of the Lower Planes" sections of the Tome of Fiends.
+	* Added the \business command (required for "Rulership of the Lower Planes").
 	* Added the \third command.
 	* Added the Elothar Warrior of Bladereach prestige class.
 	* Added the Genie base class.
-	* Renamed the "Fiendish Base Classes" section to "Monster Base
-	Classes".
+	* Renamed the "Fiendish Base Classes" section to "Monster Base Classes".
 
 Version 0.4:
 	* Added the Master of the Seven Necromantic Mysteries prestige class.
