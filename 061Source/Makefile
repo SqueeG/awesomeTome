@@ -143,4 +143,4 @@ clean:
 .PHONY: clean
 
 complete:
-	make clean && make && cp entire.pdf TomeTesting.pdf && make clean
+	make clean && make && cp entire.pdf ./TomeTesting.pdf && make clean
