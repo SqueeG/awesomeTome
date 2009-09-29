@@ -73,13 +73,18 @@ SOURCES =
 	community/prestige/bignob.tex \
 	community/prestige/bladefighter.tex \
 	community/prestige/bladesinger.tex \
+	community/prestige/crusaderelemental.tex \
+	community/prestige/defenderofwoods.tex \
 	community/prestige/disciplespiritwave.tex \
 	community/prestige/dragondisciple.tex \
 	community/prestige/drunkenmaster.tex \
 	community/prestige/eldritchknight.tex \
 	community/prestige/enlighteneddisciple.tex \
 	community/prestige/gentlemonk.tex \
+	community/prestige/golemknight.tex \
+	community/prestige/holycrusader.tex \
 	community/prestige/invisibleblade.tex \
+	community/prestige/lunarknight.tex \
 	community/prestige/maelstrom.tex \
 	community/prestige/meteorninja.tex \
 	community/prestige/ogremage.tex \
@@ -138,4 +143,4 @@ clean:
 .PHONY: clean
 
 complete:
-	rm -f ./TomeTesting.pdf && make clean && make && cp ./entire.pdf ./TomeTesting.pdf && make clean
+	make clean && make && cp entire.pdf TomeTesting.pdf && make clean
