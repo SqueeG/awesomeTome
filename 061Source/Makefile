@@ -58,20 +58,20 @@ SOURCES =
 	baseclasses/truefiend.tex \
 	baseclasses/warrior.tex \
 	community/feats/skillfeats.tex \
-	community/feats/combatfeats.tex \
+	community/feats/pending/combatfeats.tex \
 	community/skillproblems.tex \
-	community/classes/curator.tex \
+	community/classes/pending/curator.tex \
 	community/classes/kantianpaladin.tex \
-	community/classes/masterofwrath.tex \
-	community/classes/ranger.tex \
+	community/classes/pending/masterofwrath.tex \
+	community/classes/pending/ranger.tex \
 	community/classes/shadowwarrior.tex \
 	community/classes/sohei.tex \
 	community/classes/spherelock.tex \
 	community/prestige/arcanearcher.tex \
 	community/prestige/arcanestrategist.tex \
-	community/prestige/berzerker.tex \
+	community/prestige/pending/berzerker.tex \
 	community/prestige/bignob.tex \
-	community/prestige/bladefighter.tex \
+	community/prestige/pending/bladefighter.tex \
 	community/prestige/bladesinger.tex \
 	community/prestige/crusaderelemental.tex \
 	community/prestige/defenderofwoods.tex \
@@ -83,7 +83,7 @@ SOURCES =
 	community/prestige/gentlemonk.tex \
 	community/prestige/golemknight.tex \
 	community/prestige/holycrusader.tex \
-	community/prestige/invisibleblade.tex \
+	community/prestige/pending/invisibleblade.tex \
 	community/prestige/lunarknight.tex \
 	community/prestige/maelstrom.tex \
 	community/prestige/meteorninja.tex \
