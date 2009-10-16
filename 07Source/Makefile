@@ -10,10 +10,10 @@ SOURCES =
 	dungeonsofnote.tex \
 	dungeons.tex \
 	economics.tex \
+	elementalfeats.tex \
 	entire.tex \
 	feats.tex \
 	FiendClasses.tex \
-	fiendfeats.tex \
 	fiendishrules.tex \
 	fiendishtaint.tex \
 	fiendspheres.tex \
@@ -27,6 +27,7 @@ SOURCES =
 	necromaticlocations.tex \
 	necromaticspells.tex \
 	oddraces.tex \
+	outsiderfeats.tex \
 	prcintro.tex \
 	RoWintro.tex \
 	ruleinhell.tex \
