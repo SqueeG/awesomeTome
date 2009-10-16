@@ -43,77 +43,71 @@ SOURCES =
 	baseclasses/assassin.tex \
 	baseclasses/barbarian.tex \
 	baseclasses/conduit.tex \
+	baseclasses/community/curator.tex \
 	baseclasses/elementalist.tex \
 	baseclasses/fiendishbrute.tex \
 	baseclasses/fighter.tex \
 	baseclasses/firemage.tex \
 	baseclasses/genie.tex \
 	baseclasses/jester.tex \
+	baseclasses/community/kantianpaladin.tex \
 	baseclasses/knight.tex \
 	baseclasses/marshal.tex \
 	baseclasses/monk.tex \
 	baseclasses/samurai.tex \
+	baseclasses/community/shadowwarrior.tex \
+	baseclasses/community/sohei.tex \
+	baseclasses/community/spherelock.tex \
 	baseclasses/summoner.tex \
 	baseclasses/thiefacrobat.tex \
 	baseclasses/truefiend.tex \
+	baseclasses/community/warmage.tex \
 	baseclasses/warrior.tex \
-	community/feats/skillfeats.tex \
-	community/feats/pending/combatfeats.tex \
-	community/skillproblems.tex \
-	community/classes/pending/curator.tex \
-	community/classes/kantianpaladin.tex \
-	community/classes/pending/masterofwrath.tex \
-	community/classes/pending/ranger.tex \
-	community/classes/shadowwarrior.tex \
-	community/classes/sohei.tex \
-	community/classes/spherelock.tex \
-	community/prestige/arcanearcher.tex \
-	community/prestige/arcanestrategist.tex \
-	community/prestige/pending/berzerker.tex \
-	community/prestige/bignob.tex \
-	community/prestige/pending/bladefighter.tex \
-	community/prestige/bladesinger.tex \
-	community/prestige/crusaderelemental.tex \
-	community/prestige/defenderofwoods.tex \
-	community/prestige/disciplespiritwave.tex \
-	community/prestige/dragondisciple.tex \
-	community/prestige/drunkenmaster.tex \
-	community/prestige/eldritchknight.tex \
-	community/prestige/enlighteneddisciple.tex \
-	community/prestige/gentlemonk.tex \
-	community/prestige/golemknight.tex \
-	community/prestige/holycrusader.tex \
-	community/prestige/pending/invisibleblade.tex \
-	community/prestige/lunarknight.tex \
-	community/prestige/maelstrom.tex \
-	community/prestige/meteorninja.tex \
-	community/prestige/ogremage.tex \
-	community/prestige/tigermonk.tex \
-	monsters/simulacrum.tex \
+	prestige/community/arcanearcher.tex \
+	prestige/community/arcanestrategist.tex \
 	prestige/barrister.tex \
+	prestige/pending/berzerker.tex \
+	prestige/community/bignob.tex \
+	prestige/pending/bladefighter.tex \
+	prestige/community/bladesinger.tex \
 	prestige/boatman.tex \
 	prestige/bonebladereaper_revised.tex \
 	prestige/bonebladereaper.tex \
 	prestige/bonerider.tex \
 	prestige/celestialbeacon.tex \
 	prestige/corpselight.tex \
+	prestige/community/crusaderelemental.tex \
 	prestige/deathking.tex \
 	prestige/deathknight.tex \
+	prestige/community/defenderofwoods.tex \
 	prestige/defiler.tex \
 	prestige/demonsamurai.tex \
+	prestige/community/disciplespiritwave.tex \
+	prestige/community/dragondisciple.tex \
 	prestige/dragonlancer.tex \
+	prestige/community/drunkenmaster.tex \
 	prestige/dungeonveteran.tex \
+	prestige/community/eldritchknight.tex \
+	prestige/community/enlighteneddisciple.tex \
+	prestige/community/gentlemonk.tex \
 	prestige/ghoulparagon.tex \
+	prestige/community/golemknight.tex \
 	prestige/heartlessmage.tex \
 	prestige/hellwalker.tex \
+	prestige/community/holycrusader.tex \
 	prestige/initiateofblacktower.tex \
+	prestige/pending/invisibleblade.tex \
 	prestige/legendarystrategist.tex \
 	prestige/lorddamned.tex \
+	prestige/community/lunarknight.tex \
 	prestige/lurker.tex \
+	prestige/community/maelstrom.tex \
 	prestige/masterofnecromanticmysteries.tex \
 	prestige/masterofsnakemountain.tex \
+	prestige/community/meteorninja.tex \
 	prestige/monitor.tex \
 	prestige/ninjaofgax.tex \
+	prestige/community/ogremage.tex \
 	prestige/progenitor.tex \
 	prestige/pumpkinking.tex \
 	prestige/seekerofthelosttraditions.tex \
@@ -124,9 +118,11 @@ SOURCES =
 	prestige/strangerwithburningeyes.tex \
 	prestige/swordwraithparagon.tex \
 	prestige/thiefofsouls.tex \
+	prestige/community/tigermonk.tex \
 	prestige/uttercold.tex \
 	prestige/vampireparagon.tex \
 	prestige/widowqueen.tex
+
 
 	
 all: entire.pdf
