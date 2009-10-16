@@ -27,6 +27,7 @@ SOURCES =
 	necromaticlocations.tex \
 	necromaticspells.tex \
 	oddraces.tex \
+	otherspheres.tex \
 	outsiderfeats.tex \
 	prcintro.tex \
 	RoWintro.tex \
