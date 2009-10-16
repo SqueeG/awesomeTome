@@ -1,0 +1,61 @@
+
+\documentclass[10pt,oneside]{report}
+
+\usepackage{multicol}
+\usepackage{floatflt}
+\usepackage{fancyhdr}
+\usepackage[Bjarne]{fncychap}
+
+
+
+
+%%%%Margins%%%
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+\textheight 8.9in
+\oddsidemargin -0.25in
+\evensidemargin \oddsidemargin
+\textwidth 7in
+\oddsidemargin -0.25in
+%\setlength {\parindent} {0pt}
+
+
+
+%%%Formatting%%%
+\newcommand{\ability}[2]{\smallskip \noindent \textbf{#1} #2}
+\newcommand{\shortability}[2]{\noindent\textbf{#1} #2\\}
+\newcommand{\itemability}[2]{\item \textbf{#1} #2}
+\newcommand{\featname}[1]{\vspace*{0.1cm plus 0.2cm minus 0.05cm}\noindent\textbf{#1}\\}
+\newcommand{\featnamelist}[1]{\vspace*{0.1cm plus 0.2cm minus 0.05cm}\noindent\textbf{#1}}
+
+\newcommand{\descfeat}[2]{\featname{#1}\emph{#2}\\}
+\newcommand{\classname}[1]{\noindent \underline{\large \textbf{#1}}}
+\newcommand{\quot}[1]{\emph{#1}\medskip}
+\newcommand{\desc}[1]{#1 \medskip}
+\newcommand{\example}[1]{\emph{#1}}
+\newcommand{\spell}[1]{\emph{#1}}
+\newcommand{\spelllist}[1]{\smallskip \noindent \underline{\large \textbf{#1}}}
+\newcommand{\sphere}[9]{\begin{list}{}{\itemspace}\item \textbf{1:} \spell{#1} \item \textbf{3:} \spell{#2} \item \textbf{5:} \spell{#3} \item \textbf{7:} \spell{#4} \item \textbf{9:} \spell{#5} \item \textbf{11:} \spell{#6} \item \textbf{13:} \spell{#7} \item \textbf{15:} \spell{#8} \item \textbf{17:} \spell{#9}}
+\newcommand{\spherecont}[1]{\item\textbf{19:} \spell{#1} \end{list}\medskip}
+
+
+\newcommand{\boxit}[1]{\frame{\parbox{\textwidth}{#1}}}
+
+\newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
+
+\newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
+\newcommand{\listtwo}{\begin{list}{$\triangleright$}{\itemspace}}
+\newcommand{\listthree}{\begin{list}{--}{\itemspace}}
+
+\newcommand{\half}[0]{\ensuremath{\frac{1}{2}}}
+
+\begin{document}
+
+%\begin{small}
+\begin{multicols}{2}
+\input{backgrounds}
+\end{multicols}
+%\end{small}
+
+\end{document}
