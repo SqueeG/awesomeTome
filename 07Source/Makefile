@@ -60,6 +60,7 @@ SOURCES =
 	baseclasses/community/shadowwarrior.tex \
 	baseclasses/community/sohei.tex \
 	baseclasses/community/spherelock.tex \
+	baseclasses/spiritshaman.tex \
 	baseclasses/summoner.tex \
 	baseclasses/thiefacrobat.tex \
 	baseclasses/truefiend.tex \
