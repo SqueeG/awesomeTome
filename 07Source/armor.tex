@@ -1,15 +1,3 @@
-%\newcommand{\skillarmor}[7]{\noindent \textbf{#1} #2 \begin{small} \begin{quote}\textbf{#3}\\\textbf{4:} #4\\\textbf{8:} #5\\\textbf{13:} #6\\\textbf{18:} #7\end{quote}\end{small}}
-%\newcommand{\attackarmor}[7]{\noindent \textbf{#1} #2 \begin{small}\begin{quote}  \textbf{#3}\\\textbf{+1:} #4\\\textbf{+5:} #5\\\textbf{+10:} #6\\\textbf{+15:} #7\end{quote}\end{small}}
-
-%\newcommand{\skillarmor}[7]{\parbox{3.2in}{\noindent \textbf{#1} #2 \\ \small  \hspace*{0.2in}\parbox{3in}{\textbf{#3} \\ \textbf{4:} #4\\\indent\textbf{8:} #5\\\indent\textbf{13:} #6\\\indent\textbf{18:} #7\\}}}
-%\newcommand{\attackarmor}[7]{\parbox{3.2in}{\noindent \textbf{#1} #2 \\ \small  \hspace*{0.2in}\parbox{3in}{\textbf{#3} \\ \textbf{+1:} #4\\\indent\textbf{+5:} #5\\\indent\textbf{+10:} #6\\\indent\textbf{+15:} #7\\}}}
-
-%\newcommand{\skillarmor}[7]{{\noindent \textbf{#1} #2 \\ \small  \hspace*{0.2in}\parbox{3in}{\textbf{#3} \\ \textbf{4:} #4\\\indent\textbf{8:} #5\\\indent\textbf{13:} #6\\\indent\textbf{18:} #7\\}}}
-%\newcommand{\attackarmor}[7]{{\noindent \textbf{#1} #2 \\ \small  \hspace*{0.2in}\parbox{3in}{\textbf{#3} \\ \textbf{+1:} #4\\\indent\textbf{+5:} #5\\\indent\textbf{+10:} #6\\\indent\textbf{+15:} #7\\}}}
-
-%\newcommand{\skillarmor}[7]{\small \noindent\begin{tabular}{p{0.15in}p{2.7in}}\multicolumn{2}{l}{\textbf{#1}}\\  \multicolumn{2}{l}{\parbox{3in}{\footnotesize #2}}\\ \multicolumn{2}{l}{\footnotesize \textbf{#3}}\\ \raggedleft\textbf{\footnotesize 4:} & {\footnotesize #4}\\ \raggedleft\textbf{\footnotesize 8:} & {\footnotesize #5}\\ \raggedleft\textbf{\footnotesize 13:} & {\footnotesize #6}\\ \raggedleft\textbf{\footnotesize 18:} &{\footnotesize #7}\end{tabular}}
-%\newcommand{\attackarmor}[7]{\small \noindent\begin{tabular}{p{0.15in}p{2.7in}}\multicolumn{2}{l}{\textbf{#1}}\\ \multicolumn{2}{l}{\parbox{3in}{\footnotesize #2}}\\ \multicolumn{2}{l}{\footnotesize \textbf{#3}}\\ \raggedleft\textbf{\footnotesize +1:} & {\footnotesize #4}\\ \raggedleft\textbf{\footnotesize +5:} & {\footnotesize #5}\\ \raggedleft\textbf{\footnotesize +10:} & {\footnotesize #6}\\ \raggedleft\textbf{\footnotesize +15:} &{\footnotesize #7}\end{tabular}}
-
 \renewcommand{\minitabular}[1]{\begin{tabular}{p{0.25in}p{2.9in}} #1\\ \end{tabular}\\}
 \newcommand{\skillarmor}[7]{\noindent \minitabular{\multicolumn{2}{l}{\textbf{#1}}}  \minitabular{\multicolumn{2}{l}{\parbox{3.3in}{\small #2}}} \minitabular{\multicolumn{2}{l}{\small \textbf{#3}}} \minitabular{\raggedleft\textbf{\small 4:} & {\small #4}} \minitabular{\raggedleft\textbf{\small 8:} & {\small #5}} \minitabular{\raggedleft\textbf{\small 13:} & {\small #6}} \minitabular{\raggedleft\textbf{\small 18:} &{\small #7}}\vspace*{-6pt}}
 \newcommand{\attackarmor}[7]{\noindent\minitabular{\multicolumn{2}{l}{\textbf{#1}}} \minitabular{\multicolumn{2}{l}{\parbox{3.3in}{\small #2}}} \minitabular{\multicolumn{2}{l}{\small \textbf{#3}}} \minitabular{\raggedleft\textbf{\small +1:} & {\small #4}} \minitabular{\raggedleft\textbf{\small +5:} & {\small #5}} \minitabular{\raggedleft\textbf{\small +10:} & {\small #6}} \minitabular{\raggedleft\textbf{\small +15:} &{\small #7}}\vspace*{-6pt}}
