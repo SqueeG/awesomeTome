@@ -4,6 +4,7 @@
 \usepackage{floatflt}
 \usepackage{fancyhdr}
 \usepackage{textcomp}
+\usepackage{wrapfig}
 \usepackage[usenames]{color}
 \usepackage{isoent}    %\sfrac
 %\usepackage{palatino} %font
@@ -162,31 +163,37 @@
 %%%%%%% Base Classes
 \chapter{Character Base Classes}
 
-\section{PC Classes}
+\section{Core PC Classes}
 \input{baseclasses/assassin}
 \input{baseclasses/barbarian}
 %\input{baseclasses/pending/bard}
-\input{baseclasses/community/curator}
-\input{baseclasses/elementalist}
 \input{baseclasses/fighter}
-\input{baseclasses/firemage}
-\input{baseclasses/jester}
 \input{baseclasses/community/kantianpaladin}
 \input{baseclasses/knight}
-\input{baseclasses/marshal}
 %\input{baseclasses/pending/masterofwrath}%
 \input{baseclasses/monk}
 %\input{baseclasses/pending/paladin}
 %\input{baseclasses/pending/ranger}%
 \input{baseclasses/samurai}
+
+
+
+\section{Additional PC Classes}
+
+\input{baseclasses/community/curator}
+\input{baseclasses/elementalist}
+\input{baseclasses/firemage}
+\input{baseclasses/jester}
+\input{baseclasses/marshal}
 \input{baseclasses/community/shadowwarrior}
-\input{baseclasses/community/spherelock}
 \input{baseclasses/spiritshaman}
-%\input{baseclasses/pending/snowscaper}
+\input{baseclasses/community/snowscaper}
 \input{baseclasses/community/sohei}
+\input{baseclasses/soulborn}
 \input{baseclasses/summoner}
 \input{baseclasses/thiefacrobat}
 \input{baseclasses/pending/thaumaturge}
+\input{baseclasses/community/spherelock}
 \input{baseclasses/community/warmage}
 %\input{baseclasses/pending/witch}
 
@@ -218,7 +225,7 @@
 \input{prestige/community/arcanestrategist}
 \input{prestige/barrister}
 \input{prestige/community/bladesinger}
-\input{prestige/bonebladereaper}
+%\input{prestige/bonebladereaper}
 \input{prestige/bonebladereaper_revised}
 \input{prestige/celestialbeacon}
 \input{prestige/corpselight}
@@ -293,14 +300,38 @@
 \input{economics}
 
 
-%%%%%%% Combat
-\chapter{Combat}
-
+%%%%%%% Combat Basics
+\chapter{Combat Basics}
 \input{RoWintro}
-\input{advcombat}
+\input{combat}
+
+
+%%%%%%% Advanced Combat
+\chapter{Advanced Combat}
+
+\input{combat2}
 \input{masscombat}
 \input{worldwar}
 \input{logistics}
+
+%\input{advcombat}This was all integrated into combat.tex and combatII.tex
+
+
+%%%%%%% Conditions & Special Abilities
+\chapter{Conditions \& Special Abilities}
+
+\input{conditions}
+\input{specialabilities}
+
+
+%%%%%%% Combat
+%\chapter{Combat}
+
+%\input{RoWintro}
+%\input{advcombat}
+%\input{masscombat}
+%\input{worldwar}
+%\input{logistics}
 
 
 \chapter{Magic}

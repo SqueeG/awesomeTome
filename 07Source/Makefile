@@ -6,6 +6,9 @@ SOURCES =
 	backgrounds.tex \
 	baseclass.tex \
 	bookofgears.tex \
+	combat.tex \
+	combat2.tex \
+	conditions.tex \
 	cover.tex \
 	dungeonsofnote.tex \
 	dungeons.tex \
@@ -33,6 +36,7 @@ SOURCES =
 	RoWintro.tex \
 	ruleinhell.tex \
 	social.tex \
+	specialabilities.tex \
 	total.tex \
 	undeadmonsters.tex \
 	undead.tex \
@@ -58,7 +62,9 @@ SOURCES =
 	baseclasses/monk.tex \
 	baseclasses/samurai.tex \
 	baseclasses/community/shadowwarrior.tex \
+	baseclasses/community/snowscaper.tex \
 	baseclasses/community/sohei.tex \
+	baseclasses/soulborn.tex \
 	baseclasses/community/spherelock.tex \
 	baseclasses/spiritshaman.tex \
 	baseclasses/summoner.tex \
