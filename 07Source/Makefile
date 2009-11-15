@@ -60,6 +60,7 @@ SOURCES =
 	baseclasses/knight.tex \
 	baseclasses/marshal.tex \
 	baseclasses/monk.tex \
+	baseclasses/puppeteer.tex \
 	baseclasses/samurai.tex \
 	baseclasses/community/shadowwarrior.tex \
 	baseclasses/community/snowscaper.tex \
