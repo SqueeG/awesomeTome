@@ -37,6 +37,7 @@ SOURCES =
 	ruleinhell.tex \
 	social.tex \
 	specialabilities.tex \
+	spells.tex \
 	total.tex \
 	undeadmonsters.tex \
 	undead.tex \
