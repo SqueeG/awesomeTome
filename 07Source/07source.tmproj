@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>highadventure.tex</string>
+	<string>bookofgears.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -49,19 +49,33 @@
 			<key>firstVisibleLine</key>
 			<integer>7</integer>
 		</dict>
+		<key>bookofgears.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>47</integer>
+				<key>line</key>
+				<integer>413</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>522</integer>
+			<key>firstVisibleLine</key>
+			<integer>401</integer>
+		</dict>
 		<key>entire.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>31</integer>
 				<key>line</key>
-				<integer>352</integer>
+				<integer>305</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>288</integer>
+			<integer>347</integer>
 		</dict>
 		<key>fiendishrules.tex</key>
 		<dict>
@@ -82,40 +96,26 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>35</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>602</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>175</integer>
-			<key>firstVisibleLine</key>
-			<integer>324</integer>
-		</dict>
-		<key>ruleinhell.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>371</integer>
-				<key>line</key>
-				<integer>200</integer>
+				<integer>574</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>187</integer>
+			<integer>565</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>Makefile</string>
 		<string>entire.tex</string>
-		<string>ruleinhell.tex</string>
 		<string>highadventure.tex</string>
+		<string>bookofgears.tex</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{259, 0}, {1357, 1058}}</string>
+	<string>{{285, 0}, {1357, 1058}}</string>
 </dict>
 </plist>

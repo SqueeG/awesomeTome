@@ -66,6 +66,7 @@ SOURCES =
 	baseclasses/community/shadowwarrior.tex \
 	baseclasses/community/snowscaper.tex \
 	baseclasses/community/sohei.tex \
+	baseclasses/community/stormlord.tex \
 	baseclasses/soulborn.tex \
 	baseclasses/community/spherelock.tex \
 	baseclasses/spiritshaman.tex \
