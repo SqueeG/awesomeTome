@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>bookofgears.tex</string>
+	<string>feats.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,14 +26,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>119</integer>
+				<integer>39</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>96</integer>
+			<integer>0</integer>
+		</dict>
+		<key>baseclasses/community/stormlord.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>82</integer>
+				<key>line</key>
+				<integer>125</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>173</integer>
+			<key>firstVisibleLine</key>
+			<integer>88</integer>
 		</dict>
 		<key>baseclasses/druid.tex</key>
 		<dict>
@@ -49,73 +63,44 @@
 			<key>firstVisibleLine</key>
 			<integer>7</integer>
 		</dict>
-		<key>bookofgears.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>47</integer>
-				<key>line</key>
-				<integer>413</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>522</integer>
-			<key>firstVisibleLine</key>
-			<integer>401</integer>
-		</dict>
 		<key>entire.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>31</integer>
+				<integer>60</integer>
 				<key>line</key>
-				<integer>305</integer>
+				<integer>89</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>347</integer>
+			<integer>64</integer>
 		</dict>
-		<key>fiendishrules.tex</key>
+		<key>feats.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>98</integer>
+				<integer>99</integer>
 				<key>line</key>
-				<integer>80</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>353</integer>
-			<key>firstVisibleLine</key>
-			<integer>81</integer>
-		</dict>
-		<key>highadventure.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>45</integer>
-				<key>line</key>
-				<integer>574</integer>
+				<integer>370</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>565</integer>
+			<integer>340</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>Makefile</string>
 		<string>entire.tex</string>
-		<string>highadventure.tex</string>
-		<string>bookofgears.tex</string>
+		<string>feats.tex</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{285, 0}, {1357, 1058}}</string>
+	<string>{{153, 0}, {1357, 1058}}</string>
 </dict>
 </plist>
