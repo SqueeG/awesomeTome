@@ -73,6 +73,7 @@ SOURCES =
 	baseclasses/community/stormlord.tex \
 	baseclasses/summoner.tex \
 	baseclasses/thiefacrobat.tex \
+	baseclasses/totemist.tex \
 	baseclasses/truefiend.tex \
 	baseclasses/community/warmage.tex \
 	baseclasses/warrior.tex \
