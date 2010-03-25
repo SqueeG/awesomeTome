@@ -66,10 +66,11 @@ SOURCES =
 	baseclasses/community/shadowwarrior.tex \
 	baseclasses/community/snowscaper.tex \
 	baseclasses/community/sohei.tex \
-	baseclasses/community/stormlord.tex \
+	baseclasses/soldier.tex \
 	baseclasses/soulborn.tex \
 	baseclasses/community/spherelock.tex \
 	baseclasses/spiritshaman.tex \
+	baseclasses/community/stormlord.tex \
 	baseclasses/summoner.tex \
 	baseclasses/thiefacrobat.tex \
 	baseclasses/truefiend.tex \
