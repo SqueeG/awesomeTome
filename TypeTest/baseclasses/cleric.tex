@@ -1,0 +1,78 @@
+\classname{Cleric} \label{class:cleric}
+\vspace{-8pt}
+\quot{``Fear my righteous shining holy beacon of... righteousness?''}
+
+\desc{Clerics are the holy (or unholy) warriors, standing fast against the darkness (or light). They are also made of cheese, and thus a prime target for minmaxxers.}
+% somebody seriously needs to write some better content.
+%   - Ak
+
+\ability{Alignment:}{A cleric’s alignment must be within one step of his deity's (that is, it may be one step away on either the lawful-chaotic axis or the good-evil axis, but not both). A cleric may not be neutral unless his deity's alignment is also neutral.}
+
+\ability{Starting Gold:}{5d4x10	gp (125 Gold)}
+
+\ability{Starting Age:}{As Cleric}
+
+\ability{Hit Die:}{d8}
+
+\ability{Class Skills:}{The cleric's class skills (and the key ability for each skill) are Concentration (Con), Craft (Int), Diplomacy (Cha), Heal (Wis), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (religion) (Int), Knowledge (the planes) (Int), Profession (Wis), and Spellcraft (Int).}
+
+\ability{Domains and Class Skills:}{A cleric who chooses the Animal or Plant domain adds Knowledge (nature) (Int) to the cleric class skills listed above. A cleric who chooses the Knowledge domain adds all Knowledge (Int) skills to the list. A cleric who chooses the Travel domain adds Survival (Wis) to the list. A cleric who chooses the Trickery domain adds Bluff (Cha), Disguise (Cha), and Hide (Dex) to the list. See Deity, Domains, and Domain Spells, below, for more information.}
+
+\ability{Skills/Level:}{2 + Intelligence Bonus}
+
+\begin{table}[htb]
+\begin{small}
+\begin{tabular}{lp{2cm}p{0.7cm}p{0.7cm}p{0.7cm}l llllllllll}
+Level  &Base Attack Bonus &Fort Save &Ref Save &Will Save &Special & \multicolumn{10}{c}{Spells Per Day}\\
+       &                &    &    &    &                        &0 &1 &2 &3 &4 &5 &6 &7 &8 &9 \\
+1st    &+0              &+2  &+0  &+2  & Turn or Rebuke Undead  &3 &1 &- &- &- &- &- &- &- &- \\
+2nd    &+1              &+3  &+0  &+3  &                        &4 &2 &- &- &- &- &- &- &- &- \\
+3rd    &+2              &+3  &+1  &+3  &                        &4 &2 &1 &- &- &- &- &- &- &- \\
+4th    &+3              &+4  &+1  &+4  &                        &5 &3 &2 &- &- &- &- &- &- &- \\
+5th    &+3              &+4  &+1  &+4  &                        &5 &3 &2 &1 &- &- &- &- &- &- \\
+6th    &+4              &+5  &+2  &+5  &                        &5 &3 &3 &2 &- &- &- &- &- &- \\
+7th    &+5              &+5  &+2  &+5  &                        &6 &4 &3 &2 &1 &- &- &- &- &- \\
+8th    &+6/+1           &+6  &+2  &+6  &                        &6 &4 &3 &3 &2 &- &- &- &- &- \\
+9th    &+6/+1           &+6  &+3  &+6  &                        &6 &4 &4 &3 &2 &1 &- &- &- &- \\
+10th   &+7/+2           &+7  &+3  &+7  &                        &6 &4 &4 &3 &3 &2 &- &- &- &- \\
+11th   &+8/+3           &+7  &+3  &+7  &                        &6 &5 &4 &4 &3 &2 &1 &- &- &- \\
+12th   &+8/+3           &+8  &+4  &+8  &                        &6 &5 &4 &4 &3 &3 &2 &- &- &- \\
+13th   &+9/+4           &+8  &+4  &+8  &                        &6 &5 &5 &4 &4 &3 &2 &1 &- &- \\
+14th   &+10/+5          &+9  &+4  &+9  &                        &6 &5 &5 &4 &4 &3 &3 &2 &- &- \\
+15th   &+11/+6/+6       &+9  &+5  &+9  &                        &6 &5 &5 &5 &4 &4 &3 &2 &1 &- \\
+16th   &+12/+7/+7       &+10 &+5  &+10 &                        &6 &5 &5 &5 &4 &4 &3 &3 &2 &- \\
+17th   &+12/+7/+7       &+10 &+5  &+10 &                        &6 &5 &5 &5 &5 &4 &4 &3 &2 &1 \\
+18th   &+13/+8/+8       &+11 &+6  &+11 &                        &6 &5 &5 &5 &5 &4 &4 &3 &3 &2 \\
+19th   &+14/+9/+9       &+11 &+6  &+11 &                        &6 &5 &5 &5 &5 &5 &4 &4 &3 &3 \\
+20th   &+15/+10/+10     &+12 &+6  &+12 &                        &6 &5 &5 &5 &5 &5 &4 &4 &4 &4 \\
+\end{tabular}
+\end{small}
+\end{table}
+
+%Theres no way the table would fit with the '+1's in the spells per day section, so I took it out, the text is pretty clear that you get an extra spell slot for your domain.  Feel free to break it into two tables if you think its best.
+
+\smallskip\noindent All of the following are class features of the cleric.
+
+\ability{Weapon and Armor Proficiency:}{Clerics are proficient with all simple weapons, with all types of armor (light, medium, and heavy), and with shields (except tower shields).
+
+\smallskip\noindent A cleric who chooses the War domain receives the Weapon Focus feat related to his deity’s weapon as a bonus feat. He also receives the appropriate Martial Weapon Proficiency feat as a bonus feat, if the weapon falls into that category.}
+
+\ability{Aura (Ex):}{A cleric of a chaotic, evil, good, or lawful deity has a particularly powerful aura corresponding to the deity’s alignment (see the detect evil spell for details). Clerics who don’t worship a specific deity but choose the Chaotic, Evil, Good, or Lawful domain have a similarly powerful aura of the corresponding alignment.}
+
+\ability{Spells:}{A cleric casts divine spells, which are drawn from the cleric spell list. However, his alignment may restrict him from casting certain spells opposed to his moral or ethical beliefs; see Chaotic, Evil, Good, and Lawful Spells, below. A cleric must choose and prepare his spells in advance (see below). To prepare or cast a spell, a cleric must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a cleric’s spell is 10 + the spell level + the cleric’s Wisdom modifier. Like other spellcasters, a cleric can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Cleric. In addition, he receives bonus spells per day if he has a high Wisdom score. 
+
+\smallskip\noindent A cleric also gets one domain spell of each spell level he can cast, starting at 1st level. When a cleric prepares a spell in a domain spell slot, it must come from one of his two domains (see Deities, Domains, and Domain Spells, below). Clerics meditate or pray for their spells. Each cleric must choose a time at which he must spend 1 hour each day in quiet contemplation or supplication to regain his daily allotment of spells. 
+
+\smallskip\noindent Time spent resting has no effect on whether a cleric can prepare spells. A cleric may prepare and cast any spell on the cleric spell list, provided that he can cast spells of that level, but he must choose which spells to prepare during his daily meditation.}
+
+\ability{Deity, Domains, and Domain Spells:}{A cleric’s deity influences his alignment, what magic he can perform, his values, and how others see him. A cleric chooses two domains from among those belonging to his deity. A cleric can select an alignment domain (Chaos, Evil, Good, or Law) only if his alignment matches that domain. If a cleric is not devoted to a particular deity, he still selects two domains to represent his spiritual inclinations and abilities. The restriction on alignment domains still applies. Each domain gives the cleric access to a domain spell at each spell level he can cast, from 1st on up, as well as a granted power. The cleric gets the granted powers of both the domains selected. With access to two domain spells at a given spell level, a cleric prepares one or the other each day in his domain spell slot. If a domain spell is not on the cleric spell list, a cleric can prepare it only in his domain spell slot.}
+
+\ability{Spontaneous Casting:}{A good cleric (or a neutral cleric of a good deity) can channel stored spell energy into healing spells that the cleric did not prepare ahead of time. The cleric can ``lose'' any prepared spell that is not a domain spell in order to cast any cure spell of the same spell level or lower (a cure spell is any spell with ``cure'' in its name). An evil cleric (or a neutral cleric of an evil deity), can’t convert prepared spells to cure spells but can convert them to inflict spells (an inflict spell is one with ``inflict'' in its name). A cleric who is neither good nor evil and whose deity is neither good nor evil can convert spells to either cure spells or inflict spells (player’s choice). Once the player makes this choice, it cannot be reversed. This choice also determines whether the cleric turns or commands undead (see below).}
+
+\ability{Chaotic, Evil, Good, and Lawful Spells:}{A cleric can’t cast spells of an alignment opposed to his own or his deity’s (if he has one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.}
+
+\ability{Turn or Rebuke Undead (Su):}{Any cleric, regardless of alignment, has the power to affect undead creatures by channeling the power of his faith through his holy (or unholy) symbol (see Turn or Rebuke Undead). A good cleric (or a neutral cleric who worships a good deity) can turn or destroy undead creatures. An evil cleric (or a neutral cleric who worships an evil deity) instead rebukes or commands such creatures. A neutral cleric of a neutral deity must choose whether his turning ability functions as that of a good cleric or an evil cleric. Once this choice is made, it cannot be reversed. This decision also determines whether the cleric can cast spontaneous cure or inflict spells (see above). A cleric may attempt to turn undead a number of times per day equal to 3 + his Charisma modifier. A cleric with 5 or more ranks in Knowledge (religion) gets a +2 bonus on turning checks against undead.}
+
+\ability{Bonus Languages:}{A cleric’s bonus language options include Celestial, Abyssal, and Infernal (the languages of good, chaotic evil, and lawful evil outsiders, respectively). These choices are in addition to the bonus languages available to the character because of his race.}
+
+\ability{Ex-Clerics:}{A cleric who grossly violates the code of conduct required by his god loses all spells and class features, except for armor and shield proficiencies and proficiency with simple weapons. He cannot thereafter gain levels as a cleric of that god until he atones (see the atonement spell description).}

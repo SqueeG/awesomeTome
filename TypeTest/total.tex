@@ -1,0 +1,199 @@
+\documentclass[10pt]{report}
+
+\usepackage{multicol}
+\usepackage{floatflt}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+\usepackage[Bjarne]{fncychap}
+\usepackage[usenames]{color}
+\usepackage[bookmarks=true,colorlinks]{hyperref}
+\usepackage{amssymb}
+\usepackage{isoent}
+
+%\usepackage{palatino}
+\usepackage{newcent}
+
+
+%%%%Margins%%%
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+\textheight 8.9in
+\oddsidemargin -0.25in
+\evensidemargin \oddsidemargin
+\textwidth 7in
+\oddsidemargin -0.25in
+%\setlength {\parindent} {0pt}
+
+
+
+%%%Formatting%%%
+\newcommand{\ability}[2]{\smallskip \noindent \textbf{#1} #2}
+\newcommand{\shortability}[2]{\noindent\textbf{#1} #2\\}
+\newcommand{\itemability}[2]{\item \textbf{#1} #2}
+\newcommand{\featname}[1]{\vspace*{0.1cm plus 0.2cm minus 0.05cm}\noindent\textbf{#1}\\}
+\newcommand{\featnamelist}[1]{\vspace*{0.1cm plus 0.2cm minus 0.05cm}\noindent\textbf{#1}}
+
+\newcommand{\descfeat}[2]{\featname{#1}\emph{#2}\\}
+%\newcommand{\classname}[1]{\noindent \underline{\large \textbf{#1}}}
+\newcommand{\classname}[1]{\subsection{#1}}
+\newcommand{\quot}[1]{\emph{#1}\medskip}
+\newcommand{\desc}[1]{#1 \medskip}
+\newcommand{\example}[1]{\emph{#1}}
+\newcommand{\spell}[1]{\emph{#1}}
+\newcommand{\spelllist}[1]{\smallskip \noindent \underline{\large \textbf{#1}}}
+
+
+\newcommand{\boxit}[1]{\frame{\parbox{\textwidth}{#1}}}
+
+\newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
+
+\newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
+\newcommand{\listtwo}{\begin{list}{$\triangleright$}{\itemspace}}
+\newcommand{\listthree}{\begin{list}{--}{\itemspace}}
+
+\newcommand{\slashfrac}[2]{${}^{#1}$\hspace*{-1pt}\makebox[2pt]{$\diagup$}${}_{#2}$}
+%\newcommand{\half}[0]{\slashfrac{1}{2}}
+\newcommand{\half}[0]{\ensuremath{\sfrac{1}{2}}}
+%\newcommand{\half}[0]{\ensuremath{\scriptscriptstyle 1/2}}
+%\newcommand{\half}[0]{\ensuremath{\mathrm{½¾¼}}}
+%\newcommand{\threefourths}[0]{\ensuremath{\sfrac{3}{4}}}
+
+\begin{document}
+
+\pagestyle{plain}
+%Cover Page
+
+\begin{center} \Huge
+\textsc{Tome of Necromancy,\\
+Tome of Fiends,\\
+Dungeonomicon,\\
+Races of War}\end{center}
+
+
+
+\vspace{2cm}
+\begin{center}\large By FrankTrollman and K\end{center}
+
+
+\newpage
+
+\vspace*{4in}
+
+\noindent Please address all complaints and comments about balance to the authors, FrankTrollman and K (Keith) at\\
+{\color{blue} \href{http://bb.bbboy.net/thegamingden-viewforum?forum=1}{http://bb.bbboy.net/thegamingden-viewforum?forum=1}}
+
+\vspace{0.2in}
+
+\noindent For a hypertext version of some of this information, especially classes, please look at\\
+{\color{blue} \href{http://www.d20ragon.com/frank/}{http://www.d20ragon.com/frank/}}
+
+
+\vspace{0.2in}
+
+\noindent Rank Amateur Typesetting by Joshua Middendorf\\
+\noindent Please address all comments regarding the quality (or lack thereof) of the typesetting (that is formatting of the pdf) to Joshua Middendorf (\href{mailto:middendorfproject@gmail.com}{middendorfproject@gmail.com}) or simply comment in the above forum\\
+
+
+%\vspace{0.2in}
+
+%\emph{Enjoy!}
+
+
+\vspace{1in}
+\noindent Published on \today, version 0.2\\
+\noindent You may find the most recent version of this document at:\\
+{\color{blue} \href{http://middendorfproject.googlepages.com}{http://middendorfproject.googlepages.com}}
+
+\newpage
+\pagestyle{fancy}
+
+
+
+
+%Fix the spacing so it's all reasonable
+\linespread{.9}  \small  \normalsize \itemspace
+
+\tableofcontents
+
+\chapter{Races}
+
+\input{oddraces}
+
+\chapter{Character Base Classes}
+\section{NPC Classes}
+\input{warrior}
+
+\section{PC Classes}
+\input{assassin}
+\input{barbarian}
+\input{elementalist}
+\input{fighter}
+\input{jester}
+\input{knight}
+\input{monk}
+\input{samurai}
+\input{summoner}
+\input{thiefacrobat}
+
+\chapter{Feats}
+
+\input{backgrounds}
+\input{feats}
+
+\chapter{Crafting}
+\input{newcrafting}
+
+\chapter{Dungeonomicon}
+
+\input{social}
+\input{economics}
+\input{magic}
+\input{underdark}
+\input{dungeons}
+\input{writings}
+\input{dungeonsofnote}
+
+\chapter{Combat}
+
+\input{RoWintro}
+\input{multiclassing}
+\input{advcombat}
+\input{masscombat}
+\input{worldwar}
+\input{logistics}
+
+\chapter{Tools of the Trade}
+\vspace*{-36pt}
+\begin{flushright}\quot{``A warrior is measured by his sword."} \end{flushright}
+
+\input{weapons}
+\input{armor}
+
+
+
+\chapter{Tome of Necromancy}
+
+\input{necrointro}
+\input{undead}
+\input{necromancerfeats}
+\input{necromaticspells}
+\input{necromaticlocations}
+\input{undeadmonsters}
+
+\chapter{Tome of Fiends}
+
+\input{alignment}
+
+\section{Fiendish Base Classes}
+\input{fiendishbrute}
+\input{conduit}
+\input{truefiend}
+
+\input{fiendishtaint}
+\input{fiendfeats}
+\input{fiendspheres}
+\input{fiendishrules}
+
+
+\end{document}

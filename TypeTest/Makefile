@@ -1,0 +1,156 @@
+SOURCES = 
+	SOURCES = advcombat.tex \
+	alignment.tex \
+	alt.traits.tex \
+	armor.tex \
+	backgrounds.tex \
+	baseclass.tex \
+	bookofgears.tex \
+	combat.tex \
+	combat2.tex \
+	conditions.tex \
+	cover.tex \
+	dungeonsofnote.tex \
+	dungeons.tex \
+	economics.tex \
+	elementalfeats.tex \
+	entire.tex \
+	feats.tex \
+	FiendClasses.tex \
+	fiendishrules.tex \
+	fiendishtaint.tex \
+	fiendspheres.tex \
+	highadventure.tex \
+	logistics.tex \
+	magic.tex \
+	masscombat.tex \
+	multiclassing.tex \
+	necrointro.tex \
+	necromancerfeats.tex \
+	necromaticlocations.tex \
+	necromaticspells.tex \
+	oddraces.tex \
+	otherspheres.tex \
+	outsiderfeats.tex \
+	prcintro.tex \
+	RoWintro.tex \
+	ruleinhell.tex \
+	social.tex \
+	specialabilities.tex \
+	#spells.tex \
+	total.tex \
+	undeadmonsters.tex \
+	undead.tex \
+	underdark.tex \
+	weapons.tex \
+	worldwar.tex \
+	wrapper.tex \
+	writings.tex \
+	baseclasses/adept.tex \
+	baseclasses/assassin.tex \
+	baseclasses/barbarian.tex \
+	baseclasses/conduit.tex \
+	baseclasses/community/curator.tex \
+	baseclasses/elementalist.tex \
+	baseclasses/fiendishbrute.tex \
+	baseclasses/fighter.tex \
+	baseclasses/firemage.tex \
+	baseclasses/genie.tex \
+	baseclasses/jester.tex \
+	baseclasses/community/kantianpaladin.tex \
+	baseclasses/knight.tex \
+	baseclasses/marshal.tex \
+	baseclasses/monk.tex \
+	baseclasses/puppeteer.tex \
+	baseclasses/samurai.tex \
+	baseclasses/community/shadowwarrior.tex \
+	baseclasses/community/snowscaper.tex \
+	baseclasses/community/sohei.tex \
+	baseclasses/soldier.tex \
+	baseclasses/soulborn.tex \
+	baseclasses/community/spherelock.tex \
+	baseclasses/spiritshaman.tex \
+	baseclasses/community/stormlord.tex \
+	baseclasses/summoner.tex \
+	baseclasses/thiefacrobat.tex \
+	baseclasses/totemist.tex \
+	baseclasses/truefiend.tex \
+	baseclasses/community/warmage.tex \
+	baseclasses/warrior.tex \
+	prestige/community/arcanearcher.tex \
+	prestige/community/arcanestrategist.tex \
+	prestige/barrister.tex \
+	prestige/pending/berzerker.tex \
+	prestige/community/bignob.tex \
+	prestige/pending/bladefighter.tex \
+	prestige/community/bladesinger.tex \
+	prestige/boatman.tex \
+	prestige/bonebladereaper_revised.tex \
+	prestige/bonebladereaper.tex \
+	prestige/bonerider.tex \
+	prestige/celestialbeacon.tex \
+	prestige/corpselight.tex \
+	prestige/community/crusaderelemental.tex \
+	prestige/deathking.tex \
+	prestige/deathknight.tex \
+	prestige/community/defenderofwoods.tex \
+	prestige/defiler.tex \
+	prestige/demonsamurai.tex \
+	prestige/community/disciplespiritwave.tex \
+	prestige/community/dragondisciple.tex \
+	prestige/dragonlancer.tex \
+	prestige/community/drunkenmaster.tex \
+	prestige/dungeonveteran.tex \
+	prestige/community/eldritchknight.tex \
+	prestige/community/enlighteneddisciple.tex \
+	prestige/community/gentlemonk.tex \
+	prestige/ghoulparagon.tex \
+	prestige/community/golemknight.tex \
+	prestige/heartlessmage.tex \
+	prestige/hellwalker.tex \
+	prestige/community/holycrusader.tex \
+	prestige/initiateofblacktower.tex \
+	prestige/pending/invisibleblade.tex \
+	prestige/legendarystrategist.tex \
+	prestige/lorddamned.tex \
+	prestige/community/lunarknight.tex \
+	prestige/lurker.tex \
+	prestige/community/maelstrom.tex \
+	prestige/masterofnecromanticmysteries.tex \
+	prestige/masterofsnakemountain.tex \
+	prestige/community/meteorninja.tex \
+	prestige/monitor.tex \
+	prestige/ninjaofgax.tex \
+	prestige/community/ogremage.tex \
+	prestige/progenitor.tex \
+	prestige/pumpkinking.tex \
+	prestige/seekerofthelosttraditions.tex \
+	prestige/seeroftempest.tex \
+	prestige/skindancer.tex \
+	prestige/soulmerchant.tex \
+	prestige/speakerfordead.tex \
+	prestige/strangerwithburningeyes.tex \
+	prestige/swordwraithparagon.tex \
+	prestige/thiefofsouls.tex \
+	prestige/community/tigermonk.tex \
+	prestige/uttercold.tex \
+	prestige/vampireparagon.tex \
+	prestige/widowqueen.tex
+
+
+	
+all: entire.pdf
+
+entire.pdf: $(SOURCES)
+	# Needs 3 passes to get everything correct.
+	xelatex entire.tex
+	xelatex entire.tex
+	xelatex entire.tex
+
+clean:
+	rm -f entire.aux entire.log entire.out entire.pdf entire.toc
+
+.PHONY: clean
+
+complete:
+	make clean && make && cp entire.pdf ../TomeTesting.pdf && make clean
