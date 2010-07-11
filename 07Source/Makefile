@@ -143,9 +143,9 @@ all: entire.pdf
 
 entire.pdf: $(SOURCES)
 	# Needs 3 passes to get everything correct.
-	pdflatex entire.tex
-	pdflatex entire.tex
-	pdflatex entire.tex
+	xelatex entire.tex
+	xelatex entire.tex
+	xelatex entire.tex
 
 clean:
 	rm -f entire.aux entire.log entire.out entire.pdf entire.toc
