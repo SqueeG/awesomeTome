@@ -7,7 +7,7 @@ fixed typos and formatting issues:
 
 * Skill feats:
   - Changed the rank 19 ability of Battlefield Surgeon to cost the same as a True Resurrection.
-  - Changed the rank 4 ability of Con Artist from "bonus on Diplomacy checks" to "ranks in the Bluff skill".
+  - Changed the rank 4 ability of Con Artist from "bonus on Diplomacy checks" to "ranks in the Bluff skill."
   - Added "This ability can only be used once per round." to the end of the rank 4 ability of Deft Fingers.
   - Added "until they lose sight of you" to the rank 19 ability of Dreadful Demeanor (it otherwise has no duration).
   - Removed Leap of the Heavens until a better version is made.
