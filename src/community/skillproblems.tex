@@ -1,0 +1,165 @@
+\subsection{Problems with the Skill System} \label{article:skillproblems}
+
+\abox{Editor's Note}{This section is somewhat redundant with the rules on skill bonuses from magic items printed in The Book of Gears.}
+
+One problem with the skill system derives from the way it tries to handle two different types of checks in the same way. For the most part, fixed DC checks work the way they're supposed to: if you put some number of ranks into a skill that operates on fixed DCs, you can do certain things, and you don't stop doing those things as your level increases. However, if you stop investing in a skill based on opposed checks, because the checks of your enemies continue to increase, you become unable to do whatever it is to level-appropriate opposition. In other words, for opposed-check skills, the system offers you the option to suck, if you want to. Fixing this problem, however, would require an overhaul of the entire system, and I'm not going to do that.
+
+Another fundamental problem is that the system makes no distinction between skills like Use Magic Device, which have a direct and noticeable impact on a character's power, and flavor skills like Profession (basketweaver). The worst problem this causes in the rest of the system is that often abilities that give a bonus to Jump, which just allows you to do something that is strictly defeated by a 3rd-level spell, get treated the same as abilities that give bonuses to powerful skills like Diplomacy or Hide. However, this is another problem I don't intend to address because it would require a complete redesign.
+
+A final problem with skills that has less to do with the system per se and more to do with choices in the rest of the game is that there's literally no way to define what a level-appropriate skill check is. The reason is that skill bonuses are just too big, across the board. Magic items and spells are the worst offenders: a standard magic item can give a +30 competence bonus, larger than the bonus from ranks for a 20th-level character; and spells such as glibness hand out equally huge bonuses. However, classes are not far behind, with +10 common and +30 not unheard of. When you put these things together, you get characters with over +30 to their Diplomacy checks, with penalty reductions, at 1st level and over +220 at 20th. Meanwhile, it's not that hard for characters in the same party to be three RNGs apart in checks on any particular skill. WotC's writers just don't value skill bonuses as significant. On one level, they're right: most skills \textit{can't} do things as broken as some spells can. However, as written, some can; and even for the ones that can't, the existence of huge variable bonuses means it's hard to give skills anything good. The worthlessness of skills has become a self-fulfilling prophecy.
+
+The following rule changes won't solve the problem of crazy skill bonuses, but they should at least make it more manageable.
+
+\listone
+	\item Magic items can give a maximum of +10 to a skill before epic levels, and their cost increases five times. \magicitem{Boots of Elvenkind} and similar items are classic parts of both D\&D and fantasy literature, but magic items that count for half an RNG are more than adequate for the flavor.
+	\item Divide all skill bonuses granted by spells by two and round down. This renders some spells underpowered, but at least it brings all but the worst offenders closer to sanity.
+	\item All magic items, spells, and spell-like abilities grant an enhancement bonus to skill checks, and thus do not stack with each other. The bonus stacking paradigm is broken, and nowhere is it more broken than for skills.
+\end{list}
+
+\subsection{Some Skills Don't Work Like They Should}
+
+While the existence of magic that supersedes them makes some skills underpowered, other skills do things that are stupid, broken, or both. Some of these stupidities came from the introduction of rules that don't make sense in 3.5. I'm going to make some clarifications and revisions, while revisiting changes mentioned in Frank's and K's works. I'm not, however, going to try to balance the skills against each other.
+
+One of the important themes of the next section is that many skills don't do level-appropriate things. Skill actions that imitate 1st- or 2nd- level spells require checks against DCs so high that only a specialized 40th level character could even theoretically meet them. This is ridiculous, and so many of the DCs need reduction.
+
+Many of these changes subsume both epic feats and epic skill checks. This is fine: skilled characters need the help to keep up with casters. If an epic ability isn't mentioned, you may assume it has the same DC as usual.
+
+\subsubsection{Craft}
+
+Craft is broken, but I'm not going to address it here because it requires a more comprehensive revision of the economic system.
+
+\subsubsection{Diplomacy}
+
+Diplomacy doesn't work. The basic reason is that, unlike most skills, which let you accomplish something in the game, Diplomacy lets you \textit{win} the game. The specific badness of the 3.5 Diplomacy rules comes from a misinterpretation of a misinterpretation: Monte Cook wrote the DCs for changing attitudes now printed under the 3.5 Diplomacy rules for \textit{Charisma checks} in the 3.0 DMG. Skip Williams confused the two in one of his rulings as Sage, and then Andy Collins canonized that ruling in the 3.5 PHB, producing a skill that actually does let you rule the world starting at first level.
+
+Needless to say, this is retarded. The entire concept of Diplomacy needs rebuilding from the ground up, and so that's what I'm going to do here.
+
+\listone
+	\item\textbf{Overview}
+
+	Diplomacy is the art of getting people to accept reasonable agreements.
+	\item\textbf{Check}
+
+	When trying to persuade someone to accept a bargain, your Diplomacy check is opposed with a modified level check, 1d20 + their character level + their Wis modifier. They can choose to turn it into a negotiation, in which case you roll opposed Diplomacy checks. Opposed checks also resolve cases when two advocates or diplomats plead opposite cases in a hearing before a third party. Their attitude towards you and the actual benefit of the bargain for them modifies the result of your check. (Indifferent assesses a penalty to balance out the fact that skill ranks are always higher than levels.)
+
+	\item\textbf{Attitude modifiers to checks:}
+	\listtwo
+		\bolditem{Hostile:}{-25}
+		\bolditem{Unfriendly:}{-15}
+		\bolditem{Indifferent:}{-5}
+		\bolditem{Friendly:}{+0}
+		\bolditem{Helpful:}{+5}
+	\end{list}
+
+	Any bargain you offer with the Diplomacy skill has to be reasonable for the creature you make it to. You can't persuade someone to do something self-destructive, against their nature, or otherwise completely opposed to their values, duties, obligations, or self-interest. Bargains they have reason to believe are favorable to them can give you up to a +10 modifier on the check, while bargains they might believe are unfavorable give you up to a -10 modifier, at the DM's discretion.
+
+	If your modified check is higher than theirs, you persuade them the deal you're offering is at least neutral and possibly beneficial to them. If your check is lower, they think it's a poor trade. Generally, the degree your check beats or loses to theirs should determine how they feel about it. When NPCs use this skill on players, DMs should frame the offered bargain in favorable or unfavorable terms based on the NPC's Diplomacy check compared to the PC's level or Diplomacy check (rolled secretly). However, the ultimate decision on whether to accept any agreement should depend on the character and personality of the PC or NPC.
+
+	\textit{Example}: A PC attempts to convince Jack, an ignorant and none-too-bright farmer, to trade her his last cow for some magic beans. Since her beans aren't \textit{actually} magic, she starts with a Bluff check, which she wins, to convince Jack that they are. Jack is indifferent to the PC (he doesn't know her), so that's a -5 modifier; and trading his last cow for beans is a really bad idea, which would normally mean another -10 modifier but because he thinks these are \textit{magic} beans it will only be -5; and the net modifier is thus -10. Jack is 1st level and has a -1 Wis penalty, giving him a net +0 on his level check, and the PC is 5th level with max ranks in Diplomacy, +6 from synergy bonuses, and a +2 Cha modifier, giving her a net +16. Jack rolls an 11, the PC rolls a 12 that counts for an 18 after she adds in both modifiers, so she convinces Jack her "magic" beans are worth a cow. Whether Jack accepts the trade depends on other aspects of his situation, such as his estimate of the likelihood of his mother carrying out her death threats if he returns without actual food.
+
+	\item\textbf{Action}
+
+	Bargaining with Diplomacy generally takes at least 1 full minute (10 consecutive full-round actions). In some situations, this time requirement may greatly increase. A rushed Diplomacy check can be made as a full-round action, but you take a -10 penalty on the check.
+
+	\item\textbf{Try Again}
+
+	If your target rejects your initial bargain, you can retry by sweetening the deal, offering some concessions to make the bargain appear better. You reroll with the same modifiers on the check, but you don't gain any positive modifiers for the agreement being favorable to them.
+\end{list}
+
+\subsubsection{Disable Device}
+
+Spells interact with Disable Device in three ways: spells that specifically allow Disable Device checks to disarm them, like \spell{glyph of warding}; spells that Disable Device can't disarm even though they create "magic traps," like \spell{spike stones}; and spells that are silent on the issue, like \spell{forcecage}. I don't think anything in the rules supports Disable Device being able to disarm anything but the first category, so I added it as a \hyperref[comm:feat:professionalluddite]{feat} ability.
+
+\subsubsection{Escape Artist}
+
+The DCs for some uses of Escape Artist are just too high: a 7th-level character with a decent Dex bonus, say +5, has only a +15 Escape Artist check, which is only adequate to escape masterwork manacles when taking 20. However, dimension door, available to casters at the same level, is an automatic escape from masterwork manacles that takes almost no time. I suggest the following revised DCs for Escape Artist:
+
+\listone
+	\bolditem{Tight space:}{20}
+	\bolditem{Manacles:}{25}
+	\bolditem{Masterwork manacles:}{30}
+	\bolditem{Extremely tight space:}{35}
+\end{list}
+
+Other DCs remain as listed. This makes Escape Artist a little more useful in the earlier parts of the game.
+
+\subsubsection{Hide}
+
+As mentioned in the Dungeonomicon, Hide should \textit{not} require cover or concealment to function.
+
+\subsubsection{Knowledge}
+
+The rules for handling monster identification using Knowledge skills are, well, back-asswards. A character with a +13 Knowledge (religion) check automatically recognizes an allip and most likely knows a couple of things about it, but that same character will often fail to identify a wyvern zombie. A 5th-level druid with 8 ranks in Knowledge (nature), at least 5 in Survival, and a 14 Int \textit{can't fail} to recognize an ogre mage, and will usually know a couple of things about it, but might not know about elephants and dire tigers. As long as there are skeletons, zombies, giant animals, and the like in D\&D, HD is not a reliable guide to a monster's difficulty, rarity, or anything else. The appropriate measure of when a character should be able to know something about a monster is when it's an appropriate challenge for them: in other words, CR.
+
+If your Knowledge check beats a DC of 10 plus the target monster's CR, you know basic details about it, such as its type (and subtypes, if applicable), typical alignment and habitat, a rough idea of its intelligence and societal organization (if any), and whether its CR is above, below, or about the same as your character level. For each two points your check beats the DC, you know another piece of useful information, such as a special ability or something about its combat stats (such as "has a high AC" or "has a low Reflex save"). If you beat the DC by 20 or more, the DM should let you look at their notes.
+
+\subsubsection{Open Lock}
+
+As noted in the Dungeonomicon, this skill is part of Disable Device.
+
+\subsubsection{Profession}
+
+Profession is a flavor skill and has no reason to use the same system as skills that offer real character benefits like Hide or Use Magic Device. The following revision makes this clear.
+
+Profession works like Speak Language: either you know enough to practice a profession or you don't. Rather than buying ranks, each skill point you put in Profession gets you another Profession you can practice. When practicing a profession you have trained, you earn about two plus one-half your result on a modified level check (d20 + your character level + your Wisdom modifier) gold pieces per week of dedicated work; if for some reason it becomes necessary to make a Profession check, again use this modified level check.
+
+Untrained laborers and assistants (that is, characters without any ranks in Profession) earn an average of 1 silver piece per day.
+
+\subsubsection{Sleight of Hand}
+
+The Sleight of Hand rules are?not well-thought out. The most egregious problems are the inappropriate use of a check penalty to handle making it a free action, the lack of integration with the rest of the combat system, and the unclear limits on what you can do with the skill. A literal interpretation of the rules results in absurdities like being able to strip someone naked in the middle of combat as a free action. This has to stop.
+
+\listone
+	\item\textbf{Drawing Weapons}
+
+	Drawing an open weapon, like a sheathed sword, is normally a move action; if you have a BAB of +1 or more, you can combine it with another move action. If you have a BAB of +6 or more, you can draw an open weapon as a free action.
+
+	Drawing a weapon hidden with Sleight of Hand is a standard action that doesn't provoke attacks of opportunity. With a successful check (see below), you can draw a hidden weapon as if it was openly displayed.
+	\item\textbf{Overview}
+
+	Sleight of Hand allows you to hide things on your person and take things from people without their noticing.
+	\item\textbf{Check}
+
+	With a DC 10 Sleight of Hand check, you can palm an object at least two size categories smaller than yourself that you have in your possession: for instance, make a coin "disappear." If someone observes you while you do this, they may make a Spot check to notice you doing it, but this doesn't prevent you from performing the action.
+
+	You can hide on object at least two size categories smaller than yourself on your person. Anyone attempting to find the hidden object rolls Spot, if observing you, or Search, if frisking you. When using Search, the frisker gains a +4 bonus to their check because it's easier to find an object than to hide it. Daggers and similar weapons designed to be hidden give you a +2 bonus on the check, items three or more size categories smaller than you give you a +4 bonus, and wearing heavy or baggy clothing gives you a +2 bonus in any event.
+
+	With a DC 20 Sleight of Hand check, you can draw a hidden weapon as if it was openly displayed; the exact action depends on your BAB.
+
+	If you want to take something from another creature without their noticing it, you have to combine a Sleight of Hand check with a disarm attempt. You can only take an item that's two or small size categories smaller than you, and generally only an item that they aren't paying active attention to (i.e., not a wielded weapon or something similar). If your disarm check is successful, make a Sleight of Hand check opposed by their Spot check to see if they notice your removal of the item.
+
+	With -20 cumulative penalty for each size category, you can handle objects of larger size than normally allowed for Sleight of Hand.
+
+	You can use Sleight of Hand to entertain an audience as if using the Perform skill.
+	\item\textbf{Action}
+
+	Palming or hiding an object on your person is normally a move action; if you had to disarm the object from someone else first, that takes an action as normal for the disarm check. With a -20 penalty to your check, you can perform either as a free action. The action it takes to draw a weapon depends on your BAB.
+
+	\item\textbf{Try Again}
+
+	Yes, but after an initial failure, a second Sleight of Hand attempt against the same target (or while you are being watched by the same observer who noticed your previous attempt) increases the DC for the task by 10.
+\end{list}
+
+\subsubsection{Spot}
+
+From the wording of the Disguise rules, I think that the listed bonuses to Spot checks for knowing what you're looking for \textit{only} apply against Disguise: \textit{If you are impersonating a particular individual, those who know what that person looks like get a bonus on their Spot checks according to the table below.}
+
+\subsubsection{Survival}
+
+As long as you have the Track feat (see the Skill Feats section), you can track creatures on water or underwater with a DC 30 check, and through the air with a DC 40 check.
+
+\subsubsection{Tumble}
+
+Tumble, as written, doesn't scale, for no particularly good reason. The following change shouldn't take much longer to adjudicate in game, while making taking more ranks of Tumble matter.
+
+\listone
+	\item\textbf{Check}
+	
+	You can tumble past an opponent at one-half speed as part of normal movement, provoking no attacks of opportunity while doing so, if you succeed on a Tumble check against a DC of 10 + the opponent's base attack bonus; you can tumble at one-half speed through an area occupied by an enemy (over, under, or around the opponent) as part of normal movement, provoking no attacks of opportunity while doing so, if you succeed on a Tumble check against a DC of 20 + the opponent's base attack bonus. Failure means you provoke attacks of opportunity normally. Check separately for each opponent you move past, in the order in which you pass them (player's choice of order in case of a tie). Each additional enemy after the first adds +2 to the Tumble DC.
+\end{list}
+
+\subsubsection{Use Magic Device}
+
+Use Magic Device works well enough in general, but has some potential abuses. Some of these, such as the candle of invocation, are problems in magic item design, not Use Magic Device, and need patches there. However, you shouldn't be able to use Use Magic Device to cast \spell{blasphemies} that greater deities can't resist, so that one rule needs amending.
+
+In no event can Use Magic Device imitate an effective class level, effective caster level, or similar ability higher than your own character level. When emulating an ability score, you only benefit from that ability score up to the minimum needed to activate the item.
