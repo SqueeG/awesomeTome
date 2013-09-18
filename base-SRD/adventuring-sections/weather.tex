@@ -1,0 +1,612 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Weather}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Sometimes weather can play an important role in an adventure.
+
+Table: Random Weather is an appropriate weather table for general use, and can 
+be used as a basis for a local weather tables. Terms on that table are defined 
+as follows.
+
+\textbf{Calm:} Wind speeds are light (0 to 10 mph).
+
+\textbf{Cold:} Between 0\textdegree{} and 40\textdegree{} Fahrenheit during the day, 10 to 20 degrees 
+colder at night.
+
+\textbf{Cold Snap:} Lowers temperature by -10\textdegree{} F.
+
+\textbf{Downpour:} Treat as rain (see Precipitation, below), but conceals as fog. 
+Can create floods (see above). A downpour lasts for 2d4 hours.
+
+\textbf{Heat Wave:} Raises temperature by +10\textdegree{} F.
+
+\textbf{Hot:} Between 85\textdegree{} and 110\textdegree{} Fahrenheit during the day, 10 to 20 degrees 
+colder at night.
+
+\textbf{Moderate:} Between 40\textdegree{} and 60\textdegree{} Fahrenheit during the day, 10 to 20 degrees 
+colder at night.
+
+\textbf{Powerful Storm (Windstorm/Blizzard/Hurricane/Tornado):}
+Wind speeds are over 50 mph (see Table: Wind Effects). In addition, blizzards 
+are accompanied by heavy snow (1d3 feet), and hurricanes are accompanied by downpours 
+(see above). Windstorms last for 1d6 hours. Blizzards last for 1d3 days. Hurricanes 
+can last for up to a week, but their major impact on characters will come in a 
+24-to-48-hour period when the center of the storm moves through their area. Tornadoes 
+are very short-lived (1d6x10 minutes), typically forming as part 
+of a thunderstorm system. 
+
+\textbf{Precipitation:} Roll d\% to determine whether the precipitation is fog 
+(01-30), rain/snow (31-90), or sleet/hail (91-00). Snow and sleet occur only when 
+the temperature is 30\textdegree{} Fahrenheit or below. Most precipitation lasts for 2d4 hours. 
+By contrast, hail lasts for only 1d20 minutes but usually accompanies 1d4 hours 
+of rain.
+
+\textbf{Storm (Duststorm/Snowstorm/Thunderstorm):} Wind 
+speeds are severe (30 to 50 mph) and visibility is cut by three-quarters. Storms 
+last for 2d4-1 hours. See Storms, below, for more details. 
+
+\textbf{Warm:} Between 60\textdegree{} and 85\textdegree{} Fahrenheit during the day, 10 to 20 degrees 
+colder at night.
+
+\textbf{Windy:} Wind speeds are moderate to strong (10 to 30 mph); see Table: Wind 
+Effects on the following page.
+
+\begin{table}[htb]
+\rowcolors{1}{white}{offyellow}
+\caption{Random Weather}
+\centering
+\begin{tabular}{c l l l l}
+\textbf{d\%} & \textbf{Weather} & \textbf{Cold Climate} & \textbf{Temperate Climate\textsuperscript{1}} & \textbf{Desert}\\
+01-70 & Normal weather & Cold, calm & Normal for season\textsuperscript{2} & Hot, calm\\
+71-80 & Abnormal weather & \shortstack{Heat wave (01-30) or\\ cold snap (31-100)} & \shortstack{Heat wave (01-50) or\\ cold snap (51-100)} & Hot, windy\\
+81-90 & Inclement weather & Precipitation (snow) & Precipitation (normal for season) & Hot, windy\\
+91-99 & Storm & Snowstorm & Thunderstorm, snowstorm\textsuperscript{3} & Duststorm\\
+100 & Powerful storm & Blizzard & Windstorm, blizzard\textsuperscript{4}, hurricane, tornado & Downpour\\
+\multicolumn{5}{l}{\textsuperscript{1} Temperate includes forest, hills, marsh, mountains, plains, and warm aquatic.}\\
+\multicolumn{5}{l}{\textsuperscript{2} Winter is cold, summer is warm, spring and autumn are temperate. Marsh regions are slightly warmer in winter.}\\
+%superscript 3 and superscript 4 aren't provided in the actual SRD, there's nothing to complete this table with.
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Rain, Snow, Sleet, and Hail}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Bad weather frequently slows or halts travel and makes it virtually impossible 
+to navigate from one spot to another. Torrential downpours and blizzards obscure 
+vision as effectively as a dense fog.
+
+Most precipitation is rain, but in cold conditions it can manifest as snow, sleet, 
+or hail. Precipitation of any kind followed by a cold snap in which the temperature 
+dips from above freezing to 30\textdegree{} F or below may produce ice.
+
+\textit{Rain:} Rain 
+reduces visibility ranges by half, resulting in a -4 penalty on \linkskill{Spot} and \linkskill{Search} 
+checks. It has the same effect on flames, ranged weapon attacks, and Listen checks 
+as severe wind.
+
+\textit{Snow:} Falling snow has the same effects on visibility, ranged weapon attacks, 
+and skill checks as rain, and it costs 2 squares of movement to enter a snow-covered 
+square. A day of snowfall leaves 1d6 inches of snow on the ground.
+
+\textit{Heavy Snow:} Heavy snow has the same effects as normal snowfall, but also 
+restricts visibility as fog does (see Fog, below). A day of heavy snow leaves 1d4 
+feet of snow on the ground, and it costs 4 squares of movement to enter a square 
+covered with heavy snow. Heavy snow accompanied by strong or severe winds may result 
+in snowdrifts 1d4x5 feet deep, especially in and around objects 
+big enough to deflect the wind -- a cabin or a large tent, for instance. There is 
+a 10\% chance that a heavy snowfall is accompanied by lightning (see Thunderstorm, 
+below). Snow has the same effect on flames as moderate wind.
+
+\textit{Sleet:} Essentially frozen rain, sleet has the same effect as rain while 
+falling (except that its chance to extinguish protected flames is 75\%) and the 
+same effect as snow once on the ground. 
+
+\textit{Hail:} Hail does not reduce visibility, but the sound of falling hail makes 
+Listen checks more difficult (-4 penalty). Sometimes (5\% chance) hail can become 
+large enough to deal 1 point of lethal damage (per storm) to anything in the open. 
+Once on the ground, hail has the same effect on movement as snow.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Storms}\index{Storms}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The combined effects of precipitation (or dust) and wind that accompany all storms 
+reduce visibility ranges by three quarters, imposing a -8 penalty on \linkskill{Spot}, \linkskill{Search}, 
+and \linkskill{Listen} checks. Storms make ranged weapon attacks impossible, except for those 
+using siege weapons, which have a -4 penalty on attack rolls. They automatically 
+extinguish candles, torches, and similar unprotected flames. They cause protected 
+flames, such as those of lanterns, to dance wildly and have a 50\% chance to extinguish 
+these lights. See Table: Wind Effects for possible consequences to creatures caught 
+outside without shelter during such a storm. Storms are divided into the following 
+three types. 
+
+\textit{Duststorm (CR 3):} These desert storms differ from other storms in that 
+they have no precipitation. Instead, a duststorm blows fine grains of sand that 
+obscure vision, smother unprotected flames, and can even choke protected flames 
+(50\% chance). Most duststorms are accompanied by severe winds and leave behind 
+a deposit of 1d6 inches of sand. However, there is a 10\% chance for a greater 
+duststorm to be accompanied by windstorm-magnitude winds (see Table: Wind Effects). 
+These greater duststorms deal 1d3 points of nonlethal damage each round to anyone 
+caught out in the open without shelter and also pose a choking hazard (see Drowning -- except 
+that a character with a scarf or similar protection across her mouth and nose does 
+not begin to choke until after a number of rounds equal to 10 x 
+her Constitution score). Greater duststorms leave 2d3-1 feet of fine sand in their 
+wake.
+
+\textit{Snowstorm:} In addition to the wind and precipitation common to other storms, 
+snowstorms leave 1d6 inches of snow on the ground afterward. 
+
+\textit{Thunderstorm:} In addition to wind and precipitation (usually rain, but 
+sometimes also hail), thunderstorms are accompanied by lightning that can pose 
+a hazard to characters without proper shelter (especially those in metal armor). 
+As a rule of thumb, assume one bolt per minute for a 1-hour period at the center 
+of the storm. Each bolt causes electricity damage equal to 1d10 eight-sided dice. 
+One in ten thunderstorms is accompanied by a tornado (see below). 
+
+\textbf{Powerful Storms:} Very high winds and torrential precipitation reduce visibility 
+to zero, making Spot, Search, and Listen checks and all ranged weapon attacks impossible. 
+Unprotected flames are automatically extinguished, and protected flames have a 
+75\% chance of being doused. Creatures caught in the area must make a DC 20 Fortitude 
+save or face the effects based on the size of the creature (see Table: Wind Effects). 
+Powerful storms are divided into the following four types.
+
+\textit{Windstorm:} While accompanied by little or no precipitation, windstorms 
+can cause considerable damage simply through the force of their wind.
+
+\textit{Blizzard:} The combination of high winds, heavy snow (typically 1d3 feet), 
+and bitter cold make blizzards deadly for all who are unprepared for them.
+
+\textit{Hurricane:} In addition to very high winds and heavy rain, hurricanes are 
+accompanied by floods. Most adventuring activity is impossible under such conditions.
+
+\textit{Tornado:} One in ten thunderstorms is accompanied by a tornado.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Fog}\index{Fog}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Whether in the form of a low-lying cloud or a mist rising from the ground, fog 
+obscures all sight, including darkvision, beyond 5 feet. Creatures 5 feet away 
+have concealment (attacks by or against them have a 20\% miss chance).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Winds}\index{Wind}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The wind can create a stinging spray of sand or dust, fan a large fire, heel over 
+a small boat, and blow gases or vapors away. If powerful enough, it can even knock 
+characters down (see Table: Wind Effects), interfere with ranged attacks, or impose 
+penalties on some skill checks.
+
+\textit{Light Wind:} A gentle breeze, having little or no game effect.
+
+\textit{Moderate Wind:} A steady wind with a 50\% chance of extinguishing small, 
+unprotected flames, such as candles.
+
+\textit{Strong Wind:} Gusts that automatically extinguish unprotected flames (candles, 
+torches, and the like). Such gusts impose a -2 penalty on ranged attack rolls and 
+on \linkskill{Listen} checks.
+
+\textit{Severe Wind:} In addition to automatically extinguishing any unprotected 
+flames, winds of this magnitude cause protected flames (such as those of lanterns) 
+to dance wildly and have a 50\% chance of extinguishing these lights. Ranged weapon 
+attacks and Listen checks are at a -4 penalty. This is the velocity of wind produced 
+by a \textit{gust of wind }spell.
+
+\textit{Windstorm:} Powerful enough to bring down branches if not whole trees, 
+windstorms automatically extinguish unprotected flames and have a 75\% chance of 
+blowing out protected flames, such as those of lanterns. Ranged weapon attacks 
+are impossible, and even siege weapons have a -4 penalty on attack rolls. Listen 
+checks are at a -8 penalty due to the howling of the wind. 
+
+\textit{Hurricane-Force Wind:} All flames are extinguished. Ranged attacks are 
+impossible (except with siege weapons, which have a -8 penalty on attack rolls). 
+Listen checks are impossible: All characters can hear is the roaring of the wind. 
+Hurricane-force winds often fell trees.
+
+\textit{Tornado (CR 10):} All flames are extinguished. All ranged attacks are impossible 
+(even with siege weapons), as are Listen checks. Instead of being blown away (see 
+Table: Wind Effects), characters in close proximity to a tornado who fail their 
+Fortitude saves are sucked toward the tornado. Those who come in contact with the 
+actual funnel cloud are picked up and whirled around for 1d10 rounds, taking 6d6 
+points of damage per round, before being violently expelled (falling damage may 
+apply). While a tornado's rotational speed can be as great as 300 mph, the funnel 
+itself moves forward at an average of 30 mph (roughly 250 feet per round). A tornado 
+uproots trees, destroys buildings, and causes other similar forms of major destruction.
+
+\begin{table}[htb]
+\rowcolors{1}{white}{offyellow}
+\caption{Wind Effects}
+\centering
+\begin{tabular}{l l l l l c}
+\textbf{Wind Force} & \textbf{Wind Speed} & \multicolumn{1}{p{2.5cm}}{\textbf{Ranged Attacks Normal/Siege Weapons\textsuperscript{1}}} & \textbf{Creature Size\textsuperscript{2}} & \multicolumn{1}{p{2cm}}{\textbf{Wind Effect on Creatures}} & \textbf{Fort Save DC}\\
+Light & 0-10 mph & -/- & Any & None & -\\
+Moderate & 11-20 mph & -/- & Any & None & -\\
+Strong & 21-30 mph & -2/- & Tiny or smaller & Knocked down & 10\\
+& & & Small or larger & None & \\
+Severe & 31-50 mph & -4/- & Tiny & Blown away & 15\\
+& & & Small & Knocked down& \\
+& & & Medium & Checked& \\
+& & & Large or larger & None& \\
+Windstorm & 51-74 mph & Impossible/-4 & Small or smaller & Blown away & 18\\
+& & & Medium & Knocked down& \\
+& & & Large or Huge & Checked& \\
+& & & Gargantuan or Colossal & None& \\
+Hurricane & 75-174 mph & Impossible/-8 & Medium or smaller & Blown away & 20\\
+& & & Large & Knocked down& \\
+& & & Huge & Checked& \\
+& & & Gargantuan or Colossal & None& \\
+Tornado & 175-300 mph & Impossible/impossible & Large or smaller & Blown away & 30\\
+& & & Huge & Knocked down& \\
+& & & Gargantuan or Colossal & Checked& \\
+\multicolumn{6}{p{16cm}}{\textsuperscript{1} The siege weapon category includes ballista and catapult attacks as well as boulders tossed by giants.}\\
+\multicolumn{6}{p{16cm}}{\textsuperscript{2} Flying or airborne creatures are treated as one size category smaller than their actual size, so an airborne Gargantuan dragon is treated as Huge for purposes of wind effects.}\\
+\multicolumn{6}{p{16cm}}{\textit{Checked:} Creatures are unable to move forward against the force of the wind. Flying creatures are blown back 1d6x5 feet.}\\
+\multicolumn{6}{p{16cm}}{\textit{Knocked Down:}\index{Knocked Down} Creatures are knocked prone by the force of the wind. Flying creatures are instead blown back 1d6x10 feet.}\\
+\multicolumn{6}{p{16cm}}{\textit{Blown Away:} Creatures on the ground are knocked prone and rolled 1d4x10 feet, taking 1d4 points of nonlethal damage per 10 feet. Flying creatures are blown back 2d6×10 feet and take 2d6 points of nonlethal damage due to battering and buffeting.}\\
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Environment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Environmental hazards specific to one kind of terrain (such as an avalanche, which 
+occurs in the mountains) are described in Wilderness, above. Environmental hazards 
+common to more than one setting are detailed below.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Acid Effects}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Corrosive acids deals 1d6 points of damage per round of exposure except in the 
+case of total immersion (such as into a vat of acid), which deals 10d6 points of 
+damage per round. An attack with acid, such as from a hurled vial or a monster's 
+spittle, counts as a round of exposure.
+
+The fumes from most acids are inhaled poisons. Those who come close enough to a 
+body of acid large enough to dunk a creature in it must make a DC 13 Fortitude save or 
+take 1 point of Constitution damage. All such characters must make a second save 
+1 minute later or take another 1d4 points of Constitution damage.
+
+Creatures immune to acid's caustic properties might still drown in it if they are 
+totally immersed (see Drowning).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Cold Dangers}\index{Cold Weather Effects}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Cold and exposure deal nonlethal damage to the victim. This nonlethal damage cannot 
+be recovered until the character gets out of the cold and warms up again. Once 
+a character is rendered unconscious through the accumulation of nonlethal damage, 
+the cold and exposure begins to deal lethal damage at the same rate.
+
+An unprotected character in cold weather (below 40\textdegree{} F) must make a Fortitude save 
+each hour (DC 15, + 1 per previous check) or take 1d6 points of nonlethal damage. 
+A character who has the \linkskill{Survival} skill may receive a bonus on this saving throw 
+and may be able to apply this bonus to other characters as well (see the skill 
+Description).
+
+In conditions of severe cold or exposure (below 0\textdegree{} F), an unprotected character 
+must make a Fortitude save once every 10 minutes (DC 15, +1 per previous check), 
+taking 1d6 points of nonlethal damage on each failed save. A character who has 
+the Survival skill may receive a bonus on this saving throw and may be able to 
+apply this bonus to other characters as well (see the skill description). Characters 
+wearing winter clothing only need check once per hour for cold and exposure damage.
+
+A character who takes any nonlethal damage from cold or exposure is beset by frostbite 
+or hypothermia (treat her as fatigued). These penalties end when the character 
+recovers the nonlethal damage she took from the cold and exposure.
+
+Extreme cold (below -20\textdegree{} F) deals 1d6 points of lethal damage per minute (no save). 
+In addition, a character must make a Fortitude save (DC 15, +1 per previous check) 
+or take 1d4 points of nonlethal damage. Those wearing metal armor or coming into 
+contact with very cold metal are affected as if by a \textit{chill metal }spell.
+
+%%%
+\subsubsection{Ice Effects}
+%%%
+
+Characters walking on ice must spend 2 squares of movement to enter a square covered 
+by ice, and the DC for \linkskill{Balance} and \linkskill{Tumble} checks increases by +5. Characters in 
+prolonged contact with ice may run the risk of taking damage from severe cold (see 
+above).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Darkness}\index{Darkness}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Darkvision allows many characters and monsters to see perfectly well without any 
+light at all, but characters with normal vision (or low-light vision, for that 
+matter) can be rendered completely blind by putting out the lights. Torches or 
+lanterns can be blown out by sudden gusts of subterranean wind, magical light sources 
+can be dispelled or countered, or magical traps might create fields of impenetrable 
+darkness.
+
+In many cases, some characters or monsters might be able to see, while others are 
+blinded. For purposes of the following points, a blinded creature is one who simply 
+can't see through the surrounding darkness.
+
+\begin{itemize}
+\item Creatures blinded by darkness lose the ability to deal extra damage due to precision (for example, a sneak attack).
+\item Blinded creatures are hampered in their movement, and pay 2 squares of movement 
+per square moved into (double normal cost). Blinded creatures can't run or charge.
+\item All opponents have total concealment from a blinded creature, so the blinded creature 
+has a 50\% miss chance in combat. A blinded creature must first pinpoint the location 
+of an opponent in order to attack the right square; if the blinded creature launches 
+an attack without pinpointing its foe, it attacks a random square within its reach. 
+For ranged attacks or spells against a foe whose location is not pinpointed, roll 
+to determine which adjacent square the blinded creature is facing; its attack is 
+directed at the closest target that lies in that direction.
+\item A blinded creature loses its Dexterity adjustment to AC and takes a -2 penalty to AC.
+\item A blinded creature takes a -4 penalty on \linkskill{Search} checks and most Strength- and Dexterity-based 
+skill checks, including any with an armor check penalty. A creature blinded by 
+darkness automatically fails any skill check relying on vision.
+\item Creatures blinded by darkness cannot use gaze attacks and are immune to gaze attacks.
+\item A creature blinded by darkness can make a \linkskill{Listen} check as a free action each round 
+in order to locate foes (DC equal to opponents' Move Silently checks). A successful 
+check lets a blinded character hear an unseen creature "over there somewhere".
+It's almost impossible to pinpoint the location of an unseen creature. A Listen 
+check that beats the DC by 20 reveals the unseen creature's square (but the unseen 
+creature still has total concealment from the blinded creature).
+\item A blinded creature can grope about to find unseen creatures. A character can make 
+a touch attack with his hands or a weapon into two adjacent squares using a standard 
+action. If an unseen target is in the designated square, there is a 50\% miss chance 
+on the touch attack. If successful, the groping character deals no damage but has 
+pinpointed the unseen creature's current location. (If the unseen creature moves, 
+its location is once again unknown.)
+\item If a blinded creature is struck by an unseen foe, the blinded character pinpoints 
+the location of the creature that struck him (until the unseen creature moves, 
+of course). The only exception is if the unseen creature has a reach greater than 
+5 feet (in which case the blinded character knows the location of the unseen opponent, 
+but has not pinpointed him) or uses a ranged attack (in which case, the blinded 
+character knows the general direction of the foe, but not his location).
+\item A creature with the scent ability automatically pinpoints unseen creatures within 5 feet of its location.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Falling}\index{Falling}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Falling Damage:} The basic rule is simple: 1d6 points of damage per 10 
+feet fallen, to a maximum of 20d6.
+
+If a character deliberately jumps instead of merely slipping or falling, the damage 
+is the same but the first 1d6 is nonlethal damage. A DC 15 \linkskill{Jump} check or DC 15 
+\linkskill{Tumble} check allows the character to avoid any damage from the first 10 feet fallen 
+and converts any damage from the second 10 feet to nonlethal damage. Thus, a character 
+who slips from a ledge 30 feet up takes 3d6 damage. If the same character deliberately 
+jumped, he takes 1d6 points of nonlethal damage and 2d6 points of lethal damage. 
+And if the character leaps down with a successful Jump or Tumble check, he takes 
+only 1d6 points of nonlethal damage and 1d6 points of lethal damage from the plunge.
+
+Falls onto yielding surfaces (soft ground, mud) also convert the first 1d6 of damage 
+to nonlethal damage. This reduction is cumulative with reduced damage due to deliberate 
+jumps and the Jump skill.
+
+\textbf{Falling into Water:} Falls into water are handled somewhat differently. 
+If the water is at least 10 feet deep, the first 20 feet of falling do no damage. 
+The next 20 feet do nonlethal damage (1d3 per 10-foot increment). Beyond that, 
+falling damage is lethal damage (1d6 per additional 10-foot increment).
+
+Characters who deliberately dive into water take no damage on a successful DC 15 
+Swim check or DC 15 Tumble check, so long as the water is at least 10 feet deep 
+for every 30 feet fallen. However, the DC of the check increases by 5 for every 
+50 feet of the dive. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Falling Objects}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Just as characters take damage when they fall more than 10 feet, so too do they 
+take damage when they are hit by falling objects.
+
+Objects that fall upon characters deal damage based on their weight and the distance 
+they have fallen.
+
+For each 200 pounds of an object's weight, the object deals 1d6 points of damage, 
+provided it falls at least 10 feet. Distance also comes into play, adding an additional 
+1d6 points of damage for every 10-foot increment it falls beyond the first (to 
+a maximum of 20d6 points of damage).
+
+Objects smaller than 200 pounds also deal damage when dropped, but they must fall 
+farther to deal the same damage. Use Table: Damage from Falling Objects to see 
+how far an object of a given weight must drop to deal 1d6 points of damage.
+
+\begin{table}[htb]
+\rowcolors{1}{white}{offyellow}
+\caption{Damage from Falling Objects}
+\centering
+\begin{tabular}{cc}
+\textbf{Object Weight} & \textbf{Falling Distance}\\
+200-101lb & 20ft\\
+100-51lb & 30ft\\
+50-31lb & 40ft\\
+30-11lb & 50ft\\
+10-6lb & 60ft\\
+5-1lb & 70ft\\
+\end{tabular}
+\end{table}
+
+For each additional increment an object falls, it deals an additional 1d6 points 
+of damage.
+
+Objects weighing less than 1 pound do not deal damage to those they land upon, 
+no matter how far they have fallen.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Heat Dangers}\index{Heat Dangers}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Heat deals nonlethal damage that cannot be recovered until the character gets cooled 
+off (reaches shade, survives until nightfall, gets doused in water, is targeted 
+by \textit{endure elements}, and so forth). Once rendered unconscious through the 
+accumulation of nonlethal damage, the character begins to take lethal damage at 
+the same rate.
+
+A character in very hot conditions (above 90\textdegree{} F) must make a Fortitude saving 
+throw each hour (DC 15, +1 for each previous check) or take 1d4 points of nonlethal 
+damage. Characters wearing heavy clothing or armor of any sort take a -4 penalty 
+on their saves. A character with the \linkskill{Survival} skill may receive a bonus on this 
+saving throw and may be able to apply this bonus to other characters as well (see 
+the skill description). Characters reduced to unconsciousness begin taking lethal 
+damage (1d4 points per hour).
+
+In severe heat (above 110\textdegree{} F), a character must make a Fortitude save once every 
+10 minutes (DC 15, +1 for each previous check) or take 1d4 points of nonlethal 
+damage. Characters wearing heavy clothing or armor of any sort take a -4 penalty 
+on their saves. A character with the Survival skill may receive a bonus on this 
+saving throw and may be able to apply this bonus to other characters as well. Characters 
+reduced to unconsciousness begin taking lethal damage (1d4 points per each 10-minute 
+period).
+
+A character who takes any nonlethal damage from heat exposure now suffers from 
+heatstroke and is fatigued.
+
+These penalties end when the character recovers the nonlethal damage she took from 
+the heat.
+
+Extreme heat (air temperature over 140\textdegree{} F, fire, boiling water, lava) deals lethal 
+damage. Breathing air in these temperatures deals 1d6 points of damage per minute 
+(no save). In addition, a character must make a Fortitude save every 5 minutes 
+(DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. Those wearing 
+heavy clothing or any sort of armor take a -4 penalty on their saves. In addition, 
+those wearing metal armor or coming into contact with very hot metal are affected 
+as if by a \textit{heat metal }spell.
+
+Boiling water deals 1d6 points of scalding damage, unless the character is fully 
+immersed, in which case it deals 10d6 points of damage per round of exposure.
+
+%%%
+\subsubsection{Catching on Fire}
+%%%
+
+Characters exposed to burning oil, bonfires, and noninstantaneous magic fires 
+might find their clothes, hair, or equipment on fire. Spells with an instantaneous 
+duration don't normally set a character on fire, since the heat and flame 
+from these come and go in a flash.
+
+Characters at risk of catching fire are allowed a DC 15 Reflex save to avoid this 
+fate. If a character's clothes or hair catch fire, he takes 1d6 points of damage 
+immediately. In each subsequent round, the burning character must make another 
+Reflex saving throw. Failure means he takes another 1d6 points of damage that round. 
+Success means that the fire has gone out. (That is, once he succeeds on his saving 
+throw, he's no longer on fire.)
+
+A character on fire may automatically extinguish the flames by jumping into enough 
+water to douse himself. If no body of water is at hand, rolling on the ground or 
+smothering the fire with cloaks or the like permits the character another save 
+with a +4 bonus.
+
+Those unlucky enough to have their clothes or equipment catch fire must make DC 
+15 Reflex saves for each item. Flammable items that fail take the same amount of 
+damage as the character.
+
+%%%
+\subsubsection{Lava Effects}
+%%%
+
+Lava or magma deals 2d6 points of damage per round of exposure, except in the case 
+of total immersion (such as when a character falls into the crater of an active 
+volcano), which deals 20d6 points of damage per round.
+
+Damage from magma continues for 1d3 rounds after exposure ceases, but this additional 
+damage is only half of that dealt during actual contact (that is, 1d6 or 10d6 points 
+per round).
+
+An immunity or resistance to fire serves as an immunity to lava or magma. However, 
+a creature immune to fire might still drown if completely immersed in lava (see 
+Drowning, below).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Smoke Effects}\index{Smoke}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A character who breathes heavy smoke must make a Fortitude save each round (DC 
+15, +1 per previous check) or spend that round choking and coughing. A character 
+who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage.
+
+Smoke obscures vision, giving concealment (20\% miss chance) to characters within 
+it.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Starvation and Thirst}\index{Starvation}\index{Thirst}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Characters might find themselves without food or water and with no means to obtain 
+them. In normal climates, Medium characters need at least a gallon of fluids and 
+about a pound of decent food per day to avoid starvation. (Small characters need 
+half as much.) In very hot climates, characters need two or three times as much 
+water to avoid dehydration.
+
+A character can go without water for 1 day plus a number of hours equal to his 
+Constitution score. After this time, the character must make a Constitution check 
+each hour (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage.
+
+A character can go without food for 3 days, in growing discomfort. After this time, 
+the character must make a Constitution check each day (DC 10, +1 for each previous 
+check) or take 1d6 points of nonlethal damage.
+
+Characters who have taken nonlethal damage from lack of food or water are fatigued. 
+Nonlethal damage from thirst or starvation cannot be recovered until the character 
+gets food or water, as needed -- not even magic that restores hit points heals this 
+damage.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Suffocation}\index{Suffocation}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+A character who has no air to breathe can hold her breath for 2 rounds per point 
+of Constitution. After this period of time, the character must make a DC 10 Constitution 
+check in order to continue holding her breath. The save must be repeated each round, 
+with the DC increasing by +1 for each previous success.
+
+When the character fails one of these Constitution checks, she begins to suffocate. 
+In the first round, she falls unconscious (0 hit points). In the following round, 
+she drops to -1 hit points and is dying. In the third round, she suffocates.
+
+\textbf{Slow Suffocation:} A Medium character can breathe easily for 6 hours in 
+a sealed chamber measuring 10 feet on a side. After that time, the character takes 
+1d6 points of nonlethal damage every 15 minutes. Each additional Medium character 
+or significant fire source (a torch, for example) proportionally reduces the time 
+the air will last.
+
+Small characters consume half as much air as Medium characters. A larger volume 
+of air, of course, lasts for a longer time. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Water Dangers}\index{Water Dangers}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Any character can wade in relatively calm water that isn't over his head, no check 
+required. Similarly, swimming in calm water only requires skill checks with a DC 
+of 10. Trained swimmers can just take 10. (Remember, however, that armor or heavy 
+gear makes any attempt at swimming much more difficult. See the \linkskill{Swim} skill description.)
+
+By contrast, fast-moving water is much more dangerous. On a successful DC 15 Swim 
+check or a DC 15 Strength check, it deals 1d3 points of nonlethal damage per round 
+(1d6 points of lethal damage if flowing over rocks and cascades). On a failed check, 
+the character must make another check that round to avoid going under.
+
+Very deep water is not only generally pitch black, posing a navigational hazard, 
+but worse, it deals water pressure damage of 1d6 points per minute for every 100 
+feet the character is below the surface. A successful Fortitude save (DC 15, +1 
+for each previous check) means the diver takes no damage in that minute. Very cold 
+water deals 1d6 points of nonlethal damage from hypothermia per minute of exposure.
+
+%%%
+\subsubsection{Drowning}\index{Drowning}
+%%%
+
+Any character can hold her breath for a number of rounds equal to twice her Constitution 
+score. After this period of time, the character must make a DC 10 Constitution 
+check every round in order to continue holding her breath. Each round, the DC increases 
+by 1. 
+
+When the character finally fails her Constitution check, she begins to drown. In 
+the first round, she falls unconscious (0 hp). In the following round, she drops 
+to -1 hit points and is dying. In the third round, she drowns.
+
+It is possible to drown in substances other than water, such as sand, quicksand, 
+fine dust, and silos full of grain.

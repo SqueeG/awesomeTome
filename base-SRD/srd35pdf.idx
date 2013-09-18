@@ -1,0 +1,433 @@
+\indexentry{Ability Modifer|hyperpage}{5}
+\indexentry{Bonus Spells|hyperpage}{5}
+\indexentry{Strength|hyperpage}{6}
+\indexentry{Dexterity|hyperpage}{6}
+\indexentry{Constitution|hyperpage}{6}
+\indexentry{Intelligence|hyperpage}{6}
+\indexentry{Wisdom|hyperpage}{7}
+\indexentry{Charisma|hyperpage}{7}
+\indexentry{MC|hyperpage}{8}
+\indexentry{Mister Cavern|hyperpage}{8}
+\indexentry{NPC|hyperpage}{8}
+\indexentry{Experience Points|hyperpage}{8}
+\indexentry{XP|hyperpage}{8}
+\indexentry{Character Level|hyperpage}{8}
+\indexentry{Favored Class|hyperpage}{9}
+\indexentry{Small Characters|hyperpage}{9}
+\indexentry{Human (race)|hyperpage}{9}
+\indexentry{Dwarf (race)|hyperpage}{9}
+\indexentry{Elf (race)|hyperpage}{10}
+\indexentry{Gnome (race)|hyperpage}{10}
+\indexentry{Half-Elf (race)|hyperpage}{11}
+\indexentry{Half-Orc (race)|hyperpage}{11}
+\indexentry{Halfling (race)|hyperpage}{11}
+\indexentry{Barbarian (class)|hyperpage}{12}
+\indexentry{Bard (class)|hyperpage}{13}
+\indexentry{Cleric (class)|hyperpage}{17}
+\indexentry{Druid (class)|hyperpage}{19}
+\indexentry{Animal Companion|hyperpage}{21}
+\indexentry{Fighter (class)|hyperpage}{23}
+\indexentry{Monk (class)|hyperpage}{24}
+\indexentry{Paladin (class)|hyperpage}{27}
+\indexentry{Paladin's Mount|hyperpage}{29}
+\indexentry{Ranger (class)|hyperpage}{30}
+\indexentry{Rogue (class)|hyperpage}{32}
+\indexentry{Sorcerer (class)|hyperpage}{34}
+\indexentry{Wizard (class)|hyperpage}{36}
+\indexentry{Wizard Specialization|hyperpage}{37}
+\indexentry{Abjuration|hyperpage}{38}
+\indexentry{Abjurer|hyperpage}{38}
+\indexentry{Conjuration|hyperpage}{38}
+\indexentry{Conjurer|hyperpage}{38}
+\indexentry{Divination|hyperpage}{38}
+\indexentry{Diviner|hyperpage}{38}
+\indexentry{Enchantment|hyperpage}{38}
+\indexentry{Enchanter|hyperpage}{38}
+\indexentry{Evocation|hyperpage}{38}
+\indexentry{Evoker|hyperpage}{38}
+\indexentry{Illusion|hyperpage}{38}
+\indexentry{Illusionist|hyperpage}{38}
+\indexentry{Necromancy|hyperpage}{38}
+\indexentry{Necromancer|hyperpage}{38}
+\indexentry{Transmutation|hyperpage}{38}
+\indexentry{Transmuter|hyperpage}{38}
+\indexentry{Familiar|hyperpage}{38}
+\indexentry{Arcane Spell Failure|hyperpage}{39}
+\indexentry{Level|hyperpage}{40}
+\indexentry{Character Level|hyperpage}{40}
+\indexentry{Class Level|hyperpage}{40}
+\indexentry{Hit Points|hyperpage}{40}
+\indexentry{Base Attack Bonus|hyperpage}{40}
+\indexentry{Saving Throws|hyperpage}{40}
+\indexentry{Skills|hyperpage}{40}
+\indexentry{Appraise (skill)|hyperpage}{45}
+\indexentry{Balance (skill)|hyperpage}{45}
+\indexentry{Bluff (skill)|hyperpage}{46}
+\indexentry{Climb (skill)|hyperpage}{47}
+\indexentry{Concentration (skill)|hyperpage}{48}
+\indexentry{Craft (skill)|hyperpage}{48}
+\indexentry{Decipher Script (skill)|hyperpage}{50}
+\indexentry{Diplomacy (skill)|hyperpage}{51}
+\indexentry{Disable Device (skill)|hyperpage}{51}
+\indexentry{Disguise (skill)|hyperpage}{52}
+\indexentry{Escape Artist (skill)|hyperpage}{53}
+\indexentry{Forgery (skill)|hyperpage}{54}
+\indexentry{Gather Information (skill)|hyperpage}{55}
+\indexentry{Handle Animal (skill)|hyperpage}{55}
+\indexentry{Heal (skill)|hyperpage}{57}
+\indexentry{Hide (skill)|hyperpage}{57}
+\indexentry{Intimidate (skill)|hyperpage}{58}
+\indexentry{Jump (skill)|hyperpage}{58}
+\indexentry{Knowledge (skill)|hyperpage}{59}
+\indexentry{Listen (skill)|hyperpage}{60}
+\indexentry{Move Silently (skill)|hyperpage}{61}
+\indexentry{Open Lock (skill)|hyperpage}{61}
+\indexentry{Perform (skill)|hyperpage}{62}
+\indexentry{Profession (skill)|hyperpage}{62}
+\indexentry{Ride (skill)|hyperpage}{63}
+\indexentry{Search (skill)|hyperpage}{64}
+\indexentry{Sense Motive (skill)|hyperpage}{64}
+\indexentry{Sleight of Hand (skill)|hyperpage}{65}
+\indexentry{Speak Language (skill)|hyperpage}{65}
+\indexentry{Spellcraft (skill)|hyperpage}{66}
+\indexentry{Spot (skill)|hyperpage}{66}
+\indexentry{Survival (skill)|hyperpage}{68}
+\indexentry{Swim (skill)|hyperpage}{68}
+\indexentry{Tumble (skill)|hyperpage}{69}
+\indexentry{Use Magic Device (skill)|hyperpage}{70}
+\indexentry{Use Rope (skill)|hyperpage}{71}
+\indexentry{gp|hyperpage}{100}
+\indexentry{sp|hyperpage}{100}
+\indexentry{cp|hyperpage}{100}
+\indexentry{pp|hyperpage}{100}
+\indexentry{Alignment|hyperpage}{123}
+\indexentry{Carrying Capacity|hyperpage}{127}
+\indexentry{Movement|hyperpage}{127}
+\indexentry{Hampered Movement|hyperpage}{129}
+\indexentry{Movement!Flying|hyperpage}{130}
+\indexentry{Maneuverability|hyperpage}{130}
+\indexentry{Chase|hyperpage}{132}
+\indexentry{Low-light Vision|hyperpage}{132}
+\indexentry{Darkvision|hyperpage}{132}
+\indexentry{Hardness|hyperpage}{133}
+\indexentry{Saving Throws!of Items|hyperpage}{134}
+\indexentry{Breaking Items|hyperpage}{134}
+\indexentry{Alchemical Silver|hyperpage}{136}
+\indexentry{Adamantine|hyperpage}{136}
+\indexentry{Cold Iron|hyperpage}{136}
+\indexentry{Darkwood|hyperpage}{136}
+\indexentry{Dragonhide|hyperpage}{137}
+\indexentry{Mithral|hyperpage}{137}
+\indexentry{Getting Lost|hyperpage}{146}
+\indexentry{Law Enforcement|hyperpage}{156}
+\indexentry{Storms|hyperpage}{161}
+\indexentry{Fog|hyperpage}{161}
+\indexentry{Wind|hyperpage}{161}
+\indexentry{Knocked Down|hyperpage}{162}
+\indexentry{Cold Weather Effects|hyperpage}{163}
+\indexentry{Darkness|hyperpage}{163}
+\indexentry{Falling|hyperpage}{164}
+\indexentry{Heat Dangers|hyperpage}{165}
+\indexentry{Smoke|hyperpage}{166}
+\indexentry{Starvation|hyperpage}{166}
+\indexentry{Thirst|hyperpage}{166}
+\indexentry{Suffocation|hyperpage}{166}
+\indexentry{Water Dangers|hyperpage}{166}
+\indexentry{Drowning|hyperpage}{166}
+\indexentry{Traps|hyperpage}{167}
+\indexentry{Planes|hyperpage}{180}
+\indexentry{Material Plane|hyperpage}{180}
+\indexentry{Transitive Planes|hyperpage}{180}
+\indexentry{Inner Planes|hyperpage}{180}
+\indexentry{Outer Planes|hyperpage}{180}
+\indexentry{Demiplanes|hyperpage}{180}
+\indexentry{Coterminous Planes|hyperpage}{185}
+\indexentry{Coexistent Planes|hyperpage}{185}
+\indexentry{Material Plane|hyperpage}{185}
+\indexentry{Ethereal Plane|hyperpage}{186}
+\indexentry{Plane of Shadow|hyperpage}{186}
+\indexentry{Astral Plane|hyperpage}{187}
+\indexentry{Elemental Plane of Air|hyperpage}{187}
+\indexentry{Elemental Plane of Earth|hyperpage}{187}
+\indexentry{Elemental Plane of Fire|hyperpage}{188}
+\indexentry{Elemental Plane of Water|hyperpage}{188}
+\indexentry{Negative Energy Plane|hyperpage}{188}
+\indexentry{Positive Energy Plane|hyperpage}{189}
+\indexentry{Attack Bonus|hyperpage}{190}
+\indexentry{Minimum Damage|hyperpage}{191}
+\indexentry{Off-Hand Weapon|hyperpage}{191}
+\indexentry{Armor Class|hyperpage}{191}
+\indexentry{Enhancement Bonuses|hyperpage}{191}
+\indexentry{Deflection Bonus|hyperpage}{191}
+\indexentry{Natural Armor|hyperpage}{191}
+\indexentry{Dodge Bonuses|hyperpage}{191}
+\indexentry{Touch Attacks|hyperpage}{191}
+\indexentry{Hit Points|hyperpage}{191}
+\indexentry{Speed|hyperpage}{191}
+\indexentry{Saving Throws|hyperpage}{192}
+\indexentry{Initiative|hyperpage}{192}
+\indexentry{Flat-Footed|hyperpage}{192}
+\indexentry{Surprise|hyperpage}{192}
+\indexentry{Attacks of Opportunity|hyperpage}{192}
+\indexentry{Reach Weapons|hyperpage}{193}
+\indexentry{Standard Action|hyperpage}{193}
+\indexentry{Move Action|hyperpage}{194}
+\indexentry{Full-Round Action|hyperpage}{194}
+\indexentry{Swift Action|hyperpage}{194}
+\indexentry{Immediate Action|hyperpage}{195}
+\indexentry{Free Action|hyperpage}{195}
+\indexentry{Standard Action|hyperpage}{196}
+\indexentry{Attacking|hyperpage}{196}
+\indexentry{Unarmed Strike|hyperpage}{196}
+\indexentry{Firing Into Melee|hyperpage}{197}
+\indexentry{Fighting Defensively|hyperpage}{197}
+\indexentry{Critical Hits|hyperpage}{197}
+\indexentry{Threat Range|hyperpage}{197}
+\indexentry{Critical Multiplier|hyperpage}{197}
+\indexentry{Spellcasting|hyperpage}{197}
+\indexentry{Spell Components|hyperpage}{197}
+\indexentry{Casting Defensively|hyperpage}{198}
+\indexentry{Spell Completion Items|hyperpage}{198}
+\indexentry{Spell Trigger Items|hyperpage}{198}
+\indexentry{Command Word Items|hyperpage}{198}
+\indexentry{Use-Activated Items|hyperpage}{198}
+\indexentry{Spell-Like Ability|hyperpage}{199}
+\indexentry{Supernatural Ability|hyperpage}{199}
+\indexentry{Extraordinary Ability|hyperpage}{199}
+\indexentry{Total Defense|hyperpage}{199}
+\indexentry{Move Action|hyperpage}{199}
+\indexentry{Movement|hyperpage}{199}
+\indexentry{Crawling|hyperpage}{199}
+\indexentry{Stand Up|hyperpage}{200}
+\indexentry{Full-Round Action|hyperpage}{200}
+\indexentry{Full Attack|hyperpage}{200}
+\indexentry{Fighting Defensively|hyperpage}{200}
+\indexentry{Withdraw|hyperpage}{201}
+\indexentry{Running|hyperpage}{201}
+\indexentry{Free Action|hyperpage}{201}
+\indexentry{Swift Action|hyperpage}{202}
+\indexentry{5ft Step|hyperpage}{202}
+\indexentry{Massive Damage|hyperpage}{203}
+\indexentry{Disabled|hyperpage}{203}
+\indexentry{Dying|hyperpage}{203}
+\indexentry{Dead|hyperpage}{203}
+\indexentry{Stabilization|hyperpage}{203}
+\indexentry{Healing Damage|hyperpage}{204}
+\indexentry{Temporary Hit Points|hyperpage}{204}
+\indexentry{Nonlethal Damage|hyperpage}{204}
+\indexentry{Staggered|hyperpage}{204}
+\indexentry{Movement|hyperpage}{205}
+\indexentry{Encumbrance|hyperpage}{205}
+\indexentry{Hampered Movement|hyperpage}{205}
+\indexentry{Movement!Diagonals|hyperpage}{205}
+\indexentry{Difficult Terrain|hyperpage}{206}
+\indexentry{Squeezing|hyperpage}{206}
+\indexentry{Cover|hyperpage}{207}
+\indexentry{Concealment|hyperpage}{208}
+\indexentry{Flanking|hyperpage}{209}
+\indexentry{Helpless|hyperpage}{209}
+\indexentry{Coup de Grace|hyperpage}{209}
+\indexentry{Aid Another|hyperpage}{209}
+\indexentry{Bull Rush|hyperpage}{210}
+\indexentry{Charge|hyperpage}{210}
+\indexentry{Disarm|hyperpage}{211}
+\indexentry{Feint|hyperpage}{211}
+\indexentry{Grapple|hyperpage}{212}
+\indexentry{Mounted Combat|hyperpage}{214}
+\indexentry{Overrun|hyperpage}{214}
+\indexentry{Sunder|hyperpage}{215}
+\indexentry{Splash Weapons|hyperpage}{215}
+\indexentry{Trip|hyperpage}{216}
+\indexentry{Turn Undead|hyperpage}{216}
+\indexentry{Rebuke Undead|hyperpage}{216}
+\indexentry{Two-Weapon Fighting|hyperpage}{218}
+\indexentry{Delay Action|hyperpage}{218}
+\indexentry{Initiative!Delay|hyperpage}{218}
+\indexentry{Readied Action|hyperpage}{218}
+\indexentry{Initiative!Readied Action|hyperpage}{218}
+\indexentry{Extraordinary Ability|hyperpage}{219}
+\indexentry{Spell-Like Ability|hyperpage}{219}
+\indexentry{Supernatural Ability|hyperpage}{219}
+\indexentry{Ability Score Loss|hyperpage}{219}
+\indexentry{Antimagic|hyperpage}{220}
+\indexentry{Blindsight|hyperpage}{220}
+\indexentry{Blindsense|hyperpage}{220}
+\indexentry{Breath Weapon|hyperpage}{221}
+\indexentry{Charm|hyperpage}{221}
+\indexentry{Compulsion|hyperpage}{221}
+\indexentry{Cold Immunity|hyperpage}{221}
+\indexentry{Damage Reduction|hyperpage}{221}
+\indexentry{Darkvision|hyperpage}{222}
+\indexentry{Death Attacks|hyperpage}{222}
+\indexentry{Disease|hyperpage}{222}
+\indexentry{Energy Drain|hyperpage}{223}
+\indexentry{Negative Levels|hyperpage}{223}
+\indexentry{Etherealness|hyperpage}{224}
+\indexentry{Evasion|hyperpage}{224}
+\indexentry{Improved Evasion|hyperpage}{224}
+\indexentry{Fast Healing|hyperpage}{225}
+\indexentry{Fear Effects|hyperpage}{225}
+\indexentry{Shaken|hyperpage}{225}
+\indexentry{Frightened|hyperpage}{225}
+\indexentry{Panicked|hyperpage}{225}
+\indexentry{Fire Immunity|hyperpage}{225}
+\indexentry{Gaseous Form|hyperpage}{225}
+\indexentry{Gaze Attacks|hyperpage}{225}
+\indexentry{Incorporeal|hyperpage}{226}
+\indexentry{Invisibility|hyperpage}{226}
+\indexentry{Level Loss|hyperpage}{228}
+\indexentry{Low-Light Vision|hyperpage}{228}
+\indexentry{Paralysis|hyperpage}{228}
+\indexentry{Poison|hyperpage}{228}
+\indexentry{Polymorph|hyperpage}{229}
+\indexentry{Psionics|hyperpage}{229}
+\indexentry{Ray|hyperpage}{229}
+\indexentry{Regeneration|hyperpage}{230}
+\indexentry{Energy Resistance|hyperpage}{230}
+\indexentry{Resistance to Energy|hyperpage}{230}
+\indexentry{Scent|hyperpage}{231}
+\indexentry{Spell Resistance|hyperpage}{231}
+\indexentry{Abjuration|hyperpage}{232}
+\indexentry{Conjuration|hyperpage}{232}
+\indexentry{Divination|hyperpage}{232}
+\indexentry{Enchantment|hyperpage}{232}
+\indexentry{Evocation|hyperpage}{232}
+\indexentry{Illusion|hyperpage}{232}
+\indexentry{Necromancy|hyperpage}{232}
+\indexentry{Transmutation|hyperpage}{232}
+\indexentry{Tremorsense|hyperpage}{232}
+\indexentry{Turn Resistance|hyperpage}{232}
+\indexentry{Ability Damage|hyperpage}{233}
+\indexentry{Ability Drain|hyperpage}{233}
+\indexentry{Blind|hyperpage}{233}
+\indexentry{Blown Away|hyperpage}{233}
+\indexentry{Checked|hyperpage}{233}
+\indexentry{Confused|hyperpage}{233}
+\indexentry{Cowering|hyperpage}{233}
+\indexentry{Dazed|hyperpage}{233}
+\indexentry{Dazzled|hyperpage}{234}
+\indexentry{Dead|hyperpage}{234}
+\indexentry{Deafened|hyperpage}{234}
+\indexentry{Disabled|hyperpage}{234}
+\indexentry{Dying|hyperpage}{234}
+\indexentry{Energy Drain|hyperpage}{234}
+\indexentry{Entangled|hyperpage}{234}
+\indexentry{Exhausted|hyperpage}{234}
+\indexentry{Fascinated|hyperpage}{235}
+\indexentry{Fatigued|hyperpage}{235}
+\indexentry{Flat-Footed|hyperpage}{235}
+\indexentry{Frightened|hyperpage}{235}
+\indexentry{Grappling|hyperpage}{235}
+\indexentry{Helpless|hyperpage}{235}
+\indexentry{Coup de Grace|hyperpage}{235}
+\indexentry{Incorporeal|hyperpage}{235}
+\indexentry{Invisible|hyperpage}{235}
+\indexentry{Knocked Down|hyperpage}{236}
+\indexentry{Nauseated|hyperpage}{236}
+\indexentry{Panicked|hyperpage}{236}
+\indexentry{Paralyzed|hyperpage}{236}
+\indexentry{Petrified|hyperpage}{236}
+\indexentry{Pinned|hyperpage}{236}
+\indexentry{Prone|hyperpage}{236}
+\indexentry{Shaken|hyperpage}{236}
+\indexentry{Sickened|hyperpage}{236}
+\indexentry{Stable|hyperpage}{237}
+\indexentry{Staggered|hyperpage}{237}
+\indexentry{Stunned|hyperpage}{237}
+\indexentry{Turned|hyperpage}{237}
+\indexentry{Unconscious|hyperpage}{237}
+\indexentry{Counterspelling|hyperpage}{239}
+\indexentry{Spell Failure|hyperpage}{239}
+\indexentry{Bonus Types|hyperpage}{240}
+\indexentry{Bringing Back the Dead|hyperpage}{240}
+\indexentry{Abjuration|hyperpage}{241}
+\indexentry{Conjuration|hyperpage}{241}
+\indexentry{Calling|hyperpage}{241}
+\indexentry{Creation|hyperpage}{241}
+\indexentry{Healing|hyperpage}{242}
+\indexentry{Summoning|hyperpage}{242}
+\indexentry{Teleportation|hyperpage}{242}
+\indexentry{Divination|hyperpage}{242}
+\indexentry{Scrying|hyperpage}{242}
+\indexentry{Enchantment|hyperpage}{242}
+\indexentry{Charm|hyperpage}{242}
+\indexentry{Compulsion|hyperpage}{242}
+\indexentry{Evocation|hyperpage}{242}
+\indexentry{Illusion|hyperpage}{242}
+\indexentry{Figment|hyperpage}{242}
+\indexentry{Glamer|hyperpage}{243}
+\indexentry{Pattern|hyperpage}{243}
+\indexentry{Phantasm|hyperpage}{243}
+\indexentry{Shadow|hyperpage}{243}
+\indexentry{Necromancy|hyperpage}{243}
+\indexentry{Transmutation|hyperpage}{243}
+\indexentry{Spell Components|hyperpage}{244}
+\indexentry{Verbal Component|hyperpage}{244}
+\indexentry{Somantic Component|hyperpage}{244}
+\indexentry{Material Component|hyperpage}{244}
+\indexentry{Spell Focus|hyperpage}{244}
+\indexentry{Divine Spell Focus|hyperpage}{244}
+\indexentry{Personal Spell|hyperpage}{244}
+\indexentry{Touch Spell|hyperpage}{244}
+\indexentry{Close Range|hyperpage}{245}
+\indexentry{Medium Range|hyperpage}{245}
+\indexentry{Long Range|hyperpage}{245}
+\indexentry{Ray|hyperpage}{245}
+\indexentry{Spread|hyperpage}{245}
+\indexentry{Area Spell|hyperpage}{245}
+\indexentry{Burst|hyperpage}{245}
+\indexentry{Emanation|hyperpage}{245}
+\indexentry{Spread|hyperpage}{245}
+\indexentry{Cone|hyperpage}{246}
+\indexentry{Cylinder|hyperpage}{246}
+\indexentry{Line|hyperpage}{246}
+\indexentry{Sphere|hyperpage}{246}
+\indexentry{Shapeable|hyperpage}{246}
+\indexentry{Line of Effect|hyperpage}{246}
+\indexentry{Instantaneous|hyperpage}{246}
+\indexentry{Permanent|hyperpage}{246}
+\indexentry{Concentration Duration|hyperpage}{246}
+\indexentry{Dismissible|hyperpage}{247}
+\indexentry{Saving Throws|hyperpage}{247}
+\indexentry{Harmless Spell|hyperpage}{247}
+\indexentry{Saving Throws!Voluntary Failure|hyperpage}{247}
+\indexentry{Saving Throws!and Item Surival|hyperpage}{247}
+\indexentry{Spell Resistance|hyperpage}{248}
+\indexentry{Spell Preperation!Arcane|hyperpage}{248}
+\indexentry{Spell Preperation!Divine|hyperpage}{251}
+\indexentry{Spell-Like Ability|hyperpage}{252}
+\indexentry{Supernatural Ability|hyperpage}{252}
+\indexentry{Extraordinary Ability|hyperpage}{252}
+\indexentry{Natural Ability|hyperpage}{252}
+\indexentry{Bard Spells|hyperpage}{252}
+\indexentry{Cleric Spells|hyperpage}{256}
+\indexentry{Cleric Domains|hyperpage}{260}
+\indexentry{Druid Spells|hyperpage}{270}
+\indexentry{Paladin Spells|hyperpage}{273}
+\indexentry{Ranger Spells|hyperpage}{274}
+\indexentry{Sorcerer Spells|hyperpage}{276}
+\indexentry{Wizard Spells|hyperpage}{276}
+\indexentry{Adept (class)|hyperpage}{682}
+\indexentry{Aristocrat (class)|hyperpage}{683}
+\indexentry{Commoner (class)|hyperpage}{683}
+\indexentry{Expert (class)|hyperpage}{684}
+\indexentry{Warrior (class)|hyperpage}{685}
+\indexentry{Base Class|hyperpage}{687}
+\indexentry{Caster Level|hyperpage}{687}
+\indexentry{Character Level|hyperpage}{687}
+\indexentry{Class Level|hyperpage}{687}
+\indexentry{Arcane Archer (class)|hyperpage}{687}
+\indexentry{Arcane Trickster (class)|hyperpage}{689}
+\indexentry{Archmage (class)|hyperpage}{690}
+\indexentry{Assassin (class)|hyperpage}{691}
+\indexentry{Blackguard (class)|hyperpage}{693}
+\indexentry{Dragon Disciple (class)|hyperpage}{696}
+\indexentry{Duelist (class)|hyperpage}{698}
+\indexentry{Dwarven Defender (class)|hyperpage}{699}
+\indexentry{Eldritch Knight (class)|hyperpage}{700}
+\indexentry{Hierophant (class)|hyperpage}{701}
+\indexentry{Horizon Walker (class)|hyperpage}{702}
+\indexentry{Loremaster (class)|hyperpage}{704}
+\indexentry{Mystic Theurge (class)|hyperpage}{705}
+\indexentry{Shadow Dancer (class)|hyperpage}{706}
+\indexentry{Thaumaturgist (class)|hyperpage}{707}

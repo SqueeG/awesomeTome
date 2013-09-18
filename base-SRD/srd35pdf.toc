@@ -1,0 +1,1469 @@
+\contentsline {chapter}{Table of Contents}{2}{section*.1}
+\contentsline {chapter}{\chapternumberline {1}The Basics}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Core Mechanic}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Dice}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Rounding Fractions}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Multiplying}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Ability Scores}{5}{section.1.5}
+\contentsline {subsection}{Ability Modifiers}{5}{section*.2}
+\contentsline {subsection}{Abilities and Spellcasters}{5}{section*.3}
+\contentsline {subsection}{The Abilities}{5}{section*.4}
+\contentsline {subsubsection}{Strength (Str)}{6}{section*.5}
+\contentsline {subsubsection}{Dexterity (Dex)}{6}{section*.6}
+\contentsline {subsubsection}{Constitution (Con)}{6}{section*.7}
+\contentsline {subsubsection}{Intelligence (Int)}{6}{section*.8}
+\contentsline {subsubsection}{Wisdom (Wis)}{7}{section*.9}
+\contentsline {subsubsection}{Charisma (Cha)}{7}{section*.10}
+\contentsline {section}{\numberline {1.6}Ability Score Generation}{7}{section.1.6}
+\contentsline {section}{\numberline {1.7}Character Creation}{8}{section.1.7}
+\contentsline {section}{\numberline {1.8}Character Advancement}{8}{section.1.8}
+\contentsline {chapter}{\chapternumberline {2}Races}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Race Basics}{9}{section.2.1}
+\contentsline {subsection}{Favored Class}{9}{section*.11}
+\contentsline {subsection}{Race and Languages}{9}{section*.12}
+\contentsline {subsection}{Small Characters}{9}{section*.13}
+\contentsline {section}{\numberline {2.2}Human}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Dwarf}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Elf}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}Gnome}{10}{section.2.5}
+\contentsline {section}{\numberline {2.6}Half-Elf}{11}{section.2.6}
+\contentsline {section}{\numberline {2.7}Half-Orc}{11}{section.2.7}
+\contentsline {section}{\numberline {2.8}Halfling}{11}{section.2.8}
+\contentsline {chapter}{\chapternumberline {3}Classes}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Barbarian}{12}{section.3.1}
+\contentsline {subsection}{Ex-Barbarians}{13}{section*.15}
+\contentsline {section}{\numberline {3.2}Bard}{13}{section.3.2}
+\contentsline {subsection}{Ex-Bards}{17}{section*.17}
+\contentsline {section}{\numberline {3.3}Cleric}{17}{section.3.3}
+\contentsline {subsection}{Ex-Clerics}{19}{section*.19}
+\contentsline {section}{\numberline {3.4}Druid}{19}{section.3.4}
+\contentsline {subsection}{Ex-Druids}{21}{section*.21}
+\contentsline {subsection}{The Druid's Animal Companion}{21}{section*.22}
+\contentsline {subsection}{Alternate Animal Companions}{22}{section*.23}
+\contentsline {subsubsection}{4th Level or Higher (Level -3)}{22}{section*.24}
+\contentsline {subsubsection}{7th Level or Higher (Level -6)}{23}{section*.25}
+\contentsline {subsubsection}{10th Level or Higher (Level -9)}{23}{section*.26}
+\contentsline {subsubsection}{13th Level or Higher (Level -12)}{23}{section*.27}
+\contentsline {subsubsection}{16th Level or Higher (Level -15)}{23}{section*.28}
+\contentsline {section}{\numberline {3.5}Fighter}{23}{section.3.5}
+\contentsline {section}{\numberline {3.6}Monk}{24}{section.3.6}
+\contentsline {subsection}{Ex-Monks}{27}{section*.31}
+\contentsline {section}{\numberline {3.7}Paladin}{27}{section.3.7}
+\contentsline {subsection}{Ex-Paladin}{29}{section*.33}
+\contentsline {subsection}{The Paladin's Mount}{29}{section*.34}
+\contentsline {section}{\numberline {3.8}Ranger}{30}{section.3.8}
+\contentsline {section}{\numberline {3.9}Rogue}{32}{section.3.9}
+\contentsline {section}{\numberline {3.10}Sorcerer}{34}{section.3.10}
+\contentsline {section}{\numberline {3.11}Wizard}{36}{section.3.11}
+\contentsline {subsection}{School Specialization}{37}{section*.39}
+\contentsline {subsection}{Familiars}{38}{section*.40}
+\contentsline {subsection}{Arcane Spells And Armor}{39}{section*.41}
+\contentsline {section}{\numberline {3.12}Multiclass Characters}{40}{section.3.12}
+\contentsline {subsection}{Class And Level Features}{40}{section*.42}
+\contentsline {chapter}{\chapternumberline {4}Skills}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Skills Summary}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Using Skills}{41}{section.4.2}
+\contentsline {subsection}{Skill Checks}{41}{section*.43}
+\contentsline {subsubsection}{Difficulty Class}{42}{section*.44}
+\contentsline {subsubsection}{Opposed Checks}{42}{section*.45}
+\contentsline {subsubsection}{Trying Again}{42}{section*.46}
+\contentsline {subsubsection}{Untrained Skill Checks}{42}{section*.47}
+\contentsline {subsubsection}{Favorable and Unfavorable Conditions}{42}{section*.48}
+\contentsline {subsubsection}{Checks without Rolls}{43}{section*.49}
+\contentsline {subsection}{Combining Skill Attempts}{43}{section*.50}
+\contentsline {subsubsection}{Individual Events}{43}{section*.51}
+\contentsline {subsubsection}{Aid Another and Skills}{43}{section*.52}
+\contentsline {subsubsection}{Skill Synergy}{44}{section*.53}
+\contentsline {subsection}{Ability Checks}{44}{section*.54}
+\contentsline {section}{\numberline {4.3}Skill Descriptions}{44}{section.4.3}
+\contentsline {subsection}{Skill Name}{44}{section*.55}
+\contentsline {subsection}{Appraise}{45}{section*.56}
+\contentsline {subsection}{Balance}{45}{section*.57}
+\contentsline {subsection}{Bluff}{46}{section*.58}
+\contentsline {subsection}{Climb}{47}{section*.59}
+\contentsline {subsection}{Concentration}{48}{section*.60}
+\contentsline {subsection}{Craft}{48}{section*.61}
+\contentsline {subsection}{Decipher Script}{50}{section*.62}
+\contentsline {subsection}{Diplomacy}{51}{section*.63}
+\contentsline {subsubsection}{Influencing NPC Attitudes}{51}{section*.64}
+\contentsline {subsection}{Disable Device}{51}{section*.65}
+\contentsline {subsubsection}{Other Ways To Beat A Trap}{52}{section*.66}
+\contentsline {subsection}{Disguise}{52}{section*.67}
+\contentsline {subsection}{Escape Artist}{53}{section*.68}
+\contentsline {subsection}{Forgery}{54}{section*.69}
+\contentsline {subsection}{Gather Information}{55}{section*.70}
+\contentsline {subsection}{Handle Animal}{55}{section*.71}
+\contentsline {subsection}{Heal}{57}{section*.72}
+\contentsline {subsection}{Hide}{57}{section*.73}
+\contentsline {subsection}{Intimidate}{58}{section*.74}
+\contentsline {subsection}{Jump}{58}{section*.75}
+\contentsline {subsection}{Knowledge}{59}{section*.76}
+\contentsline {subsection}{Listen}{60}{section*.77}
+\contentsline {subsection}{Move Silently}{61}{section*.78}
+\contentsline {subsection}{Open Lock}{61}{section*.79}
+\contentsline {subsection}{Perform}{62}{section*.80}
+\contentsline {subsection}{Profession}{62}{section*.81}
+\contentsline {subsection}{Ride}{63}{section*.82}
+\contentsline {subsection}{Search}{64}{section*.83}
+\contentsline {subsection}{Sense Motive}{64}{section*.84}
+\contentsline {subsection}{Sleight of Hand}{65}{section*.85}
+\contentsline {subsection}{Speak Language}{65}{section*.86}
+\contentsline {subsection}{Spellcraft}{66}{section*.87}
+\contentsline {subsection}{Spot}{66}{section*.88}
+\contentsline {subsection}{Survival}{68}{section*.89}
+\contentsline {subsection}{Swim}{68}{section*.90}
+\contentsline {subsection}{Tumble}{69}{section*.91}
+\contentsline {subsection}{Use Magic Device}{70}{section*.92}
+\contentsline {subsection}{Use Rope}{71}{section*.93}
+\contentsline {chapter}{\chapternumberline {5}Feats}{73}{chapter.5}
+\contentsline {section}{\numberline {5.1}Prerequisites}{73}{section.5.1}
+\contentsline {section}{\numberline {5.2}Types of Feats}{73}{section.5.2}
+\contentsline {subsection}{Fighter Bonus Feats}{73}{section*.94}
+\contentsline {subsection}{Item Creation Feats}{73}{section*.95}
+\contentsline {subsection}{Metamagic Feats}{74}{section*.96}
+\contentsline {section}{\numberline {5.3}Feat Descriptions}{74}{section.5.3}
+\contentsline {subsubsection}{Feat Name [Type]}{74}{section*.97}
+\contentsline {subsubsection}{Ability Focus}{74}{section*.98}
+\contentsline {subsubsection}{Acrobatic}{75}{section*.99}
+\contentsline {subsubsection}{Agile}{75}{section*.100}
+\contentsline {subsubsection}{Alertness}{75}{section*.101}
+\contentsline {subsubsection}{Animal Affinity}{75}{section*.102}
+\contentsline {subsubsection}{Armor Proficiency (Heavy)}{75}{section*.103}
+\contentsline {subsubsection}{Armor Proficiency (Light)}{75}{section*.104}
+\contentsline {subsubsection}{Armor Proficiency (Medium)}{75}{section*.105}
+\contentsline {subsubsection}{Athletic}{75}{section*.106}
+\contentsline {subsubsection}{Augment Summoning}{75}{section*.107}
+\contentsline {subsubsection}{Awesome Blow}{76}{section*.108}
+\contentsline {subsubsection}{Blind-Fight}{76}{section*.109}
+\contentsline {subsubsection}{Blindsight, 5ft Radius}{76}{section*.110}
+\contentsline {subsubsection}{Brew Potion}{76}{section*.111}
+\contentsline {subsubsection}{Cleave}{76}{section*.112}
+\contentsline {subsubsection}{Cloak Dance}{76}{section*.113}
+\contentsline {subsubsection}{Combat Casting}{77}{section*.114}
+\contentsline {subsubsection}{Combat Expertise}{77}{section*.115}
+\contentsline {subsubsection}{Combat Reflexes}{77}{section*.116}
+\contentsline {subsubsection}{Craft Construct}{77}{section*.117}
+\contentsline {subsubsection}{Craft Magic Arms and Armor}{77}{section*.118}
+\contentsline {subsubsection}{Craft Rod}{77}{section*.119}
+\contentsline {subsubsection}{Craft Staff}{78}{section*.120}
+\contentsline {subsubsection}{Craft Wand}{78}{section*.121}
+\contentsline {subsubsection}{Craft Wondrous Item}{78}{section*.122}
+\contentsline {subsubsection}{Deadly Precision}{78}{section*.123}
+\contentsline {subsubsection}{Deceitful}{78}{section*.124}
+\contentsline {subsubsection}{Deflect Arrows}{78}{section*.125}
+\contentsline {subsubsection}{Deft Hands}{78}{section*.126}
+\contentsline {subsubsection}{Diehard}{79}{section*.127}
+\contentsline {subsubsection}{Diligent}{79}{section*.128}
+\contentsline {subsubsection}{Disguise Spell}{79}{section*.129}
+\contentsline {subsubsection}{Divine Might}{79}{section*.130}
+\contentsline {subsubsection}{Divine Vengeance}{79}{section*.131}
+\contentsline {subsubsection}{Dodge}{79}{section*.132}
+\contentsline {subsubsection}{Empower Spell}{79}{section*.133}
+\contentsline {subsubsection}{Empower Spell-Like Ability}{79}{section*.134}
+\contentsline {subsubsection}{Endurance}{80}{section*.135}
+\contentsline {subsubsection}{Energy Substitution}{80}{section*.136}
+\contentsline {subsubsection}{Enlarge Spell}{80}{section*.137}
+\contentsline {subsubsection}{Eschew Materials}{80}{section*.138}
+\contentsline {subsubsection}{Exotic Weapon Proficiency}{80}{section*.139}
+\contentsline {subsubsection}{Extend Spell}{80}{section*.140}
+\contentsline {subsubsection}{Extra Music}{81}{section*.141}
+\contentsline {subsubsection}{Extra Turning}{81}{section*.142}
+\contentsline {subsubsection}{Eyes In The Back Of Your Head}{81}{section*.143}
+\contentsline {subsubsection}{Far Shot}{81}{section*.144}
+\contentsline {subsubsection}{Fleet of Foot}{81}{section*.145}
+\contentsline {subsubsection}{Flyby Attack}{81}{section*.146}
+\contentsline {subsubsection}{Forge Ring}{81}{section*.147}
+\contentsline {subsubsection}{Great Cleave}{82}{section*.148}
+\contentsline {subsubsection}{Great Fortitude}{82}{section*.149}
+\contentsline {subsubsection}{Greater Manyshot}{82}{section*.150}
+\contentsline {subsubsection}{Greater Multiweapon Fighting}{82}{section*.151}
+\contentsline {subsubsection}{Greater Spell Focus}{82}{section*.152}
+\contentsline {subsubsection}{Greater Spell Penetration}{82}{section*.153}
+\contentsline {subsubsection}{Greater Two-Weapon Fighting}{82}{section*.154}
+\contentsline {subsubsection}{Greater Weapon Focus}{82}{section*.155}
+\contentsline {subsubsection}{Greater Weapon Specialization}{83}{section*.156}
+\contentsline {subsubsection}{Heighten Spell}{83}{section*.157}
+\contentsline {subsubsection}{Hold The Line}{83}{section*.158}
+\contentsline {subsubsection}{Hover}{83}{section*.159}
+\contentsline {subsubsection}{Improved Bull Rush}{83}{section*.160}
+\contentsline {subsubsection}{Improved Counterspell}{83}{section*.161}
+\contentsline {subsubsection}{Improved Critical}{83}{section*.162}
+\contentsline {subsubsection}{Improved Disarm}{84}{section*.163}
+\contentsline {subsubsection}{Improved Familiar}{84}{section*.164}
+\contentsline {subsubsection}{Improved Flyby Attack}{85}{section*.165}
+\contentsline {subsubsection}{Improved Feint}{85}{section*.166}
+\contentsline {subsubsection}{Improved Grapple}{85}{section*.167}
+\contentsline {subsubsection}{Improved Initiative}{85}{section*.168}
+\contentsline {subsubsection}{Improved Multiattack}{85}{section*.169}
+\contentsline {subsubsection}{Improved Multiweapon Fighting}{85}{section*.170}
+\contentsline {subsubsection}{Improved Natural Armor}{85}{section*.171}
+\contentsline {subsubsection}{Improved Natural Attack}{85}{section*.172}
+\contentsline {subsubsection}{Improved Overrun}{86}{section*.173}
+\contentsline {subsubsection}{Improved Precise Shot}{86}{section*.174}
+\contentsline {subsubsection}{Improved Shield Bash}{86}{section*.175}
+\contentsline {subsubsection}{Improved Sunder}{86}{section*.176}
+\contentsline {subsubsection}{Improved Trip}{86}{section*.177}
+\contentsline {subsubsection}{Improved Turning}{86}{section*.178}
+\contentsline {subsubsection}{Improved Two-Weapon Fighting}{86}{section*.179}
+\contentsline {subsubsection}{Improved Unarmed Strike}{87}{section*.180}
+\contentsline {subsubsection}{Investigator}{87}{section*.181}
+\contentsline {subsubsection}{Iron Will}{87}{section*.182}
+\contentsline {subsubsection}{Jack Of All Trades}{87}{section*.183}
+\contentsline {subsubsection}{Knockdown}{87}{section*.184}
+\contentsline {subsubsection}{Leadership}{87}{section*.185}
+\contentsline {subsubsection}{Lightning Reflexes}{89}{section*.186}
+\contentsline {subsubsection}{Magical Aptitude}{89}{section*.187}
+\contentsline {subsubsection}{Manyshot}{89}{section*.188}
+\contentsline {subsubsection}{Martial Weapon Proficiency}{89}{section*.189}
+\contentsline {subsubsection}{Maximize Spell}{89}{section*.190}
+\contentsline {subsubsection}{Mobility}{89}{section*.191}
+\contentsline {subsubsection}{Mounted Archery}{90}{section*.192}
+\contentsline {subsubsection}{Mounted Combat}{90}{section*.193}
+\contentsline {subsubsection}{Multiattack}{90}{section*.194}
+\contentsline {subsubsection}{Multiweapon Fighting}{90}{section*.195}
+\contentsline {subsubsection}{Natural Spell}{90}{section*.196}
+\contentsline {subsubsection}{Negotiator}{90}{section*.197}
+\contentsline {subsubsection}{Nimble Fingers}{90}{section*.198}
+\contentsline {subsubsection}{Open Minded}{90}{section*.199}
+\contentsline {subsubsection}{Persistant Spell}{90}{section*.200}
+\contentsline {subsubsection}{Persuasive}{91}{section*.201}
+\contentsline {subsubsection}{Plant Control}{91}{section*.202}
+\contentsline {subsubsection}{Plant Defiance}{91}{section*.203}
+\contentsline {subsubsection}{Point Blank Shot}{91}{section*.204}
+\contentsline {subsubsection}{Power Attack}{91}{section*.205}
+\contentsline {subsubsection}{Power Critical}{91}{section*.206}
+\contentsline {subsubsection}{Precise Shot}{91}{section*.207}
+\contentsline {subsubsection}{Quick Draw}{91}{section*.208}
+\contentsline {subsubsection}{Quicken Spell}{92}{section*.209}
+\contentsline {subsubsection}{Quicken Spell-Like Ability}{92}{section*.210}
+\contentsline {subsubsection}{Rapid Metabolism}{92}{section*.211}
+\contentsline {subsubsection}{Rapid Reload}{93}{section*.212}
+\contentsline {subsubsection}{Rapid Shot}{93}{section*.213}
+\contentsline {subsubsection}{Ride-by Attack}{93}{section*.214}
+\contentsline {subsubsection}{Reach Spell}{93}{section*.215}
+\contentsline {subsubsection}{Repeat Spell}{93}{section*.216}
+\contentsline {subsubsection}{Run}{93}{section*.217}
+\contentsline {subsubsection}{Sacred Spell}{93}{section*.218}
+\contentsline {subsubsection}{Scribe Scroll}{94}{section*.219}
+\contentsline {subsubsection}{Self-Sufficient}{94}{section*.220}
+\contentsline {subsubsection}{Shield Proficiency}{94}{section*.221}
+\contentsline {subsubsection}{Sharp-Shooting}{94}{section*.222}
+\contentsline {subsubsection}{Shot On The Run}{94}{section*.223}
+\contentsline {subsubsection}{Silent Spell}{94}{section*.224}
+\contentsline {subsubsection}{Simple Weapon Proficiency}{94}{section*.225}
+\contentsline {subsubsection}{Skill Focus}{94}{section*.226}
+\contentsline {subsubsection}{Snatch}{95}{section*.227}
+\contentsline {subsubsection}{Snatch Arrows}{95}{section*.228}
+\contentsline {subsubsection}{Spell Focus}{95}{section*.229}
+\contentsline {subsubsection}{Spell Mastery}{95}{section*.230}
+\contentsline {subsubsection}{Spell Penetration}{95}{section*.231}
+\contentsline {subsubsection}{Spirited Charge}{95}{section*.232}
+\contentsline {subsubsection}{Spring Attack}{95}{section*.233}
+\contentsline {subsubsection}{Stand Still}{95}{section*.234}
+\contentsline {subsubsection}{Stealthy}{96}{section*.235}
+\contentsline {subsubsection}{Still Spell}{96}{section*.236}
+\contentsline {subsubsection}{Stunning Fist}{96}{section*.237}
+\contentsline {subsubsection}{Subdual Substitution}{96}{section*.238}
+\contentsline {subsubsection}{Superior Expertise}{96}{section*.239}
+\contentsline {subsubsection}{Toughness}{96}{section*.240}
+\contentsline {subsubsection}{Tower Shield Proficiency}{96}{section*.241}
+\contentsline {subsubsection}{Track}{97}{section*.242}
+\contentsline {subsubsection}{Trample}{98}{section*.243}
+\contentsline {subsubsection}{Two-Weapon Defense}{98}{section*.244}
+\contentsline {subsubsection}{Two-Weapon Fighting}{98}{section*.245}
+\contentsline {subsubsection}{Weapon Finesse}{98}{section*.246}
+\contentsline {subsubsection}{Weapon Focus}{98}{section*.247}
+\contentsline {subsubsection}{Weapon Specialization}{98}{section*.248}
+\contentsline {subsubsection}{Whirlwind Attack}{99}{section*.249}
+\contentsline {subsubsection}{Widen Spell}{99}{section*.250}
+\contentsline {subsubsection}{Wingover}{99}{section*.251}
+\contentsline {chapter}{\chapternumberline {6}Equipment}{100}{chapter.6}
+\contentsline {section}{\numberline {6.1}Starting Gear}{100}{section.6.1}
+\contentsline {section}{\numberline {6.2}Wealth and Money}{100}{section.6.2}
+\contentsline {subsection}{Coins}{100}{section*.252}
+\contentsline {subsection}{Wealth Other Than Coins}{100}{section*.253}
+\contentsline {subsection}{Selling Loot}{100}{section*.254}
+\contentsline {section}{\numberline {6.3}Weapons}{101}{section.6.3}
+\contentsline {subsection}{Weapon Categories}{101}{section*.255}
+\contentsline {subsection}{Weapon Qualities}{102}{section*.256}
+\contentsline {subsection}{Weapon Descriptions}{103}{section*.257}
+\contentsline {subsection}{Masterwork Weapons}{109}{section*.258}
+\contentsline {section}{\numberline {6.4}Armor}{110}{section.6.4}
+\contentsline {subsection}{Armor Qualities}{110}{section*.259}
+\contentsline {subsection}{Armor Descriptions}{110}{section*.260}
+\contentsline {subsection}{Masterwork Armor}{112}{section*.261}
+\contentsline {subsection}{Armor For Unusual Creatures}{112}{section*.262}
+\contentsline {subsection}{Getting Into And Out Of Armor}{113}{section*.263}
+\contentsline {section}{\numberline {6.5}Goods and Services}{113}{section.6.5}
+\contentsline {subsection}{Adventuring Gear}{113}{section*.264}
+\contentsline {subsection}{Special Substances and Items}{115}{section*.265}
+\contentsline {subsection}{Tools and Skill Kits}{116}{section*.266}
+\contentsline {subsection}{Clothing}{118}{section*.267}
+\contentsline {subsection}{Food, Drink, and Lodging}{118}{section*.268}
+\contentsline {subsection}{Mounts and Related Gear}{119}{section*.269}
+\contentsline {subsection}{Transport}{120}{section*.270}
+\contentsline {subsection}{Spellcasting and Services}{121}{section*.271}
+\contentsline {chapter}{\chapternumberline {7}Description}{123}{chapter.7}
+\contentsline {section}{\numberline {7.1}Alignment}{123}{section.7.1}
+\contentsline {subsection}{Good vs Evil}{123}{section*.272}
+\contentsline {subsection}{Law vs Chaos}{123}{section*.273}
+\contentsline {subsection}{The Nine Alignments}{124}{section*.274}
+\contentsline {subsubsection}{Lawful Good, "Crusader"}{124}{section*.275}
+\contentsline {subsubsection}{Neutral Good, "Benefactor"}{124}{section*.276}
+\contentsline {subsubsection}{Chaotic Good, "Rebel"}{124}{section*.277}
+\contentsline {subsubsection}{Lawful Neutral, "Judge"}{124}{section*.278}
+\contentsline {subsubsection}{Neutral, "Undecided"}{124}{section*.279}
+\contentsline {subsubsection}{Chaotic Neutral, "Free Spirit"}{124}{section*.280}
+\contentsline {subsubsection}{Lawful Evil, "Dominator"}{125}{section*.281}
+\contentsline {subsubsection}{Neutral Evil, "Malefactor"}{125}{section*.282}
+\contentsline {subsubsection}{Chaotic Evil, "Destroyer"}{125}{section*.283}
+\contentsline {section}{\numberline {7.2}Vital Stats}{125}{section.7.2}
+\contentsline {subsection}{Age}{125}{section*.284}
+\contentsline {subsection}{Height and Weight}{126}{section*.285}
+\contentsline {chapter}{\chapternumberline {8}Adventuring}{127}{chapter.8}
+\contentsline {section}{\numberline {8.1}Carrying Capacity}{127}{section.8.1}
+\contentsline {subsubsection}{Armor and Encumbrance for Other Base Speeds}{127}{section*.286}
+\contentsline {section}{\numberline {8.2}Movement}{127}{section.8.2}
+\contentsline {subsection}{Tactical Movement}{129}{section*.287}
+\contentsline {subsection}{Local Movement}{129}{section*.288}
+\contentsline {subsection}{Overland Movement}{129}{section*.289}
+\contentsline {subsection}{Moving In Three Dimensions}{130}{section*.290}
+\contentsline {subsection}{Evasion and Pursuit}{132}{section*.291}
+\contentsline {subsection}{Moving Around In Squares}{132}{section*.292}
+\contentsline {section}{\numberline {8.3}Exploration}{132}{section.8.3}
+\contentsline {subsection}{Vision and Light}{132}{section*.293}
+\contentsline {subsection}{Breaking and Entering}{133}{section*.294}
+\contentsline {subsubsection}{Smashing an Object}{133}{section*.295}
+\contentsline {subsubsection}{Breaking Items}{134}{section*.296}
+\contentsline {subsection}{Special Materials}{135}{section*.297}
+\contentsline {subsubsection}{Alchemical Silver}{136}{section*.298}
+\contentsline {subsubsection}{Adamantine}{136}{section*.299}
+\contentsline {subsubsection}{Cold Iron}{136}{section*.300}
+\contentsline {subsubsection}{Darkwood}{136}{section*.301}
+\contentsline {subsubsection}{Dragonhide}{137}{section*.302}
+\contentsline {subsubsection}{Mithral}{137}{section*.303}
+\contentsline {section}{\numberline {8.4}Dungeons}{137}{section.8.4}
+\contentsline {subsection}{Types of Dungeons}{137}{section*.304}
+\contentsline {subsection}{Dungeon Terrain}{138}{section*.305}
+\contentsline {subsubsection}{Walls}{138}{section*.306}
+\contentsline {subsubsection}{Special Walls}{139}{section*.307}
+\contentsline {subsubsection}{Floors}{139}{section*.308}
+\contentsline {subsubsection}{Special Floors}{140}{section*.309}
+\contentsline {subsubsection}{Doors}{140}{section*.310}
+\contentsline {subsubsection}{Walls, Doors, and Detect Spells}{142}{section*.311}
+\contentsline {subsection}{Rooms}{142}{section*.312}
+\contentsline {subsection}{Corridors}{143}{section*.313}
+\contentsline {subsection}{Miscellaneous Features}{143}{section*.314}
+\contentsline {subsubsection}{Cave-ins and Collapses (CR 8)}{145}{section*.315}
+\contentsline {subsubsection}{Slimes, Molds, and Fungi}{146}{section*.316}
+\contentsline {section}{\numberline {8.5}Wilderness}{146}{section.8.5}
+\contentsline {subsection}{Getting Lost}{146}{section*.317}
+\contentsline {subsection}{Forest Terrain}{147}{section*.318}
+\contentsline {subsubsection}{Forest Terrain Features}{147}{section*.319}
+\contentsline {subsubsection}{Forest Fires (CR 6)}{148}{section*.320}
+\contentsline {subsection}{Marsh Terrain}{148}{section*.321}
+\contentsline {subsubsection}{Marsh Terrain Features}{149}{section*.322}
+\contentsline {subsection}{Hills Terrain}{150}{section*.323}
+\contentsline {subsubsection}{Hills Terrain Features}{150}{section*.324}
+\contentsline {subsection}{Mountain Terrain}{150}{section*.325}
+\contentsline {subsubsection}{Mountain Terrain Features}{150}{section*.326}
+\contentsline {subsubsection}{Avalanches (CR 7)}{151}{section*.327}
+\contentsline {subsubsection}{Mountain Travel}{152}{section*.328}
+\contentsline {subsection}{Desert Terrain}{152}{section*.329}
+\contentsline {subsubsection}{Desert Terrain Features}{152}{section*.330}
+\contentsline {subsubsection}{Sandstorms}{153}{section*.331}
+\contentsline {subsection}{Plains Terrain}{153}{section*.332}
+\contentsline {subsubsection}{Plains Terrain Features}{153}{section*.333}
+\contentsline {subsection}{Aquatic Terrain}{154}{section*.334}
+\contentsline {subsubsection}{Underwater Combat}{155}{section*.335}
+\contentsline {subsubsection}{Floods}{155}{section*.336}
+\contentsline {section}{\numberline {8.6}Urban Adventures}{156}{section.8.6}
+\contentsline {subsection}{Urban Features}{156}{section*.337}
+\contentsline {subsubsection}{Walls and Gates}{156}{section*.338}
+\contentsline {subsubsection}{Guards and Soldiers}{157}{section*.339}
+\contentsline {subsubsection}{Siege Engines}{157}{section*.340}
+\contentsline {subsubsection}{City Streets}{158}{section*.341}
+\contentsline {subsubsection}{Above and beneath the Streets}{158}{section*.342}
+\contentsline {subsubsection}{City Buildings}{159}{section*.343}
+\contentsline {subsection}{Buying Buildings}{159}{section*.344}
+\contentsline {subsubsection}{City Lights}{159}{section*.345}
+\contentsline {section}{\numberline {8.7}Weather}{160}{section.8.7}
+\contentsline {subsection}{Rain, Snow, Sleet, and Hail}{160}{section*.346}
+\contentsline {subsection}{Storms}{161}{section*.347}
+\contentsline {subsection}{Fog}{161}{section*.348}
+\contentsline {subsection}{Winds}{161}{section*.349}
+\contentsline {section}{\numberline {8.8}The Environment}{162}{section.8.8}
+\contentsline {subsection}{Acid Effects}{163}{section*.350}
+\contentsline {subsection}{Cold Dangers}{163}{section*.351}
+\contentsline {subsubsection}{Ice Effects}{163}{section*.352}
+\contentsline {subsection}{Darkness}{163}{section*.353}
+\contentsline {subsection}{Falling}{164}{section*.354}
+\contentsline {subsection}{Falling Objects}{164}{section*.355}
+\contentsline {subsection}{Heat Dangers}{165}{section*.356}
+\contentsline {subsubsection}{Catching on Fire}{165}{section*.357}
+\contentsline {subsubsection}{Lava Effects}{165}{section*.358}
+\contentsline {subsection}{Smoke Effects}{166}{section*.359}
+\contentsline {subsection}{Starvation and Thirst}{166}{section*.360}
+\contentsline {subsection}{Suffocation}{166}{section*.361}
+\contentsline {subsection}{Water Dangers}{166}{section*.362}
+\contentsline {subsubsection}{Drowning}{166}{section*.363}
+\contentsline {section}{\numberline {8.9}Traps}{167}{section.8.9}
+\contentsline {subsection}{Mechanical Traps}{167}{section*.364}
+\contentsline {subsection}{Magic Traps}{167}{section*.365}
+\contentsline {subsection}{Elements of a Trap}{167}{section*.366}
+\contentsline {subsubsection}{Trigger}{167}{section*.367}
+\contentsline {subsubsection}{Reset}{168}{section*.368}
+\contentsline {subsubsection}{Repairing and Resetting Mechanical Traps}{168}{section*.369}
+\contentsline {subsubsection}{Attack Bonus/Saving Throw DC}{169}{section*.370}
+\contentsline {subsubsection}{Damage/Effect}{169}{section*.371}
+\contentsline {subsubsection}{Miscellaneous Trap Features}{170}{section*.372}
+\contentsline {subsection}{Sample Traps}{170}{section*.373}
+\contentsline {subsubsection}{CR 1 Traps}{170}{section*.374}
+\contentsline {subsubsection}{CR 2 Traps}{171}{section*.375}
+\contentsline {subsubsection}{CR 3 Traps}{171}{section*.376}
+\contentsline {subsubsection}{CR 4 Traps}{172}{section*.377}
+\contentsline {subsubsection}{CR 5 Traps}{173}{section*.378}
+\contentsline {subsubsection}{CR 6 Traps }{173}{section*.379}
+\contentsline {subsubsection}{CR 7 Traps}{174}{section*.380}
+\contentsline {subsubsection}{CR 8 Traps}{174}{section*.381}
+\contentsline {subsubsection}{CR 9 Traps}{175}{section*.382}
+\contentsline {subsubsection}{CR 10 Traps}{175}{section*.383}
+\contentsline {subsection}{Designing A Trap}{176}{section*.384}
+\contentsline {subsubsection}{Challenge Rating of a Trap}{176}{section*.385}
+\contentsline {subsubsection}{Mechanical Trap Cost}{176}{section*.386}
+\contentsline {subsubsection}{Magic Device Trap Cost}{177}{section*.387}
+\contentsline {subsubsection}{Spell Trap Cost}{177}{section*.388}
+\contentsline {subsubsection}{Craft DCs for Mechanical Traps}{178}{section*.389}
+\contentsline {section}{\numberline {8.10}The Planes}{180}{section.8.10}
+\contentsline {subsection}{What Is A Plane?}{180}{section*.390}
+\contentsline {subsection}{Planar Traits}{180}{section*.391}
+\contentsline {subsubsection}{Physical Traits}{180}{section*.392}
+\contentsline {subsubsection}{Gravity}{180}{section*.393}
+\contentsline {subsubsection}{Time}{181}{section*.394}
+\contentsline {subsubsection}{Shape and Size}{182}{section*.395}
+\contentsline {subsubsection}{Morphic Traits}{182}{section*.396}
+\contentsline {subsubsection}{Elemental and Energy Traits}{182}{section*.397}
+\contentsline {subsubsection}{Alignment Traits}{183}{section*.398}
+\contentsline {subsubsection}{Magic Traits}{184}{section*.399}
+\contentsline {subsection}{How Planes Interact}{185}{section*.400}
+\contentsline {subsubsection}{Layered Planes}{185}{section*.401}
+\contentsline {subsection}{Plane Descriptions}{185}{section*.402}
+\contentsline {subsubsection}{The Material Plane}{185}{section*.403}
+\contentsline {subsubsection}{The Ethereal Plane}{186}{section*.404}
+\contentsline {subsubsection}{The Plane of Shadow}{186}{section*.405}
+\contentsline {subsubsection}{The Astral Plane}{187}{section*.406}
+\contentsline {subsubsection}{Elemental Plane of Air}{187}{section*.407}
+\contentsline {subsubsection}{Elemental Plane of Earth}{187}{section*.408}
+\contentsline {subsubsection}{Elemental Plane of Fire}{188}{section*.409}
+\contentsline {subsubsection}{Elemental Plane of Water}{188}{section*.410}
+\contentsline {subsubsection}{Negative Energy Plane}{188}{section*.411}
+\contentsline {subsubsection}{Positive Energy Plane}{189}{section*.412}
+\contentsline {chapter}{\chapternumberline {9}Combat}{190}{chapter.9}
+\contentsline {section}{\numberline {9.1}How Combat Works}{190}{section.9.1}
+\contentsline {section}{\numberline {9.2}Combat Statisics}{190}{section.9.2}
+\contentsline {subsection}{Attack Roll}{190}{section*.413}
+\contentsline {subsection}{Attack Bonus}{190}{section*.414}
+\contentsline {subsection}{Damage}{191}{section*.415}
+\contentsline {subsection}{Armor Class}{191}{section*.416}
+\contentsline {subsection}{Hit Points}{191}{section*.417}
+\contentsline {subsection}{Speed}{191}{section*.418}
+\contentsline {subsection}{Saving Throws}{192}{section*.419}
+\contentsline {section}{\numberline {9.3}Initiative}{192}{section.9.3}
+\contentsline {subsection}{Surprise}{192}{section*.420}
+\contentsline {subsubsection}{Determining Awareness}{192}{section*.421}
+\contentsline {section}{\numberline {9.4}Attacks of Opportunity}{192}{section.9.4}
+\contentsline {section}{\numberline {9.5}Actions in Combat}{193}{section.9.5}
+\contentsline {subsection}{The Combat Round}{193}{section*.422}
+\contentsline {subsection}{Action Types}{193}{section*.423}
+\contentsline {subsection}{Standard Actions}{196}{section*.424}
+\contentsline {subsubsection}{Attack}{196}{section*.425}
+\contentsline {subsubsection}{Cast a Standard Action Spell}{197}{section*.426}
+\contentsline {subsubsection}{Activate Magic Item}{198}{section*.427}
+\contentsline {subsubsection}{Use Standard Action Special Ability}{198}{section*.428}
+\contentsline {subsubsection}{Total Defense}{199}{section*.429}
+\contentsline {subsubsection}{Start/Complete Full-Round Action}{199}{section*.430}
+\contentsline {subsection}{Move Actions}{199}{section*.431}
+\contentsline {subsubsection}{Move}{199}{section*.432}
+\contentsline {subsubsection}{Draw or Sheathe a Weapon}{199}{section*.433}
+\contentsline {subsubsection}{Ready or Loose a Shield}{199}{section*.434}
+\contentsline {subsubsection}{Manipulate an Item}{200}{section*.435}
+\contentsline {subsubsection}{Direct or Redirect a Spell}{200}{section*.436}
+\contentsline {subsubsection}{Stand Up}{200}{section*.437}
+\contentsline {subsubsection}{Mount/Dismount a Steed}{200}{section*.438}
+\contentsline {subsection}{Full-Round Actions}{200}{section*.439}
+\contentsline {subsubsection}{Full Attack}{200}{section*.440}
+\contentsline {subsubsection}{Cast a 1 Round Spell}{200}{section*.441}
+\contentsline {subsubsection}{Use Full-Round Special Ability}{201}{section*.442}
+\contentsline {subsubsection}{Withdraw}{201}{section*.443}
+\contentsline {subsubsection}{Run}{201}{section*.444}
+\contentsline {subsubsection}{Move 5 Feet through Difficult Terrain}{201}{section*.445}
+\contentsline {subsection}{Free Actions}{201}{section*.446}
+\contentsline {subsubsection}{Drop an Item}{201}{section*.447}
+\contentsline {subsubsection}{Drop Prone}{202}{section*.448}
+\contentsline {subsubsection}{Speak}{202}{section*.449}
+\contentsline {subsubsection}{Cease Concentration on Spell}{202}{section*.450}
+\contentsline {subsection}{Swift Actions}{202}{section*.451}
+\contentsline {subsubsection}{Cast a Quickened Spell}{202}{section*.452}
+\contentsline {subsection}{Miscellaneous Actions}{202}{section*.453}
+\contentsline {subsubsection}{Take 5-Foot Step}{202}{section*.454}
+\contentsline {subsubsection}{Use Feat}{202}{section*.455}
+\contentsline {subsubsection}{Use Skill}{202}{section*.456}
+\contentsline {section}{\numberline {9.6}Injury and Death}{202}{section.9.6}
+\contentsline {subsection}{Loss of Hit Points}{202}{section*.457}
+\contentsline {subsection}{Disabled (0 Hit Points)}{203}{section*.458}
+\contentsline {subsection}{Dying (-1 to -9 Hit Points)}{203}{section*.459}
+\contentsline {subsection}{Dead (-10 Hit Points or lower)}{203}{section*.460}
+\contentsline {subsection}{Stable Characters and Recovery}{203}{section*.461}
+\contentsline {subsection}{Healing}{204}{section*.462}
+\contentsline {subsection}{Temporary Hit Points}{204}{section*.463}
+\contentsline {subsection}{Nonlethal Damage}{204}{section*.464}
+\contentsline {section}{\numberline {9.7}Movement, Position, and Distance}{204}{section.9.7}
+\contentsline {subsection}{Tactical Movement In Combat}{205}{section*.465}
+\contentsline {subsubsection}{How Far Can Your Character Move?}{205}{section*.466}
+\contentsline {subsubsection}{Measuring Distance}{205}{section*.467}
+\contentsline {subsubsection}{Moving through a Square}{205}{section*.468}
+\contentsline {subsubsection}{Terrain and Obstacles}{206}{section*.469}
+\contentsline {subsubsection}{Special Movement Rules}{206}{section*.470}
+\contentsline {subsection}{Big And Little Creatures In Combat}{206}{section*.471}
+\contentsline {section}{\numberline {9.8}Combat Modifiers}{207}{section.9.8}
+\contentsline {subsection}{Favorable And Unfavorable Conditions}{207}{section*.472}
+\contentsline {subsection}{Cover}{207}{section*.473}
+\contentsline {subsection}{Concealment}{208}{section*.474}
+\contentsline {subsection}{Flanking}{209}{section*.475}
+\contentsline {subsection}{Helpless Defenders}{209}{section*.476}
+\contentsline {section}{\numberline {9.9}Special Attacks}{209}{section.9.9}
+\contentsline {subsection}{Aid Another}{209}{section*.477}
+\contentsline {subsection}{Bull Rush}{210}{section*.478}
+\contentsline {subsection}{Charge}{210}{section*.479}
+\contentsline {subsection}{Disarm}{211}{section*.480}
+\contentsline {subsubsection}{Grabbing Items}{211}{section*.481}
+\contentsline {subsection}{Feint}{211}{section*.482}
+\contentsline {subsection}{Grapple}{212}{section*.483}
+\contentsline {subsubsection}{Grapple Checks}{212}{section*.484}
+\contentsline {subsubsection}{Starting a Grapple}{212}{section*.485}
+\contentsline {subsubsection}{Grappling Consequences}{212}{section*.486}
+\contentsline {subsubsection}{If You're Grappling}{212}{section*.487}
+\contentsline {subsubsection}{If You're Pinning an Opponent}{213}{section*.488}
+\contentsline {subsubsection}{If You're Pinned by an Opponent}{213}{section*.489}
+\contentsline {subsubsection}{Joining a Grapple}{214}{section*.490}
+\contentsline {subsubsection}{Multiple Grapplers}{214}{section*.491}
+\contentsline {subsection}{Mounted Combat}{214}{section*.492}
+\contentsline {subsection}{Overrun}{214}{section*.493}
+\contentsline {subsection}{Sunder}{215}{section*.494}
+\contentsline {subsection}{Throw Splash Weapon}{215}{section*.495}
+\contentsline {subsection}{Trip}{216}{section*.496}
+\contentsline {subsection}{Turn or Rebuke Undead}{216}{section*.497}
+\contentsline {subsubsection}{Turning Checks}{216}{section*.498}
+\contentsline {subsubsection}{Evil Clerics and Undead}{217}{section*.499}
+\contentsline {subsubsection}{Neutral Clerics and Undead}{217}{section*.500}
+\contentsline {subsubsection}{Paladins and Undead}{217}{section*.501}
+\contentsline {subsubsection}{Turning Other Creatures}{217}{section*.502}
+\contentsline {subsection}{Two-Weapon Fighting}{218}{section*.503}
+\contentsline {section}{\numberline {9.10}Special Initiative Actions}{218}{section.9.10}
+\contentsline {subsection}{Delay}{218}{section*.504}
+\contentsline {subsection}{Ready}{218}{section*.505}
+\contentsline {section}{\numberline {9.11}Special Ability Descriptions}{219}{section.9.11}
+\contentsline {subsection}{Ability Score Loss}{219}{section*.506}
+\contentsline {subsection}{Antimagic}{220}{section*.507}
+\contentsline {subsubsection}{Blindsight and Blindsense}{220}{section*.508}
+\contentsline {subsection}{Breath Weapon}{221}{section*.509}
+\contentsline {subsection}{Charm and Compulsion}{221}{section*.510}
+\contentsline {subsection}{Cold Immunity}{221}{section*.511}
+\contentsline {subsection}{Damage Reduction}{221}{section*.512}
+\contentsline {subsection}{Darkvision}{222}{section*.513}
+\contentsline {subsection}{Death Attacks}{222}{section*.514}
+\contentsline {subsection}{Disease}{222}{section*.515}
+\contentsline {subsubsection}{Disease Descriptions}{222}{section*.516}
+\contentsline {subsubsection}{Healing a Disease}{223}{section*.517}
+\contentsline {subsection}{Energy Drain And Negative Levels}{223}{section*.518}
+\contentsline {subsection}{Etherealness}{224}{section*.519}
+\contentsline {subsection}{Evasion and Improved Evasion}{224}{section*.520}
+\contentsline {subsection}{Fast Healing}{225}{section*.521}
+\contentsline {subsection}{Fear}{225}{section*.522}
+\contentsline {subsection}{Fire Immunity}{225}{section*.523}
+\contentsline {subsection}{Gaseous Form}{225}{section*.524}
+\contentsline {subsection}{Gaze Attacks}{225}{section*.525}
+\contentsline {subsection}{Incorporeality}{226}{section*.526}
+\contentsline {subsection}{Invisibility}{226}{section*.527}
+\contentsline {subsection}{Level Loss}{228}{section*.528}
+\contentsline {subsection}{Low-Light Vision}{228}{section*.529}
+\contentsline {subsection}{Paralysis}{228}{section*.530}
+\contentsline {subsection}{Poison}{228}{section*.531}
+\contentsline {subsubsection}{Perils of Using Poison}{229}{section*.532}
+\contentsline {subsubsection}{Poison Immunities}{229}{section*.533}
+\contentsline {subsection}{Polymorph}{229}{section*.534}
+\contentsline {subsection}{Psionics}{229}{section*.535}
+\contentsline {subsection}{Rays}{229}{section*.536}
+\contentsline {subsection}{Regeneration}{230}{section*.537}
+\contentsline {subsection}{Resistance to Energy}{230}{section*.538}
+\contentsline {subsection}{Scent}{231}{section*.539}
+\contentsline {subsection}{Spell Resistance}{231}{section*.540}
+\contentsline {subsubsection}{When Spell Resistance Applies}{231}{section*.541}
+\contentsline {subsubsection}{Successful Spell Resistance}{232}{section*.542}
+\contentsline {subsection}{Tremorsense}{232}{section*.543}
+\contentsline {subsection}{Turn Resistance}{232}{section*.544}
+\contentsline {section}{\numberline {9.12}Conditions}{233}{section.9.12}
+\contentsline {subsubsection}{Ability Damaged}{233}{section*.545}
+\contentsline {subsubsection}{Ability Drained}{233}{section*.546}
+\contentsline {subsubsection}{Blinded}{233}{section*.547}
+\contentsline {subsubsection}{Blown Away}{233}{section*.548}
+\contentsline {subsubsection}{Checked}{233}{section*.549}
+\contentsline {subsubsection}{Confused}{233}{section*.550}
+\contentsline {subsubsection}{Cowering}{233}{section*.551}
+\contentsline {subsubsection}{Dazed}{233}{section*.552}
+\contentsline {subsubsection}{Dazzled}{234}{section*.553}
+\contentsline {subsubsection}{Dead}{234}{section*.554}
+\contentsline {subsubsection}{Deafened}{234}{section*.555}
+\contentsline {subsubsection}{Disabled}{234}{section*.556}
+\contentsline {subsubsection}{Dying}{234}{section*.557}
+\contentsline {subsubsection}{Energy Drained}{234}{section*.558}
+\contentsline {subsubsection}{Entangled}{234}{section*.559}
+\contentsline {subsubsection}{Exhausted}{234}{section*.560}
+\contentsline {subsubsection}{Fascinated}{235}{section*.561}
+\contentsline {subsubsection}{Fatigued}{235}{section*.562}
+\contentsline {subsubsection}{Flat-Footed}{235}{section*.563}
+\contentsline {subsubsection}{Frightened}{235}{section*.564}
+\contentsline {subsubsection}{Grappling}{235}{section*.565}
+\contentsline {subsubsection}{Helpless}{235}{section*.566}
+\contentsline {subsubsection}{Incorporeal}{235}{section*.567}
+\contentsline {subsubsection}{Invisible}{235}{section*.568}
+\contentsline {subsubsection}{Knocked Down}{236}{section*.569}
+\contentsline {subsubsection}{Nauseated}{236}{section*.570}
+\contentsline {subsubsection}{Panicked}{236}{section*.571}
+\contentsline {subsubsection}{Paralyzed}{236}{section*.572}
+\contentsline {subsubsection}{Petrified}{236}{section*.573}
+\contentsline {subsubsection}{Pinned}{236}{section*.574}
+\contentsline {subsubsection}{Prone}{236}{section*.575}
+\contentsline {subsubsection}{Shaken}{236}{section*.576}
+\contentsline {subsubsection}{Sickened}{236}{section*.577}
+\contentsline {subsubsection}{Stable}{237}{section*.578}
+\contentsline {subsubsection}{Staggered}{237}{section*.579}
+\contentsline {subsubsection}{Stunned}{237}{section*.580}
+\contentsline {subsubsection}{Turned}{237}{section*.581}
+\contentsline {subsubsection}{Unconscious}{237}{section*.582}
+\contentsline {chapter}{\chapternumberline {10}Magic}{238}{chapter.10}
+\contentsline {section}{\numberline {10.1}Casting Spells}{238}{section.10.1}
+\contentsline {subsection}{Choosing A Spell}{238}{section*.583}
+\contentsline {subsection}{Concentration}{238}{section*.584}
+\contentsline {subsection}{Counterspells}{239}{section*.585}
+\contentsline {subsection}{Caster Level}{239}{section*.586}
+\contentsline {subsection}{Spell Failure}{239}{section*.587}
+\contentsline {subsection}{The Spell's Result}{240}{section*.588}
+\contentsline {subsection}{Special Spell Effects}{240}{section*.589}
+\contentsline {subsection}{Combining Magical Effects}{240}{section*.590}
+\contentsline {section}{\numberline {10.2}How To Read A Spell Description}{241}{section.10.2}
+\contentsline {subsection}{Name}{241}{section*.591}
+\contentsline {subsection}{School (Subschool)}{241}{section*.592}
+\contentsline {subsubsection}{Abjuration}{241}{section*.593}
+\contentsline {subsubsection}{Conjuration}{241}{section*.594}
+\contentsline {subsubsection}{Divination}{242}{section*.595}
+\contentsline {subsubsection}{Enchantment}{242}{section*.596}
+\contentsline {subsubsection}{Evocation}{242}{section*.597}
+\contentsline {subsubsection}{Illusion}{242}{section*.598}
+\contentsline {subsubsection}{Necromancy}{243}{section*.599}
+\contentsline {subsubsection}{Transmutation}{243}{section*.600}
+\contentsline {subsection}{[Descriptor]}{243}{section*.601}
+\contentsline {subsection}{Level}{243}{section*.602}
+\contentsline {subsection}{Components}{244}{section*.603}
+\contentsline {subsection}{Casting Time}{244}{section*.604}
+\contentsline {subsection}{Range}{244}{section*.605}
+\contentsline {subsection}{Aiming A Spell}{245}{section*.606}
+\contentsline {subsection}{Duration}{246}{section*.607}
+\contentsline {subsection}{Saving Throw Type}{247}{section*.608}
+\contentsline {subsection}{Account For Spell Resistance}{248}{section*.609}
+\contentsline {subsection}{Descriptive Text}{248}{section*.610}
+\contentsline {section}{\numberline {10.3}Arcane Spells}{248}{section.10.3}
+\contentsline {subsection}{Preparing Wizard Spells}{248}{section*.611}
+\contentsline {subsection}{Arcane Magical Writings}{249}{section*.612}
+\contentsline {subsubsection}{Wizard Spells and Borrowed Spellbooks}{249}{section*.613}
+\contentsline {subsubsection}{Adding Spells to a Wizard's Spellbook}{249}{section*.614}
+\contentsline {subsubsection}{Writing a New Spell into a Spellbook}{250}{section*.615}
+\contentsline {subsubsection}{Replacing and Copying Spellbooks}{250}{section*.616}
+\contentsline {subsubsection}{Selling a Spellbook}{250}{section*.617}
+\contentsline {subsection}{Sorcerers and Bards}{250}{section*.618}
+\contentsline {section}{\numberline {10.4}Divine Spells}{251}{section.10.4}
+\contentsline {subsection}{Preparing Divine Spells}{251}{section*.619}
+\contentsline {subsection}{Divine Magical Writings}{251}{section*.620}
+\contentsline {subsection}{New Divine Spells}{252}{section*.621}
+\contentsline {section}{\numberline {10.5}Special Ability Rules}{252}{section.10.5}
+\contentsline {section}{\numberline {10.6}Spell Lists}{252}{section.10.6}
+\contentsline {subsection}{Bard Spells}{252}{section*.622}
+\contentsline {subsubsection}{0th Level Bard Spells (Cantrips)}{252}{section*.623}
+\contentsline {subsubsection}{1st Level Bard Spells}{253}{section*.624}
+\contentsline {subsubsection}{2nd Level Bard Spells}{253}{section*.625}
+\contentsline {subsubsection}{3rd Level Bard Spells}{254}{section*.626}
+\contentsline {subsubsection}{4th Level Bard Spells}{255}{section*.627}
+\contentsline {subsubsection}{5th Level Bard Spells}{255}{section*.628}
+\contentsline {subsubsection}{6th Level Bard Spells}{255}{section*.629}
+\contentsline {subsection}{Cleric Spells}{256}{section*.630}
+\contentsline {subsubsection}{0th Level Cleric Spells (Orisons)}{256}{section*.631}
+\contentsline {subsubsection}{1st Level Cleric Spells}{256}{section*.632}
+\contentsline {subsubsection}{2nd Level Cleric Spells}{257}{section*.633}
+\contentsline {subsubsection}{3rd Level Cleric Spells}{257}{section*.634}
+\contentsline {subsubsection}{4th Level Cleric Spells}{258}{section*.635}
+\contentsline {subsubsection}{5th Level Cleric Spells}{258}{section*.636}
+\contentsline {subsubsection}{6th Level Cleric Spells}{259}{section*.637}
+\contentsline {subsubsection}{7th Level Cleric Spells}{259}{section*.638}
+\contentsline {subsubsection}{8th Level Cleric Spells}{260}{section*.639}
+\contentsline {subsubsection}{9th Level Cleric Spells}{260}{section*.640}
+\contentsline {subsection}{Cleric Domains}{260}{section*.641}
+\contentsline {subsubsection}{Air Domain}{260}{section*.642}
+\contentsline {subsubsection}{Animal Domain}{260}{section*.643}
+\contentsline {subsubsection}{Artifice Domain}{261}{section*.644}
+\contentsline {subsubsection}{Chaos Domain}{261}{section*.645}
+\contentsline {subsubsection}{Charm Domain}{261}{section*.646}
+\contentsline {subsubsection}{Community Domain}{262}{section*.647}
+\contentsline {subsubsection}{Creation Domain}{262}{section*.648}
+\contentsline {subsubsection}{Darkness Domain}{262}{section*.649}
+\contentsline {subsubsection}{Death Domain}{262}{section*.650}
+\contentsline {subsubsection}{Destruction Domain}{263}{section*.651}
+\contentsline {subsubsection}{Earth Domain}{263}{section*.652}
+\contentsline {subsubsection}{Evil Domain}{263}{section*.653}
+\contentsline {subsubsection}{Fire Domain}{263}{section*.654}
+\contentsline {subsubsection}{Glory Domain}{264}{section*.655}
+\contentsline {subsubsection}{Good Domain}{264}{section*.656}
+\contentsline {subsubsection}{Healing Domain}{264}{section*.657}
+\contentsline {subsubsection}{Knowledge Domain}{265}{section*.658}
+\contentsline {subsubsection}{Law Domain}{265}{section*.659}
+\contentsline {subsubsection}{Liberation Domain}{265}{section*.660}
+\contentsline {subsubsection}{Luck Domain}{265}{section*.661}
+\contentsline {subsubsection}{Madness Domain}{266}{section*.662}
+\contentsline {subsubsection}{Magic Domain}{266}{section*.663}
+\contentsline {subsubsection}{Nobility Domain}{266}{section*.664}
+\contentsline {subsubsection}{Plant Domain}{267}{section*.665}
+\contentsline {subsubsection}{Protection}{267}{section*.666}
+\contentsline {subsubsection}{Repose Domain}{267}{section*.667}
+\contentsline {subsubsection}{Rune Domain}{267}{section*.668}
+\contentsline {subsubsection}{Scalykind Domain}{268}{section*.669}
+\contentsline {subsubsection}{Strength Domain}{268}{section*.670}
+\contentsline {subsubsection}{Sun Domain}{268}{section*.671}
+\contentsline {subsubsection}{Travel Domain}{269}{section*.672}
+\contentsline {subsubsection}{Tickery Domain}{269}{section*.673}
+\contentsline {subsubsection}{War Domain}{269}{section*.674}
+\contentsline {subsubsection}{Water Domain}{269}{section*.675}
+\contentsline {subsubsection}{Weather Domain}{270}{section*.676}
+\contentsline {subsection}{Druid Spells}{270}{section*.677}
+\contentsline {subsubsection}{0th Level Druid Spells (Orisons)}{270}{section*.678}
+\contentsline {subsubsection}{1st Level Druid Spells}{270}{section*.679}
+\contentsline {subsubsection}{2nd Level Druid Spells}{271}{section*.680}
+\contentsline {subsubsection}{3rd Level Druid Spells}{271}{section*.681}
+\contentsline {subsubsection}{4th Level Druid Spells}{272}{section*.682}
+\contentsline {subsubsection}{5th Level Druid Spells}{272}{section*.683}
+\contentsline {subsubsection}{6th Level Druid Spells}{272}{section*.684}
+\contentsline {subsubsection}{7th Level Druid Spells}{273}{section*.685}
+\contentsline {subsubsection}{8th Level Druid Spells}{273}{section*.686}
+\contentsline {subsubsection}{9th Level Druid Spells}{273}{section*.687}
+\contentsline {subsection}{Paladin Spells}{273}{section*.688}
+\contentsline {subsubsection}{1st Level Paladin Spells}{273}{section*.689}
+\contentsline {subsubsection}{2nd Level Paladin Spells}{274}{section*.690}
+\contentsline {subsubsection}{3rd Level Paladin Spells}{274}{section*.691}
+\contentsline {subsubsection}{4th Level Paladin Spells}{274}{section*.692}
+\contentsline {subsection}{Ranger Spells}{274}{section*.693}
+\contentsline {subsubsection}{1st Level Ranger Spells}{274}{section*.694}
+\contentsline {subsubsection}{2nd Level Ranger Spells}{275}{section*.695}
+\contentsline {subsubsection}{3rd Level Ranger Spells}{275}{section*.696}
+\contentsline {subsubsection}{4th Level Ranger Spells}{275}{section*.697}
+\contentsline {subsection}{Sorcerer / Wizard Spells}{276}{section*.698}
+\contentsline {subsubsection}{0th Level Sorcerer / Wizard Spells (Cantrips)}{276}{section*.699}
+\contentsline {subsubsection}{1st Level Sorcerer / Wizard Spells}{276}{section*.700}
+\contentsline {subsubsection}{2nd Level Sorcerer / Wizard Spells}{277}{section*.701}
+\contentsline {subsubsection}{3rd Level Sorcerer / Wizard Spells}{278}{section*.702}
+\contentsline {subsubsection}{4th Level Sorcerer / Wizard Spells}{279}{section*.703}
+\contentsline {subsubsection}{5th Level Sorcerer / Wizard Spells}{280}{section*.704}
+\contentsline {subsubsection}{6th Level Sorcerer / Wizard Spells}{281}{section*.705}
+\contentsline {subsubsection}{7th Level Sorcerer / Wizard Spells}{282}{section*.706}
+\contentsline {subsubsection}{8th Level Sorcerer / Wizard Spells}{283}{section*.707}
+\contentsline {subsubsection}{9th Level Sorcerer / Wizard Spells}{284}{section*.708}
+\contentsline {chapter}{Appendices}{285}{section*.709}
+\contentsline {appendix}{\chapternumberline {A}Spells}{286}{appendix.A}
+\contentsline {section}{\numberline {A.1}Spells A}{286}{section.A.1}
+\contentsline {subsubsection}{Acid Arrow}{286}{section*.710}
+\contentsline {subsubsection}{Acid Fog}{286}{section*.711}
+\contentsline {subsubsection}{Acid Splash}{286}{section*.712}
+\contentsline {subsubsection}{Aid}{287}{section*.713}
+\contentsline {subsubsection}{Air Walk}{287}{section*.714}
+\contentsline {subsubsection}{Alarm}{287}{section*.715}
+\contentsline {subsubsection}{Align Weapon}{288}{section*.716}
+\contentsline {subsubsection}{Alter Self}{288}{section*.717}
+\contentsline {subsubsection}{Analyze Dweomer}{289}{section*.718}
+\contentsline {subsubsection}{Animal Growth}{289}{section*.719}
+\contentsline {subsubsection}{Animal Messenger}{290}{section*.720}
+\contentsline {subsubsection}{Animal Shapes}{290}{section*.721}
+\contentsline {subsubsection}{Animal Trance}{290}{section*.722}
+\contentsline {subsubsection}{Animate Dead}{291}{section*.723}
+\contentsline {subsubsection}{Animate Objects}{291}{section*.724}
+\contentsline {subsubsection}{Animate Plants}{292}{section*.725}
+\contentsline {subsubsection}{Animate Rope}{292}{section*.726}
+\contentsline {subsubsection}{Antilife Shell}{292}{section*.727}
+\contentsline {subsubsection}{Antimagic Field}{293}{section*.728}
+\contentsline {subsubsection}{Antipathy}{293}{section*.729}
+\contentsline {subsubsection}{Antiplant Shell}{294}{section*.730}
+\contentsline {subsubsection}{Arcane Eye}{294}{section*.731}
+\contentsline {subsubsection}{Arcane Lock}{294}{section*.732}
+\contentsline {subsubsection}{Arcane Mark}{295}{section*.733}
+\contentsline {subsubsection}{Arcane Sight}{295}{section*.734}
+\contentsline {subsubsection}{Arcane Sight, Greater}{295}{section*.735}
+\contentsline {subsubsection}{Armor of Darkness}{296}{section*.736}
+\contentsline {subsubsection}{Astral Projection}{296}{section*.737}
+\contentsline {subsubsection}{Atonement}{296}{section*.738}
+\contentsline {subsubsection}{Augury}{297}{section*.739}
+\contentsline {subsubsection}{Awaken}{298}{section*.740}
+\contentsline {section}{\numberline {A.2}Spells B}{298}{section.A.2}
+\contentsline {subsubsection}{Baleful Polymorph}{298}{section*.741}
+\contentsline {subsubsection}{Bane}{298}{section*.742}
+\contentsline {subsubsection}{Banishment}{299}{section*.743}
+\contentsline {subsubsection}{Barkskin}{299}{section*.744}
+\contentsline {subsubsection}{Bear's Endurance}{299}{section*.745}
+\contentsline {subsubsection}{Bear's Endurance, Mass}{300}{section*.746}
+\contentsline {subsubsection}{Bestow Curse}{300}{section*.747}
+\contentsline {subsubsection}{Binding}{300}{section*.748}
+\contentsline {subsubsection}{Black Tentacles}{301}{section*.749}
+\contentsline {subsubsection}{Blacklight}{302}{section*.750}
+\contentsline {subsubsection}{Blade Barrier}{302}{section*.751}
+\contentsline {subsubsection}{Blasphemy}{302}{section*.752}
+\contentsline {subsubsection}{Bless}{303}{section*.753}
+\contentsline {subsubsection}{Bless Water}{303}{section*.754}
+\contentsline {subsubsection}{Bless Weapon}{303}{section*.755}
+\contentsline {subsubsection}{Blight}{304}{section*.756}
+\contentsline {subsubsection}{Blindness/Deafness}{304}{section*.757}
+\contentsline {subsubsection}{Blink}{304}{section*.758}
+\contentsline {subsubsection}{Blur}{305}{section*.759}
+\contentsline {subsubsection}{Bolts of Bedevilment}{305}{section*.760}
+\contentsline {subsubsection}{Bolt of Glory}{305}{section*.761}
+\contentsline {subsubsection}{Break Enchantment}{306}{section*.762}
+\contentsline {subsubsection}{Bull's Strength}{306}{section*.763}
+\contentsline {subsubsection}{Bull's Strength, Mass}{306}{section*.764}
+\contentsline {subsubsection}{Burning Hands}{307}{section*.765}
+\contentsline {section}{\numberline {A.3}Spells C}{307}{section.A.3}
+\contentsline {subsubsection}{Call Lightning}{307}{section*.766}
+\contentsline {subsubsection}{Call Lightning Storm}{307}{section*.767}
+\contentsline {subsubsection}{Calm Animals}{307}{section*.768}
+\contentsline {subsubsection}{Calm Emotions}{308}{section*.769}
+\contentsline {subsubsection}{Cat's Grace}{308}{section*.770}
+\contentsline {subsubsection}{Cat's Grace, Mass}{308}{section*.771}
+\contentsline {subsubsection}{Cause Fear}{309}{section*.772}
+\contentsline {subsubsection}{Chain Lightning}{309}{section*.773}
+\contentsline {subsubsection}{Changestaff}{309}{section*.774}
+\contentsline {subsubsection}{Chaos Hammer}{310}{section*.775}
+\contentsline {subsubsection}{Charm Animal}{310}{section*.776}
+\contentsline {subsubsection}{Charm Monster}{310}{section*.777}
+\contentsline {subsubsection}{Charm Monster, Mass}{310}{section*.778}
+\contentsline {subsubsection}{Charm Person}{310}{section*.779}
+\contentsline {subsubsection}{Chill Metal}{311}{section*.780}
+\contentsline {subsubsection}{Chill Touch}{311}{section*.781}
+\contentsline {subsubsection}{Circle of Death}{312}{section*.782}
+\contentsline {subsubsection}{Clairaudience/Clairvoyance}{312}{section*.783}
+\contentsline {subsubsection}{Clenched Fist}{312}{section*.784}
+\contentsline {subsubsection}{Cloak of Chaos}{313}{section*.785}
+\contentsline {subsubsection}{Clone}{313}{section*.786}
+\contentsline {subsubsection}{Cloudkill}{314}{section*.787}
+\contentsline {subsubsection}{Color Spray}{314}{section*.788}
+\contentsline {subsubsection}{Command}{314}{section*.789}
+\contentsline {subsubsection}{Command, Greater}{315}{section*.790}
+\contentsline {subsubsection}{Command Plants}{315}{section*.791}
+\contentsline {subsubsection}{Command Undead}{315}{section*.792}
+\contentsline {subsubsection}{Commune}{316}{section*.793}
+\contentsline {subsubsection}{Commune with Nature}{316}{section*.794}
+\contentsline {subsubsection}{Comprehend Languages}{316}{section*.795}
+\contentsline {subsubsection}{Cone of Cold}{317}{section*.796}
+\contentsline {subsubsection}{Confusion}{317}{section*.797}
+\contentsline {subsubsection}{Confusion, Lesser}{317}{section*.798}
+\contentsline {subsubsection}{Consecrate}{317}{section*.799}
+\contentsline {subsubsection}{Contact Other Plane}{318}{section*.800}
+\contentsline {subsubsection}{Contagion}{319}{section*.801}
+\contentsline {subsubsection}{Contingency}{319}{section*.802}
+\contentsline {subsubsection}{Continual Flame}{320}{section*.803}
+\contentsline {subsubsection}{Control Plants}{320}{section*.804}
+\contentsline {subsubsection}{Control Undead}{320}{section*.805}
+\contentsline {subsubsection}{Control Water}{320}{section*.806}
+\contentsline {subsubsection}{Control Weather}{321}{section*.807}
+\contentsline {subsubsection}{Control Winds}{322}{section*.808}
+\contentsline {subsubsection}{Create Food and Water}{322}{section*.809}
+\contentsline {subsubsection}{Create Greater Undead}{323}{section*.810}
+\contentsline {subsubsection}{Create Undead}{323}{section*.811}
+\contentsline {subsubsection}{Create Water}{323}{section*.812}
+\contentsline {subsubsection}{Creeping Doom}{324}{section*.813}
+\contentsline {subsubsection}{Crown of Glory}{324}{section*.814}
+\contentsline {subsubsection}{Crushing Despair}{324}{section*.815}
+\contentsline {subsubsection}{Crushing Hand}{325}{section*.816}
+\contentsline {subsubsection}{Cure Critical Wounds}{325}{section*.817}
+\contentsline {subsubsection}{Cure Critical Wounds, Mass}{325}{section*.818}
+\contentsline {subsubsection}{Cure Light Wounds}{325}{section*.819}
+\contentsline {subsubsection}{Cure Light Wounds, Mass}{326}{section*.820}
+\contentsline {subsubsection}{Cure Minor Wounds}{326}{section*.821}
+\contentsline {subsubsection}{Cure Moderate Wounds}{326}{section*.822}
+\contentsline {subsubsection}{Cure Moderate Wounds, Mass}{326}{section*.823}
+\contentsline {subsubsection}{Cure Serious Wounds}{326}{section*.824}
+\contentsline {subsubsection}{Cure Serious Wounds, Mass}{326}{section*.825}
+\contentsline {subsubsection}{Curse Water}{326}{section*.826}
+\contentsline {section}{\numberline {A.4}Spells D}{327}{section.A.4}
+\contentsline {subsubsection}{Dancing Lights}{327}{section*.827}
+\contentsline {subsubsection}{Darkness}{327}{section*.828}
+\contentsline {subsubsection}{Darkvision}{327}{section*.829}
+\contentsline {subsubsection}{Daylight}{328}{section*.830}
+\contentsline {subsubsection}{Daze}{328}{section*.831}
+\contentsline {subsubsection}{Daze Monster}{328}{section*.832}
+\contentsline {subsubsection}{Death Knell}{328}{section*.833}
+\contentsline {subsubsection}{Death Ward}{329}{section*.834}
+\contentsline {subsubsection}{Deathwatch}{329}{section*.835}
+\contentsline {subsubsection}{Deeper Darkness}{329}{section*.836}
+\contentsline {subsubsection}{Deep Slumber}{330}{section*.837}
+\contentsline {subsubsection}{Delayed Blast Fireball}{330}{section*.838}
+\contentsline {subsubsection}{Delay Poison}{330}{section*.839}
+\contentsline {subsubsection}{Demand}{330}{section*.840}
+\contentsline {subsubsection}{Desecrate}{330}{section*.841}
+\contentsline {subsubsection}{Destruction}{331}{section*.842}
+\contentsline {subsubsection}{Detect Animals or Plants}{331}{section*.843}
+\contentsline {subsubsection}{Detect Chaos}{332}{section*.844}
+\contentsline {subsubsection}{Detect Evil}{332}{section*.845}
+\contentsline {subsubsection}{Detect Good}{334}{section*.846}
+\contentsline {subsubsection}{Detect Law}{334}{section*.847}
+\contentsline {subsubsection}{Detect Magic}{334}{section*.848}
+\contentsline {subsubsection}{Detect Poison}{335}{section*.849}
+\contentsline {subsubsection}{Detect Scrying}{335}{section*.850}
+\contentsline {subsubsection}{Detect Secret Doors}{335}{section*.851}
+\contentsline {subsubsection}{Detect Snares and Pits}{336}{section*.852}
+\contentsline {subsubsection}{Detect Thoughts}{336}{section*.853}
+\contentsline {subsubsection}{Detect Undead}{337}{section*.854}
+\contentsline {subsubsection}{Dictum}{337}{section*.855}
+\contentsline {subsubsection}{Dimensional Anchor}{338}{section*.856}
+\contentsline {subsubsection}{Dimensional Lock}{338}{section*.857}
+\contentsline {subsubsection}{Dimension Door}{339}{section*.858}
+\contentsline {subsubsection}{Diminish Plants}{339}{section*.859}
+\contentsline {subsubsection}{Discern Lies}{340}{section*.860}
+\contentsline {subsubsection}{Discern Location}{340}{section*.861}
+\contentsline {subsubsection}{Disguise Self}{340}{section*.862}
+\contentsline {subsubsection}{Disintegrate}{341}{section*.863}
+\contentsline {subsubsection}{Dismissal}{341}{section*.864}
+\contentsline {subsubsection}{Dispel Chaos}{341}{section*.865}
+\contentsline {subsubsection}{Dispel Evil}{341}{section*.866}
+\contentsline {subsubsection}{Dispel Good}{342}{section*.867}
+\contentsline {subsubsection}{Dispel Law}{342}{section*.868}
+\contentsline {subsubsection}{Dispel Magic}{342}{section*.869}
+\contentsline {subsubsection}{Dispel Magic, Greater}{343}{section*.870}
+\contentsline {subsubsection}{Displacement}{343}{section*.871}
+\contentsline {subsubsection}{Disrupting Weapon}{343}{section*.872}
+\contentsline {subsubsection}{Disrupt Undead}{344}{section*.873}
+\contentsline {subsubsection}{Divination}{344}{section*.874}
+\contentsline {subsubsection}{Divine Favor}{344}{section*.875}
+\contentsline {subsubsection}{Divine Power}{344}{section*.876}
+\contentsline {subsubsection}{Dominate Animal}{345}{section*.877}
+\contentsline {subsubsection}{Dominate Monster}{345}{section*.878}
+\contentsline {subsubsection}{Dominate Person}{345}{section*.879}
+\contentsline {subsubsection}{Doom}{346}{section*.880}
+\contentsline {subsubsection}{Dream}{346}{section*.881}
+\contentsline {section}{\numberline {A.5}Spells E}{346}{section.A.5}
+\contentsline {subsubsection}{Eagle's Splendor}{346}{section*.882}
+\contentsline {subsubsection}{Eagle's Splendor, Mass}{347}{section*.883}
+\contentsline {subsubsection}{Earthquake}{347}{section*.884}
+\contentsline {subsubsection}{Elemental Swarm}{347}{section*.885}
+\contentsline {subsubsection}{Endure Elements}{348}{section*.886}
+\contentsline {subsubsection}{Energy Drain}{348}{section*.887}
+\contentsline {subsubsection}{Enervation}{348}{section*.888}
+\contentsline {subsubsection}{Enlarge Person}{349}{section*.889}
+\contentsline {subsubsection}{Enlarge Person, Mass}{349}{section*.890}
+\contentsline {subsubsection}{Entangle}{349}{section*.891}
+\contentsline {subsubsection}{Enthrall}{350}{section*.892}
+\contentsline {subsubsection}{Entropic Shield}{350}{section*.893}
+\contentsline {subsubsection}{Erase}{350}{section*.894}
+\contentsline {subsubsection}{Ethereal Jaunt}{351}{section*.895}
+\contentsline {subsubsection}{Etherealness}{351}{section*.896}
+\contentsline {subsubsection}{Expeditious Retreat}{351}{section*.897}
+\contentsline {subsubsection}{Explosive Runes}{352}{section*.898}
+\contentsline {subsubsection}{Eyebite}{352}{section*.899}
+\contentsline {section}{\numberline {A.6}Spells F}{353}{section.A.6}
+\contentsline {subsubsection}{Fabricate}{353}{section*.900}
+\contentsline {subsubsection}{Faerie Fire}{353}{section*.901}
+\contentsline {subsubsection}{False Life}{353}{section*.902}
+\contentsline {subsubsection}{False Vision}{354}{section*.903}
+\contentsline {subsubsection}{Fear}{354}{section*.904}
+\contentsline {subsubsection}{Feather Fall}{354}{section*.905}
+\contentsline {subsubsection}{Feeblemind}{355}{section*.906}
+\contentsline {subsubsection}{Find the Path}{355}{section*.907}
+\contentsline {subsubsection}{Find Traps}{355}{section*.908}
+\contentsline {subsubsection}{Finger of Death}{356}{section*.909}
+\contentsline {subsubsection}{Fireball}{356}{section*.910}
+\contentsline {subsubsection}{Fire Seeds}{356}{section*.911}
+\contentsline {subsubsection}{Fire Shield}{357}{section*.912}
+\contentsline {subsubsection}{Fire Storm}{357}{section*.913}
+\contentsline {subsubsection}{Fire Trap}{357}{section*.914}
+\contentsline {subsubsection}{Flame Arrow}{358}{section*.915}
+\contentsline {subsubsection}{Flame Blade}{358}{section*.916}
+\contentsline {subsubsection}{Flame Strike}{359}{section*.917}
+\contentsline {subsubsection}{Flaming Sphere}{359}{section*.918}
+\contentsline {subsubsection}{Flare}{359}{section*.919}
+\contentsline {subsubsection}{Flesh to Stone}{359}{section*.920}
+\contentsline {subsubsection}{Floating Disk}{360}{section*.921}
+\contentsline {subsubsection}{Fly}{360}{section*.922}
+\contentsline {subsubsection}{Fog Cloud}{360}{section*.923}
+\contentsline {subsubsection}{Forbiddance}{361}{section*.924}
+\contentsline {subsubsection}{Forcecage}{361}{section*.925}
+\contentsline {subsubsection}{Forceful Hand}{362}{section*.926}
+\contentsline {subsubsection}{Foresight}{362}{section*.927}
+\contentsline {subsubsection}{Fox's Cunning}{362}{section*.928}
+\contentsline {subsubsection}{Fox's Cunning, Mass}{363}{section*.929}
+\contentsline {subsubsection}{Freedom}{363}{section*.930}
+\contentsline {subsubsection}{Freedom of Movement}{363}{section*.931}
+\contentsline {subsubsection}{Freezing Sphere}{364}{section*.932}
+\contentsline {section}{\numberline {A.7}Spells G}{364}{section.A.7}
+\contentsline {subsubsection}{Gaseous Form}{364}{section*.933}
+\contentsline {subsubsection}{Gate}{364}{section*.934}
+\contentsline {subsubsection}{Geas, Lesser}{365}{section*.935}
+\contentsline {subsubsection}{Geas/Quest}{366}{section*.936}
+\contentsline {subsubsection}{Gentle Repose}{366}{section*.937}
+\contentsline {subsubsection}{Genesis}{366}{section*.938}
+\contentsline {subsubsection}{Ghost Sound}{367}{section*.939}
+\contentsline {subsubsection}{Ghoul Touch}{367}{section*.940}
+\contentsline {subsubsection}{Giant Vermin}{368}{section*.941}
+\contentsline {subsubsection}{Glibness}{368}{section*.942}
+\contentsline {subsubsection}{Glitterdust}{368}{section*.943}
+\contentsline {subsubsection}{Globe of Invulnerability}{369}{section*.944}
+\contentsline {subsubsection}{Globe of Invulnerability, Lesser}{369}{section*.945}
+\contentsline {subsubsection}{Glyph of Warding}{369}{section*.946}
+\contentsline {subsubsection}{Glyph of Warding, Greater}{370}{section*.947}
+\contentsline {subsubsection}{Goodberry}{370}{section*.948}
+\contentsline {subsubsection}{Good Hope}{370}{section*.949}
+\contentsline {subsubsection}{Grasping Hand}{371}{section*.950}
+\contentsline {subsubsection}{Grease}{371}{section*.951}
+\contentsline {subsubsection}{Greater (Spell Name)}{371}{section*.952}
+\contentsline {subsubsection}{Guards and Wards}{372}{section*.953}
+\contentsline {subsubsection}{Guidance}{372}{section*.954}
+\contentsline {subsubsection}{Gust of Wind}{373}{section*.955}
+\contentsline {section}{\numberline {A.8}Spells H}{373}{section.A.8}
+\contentsline {subsubsection}{Hallow}{373}{section*.956}
+\contentsline {subsubsection}{Hallucinatory Terrain}{374}{section*.957}
+\contentsline {subsubsection}{Halt Undead}{374}{section*.958}
+\contentsline {subsubsection}{Hardening}{374}{section*.959}
+\contentsline {subsubsection}{Harm}{375}{section*.960}
+\contentsline {subsubsection}{Haste}{375}{section*.961}
+\contentsline {subsubsection}{Heal}{375}{section*.962}
+\contentsline {subsubsection}{Heal, Mass}{376}{section*.963}
+\contentsline {subsubsection}{Heal Mount}{376}{section*.964}
+\contentsline {subsubsection}{Heat Metal}{376}{section*.965}
+\contentsline {subsubsection}{Helping Hand}{377}{section*.966}
+\contentsline {subsubsection}{Heroes' Feast}{377}{section*.967}
+\contentsline {subsubsection}{Heroism}{378}{section*.968}
+\contentsline {subsubsection}{Heroism, Greater}{378}{section*.969}
+\contentsline {subsubsection}{Hide from Animals}{378}{section*.970}
+\contentsline {subsubsection}{Hide from Undead}{378}{section*.971}
+\contentsline {subsubsection}{Hideous Laughter}{379}{section*.972}
+\contentsline {subsubsection}{Hold Animal}{379}{section*.973}
+\contentsline {subsubsection}{Hold Monster}{379}{section*.974}
+\contentsline {subsubsection}{Hold Monster, Mass}{379}{section*.975}
+\contentsline {subsubsection}{Hold Person}{379}{section*.976}
+\contentsline {subsubsection}{Hold Person, Mass}{380}{section*.977}
+\contentsline {subsubsection}{Hold Portal}{380}{section*.978}
+\contentsline {subsubsection}{Holy Aura}{380}{section*.979}
+\contentsline {subsubsection}{Holy Smite}{381}{section*.980}
+\contentsline {subsubsection}{Holy Sword}{381}{section*.981}
+\contentsline {subsubsection}{Holy Word}{381}{section*.982}
+\contentsline {subsubsection}{Horrid Wilting}{382}{section*.983}
+\contentsline {subsubsection}{Hypnotic Pattern}{382}{section*.984}
+\contentsline {subsubsection}{Hypnotism}{383}{section*.985}
+\contentsline {section}{\numberline {A.9}Spells I}{383}{section.A.9}
+\contentsline {subsubsection}{Ice Storm}{383}{section*.986}
+\contentsline {subsubsection}{Identify}{383}{section*.987}
+\contentsline {subsubsection}{Illusory Script}{384}{section*.988}
+\contentsline {subsubsection}{Illusory Wall}{384}{section*.989}
+\contentsline {subsubsection}{Imbue With Spell Ability}{384}{section*.990}
+\contentsline {subsubsection}{Implosion}{385}{section*.991}
+\contentsline {subsubsection}{Imprisonment}{385}{section*.992}
+\contentsline {subsubsection}{Incendiary Cloud}{386}{section*.993}
+\contentsline {subsubsection}{Inflict Critical Wounds}{386}{section*.994}
+\contentsline {subsubsection}{Inflict Critical Wounds, Mass}{386}{section*.995}
+\contentsline {subsubsection}{Inflict Light Wounds}{386}{section*.996}
+\contentsline {subsubsection}{Inflict Light Wounds, Mass}{387}{section*.997}
+\contentsline {subsubsection}{Inflict Minor Wounds}{387}{section*.998}
+\contentsline {subsubsection}{Inflict Moderate Wounds}{387}{section*.999}
+\contentsline {subsubsection}{Inflict Moderate Wounds, Mass}{387}{section*.1000}
+\contentsline {subsubsection}{Inflict Serious Wounds}{387}{section*.1001}
+\contentsline {subsubsection}{Inflict Serious Wounds, Mass}{387}{section*.1002}
+\contentsline {subsubsection}{Insanity}{388}{section*.1003}
+\contentsline {subsubsection}{Insect Plague}{388}{section*.1004}
+\contentsline {subsubsection}{Instant Summons}{388}{section*.1005}
+\contentsline {subsubsection}{Interposing Hand}{389}{section*.1006}
+\contentsline {subsubsection}{Invisibility}{389}{section*.1007}
+\contentsline {subsubsection}{Invisibility, Greater}{390}{section*.1008}
+\contentsline {subsubsection}{Invisibility, Mass}{390}{section*.1009}
+\contentsline {subsubsection}{Invisibility Purge}{390}{section*.1010}
+\contentsline {subsubsection}{Invisibility Sphere}{390}{section*.1011}
+\contentsline {subsubsection}{Iron Body}{390}{section*.1012}
+\contentsline {subsubsection}{Ironwood}{391}{section*.1013}
+\contentsline {subsubsection}{Irresistible Dance}{391}{section*.1014}
+\contentsline {section}{\numberline {A.10}Spells J}{391}{section.A.10}
+\contentsline {subsubsection}{Jump}{391}{section*.1015}
+\contentsline {section}{\numberline {A.11}Spells K}{392}{section.A.11}
+\contentsline {subsubsection}{Keen Edge}{392}{section*.1016}
+\contentsline {subsubsection}{Knock}{392}{section*.1017}
+\contentsline {subsubsection}{Know Direction}{392}{section*.1018}
+\contentsline {section}{\numberline {A.12}Spells L}{393}{section.A.12}
+\contentsline {subsubsection}{Legend Lore}{393}{section*.1019}
+\contentsline {subsubsection}{Lesser (Spell Name)}{393}{section*.1020}
+\contentsline {subsubsection}{Levitate}{393}{section*.1021}
+\contentsline {subsubsection}{Light}{394}{section*.1022}
+\contentsline {subsubsection}{Lightning Bolt}{394}{section*.1023}
+\contentsline {subsubsection}{Limited Wish}{394}{section*.1024}
+\contentsline {subsubsection}{Liveoak}{395}{section*.1025}
+\contentsline {subsubsection}{Locate Creature}{395}{section*.1026}
+\contentsline {subsubsection}{Locate Object}{395}{section*.1027}
+\contentsline {subsubsection}{Longstrider}{396}{section*.1028}
+\contentsline {subsubsection}{Lullaby}{396}{section*.1029}
+\contentsline {section}{\numberline {A.13}Spells M}{396}{section.A.13}
+\contentsline {subsubsection}{Maddening Scream}{396}{section*.1030}
+\contentsline {subsubsection}{Mage Armor}{396}{section*.1031}
+\contentsline {subsubsection}{Mage Hand}{397}{section*.1032}
+\contentsline {subsubsection}{Mage's Disjunction}{397}{section*.1033}
+\contentsline {subsubsection}{Mage's Faithful Hound}{397}{section*.1034}
+\contentsline {subsubsection}{Mage's Lucubration}{398}{section*.1035}
+\contentsline {subsubsection}{Mage's Magnificent Mansion}{398}{section*.1036}
+\contentsline {subsubsection}{Mage's Private Sanctum}{399}{section*.1037}
+\contentsline {subsubsection}{Mage's Sword}{399}{section*.1038}
+\contentsline {subsubsection}{Magic Aura}{399}{section*.1039}
+\contentsline {subsubsection}{Magic Circle Against Chaos}{400}{section*.1040}
+\contentsline {subsubsection}{Magic Circle Against Evil}{400}{section*.1041}
+\contentsline {subsubsection}{Magic Circle Against Good}{401}{section*.1042}
+\contentsline {subsubsection}{Magic Circle Against Law}{401}{section*.1043}
+\contentsline {subsubsection}{Magic Fang}{401}{section*.1044}
+\contentsline {subsubsection}{Magic Fang, Greater}{401}{section*.1045}
+\contentsline {subsubsection}{Magic Jar}{402}{section*.1046}
+\contentsline {subsubsection}{Magic Missile}{402}{section*.1047}
+\contentsline {subsubsection}{Magic Mouth}{403}{section*.1048}
+\contentsline {subsubsection}{Magic Stone}{403}{section*.1049}
+\contentsline {subsubsection}{Magic Vestment}{404}{section*.1050}
+\contentsline {subsubsection}{Magic Weapon}{404}{section*.1051}
+\contentsline {subsubsection}{Magic Weapon, Greater}{404}{section*.1052}
+\contentsline {subsubsection}{Major Creation}{404}{section*.1053}
+\contentsline {subsubsection}{Major Image}{405}{section*.1054}
+\contentsline {subsubsection}{Make Whole}{405}{section*.1055}
+\contentsline {subsubsection}{Mark of Justice}{405}{section*.1056}
+\contentsline {subsubsection}{Mass (Spell Name)}{406}{section*.1057}
+\contentsline {subsubsection}{Maze}{406}{section*.1058}
+\contentsline {subsubsection}{Meld into Stone}{406}{section*.1059}
+\contentsline {subsubsection}{Mending}{407}{section*.1060}
+\contentsline {subsubsection}{Message}{407}{section*.1061}
+\contentsline {subsubsection}{Meteor Swarm}{407}{section*.1062}
+\contentsline {subsubsection}{Mind Blank}{408}{section*.1063}
+\contentsline {subsubsection}{Mind Fog}{408}{section*.1064}
+\contentsline {subsubsection}{Minor Creation}{408}{section*.1065}
+\contentsline {subsubsection}{Minor Image}{409}{section*.1066}
+\contentsline {subsubsection}{Miracle}{409}{section*.1067}
+\contentsline {subsubsection}{Mirage Arcana}{409}{section*.1068}
+\contentsline {subsubsection}{Mirror Image}{410}{section*.1069}
+\contentsline {subsubsection}{Misdirection}{410}{section*.1070}
+\contentsline {subsubsection}{Mislead}{410}{section*.1071}
+\contentsline {subsubsection}{Mnemonic Enhancer}{411}{section*.1072}
+\contentsline {subsubsection}{Modify Memory}{411}{section*.1073}
+\contentsline {subsubsection}{Moment of Prescience}{412}{section*.1074}
+\contentsline {subsubsection}{Mount}{412}{section*.1075}
+\contentsline {subsubsection}{Move Earth}{412}{section*.1076}
+\contentsline {section}{\numberline {A.14}Spells N}{413}{section.A.14}
+\contentsline {subsubsection}{Neutralize Poison}{413}{section*.1077}
+\contentsline {subsubsection}{Nightmare}{413}{section*.1078}
+\contentsline {subsubsection}{Nondetection}{414}{section*.1079}
+\contentsline {section}{\numberline {A.15}Spells O}{415}{section.A.15}
+\contentsline {subsubsection}{Obscure Object}{415}{section*.1080}
+\contentsline {subsubsection}{Obscuring Mist}{415}{section*.1081}
+\contentsline {subsubsection}{Open/Close}{415}{section*.1082}
+\contentsline {subsubsection}{Order's Wrath}{416}{section*.1083}
+\contentsline {subsubsection}{Overland Flight}{416}{section*.1084}
+\contentsline {subsubsection}{Owl's Wisdom}{416}{section*.1085}
+\contentsline {subsubsection}{Owl's Wisdom, Mass}{417}{section*.1086}
+\contentsline {section}{\numberline {A.16}Spells P}{417}{section.A.16}
+\contentsline {subsubsection}{Passwall}{417}{section*.1087}
+\contentsline {subsubsection}{Pass Without Trace}{417}{section*.1088}
+\contentsline {subsubsection}{Permanency}{417}{section*.1089}
+\contentsline {subsubsection}{Permanent Image}{419}{section*.1090}
+\contentsline {subsubsection}{Persistent Image}{419}{section*.1091}
+\contentsline {subsubsection}{Phantasmal Killer}{419}{section*.1092}
+\contentsline {subsubsection}{Phantom Steed}{420}{section*.1093}
+\contentsline {subsubsection}{Phantom Trap}{420}{section*.1094}
+\contentsline {subsubsection}{Phase Door}{420}{section*.1095}
+\contentsline {subsubsection}{Planar Ally}{421}{section*.1096}
+\contentsline {subsubsection}{Planar Ally, Greater}{421}{section*.1097}
+\contentsline {subsubsection}{Planar Ally, Lesser}{421}{section*.1098}
+\contentsline {subsubsection}{Planar Binding}{422}{section*.1099}
+\contentsline {subsubsection}{Planar Binding, Greater}{422}{section*.1100}
+\contentsline {subsubsection}{Planar Binding, Lesser}{422}{section*.1101}
+\contentsline {subsubsection}{Plane Shift}{423}{section*.1102}
+\contentsline {subsubsection}{Plant Growth}{423}{section*.1103}
+\contentsline {subsubsection}{Poison}{424}{section*.1104}
+\contentsline {subsubsection}{Polar Ray}{424}{section*.1105}
+\contentsline {subsubsection}{Polymorph}{424}{section*.1106}
+\contentsline {subsubsection}{Polymorph Any Object}{425}{section*.1107}
+\contentsline {subsubsection}{Power Word Blind}{426}{section*.1108}
+\contentsline {subsubsection}{Power Word Kill}{426}{section*.1109}
+\contentsline {subsubsection}{Power Word Stun}{427}{section*.1110}
+\contentsline {subsubsection}{Prayer}{427}{section*.1111}
+\contentsline {subsubsection}{Prestidigitation}{427}{section*.1112}
+\contentsline {subsubsection}{Prismatic Sphere}{428}{section*.1113}
+\contentsline {subsubsection}{Prismatic Spray}{428}{section*.1114}
+\contentsline {subsubsection}{Prismatic Wall}{429}{section*.1115}
+\contentsline {subsubsection}{Produce Flame}{432}{section*.1116}
+\contentsline {subsubsection}{Programmed Image}{433}{section*.1117}
+\contentsline {subsubsection}{Project Image}{433}{section*.1118}
+\contentsline {subsubsection}{Protection From Arrows}{433}{section*.1119}
+\contentsline {subsubsection}{Protection From Chaos}{434}{section*.1120}
+\contentsline {subsubsection}{Protection From Energy}{434}{section*.1121}
+\contentsline {subsubsection}{Protection From Evil}{434}{section*.1122}
+\contentsline {subsubsection}{Protection From Good}{435}{section*.1123}
+\contentsline {subsubsection}{Protection From Law}{435}{section*.1124}
+\contentsline {subsubsection}{Protection From Spells}{435}{section*.1125}
+\contentsline {subsubsection}{Prying Eyes}{435}{section*.1126}
+\contentsline {subsubsection}{Prying Eyes, Greater}{436}{section*.1127}
+\contentsline {subsubsection}{Purify Food and Drink}{436}{section*.1128}
+\contentsline {subsubsection}{Pyrotechnics}{436}{section*.1129}
+\contentsline {section}{\numberline {A.17}Spells Q}{437}{section.A.17}
+\contentsline {subsubsection}{Quench}{437}{section*.1130}
+\contentsline {section}{\numberline {A.18}Spells R}{437}{section.A.18}
+\contentsline {subsubsection}{Rage}{437}{section*.1131}
+\contentsline {subsubsection}{Rainbow Pattern}{437}{section*.1132}
+\contentsline {subsubsection}{Raise Dead}{438}{section*.1133}
+\contentsline {subsubsection}{Ray of Enfeeblement}{438}{section*.1134}
+\contentsline {subsubsection}{Ray of Exhaustion}{438}{section*.1135}
+\contentsline {subsubsection}{Ray of Frost}{439}{section*.1136}
+\contentsline {subsubsection}{Read Magic}{439}{section*.1137}
+\contentsline {subsubsection}{Reduce Animal}{439}{section*.1138}
+\contentsline {subsubsection}{Reduce Person}{440}{section*.1139}
+\contentsline {subsubsection}{Reduce Person, Mass}{440}{section*.1140}
+\contentsline {subsubsection}{Refuge}{440}{section*.1141}
+\contentsline {subsubsection}{Regenerate}{441}{section*.1142}
+\contentsline {subsubsection}{Reincarnate}{441}{section*.1143}
+\contentsline {subsubsection}{Remove Blindness/Deafness}{442}{section*.1144}
+\contentsline {subsubsection}{Remove Curse}{442}{section*.1145}
+\contentsline {subsubsection}{Remove Disease}{443}{section*.1146}
+\contentsline {subsubsection}{Remove Fear}{443}{section*.1147}
+\contentsline {subsubsection}{Remove Paralysis}{443}{section*.1148}
+\contentsline {subsubsection}{Repel Metal or Stone}{443}{section*.1149}
+\contentsline {subsubsection}{Repel Vermin}{444}{section*.1150}
+\contentsline {subsubsection}{Repel Wood}{444}{section*.1151}
+\contentsline {subsubsection}{Repulsion}{444}{section*.1152}
+\contentsline {subsubsection}{Resilient Sphere}{445}{section*.1153}
+\contentsline {subsubsection}{Resistance}{445}{section*.1154}
+\contentsline {subsubsection}{Resist Energy}{445}{section*.1155}
+\contentsline {subsubsection}{Restoration}{446}{section*.1156}
+\contentsline {subsubsection}{Restoration, Greater}{446}{section*.1157}
+\contentsline {subsubsection}{Restoration, Lesser}{446}{section*.1158}
+\contentsline {subsubsection}{Resurrection}{447}{section*.1159}
+\contentsline {subsubsection}{Reverse Gravity}{447}{section*.1160}
+\contentsline {subsubsection}{Righteous Might}{447}{section*.1161}
+\contentsline {subsubsection}{Rope Trick}{448}{section*.1162}
+\contentsline {subsubsection}{Rusting Grasp}{448}{section*.1163}
+\contentsline {section}{\numberline {A.19}Spells S}{449}{section.A.19}
+\contentsline {subsubsection}{Sanctuary}{449}{section*.1164}
+\contentsline {subsubsection}{Scare}{449}{section*.1165}
+\contentsline {subsubsection}{Scintillating Pattern}{449}{section*.1166}
+\contentsline {subsubsection}{Scorching Ray}{450}{section*.1167}
+\contentsline {subsubsection}{Screen}{450}{section*.1168}
+\contentsline {subsubsection}{Scrying}{450}{section*.1169}
+\contentsline {subsubsection}{Scrying, Greater}{451}{section*.1170}
+\contentsline {subsubsection}{Sculpt Sound}{452}{section*.1171}
+\contentsline {subsubsection}{Searing Light}{452}{section*.1172}
+\contentsline {subsubsection}{Secret Chest}{452}{section*.1173}
+\contentsline {subsubsection}{Secret Page}{453}{section*.1174}
+\contentsline {subsubsection}{Secure Shelter}{453}{section*.1175}
+\contentsline {subsubsection}{See Invisibility}{454}{section*.1176}
+\contentsline {subsubsection}{Seeming}{454}{section*.1177}
+\contentsline {subsubsection}{Sending}{454}{section*.1178}
+\contentsline {subsubsection}{Sepia Snake Sigil}{454}{section*.1179}
+\contentsline {subsubsection}{Sequester}{455}{section*.1180}
+\contentsline {subsubsection}{Shades}{455}{section*.1181}
+\contentsline {subsubsection}{Shadow Conjuration}{455}{section*.1182}
+\contentsline {subsubsection}{Shadow Conjuration, Greater}{456}{section*.1183}
+\contentsline {subsubsection}{Shadow Evocation}{456}{section*.1184}
+\contentsline {subsubsection}{Shadow Evocation, Greater}{457}{section*.1185}
+\contentsline {subsubsection}{Shadow Walk}{457}{section*.1186}
+\contentsline {subsubsection}{Shambler}{457}{section*.1187}
+\contentsline {subsubsection}{Shapechange}{458}{section*.1188}
+\contentsline {subsubsection}{Shatter}{458}{section*.1189}
+\contentsline {subsubsection}{Shield}{458}{section*.1190}
+\contentsline {subsubsection}{Shield of Faith}{459}{section*.1191}
+\contentsline {subsubsection}{Shield of Law}{459}{section*.1192}
+\contentsline {subsubsection}{Shield Other}{459}{section*.1193}
+\contentsline {subsubsection}{Shillelagh}{460}{section*.1194}
+\contentsline {subsubsection}{Shocking Grasp}{460}{section*.1195}
+\contentsline {subsubsection}{Shout}{460}{section*.1196}
+\contentsline {subsubsection}{Shout, Greater}{460}{section*.1197}
+\contentsline {subsubsection}{Shrink Item}{461}{section*.1198}
+\contentsline {subsubsection}{Silence}{461}{section*.1199}
+\contentsline {subsubsection}{Silent Image}{461}{section*.1200}
+\contentsline {subsubsection}{Simulacrum}{462}{section*.1201}
+\contentsline {subsubsection}{Slay Living}{462}{section*.1202}
+\contentsline {subsubsection}{Sleep}{462}{section*.1203}
+\contentsline {subsubsection}{Sleet Storm}{463}{section*.1204}
+\contentsline {subsubsection}{Slow}{463}{section*.1205}
+\contentsline {subsubsection}{Snare}{463}{section*.1206}
+\contentsline {subsubsection}{Soften Earth and Stone}{464}{section*.1207}
+\contentsline {subsubsection}{Solid Fog}{464}{section*.1208}
+\contentsline {subsubsection}{Song of Discord}{464}{section*.1209}
+\contentsline {subsubsection}{Soul Bind}{465}{section*.1210}
+\contentsline {subsubsection}{Sound Burst}{465}{section*.1211}
+\contentsline {subsubsection}{Speak With Animals}{465}{section*.1212}
+\contentsline {subsubsection}{Speak With Dead}{466}{section*.1213}
+\contentsline {subsubsection}{Speak with Plants}{466}{section*.1214}
+\contentsline {subsubsection}{Spectral Hand}{466}{section*.1215}
+\contentsline {subsubsection}{Spell Immunity}{467}{section*.1216}
+\contentsline {subsubsection}{Spell Immunity, Greater}{467}{section*.1217}
+\contentsline {subsubsection}{Spell Resistance}{467}{section*.1218}
+\contentsline {subsubsection}{Spellstaff}{468}{section*.1219}
+\contentsline {subsubsection}{Spell Turning}{468}{section*.1220}
+\contentsline {subsubsection}{Spider Climb}{469}{section*.1221}
+\contentsline {subsubsection}{Spike Growth}{469}{section*.1222}
+\contentsline {subsubsection}{Spike Stones}{470}{section*.1223}
+\contentsline {subsubsection}{Spiritual Weapon}{470}{section*.1224}
+\contentsline {subsubsection}{Statue}{471}{section*.1225}
+\contentsline {subsubsection}{Status}{471}{section*.1226}
+\contentsline {subsubsection}{Stinking Cloud}{471}{section*.1227}
+\contentsline {subsubsection}{Stone Shape}{472}{section*.1228}
+\contentsline {subsubsection}{Stoneskin}{472}{section*.1229}
+\contentsline {subsubsection}{Stone Tell}{472}{section*.1230}
+\contentsline {subsubsection}{Stone to Flesh}{473}{section*.1231}
+\contentsline {subsubsection}{Storm of Vengeance}{473}{section*.1232}
+\contentsline {subsubsection}{Suggestion}{473}{section*.1233}
+\contentsline {subsubsection}{Suggestion, Mass}{474}{section*.1234}
+\contentsline {subsubsection}{Summon Instrument}{474}{section*.1235}
+\contentsline {subsubsection}{Summon Monster I}{474}{section*.1236}
+\contentsline {subsubsection}{Summon Monster II}{475}{section*.1237}
+\contentsline {subsubsection}{Summon Monster III}{475}{section*.1238}
+\contentsline {subsubsection}{Summon Monster IV}{475}{section*.1239}
+\contentsline {subsubsection}{Summon Monster V}{475}{section*.1240}
+\contentsline {subsubsection}{Summon Monster VI}{475}{section*.1241}
+\contentsline {subsubsection}{Summon Monster VII}{475}{section*.1242}
+\contentsline {subsubsection}{Summon Monster VIII}{475}{section*.1243}
+\contentsline {subsubsection}{Summon Monster IX}{476}{section*.1244}
+\contentsline {subsubsection}{Summon Nature's Ally I}{478}{section*.1245}
+\contentsline {subsubsection}{Summon Nature's Ally II}{479}{section*.1246}
+\contentsline {subsubsection}{Summon Nature's Ally III}{479}{section*.1247}
+\contentsline {subsubsection}{Summon Nature's Ally IV}{479}{section*.1248}
+\contentsline {subsubsection}{Summon Nature's Ally V}{479}{section*.1249}
+\contentsline {subsubsection}{Summon Nature's Ally VI}{479}{section*.1250}
+\contentsline {subsubsection}{Summon Nature's Ally VII}{479}{section*.1251}
+\contentsline {subsubsection}{Summon Nature's Ally VIII}{480}{section*.1252}
+\contentsline {subsubsection}{Summon Nature's Ally IX}{480}{section*.1253}
+\contentsline {subsubsection}{Summon Swarm}{482}{section*.1254}
+\contentsline {subsubsection}{Sunbeam}{482}{section*.1255}
+\contentsline {subsubsection}{Sunburst}{483}{section*.1256}
+\contentsline {subsubsection}{Surelife}{483}{section*.1257}
+\contentsline {subsubsection}{Symbol of Death}{483}{section*.1258}
+\contentsline {subsubsection}{Symbol of Fear}{484}{section*.1259}
+\contentsline {subsubsection}{Symbol of Insanity}{485}{section*.1260}
+\contentsline {subsubsection}{Symbol of Pain}{485}{section*.1261}
+\contentsline {subsubsection}{Symbol of Persuasion}{485}{section*.1262}
+\contentsline {subsubsection}{Symbol of Sleep}{485}{section*.1263}
+\contentsline {subsubsection}{Symbol of Stunning}{486}{section*.1264}
+\contentsline {subsubsection}{Symbol of Weakness}{486}{section*.1265}
+\contentsline {subsubsection}{Sympathetic Vibration}{486}{section*.1266}
+\contentsline {subsubsection}{Sympathy}{486}{section*.1267}
+\contentsline {section}{\numberline {A.20}Spells T}{487}{section.A.20}
+\contentsline {subsubsection}{Telekinesis}{487}{section*.1268}
+\contentsline {subsubsection}{Telekinetic Sphere}{488}{section*.1269}
+\contentsline {subsubsection}{Telepathic Bond}{488}{section*.1270}
+\contentsline {subsubsection}{Teleport}{488}{section*.1271}
+\contentsline {subsubsection}{Teleportation Circle}{489}{section*.1272}
+\contentsline {subsubsection}{Teleport, Greater}{490}{section*.1273}
+\contentsline {subsubsection}{Teleport Object}{490}{section*.1274}
+\contentsline {subsubsection}{Temporal Stasis}{490}{section*.1275}
+\contentsline {subsubsection}{Time Stop}{491}{section*.1276}
+\contentsline {subsubsection}{Tiny Hut}{491}{section*.1277}
+\contentsline {subsubsection}{Tongues}{491}{section*.1278}
+\contentsline {subsubsection}{Touch of Fatigue}{492}{section*.1279}
+\contentsline {subsubsection}{Touch of Idiocy}{492}{section*.1280}
+\contentsline {subsubsection}{Touch of Madness}{492}{section*.1281}
+\contentsline {subsubsection}{Transformation}{493}{section*.1282}
+\contentsline {subsubsection}{Transmute Metal to Wood}{493}{section*.1283}
+\contentsline {subsubsection}{Transmute Mud to Rock}{493}{section*.1284}
+\contentsline {subsubsection}{Transmute Rock to Mud}{494}{section*.1285}
+\contentsline {subsubsection}{Transport Via Plants}{494}{section*.1286}
+\contentsline {subsubsection}{Trap the Soul}{494}{section*.1287}
+\contentsline {subsubsection}{Tree Shape}{495}{section*.1288}
+\contentsline {subsubsection}{Tree Stride}{495}{section*.1289}
+\contentsline {subsubsection}{True Creation}{496}{section*.1290}
+\contentsline {subsubsection}{True Resurrection}{496}{section*.1291}
+\contentsline {subsubsection}{True Seeing}{497}{section*.1292}
+\contentsline {subsubsection}{True Strike}{497}{section*.1293}
+\contentsline {section}{\numberline {A.21}Spells U}{497}{section.A.21}
+\contentsline {subsubsection}{Undeath to Death}{497}{section*.1294}
+\contentsline {subsubsection}{Undetectable Alignment}{498}{section*.1295}
+\contentsline {subsubsection}{Unhallow}{498}{section*.1296}
+\contentsline {subsubsection}{Unholy Aura}{498}{section*.1297}
+\contentsline {subsubsection}{Unholy Blight}{499}{section*.1298}
+\contentsline {subsubsection}{Unseen Servant}{499}{section*.1299}
+\contentsline {section}{\numberline {A.22}Spells V}{499}{section.A.22}
+\contentsline {subsubsection}{Vampiric Touch}{499}{section*.1300}
+\contentsline {subsubsection}{Veil}{500}{section*.1301}
+\contentsline {subsubsection}{Ventriloquism}{500}{section*.1302}
+\contentsline {subsubsection}{Virtue}{500}{section*.1303}
+\contentsline {subsubsection}{Vision}{501}{section*.1304}
+\contentsline {section}{\numberline {A.23}Spells W}{501}{section.A.23}
+\contentsline {subsubsection}{Wail of the Banshee}{501}{section*.1305}
+\contentsline {subsubsection}{Wall of Fire}{501}{section*.1306}
+\contentsline {subsubsection}{Wall of Force}{501}{section*.1307}
+\contentsline {subsubsection}{Wall of Ice}{502}{section*.1308}
+\contentsline {subsubsection}{Wall of Iron}{502}{section*.1309}
+\contentsline {subsubsection}{Wall of Stone}{503}{section*.1310}
+\contentsline {subsubsection}{Wall of Thorns}{503}{section*.1311}
+\contentsline {subsubsection}{Warp Wood}{504}{section*.1312}
+\contentsline {subsubsection}{Water Breathing}{504}{section*.1313}
+\contentsline {subsubsection}{Water Walk}{505}{section*.1314}
+\contentsline {subsubsection}{Waves of Exhaustion}{505}{section*.1315}
+\contentsline {subsubsection}{Waves of Fatigue}{505}{section*.1316}
+\contentsline {subsubsection}{Web}{505}{section*.1317}
+\contentsline {subsubsection}{Weird}{506}{section*.1318}
+\contentsline {subsubsection}{Whirlwind}{506}{section*.1319}
+\contentsline {subsubsection}{Whispering Wind}{506}{section*.1320}
+\contentsline {subsubsection}{Wind Walk}{507}{section*.1321}
+\contentsline {subsubsection}{Wind Wall}{507}{section*.1322}
+\contentsline {subsubsection}{Wish}{508}{section*.1323}
+\contentsline {subsubsection}{Wood Shape}{509}{section*.1324}
+\contentsline {subsubsection}{Word of Chaos}{509}{section*.1325}
+\contentsline {subsubsection}{Word of Recall}{509}{section*.1326}
+\contentsline {section}{\numberline {A.24}Spells Z}{510}{section.A.24}
+\contentsline {subsubsection}{Zone of Silence}{510}{section*.1327}
+\contentsline {subsubsection}{Zone of Truth}{510}{section*.1328}
+\contentsline {appendix}{\chapternumberline {B}Magic Items}{511}{appendix.B}
+\contentsline {section}{\numberline {B.1}Basics and Creation}{511}{section.B.1}
+\contentsline {section}{\numberline {B.2}Magic Armor}{527}{section.B.2}
+\contentsline {section}{\numberline {B.3}Magic Weapons}{538}{section.B.3}
+\contentsline {section}{\numberline {B.4}Potions and Oils}{560}{section.B.4}
+\contentsline {section}{\numberline {B.5}Rings}{567}{section.B.5}
+\contentsline {section}{\numberline {B.6}Rods}{574}{section.B.6}
+\contentsline {section}{\numberline {B.7}Scrolls}{581}{section.B.7}
+\contentsline {section}{\numberline {B.8}Staves}{583}{section.B.8}
+\contentsline {section}{\numberline {B.9}Wands}{587}{section.B.9}
+\contentsline {section}{\numberline {B.10}Wondrous Items}{592}{section.B.10}
+\contentsline {section}{\numberline {B.11}Intelligent Items}{650}{section.B.11}
+\contentsline {section}{\numberline {B.12}Cursed Items}{665}{section.B.12}
+\contentsline {section}{\numberline {B.13}Artifacts}{673}{section.B.13}
+\contentsline {appendix}{\chapternumberline {C}NPC Classes}{682}{appendix.C}
+\contentsline {section}{\numberline {C.1}Adept}{682}{section.C.1}
+\contentsline {subsubsection}{Adept Spell List}{683}{section*.1330}
+\contentsline {section}{\numberline {C.2}Aristocrat}{683}{section.C.2}
+\contentsline {section}{\numberline {C.3}Commoner}{683}{section.C.3}
+\contentsline {section}{\numberline {C.4}Expert}{684}{section.C.4}
+\contentsline {section}{\numberline {C.5}Warrior}{685}{section.C.5}
+\contentsline {appendix}{\chapternumberline {D}Prestige Classes}{687}{appendix.D}
+\contentsline {subsubsection}{Definitions of Terms}{687}{section*.1335}
+\contentsline {section}{\numberline {D.1}Arcane Archer}{687}{section.D.1}
+\contentsline {section}{\numberline {D.2}Arcane Trickster}{689}{section.D.2}
+\contentsline {section}{\numberline {D.3}Archmage}{690}{section.D.3}
+\contentsline {section}{\numberline {D.4}Assassin}{691}{section.D.4}
+\contentsline {subsubsection}{Assassin Spell List}{693}{section*.1348}
+\contentsline {section}{\numberline {D.5}Blackguard}{693}{section.D.5}
+\contentsline {subsubsection}{Blackguard Spell List}{694}{section*.1352}
+\contentsline {subsubsection}{Corrupt Weapon}{694}{section*.1353}
+\contentsline {subsubsection}{Fallen Paladins}{694}{section*.1354}
+\contentsline {subsubsection}{The Blackguard's Fiendish Servant}{695}{section*.1355}
+\contentsline {section}{\numberline {D.6}Dragon Disciple}{696}{section.D.6}
+\contentsline {section}{\numberline {D.7}Duelist}{698}{section.D.7}
+\contentsline {section}{\numberline {D.8}Dwarven Defender}{699}{section.D.8}
+\contentsline {section}{\numberline {D.9}Eldritch Knight}{700}{section.D.9}
+\contentsline {section}{\numberline {D.10}Hierophant}{701}{section.D.10}
+\contentsline {section}{\numberline {D.11}Horizon Walker}{702}{section.D.11}
+\contentsline {subsubsection}{Terrain Mastery Benefits}{703}{section*.1374}
+\contentsline {section}{\numberline {D.12}Loremaster}{704}{section.D.12}
+\contentsline {section}{\numberline {D.13}Mystic Theurge}{705}{section.D.13}
+\contentsline {section}{\numberline {D.14}Shadow Dancer}{706}{section.D.14}
+\contentsline {section}{\numberline {D.15}Thaumaturgist}{707}{section.D.15}
+\contentsline {appendix}{\chapternumberline {E}Monsters}{709}{appendix.E}
+\contentsline {appendix}{\chapternumberline {F}The Open Game License}{710}{appendix.F}
+\contentsline {chapter}{List of Tables}{712}{section*.1389}
+\contentsline {chapter}{Index}{714}{section*.1391}

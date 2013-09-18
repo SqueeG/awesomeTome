@@ -1,0 +1,391 @@
+\BOOKMARK [0][-]{section*.1}{Table of Contents}{}% 1
+\BOOKMARK [0][-]{chapter.1}{The Basics}{}% 2
+\BOOKMARK [1][-]{section.1.1}{The Core Mechanic}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Dice}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Rounding Fractions}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Multiplying}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{Ability Scores}{chapter.1}% 7
+\BOOKMARK [2][-]{section*.2}{Ability Modifiers}{section.1.5}% 8
+\BOOKMARK [2][-]{section*.3}{Abilities and Spellcasters}{section.1.5}% 9
+\BOOKMARK [2][-]{section*.4}{The Abilities}{section.1.5}% 10
+\BOOKMARK [1][-]{section.1.6}{Ability Score Generation}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.7}{Character Creation}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.8}{Character Advancement}{chapter.1}% 13
+\BOOKMARK [0][-]{chapter.2}{Races}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Race Basics}{chapter.2}% 15
+\BOOKMARK [2][-]{section*.11}{Favored Class}{section.2.1}% 16
+\BOOKMARK [2][-]{section*.12}{Race and Languages}{section.2.1}% 17
+\BOOKMARK [2][-]{section*.13}{Small Characters}{section.2.1}% 18
+\BOOKMARK [1][-]{section.2.2}{Human}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Dwarf}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.4}{Elf}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.5}{Gnome}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.6}{Half-Elf}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.7}{Half-Orc}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.8}{Halfling}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Classes}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Barbarian}{chapter.3}% 27
+\BOOKMARK [2][-]{section*.15}{Ex-Barbarians}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{Bard}{chapter.3}% 29
+\BOOKMARK [2][-]{section*.17}{Ex-Bards}{section.3.2}% 30
+\BOOKMARK [1][-]{section.3.3}{Cleric}{chapter.3}% 31
+\BOOKMARK [2][-]{section*.19}{Ex-Clerics}{section.3.3}% 32
+\BOOKMARK [1][-]{section.3.4}{Druid}{chapter.3}% 33
+\BOOKMARK [2][-]{section*.21}{Ex-Druids}{section.3.4}% 34
+\BOOKMARK [2][-]{section*.22}{The Druid's Animal Companion}{section.3.4}% 35
+\BOOKMARK [2][-]{section*.23}{Alternate Animal Companions}{section.3.4}% 36
+\BOOKMARK [1][-]{section.3.5}{Fighter}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.6}{Monk}{chapter.3}% 38
+\BOOKMARK [2][-]{section*.31}{Ex-Monks}{section.3.6}% 39
+\BOOKMARK [1][-]{section.3.7}{Paladin}{chapter.3}% 40
+\BOOKMARK [2][-]{section*.33}{Ex-Paladin}{section.3.7}% 41
+\BOOKMARK [2][-]{section*.34}{The Paladin's Mount}{section.3.7}% 42
+\BOOKMARK [1][-]{section.3.8}{Ranger}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.9}{Rogue}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.10}{Sorcerer}{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.11}{Wizard}{chapter.3}% 46
+\BOOKMARK [2][-]{section*.39}{School Specialization}{section.3.11}% 47
+\BOOKMARK [2][-]{section*.40}{Familiars}{section.3.11}% 48
+\BOOKMARK [2][-]{section*.41}{Arcane Spells And Armor}{section.3.11}% 49
+\BOOKMARK [1][-]{section.3.12}{Multiclass Characters}{chapter.3}% 50
+\BOOKMARK [2][-]{section*.42}{Class And Level Features}{section.3.12}% 51
+\BOOKMARK [0][-]{chapter.4}{Skills}{}% 52
+\BOOKMARK [1][-]{section.4.1}{Skills Summary}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.2}{Using Skills}{chapter.4}% 54
+\BOOKMARK [2][-]{section*.43}{Skill Checks}{section.4.2}% 55
+\BOOKMARK [2][-]{section*.50}{Combining Skill Attempts}{section.4.2}% 56
+\BOOKMARK [2][-]{section*.54}{Ability Checks}{section.4.2}% 57
+\BOOKMARK [1][-]{section.4.3}{Skill Descriptions}{chapter.4}% 58
+\BOOKMARK [2][-]{section*.55}{Skill Name}{section.4.3}% 59
+\BOOKMARK [2][-]{section*.56}{Appraise}{section.4.3}% 60
+\BOOKMARK [2][-]{section*.57}{Balance}{section.4.3}% 61
+\BOOKMARK [2][-]{section*.58}{Bluff}{section.4.3}% 62
+\BOOKMARK [2][-]{section*.59}{Climb}{section.4.3}% 63
+\BOOKMARK [2][-]{section*.60}{Concentration}{section.4.3}% 64
+\BOOKMARK [2][-]{section*.61}{Craft}{section.4.3}% 65
+\BOOKMARK [2][-]{section*.62}{Decipher Script}{section.4.3}% 66
+\BOOKMARK [2][-]{section*.63}{Diplomacy}{section.4.3}% 67
+\BOOKMARK [2][-]{section*.65}{Disable Device}{section.4.3}% 68
+\BOOKMARK [2][-]{section*.67}{Disguise}{section.4.3}% 69
+\BOOKMARK [2][-]{section*.68}{Escape Artist}{section.4.3}% 70
+\BOOKMARK [2][-]{section*.69}{Forgery}{section.4.3}% 71
+\BOOKMARK [2][-]{section*.70}{Gather Information}{section.4.3}% 72
+\BOOKMARK [2][-]{section*.71}{Handle Animal}{section.4.3}% 73
+\BOOKMARK [2][-]{section*.72}{Heal}{section.4.3}% 74
+\BOOKMARK [2][-]{section*.73}{Hide}{section.4.3}% 75
+\BOOKMARK [2][-]{section*.74}{Intimidate}{section.4.3}% 76
+\BOOKMARK [2][-]{section*.75}{Jump}{section.4.3}% 77
+\BOOKMARK [2][-]{section*.76}{Knowledge}{section.4.3}% 78
+\BOOKMARK [2][-]{section*.77}{Listen}{section.4.3}% 79
+\BOOKMARK [2][-]{section*.78}{Move Silently}{section.4.3}% 80
+\BOOKMARK [2][-]{section*.79}{Open Lock}{section.4.3}% 81
+\BOOKMARK [2][-]{section*.80}{Perform}{section.4.3}% 82
+\BOOKMARK [2][-]{section*.81}{Profession}{section.4.3}% 83
+\BOOKMARK [2][-]{section*.82}{Ride}{section.4.3}% 84
+\BOOKMARK [2][-]{section*.83}{Search}{section.4.3}% 85
+\BOOKMARK [2][-]{section*.84}{Sense Motive}{section.4.3}% 86
+\BOOKMARK [2][-]{section*.85}{Sleight of Hand}{section.4.3}% 87
+\BOOKMARK [2][-]{section*.86}{Speak Language}{section.4.3}% 88
+\BOOKMARK [2][-]{section*.87}{Spellcraft}{section.4.3}% 89
+\BOOKMARK [2][-]{section*.88}{Spot}{section.4.3}% 90
+\BOOKMARK [2][-]{section*.89}{Survival}{section.4.3}% 91
+\BOOKMARK [2][-]{section*.90}{Swim}{section.4.3}% 92
+\BOOKMARK [2][-]{section*.91}{Tumble}{section.4.3}% 93
+\BOOKMARK [2][-]{section*.92}{Use Magic Device}{section.4.3}% 94
+\BOOKMARK [2][-]{section*.93}{Use Rope}{section.4.3}% 95
+\BOOKMARK [0][-]{chapter.5}{Feats}{}% 96
+\BOOKMARK [1][-]{section.5.1}{Prerequisites}{chapter.5}% 97
+\BOOKMARK [1][-]{section.5.2}{Types of Feats}{chapter.5}% 98
+\BOOKMARK [2][-]{section*.94}{Fighter Bonus Feats}{section.5.2}% 99
+\BOOKMARK [2][-]{section*.95}{Item Creation Feats}{section.5.2}% 100
+\BOOKMARK [2][-]{section*.96}{Metamagic Feats}{section.5.2}% 101
+\BOOKMARK [1][-]{section.5.3}{Feat Descriptions}{chapter.5}% 102
+\BOOKMARK [0][-]{chapter.6}{Equipment}{}% 103
+\BOOKMARK [1][-]{section.6.1}{Starting Gear}{chapter.6}% 104
+\BOOKMARK [1][-]{section.6.2}{Wealth and Money}{chapter.6}% 105
+\BOOKMARK [2][-]{section*.252}{Coins}{section.6.2}% 106
+\BOOKMARK [2][-]{section*.253}{Wealth Other Than Coins}{section.6.2}% 107
+\BOOKMARK [2][-]{section*.254}{Selling Loot}{section.6.2}% 108
+\BOOKMARK [1][-]{section.6.3}{Weapons}{chapter.6}% 109
+\BOOKMARK [2][-]{section*.255}{Weapon Categories}{section.6.3}% 110
+\BOOKMARK [2][-]{section*.256}{Weapon Qualities}{section.6.3}% 111
+\BOOKMARK [2][-]{section*.257}{Weapon Descriptions}{section.6.3}% 112
+\BOOKMARK [2][-]{section*.258}{Masterwork Weapons}{section.6.3}% 113
+\BOOKMARK [1][-]{section.6.4}{Armor}{chapter.6}% 114
+\BOOKMARK [2][-]{section*.259}{Armor Qualities}{section.6.4}% 115
+\BOOKMARK [2][-]{section*.260}{Armor Descriptions}{section.6.4}% 116
+\BOOKMARK [2][-]{section*.261}{Masterwork Armor}{section.6.4}% 117
+\BOOKMARK [2][-]{section*.262}{Armor For Unusual Creatures}{section.6.4}% 118
+\BOOKMARK [2][-]{section*.263}{Getting Into And Out Of Armor}{section.6.4}% 119
+\BOOKMARK [1][-]{section.6.5}{Goods and Services}{chapter.6}% 120
+\BOOKMARK [2][-]{section*.264}{Adventuring Gear}{section.6.5}% 121
+\BOOKMARK [2][-]{section*.265}{Special Substances and Items}{section.6.5}% 122
+\BOOKMARK [2][-]{section*.266}{Tools and Skill Kits}{section.6.5}% 123
+\BOOKMARK [2][-]{section*.267}{Clothing}{section.6.5}% 124
+\BOOKMARK [2][-]{section*.268}{Food, Drink, and Lodging}{section.6.5}% 125
+\BOOKMARK [2][-]{section*.269}{Mounts and Related Gear}{section.6.5}% 126
+\BOOKMARK [2][-]{section*.270}{Transport}{section.6.5}% 127
+\BOOKMARK [2][-]{section*.271}{Spellcasting and Services}{section.6.5}% 128
+\BOOKMARK [0][-]{chapter.7}{Description}{}% 129
+\BOOKMARK [1][-]{section.7.1}{Alignment}{chapter.7}% 130
+\BOOKMARK [2][-]{section*.272}{Good vs Evil}{section.7.1}% 131
+\BOOKMARK [2][-]{section*.273}{Law vs Chaos}{section.7.1}% 132
+\BOOKMARK [2][-]{section*.274}{The Nine Alignments}{section.7.1}% 133
+\BOOKMARK [1][-]{section.7.2}{Vital Stats}{chapter.7}% 134
+\BOOKMARK [2][-]{section*.284}{Age}{section.7.2}% 135
+\BOOKMARK [2][-]{section*.285}{Height and Weight}{section.7.2}% 136
+\BOOKMARK [0][-]{chapter.8}{Adventuring}{}% 137
+\BOOKMARK [1][-]{section.8.1}{Carrying Capacity}{chapter.8}% 138
+\BOOKMARK [1][-]{section.8.2}{Movement}{chapter.8}% 139
+\BOOKMARK [2][-]{section*.287}{Tactical Movement}{section.8.2}% 140
+\BOOKMARK [2][-]{section*.288}{Local Movement}{section.8.2}% 141
+\BOOKMARK [2][-]{section*.289}{Overland Movement}{section.8.2}% 142
+\BOOKMARK [2][-]{section*.290}{Moving In Three Dimensions}{section.8.2}% 143
+\BOOKMARK [2][-]{section*.291}{Evasion and Pursuit}{section.8.2}% 144
+\BOOKMARK [2][-]{section*.292}{Moving Around In Squares}{section.8.2}% 145
+\BOOKMARK [1][-]{section.8.3}{Exploration}{chapter.8}% 146
+\BOOKMARK [2][-]{section*.293}{Vision and Light}{section.8.3}% 147
+\BOOKMARK [2][-]{section*.294}{Breaking and Entering}{section.8.3}% 148
+\BOOKMARK [2][-]{section*.297}{Special Materials}{section.8.3}% 149
+\BOOKMARK [1][-]{section.8.4}{Dungeons}{chapter.8}% 150
+\BOOKMARK [2][-]{section*.304}{Types of Dungeons}{section.8.4}% 151
+\BOOKMARK [2][-]{section*.305}{Dungeon Terrain}{section.8.4}% 152
+\BOOKMARK [2][-]{section*.312}{Rooms}{section.8.4}% 153
+\BOOKMARK [2][-]{section*.313}{Corridors}{section.8.4}% 154
+\BOOKMARK [2][-]{section*.314}{Miscellaneous Features}{section.8.4}% 155
+\BOOKMARK [1][-]{section.8.5}{Wilderness}{chapter.8}% 156
+\BOOKMARK [2][-]{section*.317}{Getting Lost}{section.8.5}% 157
+\BOOKMARK [2][-]{section*.318}{Forest Terrain}{section.8.5}% 158
+\BOOKMARK [2][-]{section*.321}{Marsh Terrain}{section.8.5}% 159
+\BOOKMARK [2][-]{section*.323}{Hills Terrain}{section.8.5}% 160
+\BOOKMARK [2][-]{section*.325}{Mountain Terrain}{section.8.5}% 161
+\BOOKMARK [2][-]{section*.329}{Desert Terrain}{section.8.5}% 162
+\BOOKMARK [2][-]{section*.332}{Plains Terrain}{section.8.5}% 163
+\BOOKMARK [2][-]{section*.334}{Aquatic Terrain}{section.8.5}% 164
+\BOOKMARK [1][-]{section.8.6}{Urban Adventures}{chapter.8}% 165
+\BOOKMARK [2][-]{section*.337}{Urban Features}{section.8.6}% 166
+\BOOKMARK [2][-]{section*.344}{Buying Buildings}{section.8.6}% 167
+\BOOKMARK [1][-]{section.8.7}{Weather}{chapter.8}% 168
+\BOOKMARK [2][-]{section*.346}{Rain, Snow, Sleet, and Hail}{section.8.7}% 169
+\BOOKMARK [2][-]{section*.347}{Storms}{section.8.7}% 170
+\BOOKMARK [2][-]{section*.348}{Fog}{section.8.7}% 171
+\BOOKMARK [2][-]{section*.349}{Winds}{section.8.7}% 172
+\BOOKMARK [1][-]{section.8.8}{The Environment}{chapter.8}% 173
+\BOOKMARK [2][-]{section*.350}{Acid Effects}{section.8.8}% 174
+\BOOKMARK [2][-]{section*.351}{Cold Dangers}{section.8.8}% 175
+\BOOKMARK [2][-]{section*.353}{Darkness}{section.8.8}% 176
+\BOOKMARK [2][-]{section*.354}{Falling}{section.8.8}% 177
+\BOOKMARK [2][-]{section*.355}{Falling Objects}{section.8.8}% 178
+\BOOKMARK [2][-]{section*.356}{Heat Dangers}{section.8.8}% 179
+\BOOKMARK [2][-]{section*.359}{Smoke Effects}{section.8.8}% 180
+\BOOKMARK [2][-]{section*.360}{Starvation and Thirst}{section.8.8}% 181
+\BOOKMARK [2][-]{section*.361}{Suffocation}{section.8.8}% 182
+\BOOKMARK [2][-]{section*.362}{Water Dangers}{section.8.8}% 183
+\BOOKMARK [1][-]{section.8.9}{Traps}{chapter.8}% 184
+\BOOKMARK [2][-]{section*.364}{Mechanical Traps}{section.8.9}% 185
+\BOOKMARK [2][-]{section*.365}{Magic Traps}{section.8.9}% 186
+\BOOKMARK [2][-]{section*.366}{Elements of a Trap}{section.8.9}% 187
+\BOOKMARK [2][-]{section*.373}{Sample Traps}{section.8.9}% 188
+\BOOKMARK [2][-]{section*.384}{Designing A Trap}{section.8.9}% 189
+\BOOKMARK [1][-]{section.8.10}{The Planes}{chapter.8}% 190
+\BOOKMARK [2][-]{section*.390}{What Is A Plane?}{section.8.10}% 191
+\BOOKMARK [2][-]{section*.391}{Planar Traits}{section.8.10}% 192
+\BOOKMARK [2][-]{section*.400}{How Planes Interact}{section.8.10}% 193
+\BOOKMARK [2][-]{section*.402}{Plane Descriptions}{section.8.10}% 194
+\BOOKMARK [0][-]{chapter.9}{Combat}{}% 195
+\BOOKMARK [1][-]{section.9.1}{How Combat Works}{chapter.9}% 196
+\BOOKMARK [1][-]{section.9.2}{Combat Statisics}{chapter.9}% 197
+\BOOKMARK [2][-]{section*.413}{Attack Roll}{section.9.2}% 198
+\BOOKMARK [2][-]{section*.414}{Attack Bonus}{section.9.2}% 199
+\BOOKMARK [2][-]{section*.415}{Damage}{section.9.2}% 200
+\BOOKMARK [2][-]{section*.416}{Armor Class}{section.9.2}% 201
+\BOOKMARK [2][-]{section*.417}{Hit Points}{section.9.2}% 202
+\BOOKMARK [2][-]{section*.418}{Speed}{section.9.2}% 203
+\BOOKMARK [2][-]{section*.419}{Saving Throws}{section.9.2}% 204
+\BOOKMARK [1][-]{section.9.3}{Initiative}{chapter.9}% 205
+\BOOKMARK [2][-]{section*.420}{Surprise}{section.9.3}% 206
+\BOOKMARK [1][-]{section.9.4}{Attacks of Opportunity}{chapter.9}% 207
+\BOOKMARK [1][-]{section.9.5}{Actions in Combat}{chapter.9}% 208
+\BOOKMARK [2][-]{section*.422}{The Combat Round}{section.9.5}% 209
+\BOOKMARK [2][-]{section*.423}{Action Types}{section.9.5}% 210
+\BOOKMARK [2][-]{section*.424}{Standard Actions}{section.9.5}% 211
+\BOOKMARK [2][-]{section*.431}{Move Actions}{section.9.5}% 212
+\BOOKMARK [2][-]{section*.439}{Full-Round Actions}{section.9.5}% 213
+\BOOKMARK [2][-]{section*.446}{Free Actions}{section.9.5}% 214
+\BOOKMARK [2][-]{section*.451}{Swift Actions}{section.9.5}% 215
+\BOOKMARK [2][-]{section*.453}{Miscellaneous Actions}{section.9.5}% 216
+\BOOKMARK [1][-]{section.9.6}{Injury and Death}{chapter.9}% 217
+\BOOKMARK [2][-]{section*.457}{Loss of Hit Points}{section.9.6}% 218
+\BOOKMARK [2][-]{section*.458}{Disabled \(0 Hit Points\)}{section.9.6}% 219
+\BOOKMARK [2][-]{section*.459}{Dying \(-1 to -9 Hit Points\)}{section.9.6}% 220
+\BOOKMARK [2][-]{section*.460}{Dead \(-10 Hit Points or lower\)}{section.9.6}% 221
+\BOOKMARK [2][-]{section*.461}{Stable Characters and Recovery}{section.9.6}% 222
+\BOOKMARK [2][-]{section*.462}{Healing}{section.9.6}% 223
+\BOOKMARK [2][-]{section*.463}{Temporary Hit Points}{section.9.6}% 224
+\BOOKMARK [2][-]{section*.464}{Nonlethal Damage}{section.9.6}% 225
+\BOOKMARK [1][-]{section.9.7}{Movement, Position, and Distance}{chapter.9}% 226
+\BOOKMARK [2][-]{section*.465}{Tactical Movement In Combat}{section.9.7}% 227
+\BOOKMARK [2][-]{section*.471}{Big And Little Creatures In Combat}{section.9.7}% 228
+\BOOKMARK [1][-]{section.9.8}{Combat Modifiers}{chapter.9}% 229
+\BOOKMARK [2][-]{section*.472}{Favorable And Unfavorable Conditions}{section.9.8}% 230
+\BOOKMARK [2][-]{section*.473}{Cover}{section.9.8}% 231
+\BOOKMARK [2][-]{section*.474}{Concealment}{section.9.8}% 232
+\BOOKMARK [2][-]{section*.475}{Flanking}{section.9.8}% 233
+\BOOKMARK [2][-]{section*.476}{Helpless Defenders}{section.9.8}% 234
+\BOOKMARK [1][-]{section.9.9}{Special Attacks}{chapter.9}% 235
+\BOOKMARK [2][-]{section*.477}{Aid Another}{section.9.9}% 236
+\BOOKMARK [2][-]{section*.478}{Bull Rush}{section.9.9}% 237
+\BOOKMARK [2][-]{section*.479}{Charge}{section.9.9}% 238
+\BOOKMARK [2][-]{section*.480}{Disarm}{section.9.9}% 239
+\BOOKMARK [2][-]{section*.482}{Feint}{section.9.9}% 240
+\BOOKMARK [2][-]{section*.483}{Grapple}{section.9.9}% 241
+\BOOKMARK [2][-]{section*.492}{Mounted Combat}{section.9.9}% 242
+\BOOKMARK [2][-]{section*.493}{Overrun}{section.9.9}% 243
+\BOOKMARK [2][-]{section*.494}{Sunder}{section.9.9}% 244
+\BOOKMARK [2][-]{section*.495}{Throw Splash Weapon}{section.9.9}% 245
+\BOOKMARK [2][-]{section*.496}{Trip}{section.9.9}% 246
+\BOOKMARK [2][-]{section*.497}{Turn or Rebuke Undead}{section.9.9}% 247
+\BOOKMARK [2][-]{section*.503}{Two-Weapon Fighting}{section.9.9}% 248
+\BOOKMARK [1][-]{section.9.10}{Special Initiative Actions}{chapter.9}% 249
+\BOOKMARK [2][-]{section*.504}{Delay}{section.9.10}% 250
+\BOOKMARK [2][-]{section*.505}{Ready}{section.9.10}% 251
+\BOOKMARK [1][-]{section.9.11}{Special Ability Descriptions}{chapter.9}% 252
+\BOOKMARK [2][-]{section*.506}{Ability Score Loss}{section.9.11}% 253
+\BOOKMARK [2][-]{section*.507}{Antimagic}{section.9.11}% 254
+\BOOKMARK [2][-]{section*.509}{Breath Weapon}{section.9.11}% 255
+\BOOKMARK [2][-]{section*.510}{Charm and Compulsion}{section.9.11}% 256
+\BOOKMARK [2][-]{section*.511}{Cold Immunity}{section.9.11}% 257
+\BOOKMARK [2][-]{section*.512}{Damage Reduction}{section.9.11}% 258
+\BOOKMARK [2][-]{section*.513}{Darkvision}{section.9.11}% 259
+\BOOKMARK [2][-]{section*.514}{Death Attacks}{section.9.11}% 260
+\BOOKMARK [2][-]{section*.515}{Disease}{section.9.11}% 261
+\BOOKMARK [2][-]{section*.518}{Energy Drain And Negative Levels}{section.9.11}% 262
+\BOOKMARK [2][-]{section*.519}{Etherealness}{section.9.11}% 263
+\BOOKMARK [2][-]{section*.520}{Evasion and Improved Evasion}{section.9.11}% 264
+\BOOKMARK [2][-]{section*.521}{Fast Healing}{section.9.11}% 265
+\BOOKMARK [2][-]{section*.522}{Fear}{section.9.11}% 266
+\BOOKMARK [2][-]{section*.523}{Fire Immunity}{section.9.11}% 267
+\BOOKMARK [2][-]{section*.524}{Gaseous Form}{section.9.11}% 268
+\BOOKMARK [2][-]{section*.525}{Gaze Attacks}{section.9.11}% 269
+\BOOKMARK [2][-]{section*.526}{Incorporeality}{section.9.11}% 270
+\BOOKMARK [2][-]{section*.527}{Invisibility}{section.9.11}% 271
+\BOOKMARK [2][-]{section*.528}{Level Loss}{section.9.11}% 272
+\BOOKMARK [2][-]{section*.529}{Low-Light Vision}{section.9.11}% 273
+\BOOKMARK [2][-]{section*.530}{Paralysis}{section.9.11}% 274
+\BOOKMARK [2][-]{section*.531}{Poison}{section.9.11}% 275
+\BOOKMARK [2][-]{section*.534}{Polymorph}{section.9.11}% 276
+\BOOKMARK [2][-]{section*.535}{Psionics}{section.9.11}% 277
+\BOOKMARK [2][-]{section*.536}{Rays}{section.9.11}% 278
+\BOOKMARK [2][-]{section*.537}{Regeneration}{section.9.11}% 279
+\BOOKMARK [2][-]{section*.538}{Resistance to Energy}{section.9.11}% 280
+\BOOKMARK [2][-]{section*.539}{Scent}{section.9.11}% 281
+\BOOKMARK [2][-]{section*.540}{Spell Resistance}{section.9.11}% 282
+\BOOKMARK [2][-]{section*.543}{Tremorsense}{section.9.11}% 283
+\BOOKMARK [2][-]{section*.544}{Turn Resistance}{section.9.11}% 284
+\BOOKMARK [1][-]{section.9.12}{Conditions}{chapter.9}% 285
+\BOOKMARK [0][-]{chapter.10}{Magic}{}% 286
+\BOOKMARK [1][-]{section.10.1}{Casting Spells}{chapter.10}% 287
+\BOOKMARK [2][-]{section*.583}{Choosing A Spell}{section.10.1}% 288
+\BOOKMARK [2][-]{section*.584}{Concentration}{section.10.1}% 289
+\BOOKMARK [2][-]{section*.585}{Counterspells}{section.10.1}% 290
+\BOOKMARK [2][-]{section*.586}{Caster Level}{section.10.1}% 291
+\BOOKMARK [2][-]{section*.587}{Spell Failure}{section.10.1}% 292
+\BOOKMARK [2][-]{section*.588}{The Spell's Result}{section.10.1}% 293
+\BOOKMARK [2][-]{section*.589}{Special Spell Effects}{section.10.1}% 294
+\BOOKMARK [2][-]{section*.590}{Combining Magical Effects}{section.10.1}% 295
+\BOOKMARK [1][-]{section.10.2}{How To Read A Spell Description}{chapter.10}% 296
+\BOOKMARK [2][-]{section*.591}{Name}{section.10.2}% 297
+\BOOKMARK [2][-]{section*.592}{School \(Subschool\)}{section.10.2}% 298
+\BOOKMARK [2][-]{section*.601}{[Descriptor]}{section.10.2}% 299
+\BOOKMARK [2][-]{section*.602}{Level}{section.10.2}% 300
+\BOOKMARK [2][-]{section*.603}{Components}{section.10.2}% 301
+\BOOKMARK [2][-]{section*.604}{Casting Time}{section.10.2}% 302
+\BOOKMARK [2][-]{section*.605}{Range}{section.10.2}% 303
+\BOOKMARK [2][-]{section*.606}{Aiming A Spell}{section.10.2}% 304
+\BOOKMARK [2][-]{section*.607}{Duration}{section.10.2}% 305
+\BOOKMARK [2][-]{section*.608}{Saving Throw Type}{section.10.2}% 306
+\BOOKMARK [2][-]{section*.609}{Account For Spell Resistance}{section.10.2}% 307
+\BOOKMARK [2][-]{section*.610}{Descriptive Text}{section.10.2}% 308
+\BOOKMARK [1][-]{section.10.3}{Arcane Spells}{chapter.10}% 309
+\BOOKMARK [2][-]{section*.611}{Preparing Wizard Spells}{section.10.3}% 310
+\BOOKMARK [2][-]{section*.612}{Arcane Magical Writings}{section.10.3}% 311
+\BOOKMARK [2][-]{section*.618}{Sorcerers and Bards}{section.10.3}% 312
+\BOOKMARK [1][-]{section.10.4}{Divine Spells}{chapter.10}% 313
+\BOOKMARK [2][-]{section*.619}{Preparing Divine Spells}{section.10.4}% 314
+\BOOKMARK [2][-]{section*.620}{Divine Magical Writings}{section.10.4}% 315
+\BOOKMARK [2][-]{section*.621}{New Divine Spells}{section.10.4}% 316
+\BOOKMARK [1][-]{section.10.5}{Special Ability Rules}{chapter.10}% 317
+\BOOKMARK [1][-]{section.10.6}{Spell Lists}{chapter.10}% 318
+\BOOKMARK [2][-]{section*.622}{Bard Spells}{section.10.6}% 319
+\BOOKMARK [2][-]{section*.630}{Cleric Spells}{section.10.6}% 320
+\BOOKMARK [2][-]{section*.641}{Cleric Domains}{section.10.6}% 321
+\BOOKMARK [2][-]{section*.677}{Druid Spells}{section.10.6}% 322
+\BOOKMARK [2][-]{section*.688}{Paladin Spells}{section.10.6}% 323
+\BOOKMARK [2][-]{section*.693}{Ranger Spells}{section.10.6}% 324
+\BOOKMARK [2][-]{section*.698}{Sorcerer / Wizard Spells}{section.10.6}% 325
+\BOOKMARK [0][-]{section*.709}{Appendices}{}% 326
+\BOOKMARK [0][-]{appendix.A}{Spells}{}% 327
+\BOOKMARK [1][-]{section.A.1}{Spells A}{appendix.A}% 328
+\BOOKMARK [1][-]{section.A.2}{Spells B}{appendix.A}% 329
+\BOOKMARK [1][-]{section.A.3}{Spells C}{appendix.A}% 330
+\BOOKMARK [1][-]{section.A.4}{Spells D}{appendix.A}% 331
+\BOOKMARK [1][-]{section.A.5}{Spells E}{appendix.A}% 332
+\BOOKMARK [1][-]{section.A.6}{Spells F}{appendix.A}% 333
+\BOOKMARK [1][-]{section.A.7}{Spells G}{appendix.A}% 334
+\BOOKMARK [1][-]{section.A.8}{Spells H}{appendix.A}% 335
+\BOOKMARK [1][-]{section.A.9}{Spells I}{appendix.A}% 336
+\BOOKMARK [1][-]{section.A.10}{Spells J}{appendix.A}% 337
+\BOOKMARK [1][-]{section.A.11}{Spells K}{appendix.A}% 338
+\BOOKMARK [1][-]{section.A.12}{Spells L}{appendix.A}% 339
+\BOOKMARK [1][-]{section.A.13}{Spells M}{appendix.A}% 340
+\BOOKMARK [1][-]{section.A.14}{Spells N}{appendix.A}% 341
+\BOOKMARK [1][-]{section.A.15}{Spells O}{appendix.A}% 342
+\BOOKMARK [1][-]{section.A.16}{Spells P}{appendix.A}% 343
+\BOOKMARK [1][-]{section.A.17}{Spells Q}{appendix.A}% 344
+\BOOKMARK [1][-]{section.A.18}{Spells R}{appendix.A}% 345
+\BOOKMARK [1][-]{section.A.19}{Spells S}{appendix.A}% 346
+\BOOKMARK [1][-]{section.A.20}{Spells T}{appendix.A}% 347
+\BOOKMARK [1][-]{section.A.21}{Spells U}{appendix.A}% 348
+\BOOKMARK [1][-]{section.A.22}{Spells V}{appendix.A}% 349
+\BOOKMARK [1][-]{section.A.23}{Spells W}{appendix.A}% 350
+\BOOKMARK [1][-]{section.A.24}{Spells Z}{appendix.A}% 351
+\BOOKMARK [0][-]{appendix.B}{Magic Items}{}% 352
+\BOOKMARK [1][-]{section.B.1}{Basics and Creation}{appendix.B}% 353
+\BOOKMARK [1][-]{section.B.2}{Magic Armor}{appendix.B}% 354
+\BOOKMARK [1][-]{section.B.3}{Magic Weapons}{appendix.B}% 355
+\BOOKMARK [1][-]{section.B.4}{Potions and Oils}{appendix.B}% 356
+\BOOKMARK [1][-]{section.B.5}{Rings}{appendix.B}% 357
+\BOOKMARK [1][-]{section.B.6}{Rods}{appendix.B}% 358
+\BOOKMARK [1][-]{section.B.7}{Scrolls}{appendix.B}% 359
+\BOOKMARK [1][-]{section.B.8}{Staves}{appendix.B}% 360
+\BOOKMARK [1][-]{section.B.9}{Wands}{appendix.B}% 361
+\BOOKMARK [1][-]{section.B.10}{Wondrous Items}{appendix.B}% 362
+\BOOKMARK [1][-]{section.B.11}{Intelligent Items}{appendix.B}% 363
+\BOOKMARK [1][-]{section.B.12}{Cursed Items}{appendix.B}% 364
+\BOOKMARK [1][-]{section.B.13}{Artifacts}{appendix.B}% 365
+\BOOKMARK [0][-]{appendix.C}{NPC Classes}{}% 366
+\BOOKMARK [1][-]{section.C.1}{Adept}{appendix.C}% 367
+\BOOKMARK [1][-]{section.C.2}{Aristocrat}{appendix.C}% 368
+\BOOKMARK [1][-]{section.C.3}{Commoner}{appendix.C}% 369
+\BOOKMARK [1][-]{section.C.4}{Expert}{appendix.C}% 370
+\BOOKMARK [1][-]{section.C.5}{Warrior}{appendix.C}% 371
+\BOOKMARK [0][-]{appendix.D}{Prestige Classes}{}% 372
+\BOOKMARK [1][-]{section.D.1}{Arcane Archer}{appendix.D}% 373
+\BOOKMARK [1][-]{section.D.2}{Arcane Trickster}{appendix.D}% 374
+\BOOKMARK [1][-]{section.D.3}{Archmage}{appendix.D}% 375
+\BOOKMARK [1][-]{section.D.4}{Assassin}{appendix.D}% 376
+\BOOKMARK [1][-]{section.D.5}{Blackguard}{appendix.D}% 377
+\BOOKMARK [1][-]{section.D.6}{Dragon Disciple}{appendix.D}% 378
+\BOOKMARK [1][-]{section.D.7}{Duelist}{appendix.D}% 379
+\BOOKMARK [1][-]{section.D.8}{Dwarven Defender}{appendix.D}% 380
+\BOOKMARK [1][-]{section.D.9}{Eldritch Knight}{appendix.D}% 381
+\BOOKMARK [1][-]{section.D.10}{Hierophant}{appendix.D}% 382
+\BOOKMARK [1][-]{section.D.11}{Horizon Walker}{appendix.D}% 383
+\BOOKMARK [1][-]{section.D.12}{Loremaster}{appendix.D}% 384
+\BOOKMARK [1][-]{section.D.13}{Mystic Theurge}{appendix.D}% 385
+\BOOKMARK [1][-]{section.D.14}{Shadow Dancer}{appendix.D}% 386
+\BOOKMARK [1][-]{section.D.15}{Thaumaturgist}{appendix.D}% 387
+\BOOKMARK [0][-]{appendix.E}{Monsters}{}% 388
+\BOOKMARK [0][-]{appendix.F}{The Open Game License}{}% 389
+\BOOKMARK [0][-]{section*.1389}{List of Tables}{}% 390
+\BOOKMARK [0][-]{section*.1391}{Index}{}% 391
