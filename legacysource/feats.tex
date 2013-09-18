@@ -1,0 +1,632 @@
+%\newcommand{\babfeat}[7]{\noindent\textbf{#1} \\ \emph{#2} \\ \textbf{Benefit:}#3 \\ \textbf{+1:}#4  \\ \textbf{+6:}#5 \\ \textbf{+11:}#6 \\ \textbf{+16:}#7 \bigskip }
+%\newcommand{\skillfeat}[7]{\noindent\textbf{#1} \\ \emph{#2} \\ \textbf{Benefit:} #3 \\ \textbf{4:} #4  \\ \textbf{9:} #5 \\ \textbf{14:} #6 \\ \textbf{19:} #7 \bigskip }
+
+
+
+%\minitabular{cheese & spice!}
+
+\section{The Failure of Feats}
+\vspace*{-10pt}
+\quot{``How about instead of being able to travel anywhere in the multiverse, transform yourself into anything you can think of, stop time, and slay everyone you can see, we just give a nice +1 to hit with your secondary weapon? Deal?"}
+
+Feats were an interesting idea when they were ported to 3rd edition D\&D. But let's face it; they don't go nearly far enough. Feats were made extremely conservative in their effects on the game because the authors didn't want to offend people with too radical a change. Well, now we've had third edition for 6 years, and we're offended. Feats are an interesting and tangible way to get unique abilities onto a character, but they have fallen prey to two key fallacies that has ended up turning the entire concept to ashes in our mouths. The first is the idea that if you think of something kind of cool for a character to do, you should make it a feat. That sounds compelling, but you only get 7 feats in your whole life. If you have to spend a feat for every cool thing you ever do, you're not going to do very many cool things in the approximately 260 encounters you'll have on your way from 1st to 20th level. The second is the idea that a feat should be equivalent to a cantrip or two. This one is even less excusable, and just makes us cry. A +1 bonus is something that you seriously might forget that you even have. Having one more +1 bonus doesn't make your character unique, it makes you a sucker for spending one of the half dozen feats you'll ever see on a bonus the other players won't even mention when discussing your character.
+
+We all understand this problem, what do we do about it? Well, for starters, Feats have to do more things. Many characters are 5th level or so and they only have 2 feats. Those feats should describe their character in a much more salient way than ``I'm no worse shooting into melee than I am shooting at people with cover that isn't my friends." This was begun with the tactical feats, but it didn't go far enough. It's not enough to add additional feats that do something halfway interesting for high level characters to have -- we actually have to replace the stupid one dimensional feats in the PHB with feats that rational people would care about in any way. Spending a single feat should be enough to make you a ``sniper character" because for a substantial portion of your life you only get one feat. Secondly, we have to clear away feats that don't provide numeric bonuses large enough to care about. The minimum bonus you'll ever notice is +3, because that's actually larger than the difference between having rolled well and having rolled poorly on your starting stats. Numeric bonuses smaller than that are actually insulting and need to be removed from the feats altogether. 3.5 Skill Focus was a nice start, but that's all it was -- a start.
+
+Furthermore, the fundamental structure of feats has been a disaster. The system of prerequisites often ensures that characters won't get an ability before it would be level appropriate for them to do so, but actually does nothing to ensure that such characters are in fact getting level appropriate abilities. Indeed, if a 12th level character decides that they want to pursue a career in shooting people in the face, they have to start all over gaining an ability that is supposed to be level appropriate for a 1st level character. Meanwhile, when a wizard of 12th level decides to pursue some new direction in spellcasting -- he learns a new 6th level spell right off -- and gets an ability that's level appropriate for a 12th level character.
+
+\subsection{Exploits}
+Getting proficiency with a weapon isn't worth a feat. They hand that crap out with your character class for free. Seriously, even exotic weapon proficiencies aren't a big deal. Therefore, we're instituting Exploits as something that can be acquired in-game. These are for any of the binary abilities that simply don't have a massive impact on your character's performance at any level.
+
+If you have Martial Weapon Proficiency, it's really unreasonable for it to be that hard to learn how to use a new weapon, whether it's exotic or not. If you spend a week training with a weapon, you can make an Int check (DC 10) to simply gain the Exploit of Exotic Weapon Proficiency. And no, you can't take 10 on that.
+
+If you don't have Martial Weapon Proficiency and you want to use a new weapon, that's touchier. But if you have a weapon for an entire level, you should just gain proficiency in it when you gain your next level whatever level you happen to select.
+
+\subsection{The New Feat System}
+
+So where are we going with this? First of all, feat chains are gone. That seemed like a good idea, but it wasn't. Secondly, the vast majority of feats don't have prerequisites at all, they scale. A [Combat] feat scales to your Base Attack Bonus, a [Skill] feat scales to your ranks in a skill, and a [Metamagic] feat scales to the highest level spell you can cast. And that's because those are the only things in the game that actually have anything to do with the level your character is in any way that we feel good about.
+
+\section{[Combat] Feats} \label{feats:combat}
+
+\begin{multicols}{2}
+
+\input{feats/!feats}
+
+\hypertarget{feat:dangersense}{}\babfeat{Danger Sense [Combat]}{
+Maybe Spiders tell you what's up. You certainly react to danger with uncanny effectiveness.}{
+You get a +3 bonus on Initiative checks.}{
+For the purpose of Search, Spot, and Listen, you are always considered to be ``actively searching". You also get Uncanny Dodge.}{
+You may take 10 on Listen, Spot, and Search checks.}{
+You may make a Sense Motive check (opposed by your opponent's Bluff check) immediately whenever any creature approaches within 60' of you with harmful intent. If you succeed, you know the location of the creature even if you cannot see it.}{
+You are never surprised and always act on the first round of any combat.}
+
+
+\hypertarget{feat:elusivetarget}{}\babfeat{Elusive Target [Combat]}{
+You are very hard to hit when you want to be.}{
+You gain a +2 Dodge bonus to AC.}{
+Your opponents do not gain flanking or higher ground bonuses against you.}{
+Your opponents do not inflict extra damage from the \hyperlink{combat:powerattack}{Power Attack} option.}{
+Diverting Defense -- As an immediate action, you may redirect an attack against you to any creature in your threatened range, friend or foe. You may not redirect an attack to the creature making the attack.}{
+As an immediate action, you may make an attack that would normally hit you miss instead.}
+
+
+\hypertarget{feat:experttactician}{}\babfeat{Expert Tactician [Combat]}{
+You benefit your allies so good they remember you long time.}{
+You gain a +4 bonus when flanking instead of the normal +2 bonus. Your allies who flank with you gain the same advantage.}{
+You may \hyperlink{combat:feint}{Feint} as an Immediate action.}{
+As a move action, you may make any 5' square adjacent to yourself into difficult ground.}{
+For determining flanking with your allies, you may count your location as being 5' in any direction from your real location.}{
+You ignore Cover bonuses less than full cover.}
+
+
+\hypertarget{feat:ghosthunter}{}\babfeat{Ghost Hunter [Combat]}{
+You smack around those folks in the spirit world.}{
+Your attacks have a 50\% chance of striking incorporeal opponents even if they are not magical.}{
+You can hear incorporeal and ethereal creatures as if they lacked those traits (note that shadows and the like rarely bother to actively move silently).}{
+You can see invisible and ethereal creatures as if they lacked those traits.}{
+Your attacks count as if you had the Ghost Touch property on your weapons.}{
+Any Armor or shield you use benefits from the Ghost Touch quality.}
+
+
+\hypertarget{feat:giantslayer}{}\babfeat{Giant Slayer [Combat]}{
+Everyone has a specialty. Yours is miraculously finding ways to stab creatures in the face when it seems improbable that you would be able to reach that high.}{
+When you perform a \hyperlink{combat:grabon}{grab on} Grapple maneuver, you do not provoke an attack of opportunity.}{
+You gain a +4 Dodge bonus to your AC and Reflex Saves against attacks from any creature with a longer natural reach than your own.}{
+You have The Edge against any creature you attack that is larger than you. Also, an opponent using the Improved Grab ability on you provokes an attack of opportunity from you. You may take this attack even if you do not threaten a square occupied by your opponent.}{
+When you attempt to trip an opponent, you may choose whether your opponent resists with Strength or Dexterity.}{
+When involved in an opposed bull rush, grapple, or trip check as the attacker or defender, you may negate the size modifier of both participants. You may not choose to negate the size modifier of only one character.}
+
+
+\hypertarget{feat:greatfortitude}{}\babfeat{Great Fortitude [Combat]}{
+You are so tough. Your belly is like a prism.}{
+You gain a +3 bonus to your Fortitude Saves.}{
+You die at -20 instead of -10.}{
+You gain 1 hit point per level.}{
+You gain DR of 5/-.}{
+You are immune to the fatigued and exhausted conditions. If you are already immune to these conditions, you gain 1 hit point per level for each condition you were already immune to.}
+
+
+\hypertarget{feat:hordebreaker}{}\babfeat{Horde Breaker[Combat]}{
+You kill really large numbers of people.}{
+You gain a number of extra attacks of opportunity each round equal to your Dexterity Bonus (if positive).}{
+Whenever you drop an opponent with a melee attack, you are entitled to a bonus ``cleave" attack against another opponent you threaten. You may not take a 5' step or otherwise move before taking this bonus attack. This Cleave attack is considered an attack of opportunity.}{
+You may take a bonus 5' step every time you are entitled to a Cleave attack, which you may take either before or after the attack.}{
+You may generate an aura of fear on any opponents within 10' of yourself whenever you drop an opponent in melee. The save DC is 10 + the Hit Dice of the dropped creature.}{
+Opponents you have the Edge against provoke an attack of opportunity from you by moving into your threatened area or attacking you.}
+
+
+\hypertarget{feat:hunter}{}\babfeat{Hunter [Combat]}{
+You can move around and shoot things with surprising effectiveness.}{
+The penalties for using a ranged weapon from an unstable platform (such as a ship or a moving horse) are halved.}{
+Shot on the Run -- you may take a standard action to attack with a ranged weapon in the middle of a move action, taking some of your movement before and some of your movement after your attack. That still counts as your standard and move action for the round.}{
+You suffer no penalties for firing from unstable ground, a running steed, or any of that.}{
+You may take a full round action to take a double move and make a single ranged attack from any point during your movement.}{
+You may take a full round action to run a full four times your speed and make a single ranged attack from any point during your movement. You retain your Dexterity modifier to AC while running.}
+
+
+\hypertarget{feat:insightfulstrike}{}\babfeat{Insightful Strike [Combat]}{
+You Hack people down with inherent awesomeness.}{
+You may use your Wisdom Modifier in place of your Strength Modifier for your melee attack rolls.}{
+Your attacks have The Edge against an opponent who has a lower Wisdom and Dexterity than your own Wisdom, regardless of relative BAB.}{
+Your melee attacks have a doubled critical threat range.}{
+You make horribly telling blows. The extra critical multiplier of your melee attacks is doubled (x2 becomes x3, x3 becomes x5, and x4 becomes x7).}{
+Any Melee attack you make is considered to be made with a magic weapon that has an enhancement bonus equal to your Wisdom Modifier (if positive).}
+
+
+\hypertarget{feat:ironwill}{}\babfeat{Iron Will [Combat]}{
+You are able to grit your teeth and shake off mental influences.}{
+You gain a +3 bonus to your Willpower saves.}{
+You gain the slippery mind ability of a Rogue.}{
+If you are stunned, you are dazed instead.}{
+You do not suffer penalties from pain and fear.}{
+You are immune to compulsion effects.}
+
+
+\hypertarget{feat:juggernaut}{}\babfeat{Juggernaut [Combat]}{
+You are an unstoppable Juggernaut.}{
+You may be considered one size category larger for the purposes of any size dependant roll you make (such as a Bull Rush, Overrun, or Lift action).}{
+You do not provoke an attack of opportunity for entering an opponent's square.}{
+You gain a +4 bonus to attack and damage rolls to destroy objects. You may shatter a Force Effect by inflicting 30 damage on it.}{
+When you successfully \hyperlink{combat:bullrush}{bullrush} or overrun an opponent, you automatically Trample them, inflicting damage equal to a natural slam attack for a creature of your size.}{
+You gain the Rock Throwing ability of any standard Giant with a strength equal to or less than yourself.}
+
+
+\hypertarget{feat:lightningreflexes}{}\babfeat{Lightning Reflexes [Combat]}{
+You are fasty McFastFast. It helps keep you alive.}{
+You gain a +3 bonus to your Reflex saves.}{
+You gain Evasion, if you already have Evasion, that stacks to Improved Evasion.}{
+You may make a Balance Check in place of your Reflex save.}{
+You gain a +3 bonus to your Initiative.}{
+When you take the Full Defense Action, add your level to your AC.}
+
+
+\hypertarget{feat:mageslayer}{}\babfeat{Mage Slayer [Combat]}{
+You have trained long and hard to kill magic users. Maybe you hate them, maybe you just noticed that most of the really dangerous creatures in the world use magic.}{
+You gain Spell Resistance of 5 + Character Level.}{
+Damage you inflict is considered ``ongoing damage" for the purposes of concentration checks made before the beginning of your next round. All your attacks in a round are considered the same source of continuing damage.}{
+Creatures cannot cast defensively within your threat range.}{
+Your attacks ignore Deflection bonuses to AC.}{
+When a creature uses a [Teleportation] effect within medium range of yourself, you may choose to be transported as well. This is not an action.}
+
+
+\hypertarget{feat:murderousintent}{}\babfeat{Murderous Intent [Combat]}{
+You stab people in the face.}{
+You may make a \hyperlink{combat:coupdegrace}{Coup de Grace} as a standard action.}{
+When you kill an opponent, you gain a +2 Morale Bonus to your attack and damage rolls for 1 minute.}{
+Once per round, you may take an attack of opportunity against an opponent who is denied their Dexterity bonus to AC.}{
+You may take a \hyperlink{combat:coupdegrace}{Coup de Grace} action against opponents who are stunned.}{
+You may take a \hyperlink{combat:coupdegrace}{Coup de Grace} action against opponents who are dazed.}
+
+
+\hypertarget{feat:phalanxfighter}{}\babfeat{Phalanx Fighter[Combat]}{
+You fight well in a group.}{
+You may take attacks of opportunity even while flat footed.}{
+Any Dodge bonus to AC you gain is also granted to any adjacent allies for as long as you benefit from the bonus and your ally remains adjacent.}{
+Charging is an action that provokes an attack of opportunity from you. This attack is considered to be a ``readied attack" if it matters for purposes like setting against a charge.}{
+You may attack with a reach weapon as if it was not a reach weapon. Thus, a medium creature would normally threaten at 5' and 10' with a reach weapon.}{
+You may take an Aid Another action once per round as a free action. You provide double normal bonuses from this effect.}
+
+
+\hypertarget{feat:pointblankshot}{}\hypertarget{feat:pbshot}{}\babfeat{Point Blank Shot [Combat]}{
+You are crazy good using a ranged weapon in close quarters.}{
+When you are within 30' of your target, your attacks with a ranged weapon gain a +3 bonus to-hit.}{
+You add your base attack bonus to damage with any ranged attack within the first range increment.}{
+You do not provoke an attack of opportunity when you make a ranged attack.}{
+When armed with a Ranged Weapon, you may make attacks of opportunity against opponents who provoke them within 30' of you. Movement within this area does not provoke an attack of opportunity.}{
+With a Full Attack action, you may fire a ranged weapon once at every single opponent within the first range increment of your weapon. You gain no additional attacks for having a high BAB. Make a single attack roll for the entire round, and compare to the armor class of each opponent within range.}
+
+\hypertarget{feat:sniper}{}\babfeat{Sniper [Combat]}{
+Your shooting is precise and dangerous.}{
+Your range increments are 50\% longer than they would ordinarily be. Any benefit of being within 30' of an opponent is retained out to 60'.}{
+Precise Shot -- You do not suffer a -4 penalty when firing a ranged weapon into melee and never hit an unintended target in close combats or grapples.}{
+Sharp Shooting -- Your ranged attacks ignore Cover Bonuses (total cover still bones you).}{
+Opponents struck by your ranged attacks do not automatically know what square your attack came from, and must attempt to find you normally.}{
+Any time you hit an opponent with a ranged weapon, it is counted as a critical threat. If your weapon already had a 19-20 threat range, increase its critical multiplier by 1.}
+
+
+\hypertarget{feat:subtlecut}{}\babfeat{Subtle Cut [Combat]}{
+You cut people so bad they have to ask you about it later.}{
+Any time you damage an opponent, that damage is increased by 1.}{
+As a standard action, you can make a weapon attack that also reduces a creature's movement rate. For every 5 points of damage this attack does, reduce the creature's movement by 5'. This penalties lasts until the damage is healed.}{
+As a standard action, you may make a weapon attack that also does 2d4 points of Dexterity damage.}{
+Any weapon attack that you make at this level acts as if the weapon had the wounding property.}{
+As a standard action, you may make an attack that dazes your opponent. This effect lasts one round, and has a DC of 10 + half your level + your Intelligence bonus.}
+
+
+\hypertarget{feat:twoweaponfighting}{}\babfeat{Two Weapon Fighting [Combat]}{
+When armed with two weapons, you fight with two weapons rather than picking and choosing and fighting with only one. Kind of obvious in retrospect.}{
+You suffer no penalty for doing things with your off-hand. When you make an attack or full-attack action, you may make a number of attacks with your off-hand weapon equal to the number of attacks you are afforded with your primary weapon.}{
+While armed with two weapons, you gain an extra Attack of Opportunity each round for each attack you would be allowed for your BAB, these extra attacks of opportunity must be made with your off-hand.}{
+You gain a +2 Shield Bonus to your armor class when fighting with two weapons and not flat footed.}{
+You may Feint as a Swift action.}{
+While fighting with two weapons and not flat footed you may add the enhancement bonus of either your primary or your off-hand weapon to your Shield Bonus to AC.}
+
+
+\hypertarget{feat:weaponfinesse}{}\babfeat{Weapon Finesse [Combat]}{
+You are incredibly deft with a sword.}{
+You may use your Dexterity Modifier instead of your Strength modifier for calculating your melee attack bonus.}{
+Your special attacks are considered to have the Edge when you attack an opponent with a Dexterity modifier smaller than yours, even if your Base Attack Bonus is not larger.}{
+You may use your Dexterity modifier in place of your Strength modifier when attempting to trip an opponent.}{
+You may use your Dexterity modifier in place of your Strength modifier for calculating your melee damage.}{
+Opportunist -- Once per turn, when an opponent is struck, you may take an attack of opportunity on that opponent.}
+
+\hypertarget{feat:weaponrighteousdestruction}{}\babfeat{Weapon of Righteous Destruction [Combat]}{
+
+Your hands make whatever is being held by them holy and on fire. For some reason this doesn't make them melt or burn up.}{
+
+Whatever weapon you are wielding is considered Magical (+1/3 bonus/level) in addition to any other properties that it has. Your unarmed attacks, even if not proficient, count for this effect.}{
+The above, plus Flaming.}{
+The above, Holy instead of Flaming.}{
+The above, plus Sun weapon, Fort save. (BoG)}{
+The above, plus Vorpal weapon (BoG).}
+
+\hypertarget{feat:whirlwind}{}\hypertarget{feat:whirlwindattack}{}\babfeat{Whirlwind [Combat]}{
+You are just as dangerous to everyone around you as to anyone around you.}{
+As a full round action, you may make a single attack against each opponent you can reach. Roll one attack roll and compare to each available opponent's AC individually.}{
+You gain a +3 bonus to Balance checks.}{
+As a full round action, you may take a regular move action and make a single attack against each opponent you can reach at any point during your movement. Roll one attack roll and compare to each available opponent's AC individually.}{
+Until your next round after making a whirlwind attack, you may take an attack of opportunity against any opponent that enters your threatened area.}{
+As a full round action, you take a charge action, overrunning any creature in your path, and may make a single attack against each opponent you can reach at any point during your movement. Roll one attack roll and compare to each available opponent's AC individually.}
+
+
+\hypertarget{feat:zenarchery}{}\babfeat{Zen Archery [Combat]}{
+You are very calm about shooting people in the face. That's a good place to be.}{
+You may use your Wisdom Modifier in place of your Dexterity Modifier on ranged attack rolls.}{
+Any opponent you can hear is considered an opponent you can see for purposes of targeting them with ranged attacks.}{
+If you cast a Touch Spell, you can deliver it with a ranged weapon (though you must hit with a normal attack to deliver the spell).}{
+As a Full Round Action, you may make one ranged attack with a +20 Insight bonus to hit.}{
+As a Full Round Action, you may make one ranged attack with a +20 Insight bonus to hit. If this attack hits, your attack is automatically upgraded to a critical threat. If the threat range of your weapon is 19-20, your critical multiplier is increased by one.}
+
+\end{multicols}
+
+\section{[Skill] Feats}
+
+\begin{multicols}{2}
+\label{comm:feat:acquierereye}\skillfeat{Acquirer's Eye [Skill]}{
+You know what you want, even if other people have it right now.}{
+Appraise Ranks:}{
+You gain +3 to your Appraise checks.}{
+You automatically know if something is ordinary, masterwork, or magic when looking at it.}{
+You can discover the properties of a magic item, including how to activate it (if appropriate) and how many charges are left (if it has them), with a successful Appraise check (DC item's caster level + 10) and 10 minutes of work.}{
+Once per round as a free action, you can examine a magic item and attempt an Appraise check (DC item's caster level + 20) to determine its properties, including its functions, how to activate those functions (if necessary), and how many charges it has left (if it has charges).}{
+You know what the most valuable piece of treasure is in any collection, such as the most valuable magic item an enemy is wearing or the most valuable object in a dragon's horde, just by looking at the collection. You automatically recognize an artifact when looking at it.}
+
+
+\label{comm:feat:acrobatic}\skillfeat{Acrobatic [Skill]}{
+You can totally flip out and kill someone with your gymnastic prowess.}{
+Tumble Ranks:}{
+You gain a +3 bonus to Tumble checks.}{
+When using the Combat Expertise option, your dodge bonus to AC increases by +1. This further increases by +1 for every ten ranks of Tumble you have (+2 at 14, +3 at 24, and so on).}{
+If an opponent attempts to bull-rush, overrun, or trample you, if you succeed on Tumble check of DC 25 + their base attack bonus, their movement continues in a straight line to the maximum allowed by their speed, you remain where you were, and you don't suffer from the effects of their bull-rush, overrun, or trample. If you fail, you provoke an attack of opportunity from that enemy.}{
+If you succeed on a DC 40 Tumble check, you can move 10 feet when taking a 5-foot step.}{
+If you succeed on a Tumble check against a DC of 30 + an opponent's base attack bonus, an action that would normally provoke an attack of opportunity doesn't.}
+
+
+\label{comm:feat:alertness}\skillfeat{Alertness [Skill]}{
+Your ears are so sharp you probably wouldn't miss your eyes.}{
+Listen Ranks:}{
+You gain a +3 bonus to Listen checks.}{
+You can make a Listen check once a round as a free action. You don't take penalties for distractions on your Listen checks.}{
+You gain blindsense to 60 feet. You don't take penalties for ambient noise, such as loud winds. Divide any distance penalties you take on Listen checks by two.}{
+You gain blindsight to 120 feet.}{
+You can hear through magical silence and similar effects, but you take a -20 penalty on your check. Divide any distance penalties you take on Listen checks by five.}
+
+
+\label{comm:feat:animalaffinity}\skillfeat{Animal Affinity [Skill]}{
+You're one of those people animals just won't leave alone for no apparent reason.}{
+Handle Animal ranks:}{
+You gain the wild empathy ability, with your check equal to your character level plus your Charisma modifier plus any other applicable bonuses. If you already have wild empathy, or later gain it from another source, you gain a +3 bonus on Handle Animal checks.}{
+You can handle an animal as a free action, and push it as a move action.}{
+You gain the benefits of \spell{speak with animals} permanently as an extraordinary ability. The DCs for you to rear and train creatures are halved.}{
+With a DC 30 Handle Animal check, you can use a mass version of \spell{charm animal} as a spell-like ability, with save DC equal to 10 + \half your character level + your Cha modifier and effective caster level equal to your bonus on Handle Animal checks.}{
+You can summon animals to your aid. Choose an animal with a CR equal to or less than your character level, and make a Handle Animal check at a DC of 25 + your character level. If you succeed, you summon a number of animals depending on how much the animal's CR is less than your character level for an hour. You can't use this ability again until any animals you've summoned with it have unsummoned or you've dismissed them.
+\vspace{2pt}
+\begin{tabular}{l|l}
+	\textbf{CR} &\textbf{Number Appearing}\\
+	Level - 1 &1\\
+	Level - 2 &1d3\\
+	Level - 3 &1d4\\
+	Level - 4 &1d6\\
+	Level - 5 &1d8\\
+	Level - 6 &1d10\\
+	Level - 7 &2d6\\
+	Level - 8 &3d6\\
+	Level - 9 &3d10\\
+	Level - 10 &10+3d6\\
+	Level - 11 &15+3d10\\
+	Level - 12 &40\\
+	Level - 13 &50\\
+	Level - 14 &60\\
+	Level - 15 &80\\
+	Level - 16 &100\\
+	Level - 17 &150\\
+	Level - 18 &200\\
+	Level - 19 &300
+\end{tabular}}
+%\listone
+%	\bolditem{CR;}{Number Appearing}
+%	\bolditem{Level - 1;}{1}
+%	\bolditem{Level - 2;}{1d3}
+%	\bolditem{Level - 3;}{1d4}
+%	\bolditem{Level - 4;}{1d6}
+%	\bolditem{Level - 5;}{1d8}
+%	\bolditem{Level - 6;}{1d10}
+%	\bolditem{Level - 7;}{2d6}
+%	\bolditem{Level - 8;}{3d6}
+%	\bolditem{Level - 9;}{3d10}
+%	\bolditem{Level - 10;}{10+3d6}
+%	\bolditem{Level - 11;}{15+3d10}
+%	\bolditem{Level - 12;}{40}
+%	\bolditem{Level - 13;}{50}
+%	\bolditem{Level - 14;}{60}
+%	\bolditem{Level - 15;}{80}
+%	\bolditem{Level - 16;}{100}
+%	\bolditem{Level - 17;}{150}
+%	\bolditem{Level - 18;}{200}
+%	\bolditem{Level - 19;}{300}
+%\end{list}
+
+\hypertarget{feat:armyofdemons}{}\skillfeat{Army of Demons [Celestial] [Fiend] [Leadership] [Skill]}{
+You have an army of planar crazy crap.}{
+Knowledge (The Planes) ranks:}{
+You have a Command Rating equal to your Knowledge (The Planes) ranks divided by five (round up).}{
+You can muster a group of followers. Your leadership score is your ranks in Knowledge: Planes plus your Charisma mod. These followers can and must be outsiders.}{
+Your followers swell in number to that of an army.}{
+You own a planar stronghold.}{
+Your allies gain a +2 morale bonus to all saving throws if they can see you and you are within medium range.}
+
+\label{comm:feat:battlefieldsurgeon}\skillfeat{Battlefield Surgeon [Skill]}{
+You like to cut people open with a saw. But it's good for them. Seriously.}{
+Heal ranks:}{
+You gain +3 to your Heal checks.}{
+You can make first aid, treat poison, and treat wound checks as move actions.}{
+For every 5 points your Heal check exceeds the DC for long term care, your patients recover another +100\% faster. For instance, if your Heal check result is 23, your patients would heal at thrice the normal rate.}{
+If you operate on a patient for a minute, they regain hit points equal to your Heal check result. You also may, instead of healing hit point damage, cure any condition that heal could, reattach severed limbs, or repair ruined organs, if you succeed on a DC 30 check. Patients under your long-term care heal permanent ability drain as if it was ability damage.}{
+With one hour of work, 25,000 gp worth of materials (which are consumed in the process), and a DC 40 Heal check, you can restore a creature that died within the last twenty-four hours to life. The subject's soul must be free and willing to return for the effect to work.}
+
+\hypertarget{feat:bureaucrat}{}\skillfeat{Bureaucrat [Skill] [Leadership]}{
+You have a functioning guild that makes stuff for you and gives you money}{
+Appraise ranks:}{
+You draw an income for working as an administrator, getting 1 GP/week per rank in Appraise.}{
+You can muster a group of followers. Your leadership score is your ranks in Appraise plus your Intelligence modifier. These followers all have profession and craft skills.}{
+You get your own Stronghold.}{
+You get a +2 bonus to profit checks.}{
+Your guild goes planar, your number of followers swell to the size of an army and their ranks start filling up with producers and managers from other planes of existence.}
+
+
+\label{comm:feat:combatcasting}\skillfeat{Combat Casting [Skill]}{
+Having a sword sticking out of your chest doesn't noticeably impede your ability to do\ldots well, just about anything.}{
+Concentration ranks:}{
+You gain +3 to your Concentration checks.}{
+You can take 10 on Concentration checks and caster level checks.}{
+You may maintain concentration on a spell as a move action (DC 25 + spell level). If you beat the DC by 10 or more, you can maintain concentration as a swift action. If you fail your check, you lose concentration.}{
+If you would be nauseated, you're sickened instead.}{
+All Concentration DCs are halved for you.}
+
+
+\label{comm:feat:conartist}\skillfeat{Con Artist [Skill]}{
+You can fool some of the people, all of the time.}{
+Bluff ranks:}{
+You gain a +3 bonus to Bluff checks.}{
+Magic effects that would detect your lies or force you to speak the truth must succeed on a caster level check with DC equal to 10 plus your ranks in Bluff or fail.}{
+Divination magic used on you detects a false alignment of your choice. You can present false surface thoughts to \spell{detect thoughts} and similar effects, changing your apparent Intelligence score (and thus your apparent mental strength) by as much as 10 points and can place any thought in your ``surface thoughts" to be read by such spells or effects.}{
+If you beat someone's Sense Motive check by 25, you can instill a \spell{suggestion} in them, as the spell. This suggestion lasts for one hour for each of your character levels.}{
+You are protected from all spells and effects that detect or read emotions or thoughts, as by \spell{mind blank}.}
+
+
+\label{comm:feat:cryptographer}\skillfeat{Cryptographer [Skill]}{
+You're good at reading things no one intended you to.}{
+Decipher Script ranks:}{
+You gain +3 to your Decipher Script checks.}{
+You can decipher a written spell (like a scroll) without using \spell{read magic}, if you succeed on a Decipher Script check of DC 20 + the spell's level. You can try once per day on any particular written spell.}{
+You don't trigger written magic traps (like \spell{explosive runes} or \spell{symbols}) by reading them. You can disable them with Decipher Script as if you were using Disable Device. You can read the material hidden by a \spell{secret page} with a DC 25 Decipher Script check.}{
+When you cast a spell from a scroll, the spell's save DC is equal to 10 + the spell's level + your Intelligence modifier + any other applicable bonuses, and its caster level is equal to your character level, plus other applicable bonuses.}{
+Reading text using Decipher Script is a free action for you. You may disable written magical traps as a swift action, and you can cast 5th-level or lower spells from scrolls as a swift action.}
+
+
+\label{comm:feat:deftfingers}\skillfeat{Deft Fingers [Skill]}{
+Your amazing manual dexterity is the talk of princes and princesses.}{
+Sleight of Hand ranks:}{
+You gain a +3 bonus on your Sleight of Hand checks.}{
+If you draw a hidden weapon and attack with it in the same round, your opponent loses their Dexterity bonus to AC against your first attack with that weapon that round. This ability can only be used once per round.}{
+You can make an adjacent creature or object your size or smaller ``disappear" with your legerdemain. If you succeed on a DC 30 Sleight of Hand check as a standard action, your target can make a Hide check, or you can make the Hide check for them or it. As usual, you can hide larger creatures or objects by taking a -20 cumulative penalty for each size category larger they are than you.}{
+With a DC 30 Sleight of Hand check, you can use \spell{shrink item} as a spell-like ability.}{
+With a DC 40 Sleight of Hand check, you can use \spell{teleport object} as a spell-like ability. You can also retrieve items placed in the Ethereal Plane using \spell{teleport object}. With a DC 40 Sleight of Hand check, you can use \spell{instant summons} as a spell-like ability without requiring \spell{arcane mark}, but you may only designate one item at a time.}
+
+
+\label{comm:feat:detective}\skillfeat{Detective [Skill]}{
+You're good at finding things out just by conversing with townsfolk.}{
+Gather Information ranks:}{
+You gain a +3 bonus on your Gather Information checks.}{
+Your ability to pick up on the social context aids you in establishing rapport. After succeeding on a Gather Information check, you gain a +2 bonus to Knowledge checks, Sense Motive checks, and checks for Cha-based skills in the same milieu.}{
+With 2d6 hours of research, you can study a specific topic, such as a particular location or a well-known local monster, and substitute a Gather Information check for any Knowledge checks pertaining to the topic. You need access to local informants, a library, scholars, or other appropriate sources to use this ability.}{
+You can gain the benefits of \spell{legend lore} with a DC 30 Gather Information check. If you have the person or thing at hand, or are in the place, this takes a day; otherwise, it consumes the time as normal for \spell{legend lore}. You need access to individuals or resources with relevant knowledge to use this ability.}{
+With a DC 40 Gather Information check and 1d4+1 days of talking to people, you can either find an answer to any question you can pose in ten words or less, or find out where you need to go to get the answer. You need access to individuals or resources with relevant knowledge to use this ability.}
+
+
+\label{comm:feat:dreadfuldemeanor}\skillfeat{Dreadful Demeanor [Skill]}{
+People know you're a badass motherfvcker the instant you enter the room.}{
+Intimidate ranks:}{
+You gain +3 to your Intimidate checks.}{
+You can demoralize an opponent as a move action.}{
+Opponents you've demoralized remain \condition{shaken} until they lose sight of you.}{
+Opponents who would be \condition{panicked} because of your fear effects are \condition{cowered} instead for the duration of the effect.}{
+Any time you confirm a critical hit in melee, your target is \spell{cowered} until they lose sight of you. This is a fear effect.}
+
+
+\label{comm:feat:expertcounterfeiter}\skillfeat{Expert Counterfeiter [Skill]}{
+You aren't a common forger, you're an \textit{artiste}.}{
+Forgery ranks:}{
+You gain a +3 bonus to Forgery checks.}{
+When creating a forgery, you roll twice and take the better result.}{
+In situations where you can present a legal document of some sort, you can substitute a Forgery check for a Bluff, Diplomacy, or Intimidate check.}{
+You can purchase items with counterfeit bills of exchange, falsified credit vouchers, and the like. You can acquire any item available through the gold economy in this method. Normally, your counterfeits are so good they don't provoke suspicion, but if someone examines them, they must still beat you in an opposed Forgery check to recognize they're not the real thing.}{
+You can duplicate a scroll with eight hours of work and a Forgery check against DC 35 + the spell's level. The duplicate functions in all manners like the original scroll. You must have appropriate materials on hand for scribing the scroll, and if the spell requires XP or expensive material components, you must provide the requisite components or make up the XP cost in materials.}
+
+
+\label{comm:feat:ghoststep}\skillfeat{Ghost Step [Skill]}{
+You might as well be incorporeal for all the noise you make.}{
+Move Silently ranks:}{
+You gain +3 to your Move Silently checks.}{
+Anyone attempting to use Survival to track you must beat you in an opposed check against Move Silently.}{
+Creatures with blindsense, blindsight, tremorsense, or similar abilities do not automatically detect your presence, but must succeed on a Listen check, opposed by your Move Silently check, to notice you.}{
+With success on a DC 30 Move Silently check as a standard action, you can control ambient sounds within 30 feet of yourself for a round. You can specifically duplicate any effect from \spell{control sound} (XPH), \spell{silence}, or \spell{ventriloquism}, and in general can make sound you've heard come from any part of the area, displace sounds in the area, or suppress any sounds or sounds. Also, if you take a -10 DC penalty on your Move Silently check, anyone within 30 feet of you can substitute your check result for their own.}{
+You're so quiet that people don't even remember you when you're standing right next to them. Your opponents count as flat-footed whenever you attack them.}
+
+
+\label{comm:feat:investigator}\skillfeat{Investigator [Skill]}{
+You have an eye for detail and so much patience that going through a 100' by 100' room inch-by-inch doesn't even try it.}{
+Search ranks:}{
+You can use Search to find traps like a character with trapfinding. If you already have that ability, you gain +3 to your Search checks. Search is always a class skill for you.}{
+You can Search a 10' by 10' area with a full-round action.}{
+You automatically sense any active magic effects in an area you search. If you succeed on a DC 20 Search check, you can determine their number, strength, and school, as if using \spell{detect magic}.}{
+You can Search objects or areas within 30 feet of yourself. You can make a Search check as a swift action.}{
+You have an intuitive sense for hidden things. Anytime something that someone has hidden is within 60 feet of you, you know it; if there are multiple things, you know how many. However, you must still make Search checks as normal to locate them.}
+
+
+\label{comm:feat:itemmaster}\skillfeat{Item Master [Skill]}{
+You make magic items do things you want.}{
+Use Magic Device ranks:}{
+You gain a +3 bonus to Use Magic Device checks.}{
+You don't suffer mishaps with magic items.}{
+When rolling Use Magic Device checks or random effects from magic items, you may roll twice and take the better result.}{
+With a swift action and a successful Use Magic Device check against a DC of 30 + the item's caster level, you can gain the benefits of a slotted magic item without needing to have a slot available (for instance, a third ring on your finger) for one round.}{
+When you activate a wand or staff, you can substitute a spell slot instead of using a charge. The spell slot must be one you have not used for the day, though you may lose a prepared spell to emulate a wand charge (you may not lose prepared spells from your school of specialty, if any). The spell slot lost must be equal to or higher in level than the spell stored in the wand, including any level-increasing metamagic enhancements. When using spell trigger, spell completion, or other consumable magic items, if you succeed on a Use Magic Device check of 40 + the caster level of the item as a swift action, the item or charges thereof are not consumed.}
+
+
+\label{comm:feat:leadership}\skillfeat{Leadership [Leadership] [Skill]}{
+You convince people that obeying you is a good career move.}{
+Diplomacy ranks:}{
+You can awe even strangers and enemies into following your orders. With a DC 20 Diplomacy check, you can use \spell{command} as a spell-like ability, with save DC equal to 10 + \half your character level + your Cha modifier.}{
+Your natural talent for leaderships attracts followers. Your leadership score is equal to your ranks in Diplomacy plus your Charisma modifier.}{
+You persuade someone that you are so awesome that they should follow you around all the time, acquiring a cohort. A cohort is an intelligent and loyal creature with a CR at least 2 less than your character level. Cohorts gain levels when you do.}{
+Your natural majesty stirs guilt in those who refuse your demands. With a DC 30 Diplomacy check, you can use \spell{geas} as a spell-like ability, but it offers a Will save at DC 10 + \half your character level + your Cha modifier.}{
+You command the loyalty of armies\ldots even opposing ones. With a DC 40 Diplomacy check, you can use \spell{greater command} as a spell-like ability, with save DC equal to 10 + \half your character level + your Cha modifier and effective caster level equal to your bonus on Diplomacy checks.}
+
+
+\label{comm:feat:legendarywrangler}\skillfeat{Legendary Wrangler [Skill]}{
+No one can tell where you end and your ropes begin.}{
+Use Rope ranks:}{
+You gain a +3 bonus to Use Rope checks and proficiency with the bolas, net, and whip.}{
+You can use a rope as if it was a bolas or whip, and you can substitute your ranks in Use Rope for your Base Attack Bonus for combat maneuvers made with it. You can also use it as a net, replacing the normal DC 20 Escape Artist check for someone entangled with it with your Use Rope check. You can throw a grappling hook, tie a knot, tie a special knot, or tie a rope around yourself one-handed as a move action. You don't provoke attacks of opportunity for using Use Rope.}{
+You can use a rope, whip, grappling hook, or similar item to manipulate any item within 30 feet of yourself as easily as if it was in your hands; you can also make disarm, entangling (as if with a net), and trip attempts with it. You can move around on ropes and similar structures, like webs, as easily as you can on the ground.}{
+With a DC 30 Use Rope check, you can use \spell{animate rope} as a spell-like ability; you can use any ability you can with an ordinary rope with an animated rope.}{
+You can manipulate items out to 60 feet with ropes and similar items. You can use ropes for the grab on and hold down grapple maneuvers. When using combat maneuvers with ropes, you can replace the relevant check (disarm, grapple, trip, etc.) with a Use Rope check.}
+
+\hypertarget{feat:lordofdeath}{}\skillfeat{Lord of Death [Leadership] [Necromantic] [Skill]}{
+A whole bunch of skeletons and crap show up to fight under your tattered banner.}{
+Knowledge (Religion) ranks:}{
+You have a Command Rating equal to your ranks in Knowledge (Religion divided by five (round up). You are a Necromantic leader (see Heroes of Battle).}{
+You can muster a group of followers. Your leadership score is your ranks in Knowledge Religion plus your Wisdom modifier. Your followers are all mindless Undead. You don't make them or anything, they just show up.}{
+You are able to delegate command to a loyal cohort. Your cohort is an intelligent and loyal Undead creature with a CR at least 2 less than your character level. Cohorts gain levels when you do.}{
+Your followers swell in number to that of an army.}{
+Your allies gain energy resistance to Positive Energy equal to your level while they are within line of sight of you.}
+
+\label{comm:feat:magicalaptitude}\skillfeat{Magical Aptitude [Skill]}{
+You're crazy good at manipulating magic.}{
+Spellcraft ranks:}{
+You gain a +3 bonus on Spellcraft checks.}{
+When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.}{
+You can dismiss a spell as a free action. You can redirect a spell as a move action, if it normally requires a standard action, or a swift action, if it normally takes a move action. You gain a +3 bonus on dispel checks.}{
+You can counter a spell as an immediate action.}{
+You automatically know which spells or magic effects are active on upon any individual object you see, as if you had \spell{greater arcane sight} active on yourself.}
+
+
+\label{comm:feat:many-faced}\skillfeat{Many-Faced [Skill]}{
+You change identities so often even you don't remember what you look like anymore.}{
+Disguise ranks:}{
+You gain +3 to your Disguise checks.}{
+When creating a disguise, you roll twice and take the better result.}{
+You can use \spell{Nystul's magic aura} as a spell-like ability at will, with a caster level equal to your character level and a save DC of 10 + \half your character level + your Cha modifier.}{
+You can create a disguise as a full-round action, but you take a -10 penalty to your Disguise check. You can't be under direct observation while doing this, but you can use Bluff to create a diversion to allow you to change guises, as for the Hide skill.}{
+You can choose an appearance that anyone viewing you with scrying or other divination magic sees instead of your ``real" appearance. Even someone who benefits from \spell{true seeing} must succeed on a caster level check (DC 11 + your ranks in Disguise) to penetrate the illusion.}
+
+
+\label{comm:feat:masterofterror}\skillfeat{Master of Terror [Leadership] [Skill]}{
+You scare people so bad they follow you around hoping you won't hurt them.}{
+Intimidate ranks:}{
+Whenever you use Intimidate in combat, it affects everyone within 30 feet of you.}{
+You gain followers. Your leadership score is equal to your ranks in Intimidate plus your Charisma modifier.}{
+You gain a cohort who enjoys frightening your underlings almost as much as you do. A cohort is an intelligent and loyal creature with a CR at least 2 less than your character level. Cohorts gain levels when you do.}{
+You gain the frightful presence ability. When you speak or attack, enemies within 30 feet of you must succeed on a Will save (DC 10 + \half your character level + your Cha modifier) or become shaken for 5d6 rounds. An opponent that succeeds on its saving throw is immune to your frightful presence for 24 hours.}{
+Your opponents take a -2 morale penalty to saving throws if they can see you and you are within medium range (based on your character level).}
+
+\hypertarget{feat:monsterrancher}{}\skillfeat{Monster Rancher [Skill] [Leadership]}{
+You can breed and train a large number of crazy beasts.}{
+Handle Animal ranks:}{
+You can use Handle Animal as if it were Diplomacy when dealing with Magical Beasts and Dragons. You can do similarly with Aberrations and Plants with an Intelligence Score that is less than 9.}{
+You can muster a group of followers. Your leadership score is your ranks in Handle Animal plus any synergy bonuses you gt to that skill. Your followers can, and must be monsters.}{
+You have a loyal cohort that is a monster of some kind. A cohort is an intelligent and loyal creature with a CR at least 2 less than your character level. Cohorts gain levels when you do.}{
+You know what any monster is unless it is disguised by illusion, and you can look up its stat line in the appropriate monster book when devising your strategies.}{
+Once per day, you can reroll a saving throw allowed by a Supernatural Ability.}
+
+
+\hypertarget{feat:mountedcombat}{}\skillfeat{Mounted Combat [Skill]}{
+You are at your best when fighting with an ally that you are sitting on.}{
+Ride Ranks:}{
+Once per turn, you may attempt to negate an attack that hits your mount by making a Ride skill check with a DC equal to the AC that the attack hit. Attacks that do not require an attack roll cannot be negated in this way.}{
+While Mounted, you may take a charge attack at any point along your mount's movement, so long as your mount is moving in a straight line up to the point of your attack.}{
+You suffer no penalty to your ride or handle animal skill checks when training or riding unusual mounts such as magical beasts or dragons.}{
+You may use your Ride Check in place of your mount's Balance, Jump, Climb, or Reflex Saving Throws.}{
+Any time a spell effect would target your mount, you may elect to have it target you instead. Any time a spell effect would target you, you may elect to have it affect your Mount instead.}
+
+
+\label{comm:feat:naturalempath}\skillfeat{Natural Empath [Skill]}{
+You read people like books.}{
+Sense Motive ranks:}{
+You gain a +3 bonus to Sense Motive checks.}{
+You can quickly size up potential opponents. If you succeed on a Sense Motive check as a free action, opposed by their Bluff, you can tell if they're an even match (their CR equals your character level), an easy challenge (their CR is 1-3 less than your level), irrelevant (their CR is 4 or more less than your level), stronger (their CR is 1-3 higher than your level), or overwhelmingly powerful (their CR is 4 or more higher than your level). You can use this ability once on a particular creature every 24 hours.}{
+If you succeed on a Sense Motive check, opposed by Bluff, you know your opponent's alignment. If you beat their Bluff by 20 or more, you can read their surface thoughts, as if during the third round of \spell{detect thoughts}.}{
+You have an uncanny intuition for when people are interested in you. Any time someone uses a remote spell or effect, like \spell{scrying}, to examine you, you know you're under observation and if you make a Sense Motive check that beats their Bluff check, you know some details about them: if you've met them before, you recognize them, but if not, you get a basic idea of their reasons for their interest in you. Similarly, if you use Sense Motive on someone influenced by an enchantment effect, you can find out who created the effect with a Sense Motive check opposed by the controller's Bluff, getting the same information.}{
+You know what people are going to do before they do. Any time someone you're aware of attacks you, make a Sense Motive check opposed by their Bluff: if you succeed, you get a free surprise round.}
+
+
+\label{comm:feat:persuasive}\skillfeat{Persuasive [Skill]}{
+When you tell you people something that contradicts the evidence of their own eyes, they believe you.}{
+Diplomacy ranks:}{
+You gain a +3 bonus to Diplomacy checks.}{
+Your words can stop fights before they start. Any creature that can hear you speak must make a Will save (DC 10 + \half your character level + your Cha modifier) or it can't attack you directly; however, you aren't protected from its area or effect spells, or similar abilities. Any creature that succeeds on its save is immune to this ability for 24 hours. You may use nonattack spells or otherwise act, but if you attack the creature or its allies, it may attack you. This is a mind-affecting, language-dependent charm effect.}{
+You can fascinate creatures with your silver tongue. You can affect as many HD of creatures as your bonus on Diplomacy checks; any creature that fails a Will save (DC 10 + \half your character level + your Cha modifier) becomes fascinated. If you use this ability in combat, each target gains a +2 bonus on its saving throw. If the spell affects only a single creature not in combat at the time, the saving throw has a penalty of -2. While a subject is fascinated by this spell, it reacts as though it were two steps more friendly in attitude, allowing you to make a single request of an affected creature. The request must be brief and reasonable. Even after the spell ends, the creature retains its new attitude toward you, but only with respect to that particular request. A creature that fails its saving throw does not remember that you enspelled it.}{
+You can influence even hostile creatures into talking things over with you. With a DC 30 Diplomacy check, you can use a language-dependent version of \spell{charm monster} as a spell-like ability, with save DC equal to 10 + \half your character level + your Cha modifier; this is a mind-affecting charm effect.}{
+You can convince an entire group of enemies to listen to you. If you succeed on a DC 40 Diplomacy check, your \spell{charm monster} ability improves to \spell{mass charm monster}, with a caster level equal to your bonus on Diplomacy checks.}
+
+
+\label{comm:feat:professionalluddite}\skillfeat{Professional Luddite [Skill]}{
+You've learned to break machines because you're an antitechnology fanatic -- or maybe you just work for the local protection racket.}{
+Disable Device ranks:}{
+You can use Disable Device on magic traps like a character with trapfinding. If you already have that ability, you gain +3 to your Disable Device checks. Disable Device is always a class skill for you.}{
+You can use your Dexterity modifier instead of your Intelligence modifier for Disable Device checks. Darkness and blindness do not hinder your ability to disable devices.}{
+You can reduce the amount of time required to disable a device. For each multiple of 10 you beat the required DC, you can decrease the time required from 2d4 rounds to 1d4 rounds to 1 round to a standard action to a move-equivalent action to a free action.}{
+You can use Disable Device to end any persistent effect or area spell effect as if it was a magic trap, but the DC is 25 + twice the spell's level.}{
+As an attack action, you can disable magic items. You must succeed on a melee touch attack roll for attended objects. Make a Disable Device check against a DC of 15 + the item's caster level: if your check succeeds, the item must make a Will save against a DC of 10 + \half your character level or be turned into a normal item, and even if it saves, its magical properties are suppressed for 1d4 rounds.}
+
+
+\label{comm:feat:sharp-eyed}\skillfeat{Sharp-Eyed [Skill]}{
+Nothing escapes you.}{
+Spot ranks:}{
+You gain a +3 bonus to Spot checks.}{
+You can make a Spot check once a round as a free action. You don't take penalties for distractions on your Spot checks.}{
+As a move action, you can make a Spot check against a DC of an opponent's Armor Class: if you succeed, you can ignore their Armor and Natural Armor bonus to AC for the next attack you make against them. If you accept a -20 penalty to your check, you can attempt this check as a swift action. Divide any distance penalties you take on Spot checks by two.}{
+If you beat an opponent's Hide check with a Spot check at a -10 penalty, you can ignore concealment. If you beat their Hide check at a -30 penalty, you can ignore total concealment.}{
+You can see through solid objects, but you take a -20 penalty on your Spot check for each 5'. Divide any distance penalties you take on Spot checks by five.}
+
+
+\label{comm:feat:slipperycontortionist}\skillfeat{Slippery Contortionist [Skill]}{
+Your childhood nickname was ``Greasy the Pig," but now people call you ``The Great Hamster."}{
+Escape Artist ranks:}{
+You gain +3 to your Escape Artist checks.}{
+While squeezing into a space at least half as wide as your normal space, you may move your normal speed and you take no penalty to your attack rolls or AC for squeezing.}{
+You can squeeze through a tight space or an extremely tight space as a full-round action, but you take a -10 penalty to your Escape Artist check. Opponents grappling you don't get positive size modifiers added to their grapple bonus when you use Escape Artist to try to break their hold.}{
+If you succeed on a DC 30 Escape Artist check, you can ignore magical effects that impede movement as if you were under the effects of \spell{freedom of movement} for one round; this is not an action. You can also slip through a \spell{wall of force} or similar barrier with a DC 40 check.}{
+You can make an Escape Artist check instead of a saving throw for any effect that would keep you from taking actions. (This does not help against effects that don't allow a saving throw.)}
+
+
+\label{comm:feat:steadystance}\skillfeat{Steady Stance [Skill]}{
+You can fight just about anywhere.}{
+Balance ranks:}{
+You gain a +3 bonus to your Balance checks.}{
+If an effect would knock you prone, if you succeed on a DC 20 Balance check, you remain standing.}{
+If your opponent is balancing, you gain a +3 dodge bonus to AC against their attacks unless they succeed at beating you in an opposed Balance check.}{
+All Balance DCs are halved for you.}{
+You never suffer any impairment or damage from anything you're standing on, whether it's molten lava, a cloud, or even another creature. Ambient conditions, such as lighting or weather, can still impair you.}
+
+
+\label{comm:feat:stealthy}\skillfeat{Stealthy [Skill]}{
+If someone sees you, you have to kill them.}{
+Hide ranks:}{
+You gain a +3 bonus to your Hide checks.}{
+You can Hide as a free action after attacking, and snipe with melee attacks (or ranged attacks from closer than 10').}{
+A constant \spell{nondetection effect} protects you and your equipment, with an effective caster level equal to your ranks in Hide.}{
+You can attempt to Hide even when under direct observation, but you take the usual -20 penalty to your check.}{
+Even opponents who can see you have trouble locating you. If they succeed at beating your Hide check with Spot (and thus can see you), they have a 50\% concealment miss chance when attacking you, which decreases by 5\% for each point they beat your Hide DC.}
+
+
+\label{comm:feat:swimlikeafish}\skillfeat{Swim Like a Fish [Skill]}{
+You're at least as home in the water as you are on land.}{
+Swim ranks:}{
+You gain +3 to your Swim checks.}{
+You gain a swim speed equal to your base land speed, with the attendant benefits. You don't take armor check penalties to your Swim checks.}{
+You can breathe water, and you can attack through water as if under the effects of \spell{freedom of movement}.}{
+While under water, you can substitute Swim checks for Reflex saves, and you gain a +4 bonus to attack and damage rolls.}{
+As a swift action, you can add your ranks in Swim as a dodge bonus to your Armor Class while under water.}
+
+
+\label{comm:feat:track}\skillfeat{Track [Skill]}{
+You feel at home no matter where you are.}{
+Survival ranks:}{
+You can follow tracks using Survival, as the Track and Legendary Tracker feats.}{
+You can identify the race/kind of creatures from their tracks.}{
+You can move through or over difficult natural terrain without being slowed, taking nonlethal damage, or suffering other impairment. You take no penalties for moving your speed when tracking, and only -10 when moving double your speed. You can track subjects protected by \spell{pass without trace} or similar spells at a -20 penalty.}{
+You can track through the Astral Plane with a DC 35 Survival check. You can determine the destination of a teleportation spell when standing at the point of departure with a DC 40 Survival check; if you have \spell{teleport} or a similar spell, you can follow as if you had seen the destination once.}{
+You're immune to natural planar effects as if you had \spell{planar tolerance} always active.}
+
+\hypertarget{feat:tyrant}{}\skillfeat{Tyrant [Skill] [Leadership]}{
+You push people around and get larger and larger groups trapped in the iron gauntlet of your brutal rule.}{
+Intimidate ranks:}{
+You inspire such terror that creatures you intimidate continue to act intimidated after you leave, too afraid to raise their voice in defiance even after you have apparently left them far behind.}{
+You can muster a group of followers. Your leadership score is your ranks in Intimidate plus your Strength modifier.}{
+Your followers swell in number to that of an army.}{
+Your mere presence inspires fear and can break a battle. Enemies with more than 5 hit dice less than you do must make a Will save (DC 10 + ½ Level + Strength Modifier) of flee in panic. This is a [Fear] effect.}{
+Your presence causes despair in even brave opponents. All enemies within 30' of your suffer a -2 Morale penalty to Willpower saves.}
+
+\end{multicols}
