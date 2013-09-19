@@ -1,0 +1,484 @@
+\documentclass[12pt,oneside,onecolumn,openany,final]{memoir}
+\setstocksize{11in}{8.5in}
+
+\usepackage[toc,lot,lof]{multitoc}
+\usepackage[top=.5in, bottom=.5in, left=.75in, right=.75in]{geometry}
+\usepackage{graphicx} \graphicspath{{./images/}}
+\usepackage{longtable}
+\usepackage{mdwlist}
+\usepackage{microtype} \DisableLigatures{encoding = *, family = *}
+\usepackage{multicol}
+\usepackage{textcomp}
+\usepackage[normalem]{ulem}
+\usepackage{wrapfig}
+\usepackage{xtab}
+\usepackage{enumerate}
+\usepackage{phonetic}
+\usepackage{bbding}
+\usepackage{linearb}
+\usepackage{cypriot}
+\usepackage{tipa}
+\usepackage{xfrac}
+\usepackage{appendix}
+\usepackage{xparse}
+\usepackage{letltxmacro}
+\usepackage{makeidx} \makeindex
+\usepackage[table]{xcolor}
+\definecolor{offyellow}{RGB}{255,255,128}
+\definecolor{links}{RGB}{200,0,50}
+
+%% Font
+\usepackage[T1]{fontenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{aurical}
+
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=links,pdfstartview={XYZ null null 1.00},bookmarksdepth=2]{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% End of Import Section %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Revised Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+
+%fiddles with how chapter titles are displayed
+\renewcommand{\@makechapterhead}[1]{%
+\vspace*{0 pt}{%
+\raggedright \normalfont \fontsize{32}{32} \selectfont \bfseries%
+\ifnum \value{secnumdepth}>-1%
+  \if@mainmatter \vspace{-8pt} {\fontsize{20}{20} \selectfont Chapter \thechapter:}\\[8pt]%
+  \fi%
+\fi
+\hspace{0.65cm} #1\par\nobreak\vspace{20 pt}%
+}}
+
+%makes paragraphs show up closer together
+\renewcommand{\paragraph}{%
+\@startsection{paragraph}{4}%
+{\z@}{1.0ex \@plus 1ex \@minus 0.2ex}{-1em} % wtf is an 'ex' anyways?
+{\normalfont\normalsize\bfseries}%
+}
+
+%lets multicolumn have the proper background colors as defined by rowcolors
+\let\oldmc\multicolumn
+\newcommand{\mcinherit}{% Activate \multicolumn inheritance
+  \renewcommand{\multicolumn}[3]{%
+    \oldmc{##1}{##2}{\ifodd\rownum \@oddrowcolor\else\@evenrowcolor\fi ##3}%
+  }}
+
+\makeatother
+
+%add labels within sections, subsections, and subsubsections
+\LetLtxMacro{\oldsection}{\section}
+\renewcommand{\section}[1]{\oldsection{#1}\label{sec:#1}}
+
+\LetLtxMacro{\oldsubsection}{\subsection}
+\renewcommand{\subsection}[1]{\oldsubsection{#1}\label{sec:#1}}
+
+\LetLtxMacro{\oldsubsubsection}{\subsubsection}
+\renewcommand{\subsubsection}[1]{\oldsubsubsection{#1}\label{sec:#1}}
+
+%only put chapters and sections into the TOC
+\setcounter{secnumdepth}{1}
+%makes a subsubsection start off indented.
+\setlength{\beforesubsubsecskip}{-\beforesubsubsecskip}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% New Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\tagline}[1]{\vspace{-6pt} \textit{#1} \medskip}
+
+\newcommand{\gameterm}[1]{#1\index{#1}}
+
+\newcommand{\raceentry}[1]{\oldsection{#1}\index{#1 (race)}\label{race:#1}}
+
+\newcommand{\classentry}[1]{\oldsection{#1}\index{#1 (class)}\label{class:#1}}
+\newcommand{\Requirements}{\oldsubsubsection*{Requirements}}
+\newcommand{\Basics}{\oldsubsubsection*{Basics}}
+\newcommand{\ClassFeatures}{\oldsubsubsection*{Class Features}}
+
+\newcommand{\skillentry}[2]{\oldsubsection[#1]{#1 #2}\index{#1 (skill)}\label{skill:#1}}
+
+\NewDocumentCommand\featentry{m+g}{%
+  \IfNoValueTF{#2}
+    {\oldsubsubsection[#1]{#1 [General]}\label{feat:#1}}%no second arg, general feat
+    {\oldsubsubsection[#1]{#1 [#2]}\label{feat:#1}}%second arg, special type of feat
+}
+
+\newcommand{\spellentry}[1]{\oldsubsubsection{#1}\label{spell:#1}}
+
+\NewDocumentCommand\linkrace{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[race:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[race:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linkclass{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[class:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[class:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linkskill{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[skill:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[skill:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linkfeat{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[feat:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[feat:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linkspell{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[spell:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[spell:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linkcondition{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[condition:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[condition:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linkability{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[ability:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[ability:#1]{#2}}%second arg, link to first and display second
+}
+\NewDocumentCommand\linksec{m+g}{%
+  \IfNoValueTF{#2}
+    {\hyperref[sec:#1]{#1}}%no second arg, display is same as link
+    {\hyperref[sec:#1]{#2}}%second arg, link to first and display second
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\begin{center}
+\textsc{\Large}\\[0.25cm]
+\rule{\linewidth}{0.5mm} \\[0.70cm]
+\fontsize{30}{30} \selectfont Tome Reference Document PDF\\[.30cm]
+\fontsize{16}{18} \selectfont \guillemotleft{} For that game we all known and love \guillemotright{}\\
+\rule{\linewidth}{0.5mm} \\[0.6cm]
+%\includegraphics[clip,trim=5cm 2cm 9cm 1cm,width=\linewidth]{OldBookArt--MapImages-173.jpg}
+\vfill
+{\large \textit{This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.}\\
+\today}
+\end{center}
+
+\pagebreak
+\sffamily
+\pagestyle{plain}
+\raggedbottom
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Table of Contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\contentsname}{Table of Contents}
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Main Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Primary Chapters Here
+
+\clearpage
+
+\chapter{Introduction}
+\section{What is a Role-playing Game?}
+foo
+\section{What You Need To Play}
+foo
+\section{The Core Mechanic}
+foo
+\section{Creating a Character}
+foo
+
+\chapter{Races}
+\section{Race Basics}
+foo
+\section{Drow}
+foo
+\section{Dwarf}
+foo
+\section{Elf}
+foo
+\section{Gnome}
+foo
+\section{Goblin}
+foo
+\section{Half-Elf}
+foo
+\section{Halfling}
+foo
+\section{Hobgoblin}
+foo
+\section{Human}
+foo
+\section{Kobold}
+foo
+\section{Orc}
+foo
+
+\chapter{Classes}
+\section{Class Basics}
+foo
+\section{Barbarian}
+foo
+\section{Bard}
+foo
+\section{Cleric}
+foo
+\section{Druid}
+foo
+\section{Fighter}
+foo
+\section{Knight}
+foo
+\section{Monk}
+foo
+\section{Paladin}
+foo
+\section{Ranger}
+foo
+\section{Rogue}
+foo
+\section{Samurai}
+foo
+\section{Sorcerer}
+foo
+\section{Wizard}
+foo
+
+\chapter{Skills}
+\section{How Skills Work}
+foo
+\section{Appraise}
+foo
+\section{Athletics}
+foo
+\section{Balance}
+foo
+\section{Bluff}
+foo
+\section{Concentration}
+foo
+\section{Craft}
+foo
+\section{Decipher Script}
+foo
+\section{Diplomacy}
+foo
+\section{Disable Device}
+foo
+\section{Disguise}
+foo
+\section{Escape Artist}
+foo
+\section{Forgery}
+foo
+\section{Gather Information}
+foo
+\section{Handle Animal}
+foo
+\section{Heal}
+foo
+\section{Intimidate}
+foo
+\section{Knowledge}
+foo
+\section{Perception}
+foo
+\section{Perform}
+foo
+\section{Profession}
+foo
+\section{Ride}
+foo
+\section{Search}
+foo
+\section{Sense Motive}
+foo
+\section{Sleight of Hand}
+foo
+\section{Speak Language}
+foo
+\section{Spellcraft}
+foo
+\section{Stealth}
+foo
+\section{Survival}
+foo
+\section{Tumble}
+foo
+\section{Use Magic Device}
+foo
+
+\chapter{Feats}
+\section{How Feats Work}
+foo
+\section{General Feats}
+foo
+\section{Combat Feats}
+foo
+\section{Skill Feats}
+foo
+\section{Metamagic Feats}
+foo
+
+\chapter{Goods and Services}
+\section{The Three Economies}
+foo
+\section{Armor}
+foo
+\section{Weapons}
+foo
+\section{Gear}
+foo
+\section{Animals}
+foo
+\section{Services}
+foo
+
+\chapter{Description}
+\section{Physical Appearance}
+foo
+\section{Personality}
+foo
+\section{Alignment}
+foo
+\section{Religion}
+foo
+
+\chapter{Adventuring}
+\section{Overland Travel}
+foo
+\section{Exploration}
+foo
+\section{Traps}
+foo
+\section{Encounters}
+foo
+
+\chapter{Combat}
+\section{How Combat Works}
+foo
+\section{Combat Statistics}
+foo
+\section{Initiative and Actions}
+foo
+\section{Standard Actions}
+foo
+\section{Move Actions}
+foo
+\section{Swift and Free Actions}
+foo
+\section{Full-Round Actions}
+foo
+\section{Movement, Position, and Distance}
+foo
+\section{Injury and Death}
+foo
+\section{Combat Modifiers}
+foo
+\section{Special Attacks}
+foo
+\section{Special Abilities}
+foo
+\section{Conditions}
+foo
+
+\chapter{Magic}
+\section{Casting Spells}
+foo
+\section{How To Read A Spell Description}
+foo
+\section{Arcane Spells}
+foo
+\section{Divine Spells}
+foo
+\section{Special Abilities and Spells}
+foo
+\section{Spell Lists}
+foo
+
+\chapter{Magic Items}
+\section{Magic Item Basics}
+Scaling, 8 Item Limit, etc
+\section{Minor Magical Items}
+foo
+\section{Moderate Magical Items}
+foo
+\section{Major Magical Items}
+foo
+
+\chapter{Running The Game}
+\section{Writing GM Advice Is Hard}
+foo
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendixpage
+
+\makeatletter
+\renewcommand{\@makechapterhead}[1]{%
+\vspace*{0 pt}{
+\raggedright \normalfont \fontsize{32}{32} \selectfont \bfseries
+\ifnum \value{secnumdepth}>-1
+  \if@mainmatter \vspace{-8pt} {\fontsize{20}{20} \selectfont Appendix \thechapter:}\\[8pt]
+  \fi%
+\fi
+\hspace{0.65cm} #1\par\nobreak\vspace{20 pt}
+}}
+\makeatother
+
+\clearpage
+
+%% Appendix Chapters Here
+
+\chapter{Spells}
+\section{Spells, A through Z}
+foo
+
+\chapter{Prestige Classes}
+\section{Prestige Class Basics}
+\section{?WhatClasses?}
+
+\chapter{Monsters}
+\section{Reading a Monster Entry}
+\section{Monsters, A though Z}
+
+\chapter{NPC Classes}
+\section{Adept}
+\section{Aristocrat}
+\section{Commoner}
+\section{Expert}
+\section{Warrior}
+
+\input{tome-srd-ogl}
+
+\clearpage
+\phantomsection
+\listoftables
+
+\clearpage
+\phantomsection
+\printindex
+
+\end{document}
