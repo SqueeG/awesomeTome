@@ -1,0 +1,170 @@
+\documentclass[10pt]{article}
+
+%packages with options
+\usepackage[margin=2cm]{geometry}
+\usepackage[table, usenames, dvipsnames]{xcolor}
+
+%all other packages
+\usepackage{array, booktabs, caption, colortbl, enumerate, hyperref, longtable, tabu, tabularx}
+
+%settings
+\definecolor{tablegrey}{gray}{0.9}
+
+%commands
+
+\begin{document}
+\part{Monster Rules}
+
+\section{Types}
+
+Each monster has a {\em type}, which describes broadly what sort of creature it happens to be. A type has certain rules attached to it, including things like whether the monster needs to eat and sleep, as well as any immunities it has or doesn't. For compactness, these are denoted as `X traits' in any statblock, where X is the type (for example, `undead traits').
+
+In the description of each type, anything not designated otherwise is considered an extraordinary ability.
+
+\subsection{Undead}
+
+These are formerly-living creatures that have been returned from the dead. Creatures such as zombi, shadows and nightshades are all examples of undead. Some undead retain their former minds, like vampires, while others don't, like skeletons. Undead are animated by negative energy, but aren't necessarily malevolent (though many are). 
+
+\begin{description}
+\item[Existence:] Undead eat, drink and sleep (although most have some strange dietary habits).
+\item[Hit points per level:] 7 + Constitution modifier
+\item[BAB:] Poor
+\item[Saves:] Poor Fort, poor Ref, good Will
+\item[Skill Points:] 4 + Int per level
+\item[Vision:] Darkvision 60ft
+\item[Immunities:] [Death], [Morale], [Sleep]
+\end{description}
+
+The following additional rules apply to undead creatures:
+
+\begin{description}
+\item[Critical Resistance:] An undead creature has vulnerabilities, but they are not obvious to those who have never fought or studied them. An undead creature is immune to critical hits, except from anything with at least 1 rank in Knowledge (religion).
+\item[Distant:] Undead have odd perspectives on life and the world around them, and this makes it rather difficult for many others to convince them of anything. Any Bluff, Diplomacy or Intimidate checks to influence an undead take a -10 penalty, unless whatever is attempting to influence them also has the Distant ability.
+\item[Energy Inversion:] If an undead creature would be dealt damage by a [Negative] ability, it instead heals that much damage. Likewise, if an undead creature would be healed by a [Positive] ability, it instead is dealt that much damage. All other effects of such abilities remain the same. If the ability instead states some other rules for how it applies to undead, use those rules instead.
+\item[Returned:] Undead cannot be returned to life using {\em raise dead} or {\em reincarnate}, or any ability that mimics them. A {\em resurrection} or {\em true resurrection} works, but this will restore the undead to the living creature it once was.
+\end{description}
+
+\section{Tags}
+
+{\em Tags} are additional rules that apply to some monsters, but not others. Not all tags can be applied to every monster. Some tags have additional rules which apply to any creature with that tag, but others only exist as `designators' with regard to other special rules.
+
+Any rules provided by a tag are in addition to the rules provided by another tag or by a monster's type. Anything not indicated otherwise is an extraordinary ability. If there is a conflict between a type and a tag, or between two tags, then the more favourable choice to the {\em monster} is taken.
+
+\subsection{Incorporeal}
+
+[Incorporeal] creatures don't have a solid form. They can walk through walls, and many attacks simply pass through them without effect.
+
+\begin{description}
+\item[Applicable To:] Any
+\item[Immunities:] Ability drain to Strength, ability damage to Strength, Grapple, Trip.
+\item[Formless:] An [Incorporeal] creature has no body, and thus, no Strength score. For melee attack rolls, an [Incorporeal] creature uses its Dexterity modifier. An [Incorporeal] creature cannot fall or take falling damage and cannot use Grapple or Trip abilities, or anything derived from them. [Incorporeal] creatures are weightless and cannot exert any force. When an [Incorporeal] creature moves, it makes no sound unless it wants to. This gives a -4 penalty on checks to detect [Incorporeal] creatures using Perception (impossible if only going by sound).
+\item[Phase Attack:] Any ability used by an [Incorporeal] creature that requires an attack roll makes a touch attack roll instead.
+\item[Phasing:] An [Incorporeal] creature is difficult to harm with a physical attack. For any ability that requires an attack roll, any result of an odd number against an [Incorporeal] creature misses automatically.
+\item[Wall-Walker:] [Incorporeal] creatures can pass through solid objects. While doing so, the creature must remain adjacent to the object's exterior, and thus cannot pass through any object whose thickness at the point through which it wishes to pass is greater than its own size. While inside an object, an [Incorporeal] creature is aware of creatures and objects adjacent to its current location in the object, but cannot interact with them without first leaving the object it's inside. While completely inside an object, an [Incorporeal] creature has total cover. Any object from an ability with the [Force] tag cannot be passed through or inhabited by an [Incorporeal] creature.
+\end{description}
+
+\subsection{Unmetabolic}
+
+An [Unmetabolic] creature doesn't have a metabolism of any kind. They don't need food, drink or sleep, and lack the vulnerabilities a metabolism can provide.
+
+The Constitution score of an [Unmetabolic] creature represents the sturdiness of its construction. Quite frequently, an [Unmetabolic] creature will also have a hardness score, but this isn't a given.
+
+\begin{description}
+\item[Applicable To:] Any
+\item[Immunities:] Ability damage to physical ability scores, ability drain, critical hits, disease, [Death], paralysis, poison, [Sleep], stunning.
+\item[Lifeless:] An [Unmetabolic] creature isn't really {\em alive} in any sense. [Unmetabolic] creatures do not have natural healing. Additionally, if they are reduced to 0 or fewer hit points, they are destroyed immediately.
+\end{description}
+
+\subsection{Unthinking}
+
+An [Unthinking] creature has no mind of its own. It is either a machine (like a golem) or has lost the ability to think or reason (like many undead). Because it has no mind {\em to} affect, it is difficult to affect by many abilities that would alter the mind, but its inability to think has other problems.
+
+The Intelligence score of an [Unthinking] creature represents the sophistication of its instructions or programming.
+
+\begin{description}
+\item[Applicable To:] Any
+\item[Immunities:] [Mind-Affecting]
+\item[Mindless:] An [Unthinking] creature cannot have ranks in any Intelligence-based skill.
+\end{description}
+
+\section{Origin}
+
+Every monster has an {\em origin}, which describes where it comes from. This is given in brackets after its size and type in the statblock. This doesn't do anything by itself, but is used as a reference for other abilities.
+
+\pagebreak
+\part{Monster Feats}
+
+For the purpose of prerequisites, any feat counts as the equivalently-named scaling feat. For example, Blitz II is considered equivalent to Blitz for the purpose of prerequisites.
+
+\subsection*{Blitz II}
+\begin{description}
+\item[Prerequisite:] 3rd level
+\item[Benefit:] When you make a melee attack, you can choose to provoke an AOO. If you do, and your attack hits, you deal additional hit point damage equal to your BAB.
+\end{description}
+
+\subsection*{Danger Sense I}
+\begin{description}
+\item[Benefit:] You get a +3 competence bonus to initiative checks.
+\end{description}
+
+\pagebreak
+\part{Monsters}
+\section{Shadow}
+
+The inhabitants of the Shadowlands don't really {\em live} in the conventional sense -- their existence is dull and colourless in comparison to the one enjoyed by the inhabitants of the Prime. However, an existence it still is, and it must come to an end, usually by fading away into the Shadowlands themselves. However, the Shadowlands are filled with dark emotions, and those whose existence ends while consumed by such emotions become shadows -- dark spirits who seek to take the colour and life from others to fill the void in their existence.
+
+Shadows rarely attack other Shadowlanders -- they prefer to go after creatures from other realities, as their energies satisfy them that much more. Whenever portals open to the Shadowlands from anywhere else, they start attracting shadows very quickly, and visitors to the Shadowlands should take care to avoid them whenever possible.
+
+There are many kinds of shadows, but the most common are those that arise from the deaths of mirror beings, which are the ones presented here. Thus, they look like human-sized disembodied humanoid shadows. Shadows are about six feet tall, have no real weight, and cannot speak (although they understand Common and Shadowtongue).
+
+\rowcolors{0}{white}{tablegrey}
+\begin{longtabu} to 0.7\linewidth{X[l]}
+\toprule
+\rowfont{\bfseries}SHADOW \hfill LEVEL 3\\
+Medium undead (Shadowlander) [Incorporeal, Unmetabolic]\\
+{\bf Init} +5; {\bf Senses} darkvision 60ft; Perception +8\\
+{\bf Languages} None (understands Common and Shadowtongue)\\
+\midrule
+{\bf AC} 13, touch 13, flat-footed 11 (+2 Dex, +1 deflection); Phasing\\
+{\bf hp} 21\\
+{\bf Vulnerable} [Light]\\
+{\bf Saves} Fort +1, Ref +3, Will +4\\
+\midrule
+{\bf Speed} Fly 40ft (good)\\
+{\bf Melee} Incorporeal touch (--) +3 melee (1d6 + chill heart)\\
+{\bf Attack Options} Blitz II, darkened by emotion\\
+{\bf Space} 5ft; {\bf Reach} 5ft\\
+\midrule
+{\bf Base Attack} +1 {\bf Edge} BAB vs. BAB\\
+{\bf Feint} +1 (TN 12 to resist)\\
+\midrule
+{\bf Abilities} Str --, Dex 14, Con 13, Int 6, Wis 12, Cha 13\\
+{\bf SQ} Light weakness\\
+{\bf Feats} Blitz II (3rd), Danger Sense I (1st)\\
+{\bf Skills} Stealth +9 (7 ranks), Perception +8 (7 ranks)\\
+\midrule
+{\bf Chill Heart [Magical, Negative, Water]} If a shadow hits a living creature with its touch attack, the shadow heals an amount of damage equal to the damage it dealt. Additionally, that creature must make a Fort save (Charisma-based, default TN 13) at the end of the shadow's turn or take 1 Strength damage. If a shadow deals Strength damage with this ability, it heals an additional 6 hit points. If a shadow successfully deals Strength damage with this ability against a dying humanoid, that creature dies immediately, and then rises as a shadow one minute later. This ability has no effect against undead creatures. If a shadow would heal more hit points than it has, it gains the excess as temporary hit points, which don't stack with temporary hit points from this ability.\\
+{\bf Darkened By Emotion} A shadow is so consumed by its emotions that it often doesn't know what exactly it'll do. At the beginning of each of a shadow's turns, roll 1d6 on the following chart. Based on the result, the shadow can use that ability during that turn.\begin{enumerate}
+\item[1-3:] Nothing
+\item[4-5:] Shadow Shriek
+\item[6:] Snuff Light
+\end{enumerate}\\
+{\bf Light Weakness} Shadows don't tolerate daylight well. In full daylight (or anything that mimics it), a shadow has a -2 penalty on all d20 rolls, AC and saves.\\
+{\bf Shadow Shriek [Magical, Morale: Fear, Sonic]} A shadow's cry, though not frequent, is haunting to anyone who hears it. As a standard action, a shadow can force every living creature in a 60ft radius to make a Will save (Charisma-based, default TN 13) or become shaken. This condition does not stack with other [Morale: Fear] abilities. The condition ends when an affected creature has not seen or heard the shadow for 10 minutes.\\
+{\bf Snuff Light [Magical, Darkness]} Sometimes, a shadow's dark emotions become so strong that it can pull light away from its sources into itself, snuffing the lights in the process. This requires a standard action, and affects all light sources and abilities with the [Light] tag within a 60ft radius. A nonmagical source is extinguished immediately if it's in the area (which includes putting out fires and so on). An ability with the [Light] tag in the area will be ended by this ability if the shadow can pass a level check against a TN of 10 + the level of the [Light] ability's user.
+This ability cannot extinguish the sun, moon or any similarly-sized light source. Additionally, if the light source isn't physically present in the area, the shadow cannot extinguish it.\\
+\bottomrule
+\end{longtabu}
+
+\subsection{Encounters with shadows}
+
+Shadows rarely appear alone -- they are typically found in large numbers. A shadow will often go for the weakest members of any group first, attempting to turn them into more shadows by draining their Strength away. Shadows aren't very smart, but do understand that they are incorporeal, and will use that to their advantage.
+
+A shadow doesn't have any treasure -- it can't carry anything! Some treasure may be found on a shadow's victims if they are nearby -- as shadows can't carry anything, they will leave everything behind on anyone or anything they've killed.
+
+\subsection{Advancing shadows}
+
+Shadows can advance using the shadow paragon class given below or any prestige class they qualify for.
+
+%class goes here
+\end{document}
