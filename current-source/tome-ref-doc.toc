@@ -74,7 +74,7 @@
 \contentsline {section}{\numberline {6.1}The Three Economies}{13}{section.6.1}
 \contentsline {section}{\numberline {6.2}Armor}{13}{section.6.2}
 \contentsline {section}{\numberline {6.3}Weapons}{13}{section.6.3}
-\contentsline {subsection}{Weapon Qualities}{14}{section*.2}
+\contentsline {subsection}{Weapon Qualities}{15}{section*.2}
 \contentsline {subsection}{Individual Weapon Rules}{19}{section*.3}
 \contentsline {section}{\numberline {6.4}Gear}{22}{section.6.4}
 \contentsline {section}{\numberline {6.5}Animals}{22}{section.6.5}
