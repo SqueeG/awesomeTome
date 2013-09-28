@@ -74,61 +74,63 @@
 \BOOKMARK [1][-]{section.6.1}{The Three Economies}{chapter.6}% 74
 \BOOKMARK [1][-]{section.6.2}{Armor}{chapter.6}% 75
 \BOOKMARK [1][-]{section.6.3}{Weapons}{chapter.6}% 76
-\BOOKMARK [1][-]{section.6.4}{Gear}{chapter.6}% 77
-\BOOKMARK [1][-]{section.6.5}{Animals}{chapter.6}% 78
-\BOOKMARK [1][-]{section.6.6}{Services}{chapter.6}% 79
-\BOOKMARK [0][-]{chapter.7}{Description}{}% 80
-\BOOKMARK [1][-]{section.7.1}{Physical Appearance}{chapter.7}% 81
-\BOOKMARK [1][-]{section.7.2}{Personality}{chapter.7}% 82
-\BOOKMARK [1][-]{section.7.3}{Alignment}{chapter.7}% 83
-\BOOKMARK [1][-]{section.7.4}{Religion}{chapter.7}% 84
-\BOOKMARK [0][-]{chapter.8}{Adventuring}{}% 85
-\BOOKMARK [1][-]{section.8.1}{Overland Travel}{chapter.8}% 86
-\BOOKMARK [1][-]{section.8.2}{Exploration}{chapter.8}% 87
-\BOOKMARK [1][-]{section.8.3}{Traps}{chapter.8}% 88
-\BOOKMARK [1][-]{section.8.4}{Encounters}{chapter.8}% 89
-\BOOKMARK [0][-]{chapter.9}{Combat}{}% 90
-\BOOKMARK [1][-]{section.9.1}{How Combat Works}{chapter.9}% 91
-\BOOKMARK [1][-]{section.9.2}{Combat Statistics}{chapter.9}% 92
-\BOOKMARK [1][-]{section.9.3}{Initiative and Actions}{chapter.9}% 93
-\BOOKMARK [1][-]{section.9.4}{Standard Actions}{chapter.9}% 94
-\BOOKMARK [1][-]{section.9.5}{Move Actions}{chapter.9}% 95
-\BOOKMARK [1][-]{section.9.6}{Swift and Free Actions}{chapter.9}% 96
-\BOOKMARK [1][-]{section.9.7}{Full-Round Actions}{chapter.9}% 97
-\BOOKMARK [1][-]{section.9.8}{Movement, Position, and Distance}{chapter.9}% 98
-\BOOKMARK [1][-]{section.9.9}{Injury and Death}{chapter.9}% 99
-\BOOKMARK [1][-]{section.9.10}{Combat Modifiers}{chapter.9}% 100
-\BOOKMARK [1][-]{section.9.11}{Special Attacks}{chapter.9}% 101
-\BOOKMARK [1][-]{section.9.12}{Special Abilities}{chapter.9}% 102
-\BOOKMARK [1][-]{section.9.13}{Conditions}{chapter.9}% 103
-\BOOKMARK [0][-]{chapter.10}{Magic}{}% 104
-\BOOKMARK [1][-]{section.10.1}{Casting Spells}{chapter.10}% 105
-\BOOKMARK [1][-]{section.10.2}{How To Read A Spell Description}{chapter.10}% 106
-\BOOKMARK [1][-]{section.10.3}{Arcane Spells}{chapter.10}% 107
-\BOOKMARK [1][-]{section.10.4}{Divine Spells}{chapter.10}% 108
-\BOOKMARK [1][-]{section.10.5}{Special Abilities and Spells}{chapter.10}% 109
-\BOOKMARK [1][-]{section.10.6}{Spell Lists}{chapter.10}% 110
-\BOOKMARK [0][-]{chapter.11}{Magic Items}{}% 111
-\BOOKMARK [1][-]{section.11.1}{Magic Item Basics}{chapter.11}% 112
-\BOOKMARK [1][-]{section.11.2}{Minor Magical Items}{chapter.11}% 113
-\BOOKMARK [1][-]{section.11.3}{Moderate Magical Items}{chapter.11}% 114
-\BOOKMARK [1][-]{section.11.4}{Major Magical Items}{chapter.11}% 115
-\BOOKMARK [0][-]{chapter.12}{Running The Game}{}% 116
-\BOOKMARK [1][-]{section.12.1}{Writing GM Advice Is Hard}{chapter.12}% 117
-\BOOKMARK [0][-]{section*.2}{Appendices}{}% 118
-\BOOKMARK [0][-]{appendix.A}{Spells}{}% 119
-\BOOKMARK [1][-]{section.A.1}{Spells, A through Z}{appendix.A}% 120
-\BOOKMARK [0][-]{appendix.B}{Prestige Classes}{}% 121
-\BOOKMARK [1][-]{section.B.1}{Prestige Class Basics}{appendix.B}% 122
-\BOOKMARK [1][-]{section.B.2}{?WhatClasses?}{appendix.B}% 123
-\BOOKMARK [0][-]{appendix.C}{Monsters}{}% 124
-\BOOKMARK [1][-]{section.C.1}{Reading a Monster Entry}{appendix.C}% 125
-\BOOKMARK [1][-]{section.C.2}{Monsters, A though Z}{appendix.C}% 126
-\BOOKMARK [0][-]{appendix.D}{NPC Classes}{}% 127
-\BOOKMARK [1][-]{section.D.1}{Adept}{appendix.D}% 128
-\BOOKMARK [1][-]{section.D.2}{Aristocrat}{appendix.D}% 129
-\BOOKMARK [1][-]{section.D.3}{Commoner}{appendix.D}% 130
-\BOOKMARK [1][-]{section.D.4}{Expert}{appendix.D}% 131
-\BOOKMARK [1][-]{section.D.5}{Warrior}{appendix.D}% 132
-\BOOKMARK [0][-]{appendix.E}{The Open Game License}{}% 133
-\BOOKMARK [0][-]{section*.5}{List of Tables}{}% 134
+\BOOKMARK [2][-]{section*.2}{Weapon Qualities}{section.6.3}% 77
+\BOOKMARK [2][-]{section*.3}{Individual Weapon Rules}{section.6.3}% 78
+\BOOKMARK [1][-]{section.6.4}{Gear}{chapter.6}% 79
+\BOOKMARK [1][-]{section.6.5}{Animals}{chapter.6}% 80
+\BOOKMARK [1][-]{section.6.6}{Services}{chapter.6}% 81
+\BOOKMARK [0][-]{chapter.7}{Description}{}% 82
+\BOOKMARK [1][-]{section.7.1}{Physical Appearance}{chapter.7}% 83
+\BOOKMARK [1][-]{section.7.2}{Personality}{chapter.7}% 84
+\BOOKMARK [1][-]{section.7.3}{Alignment}{chapter.7}% 85
+\BOOKMARK [1][-]{section.7.4}{Religion}{chapter.7}% 86
+\BOOKMARK [0][-]{chapter.8}{Adventuring}{}% 87
+\BOOKMARK [1][-]{section.8.1}{Overland Travel}{chapter.8}% 88
+\BOOKMARK [1][-]{section.8.2}{Exploration}{chapter.8}% 89
+\BOOKMARK [1][-]{section.8.3}{Traps}{chapter.8}% 90
+\BOOKMARK [1][-]{section.8.4}{Encounters}{chapter.8}% 91
+\BOOKMARK [0][-]{chapter.9}{Combat}{}% 92
+\BOOKMARK [1][-]{section.9.1}{How Combat Works}{chapter.9}% 93
+\BOOKMARK [1][-]{section.9.2}{Combat Statistics}{chapter.9}% 94
+\BOOKMARK [1][-]{section.9.3}{Initiative and Actions}{chapter.9}% 95
+\BOOKMARK [1][-]{section.9.4}{Standard Actions}{chapter.9}% 96
+\BOOKMARK [1][-]{section.9.5}{Move Actions}{chapter.9}% 97
+\BOOKMARK [1][-]{section.9.6}{Swift and Free Actions}{chapter.9}% 98
+\BOOKMARK [1][-]{section.9.7}{Full-Round Actions}{chapter.9}% 99
+\BOOKMARK [1][-]{section.9.8}{Movement, Position, and Distance}{chapter.9}% 100
+\BOOKMARK [1][-]{section.9.9}{Injury and Death}{chapter.9}% 101
+\BOOKMARK [1][-]{section.9.10}{Combat Modifiers}{chapter.9}% 102
+\BOOKMARK [1][-]{section.9.11}{Special Attacks}{chapter.9}% 103
+\BOOKMARK [1][-]{section.9.12}{Special Abilities}{chapter.9}% 104
+\BOOKMARK [1][-]{section.9.13}{Conditions}{chapter.9}% 105
+\BOOKMARK [0][-]{chapter.10}{Magic}{}% 106
+\BOOKMARK [1][-]{section.10.1}{Casting Spells}{chapter.10}% 107
+\BOOKMARK [1][-]{section.10.2}{How To Read A Spell Description}{chapter.10}% 108
+\BOOKMARK [1][-]{section.10.3}{Arcane Spells}{chapter.10}% 109
+\BOOKMARK [1][-]{section.10.4}{Divine Spells}{chapter.10}% 110
+\BOOKMARK [1][-]{section.10.5}{Special Abilities and Spells}{chapter.10}% 111
+\BOOKMARK [1][-]{section.10.6}{Spell Lists}{chapter.10}% 112
+\BOOKMARK [0][-]{chapter.11}{Magic Items}{}% 113
+\BOOKMARK [1][-]{section.11.1}{Magic Item Basics}{chapter.11}% 114
+\BOOKMARK [1][-]{section.11.2}{Minor Magical Items}{chapter.11}% 115
+\BOOKMARK [1][-]{section.11.3}{Moderate Magical Items}{chapter.11}% 116
+\BOOKMARK [1][-]{section.11.4}{Major Magical Items}{chapter.11}% 117
+\BOOKMARK [0][-]{chapter.12}{Running The Game}{}% 118
+\BOOKMARK [1][-]{section.12.1}{Writing GM Advice Is Hard}{chapter.12}% 119
+\BOOKMARK [0][-]{section*.4}{Appendices}{}% 120
+\BOOKMARK [0][-]{appendix.A}{Spells}{}% 121
+\BOOKMARK [1][-]{section.A.1}{Spells, A through Z}{appendix.A}% 122
+\BOOKMARK [0][-]{appendix.B}{Prestige Classes}{}% 123
+\BOOKMARK [1][-]{section.B.1}{Prestige Class Basics}{appendix.B}% 124
+\BOOKMARK [1][-]{section.B.2}{?WhatClasses?}{appendix.B}% 125
+\BOOKMARK [0][-]{appendix.C}{Monsters}{}% 126
+\BOOKMARK [1][-]{section.C.1}{Reading a Monster Entry}{appendix.C}% 127
+\BOOKMARK [1][-]{section.C.2}{Monsters, A though Z}{appendix.C}% 128
+\BOOKMARK [0][-]{appendix.D}{NPC Classes}{}% 129
+\BOOKMARK [1][-]{section.D.1}{Adept}{appendix.D}% 130
+\BOOKMARK [1][-]{section.D.2}{Aristocrat}{appendix.D}% 131
+\BOOKMARK [1][-]{section.D.3}{Commoner}{appendix.D}% 132
+\BOOKMARK [1][-]{section.D.4}{Expert}{appendix.D}% 133
+\BOOKMARK [1][-]{section.D.5}{Warrior}{appendix.D}% 134
+\BOOKMARK [0][-]{appendix.E}{The Open Game License}{}% 135
+\BOOKMARK [0][-]{section*.7}{List of Tables}{}% 136

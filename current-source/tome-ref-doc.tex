@@ -26,6 +26,7 @@
 \usepackage[table]{xcolor}
 \definecolor{offyellow}{RGB}{255,255,128}
 \definecolor{links}{RGB}{200,0,50}
+\usepackage{placeins}
 
 %% Font
 \usepackage[T1]{fontenc}
@@ -85,6 +86,15 @@
 \setcounter{secnumdepth}{1}
 %makes a subsubsection start off indented.
 \setlength{\beforesubsubsecskip}{-\beforesubsubsecskip}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Table Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} %New type of column 'L' that is ragged-right, behaves like a paragraph, and allows manual definition of width like a 'p' column.
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}  %New type of column 'C' that is centered, behaves like a paragraph, and allows manual definition of width like a 'p' column.
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}  %New type of column 'R' that is ragged-left, behaves like a paragraph, and allows manual definition of width like a 'p' column.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -345,7 +355,7 @@ foo
 \section{Armor}
 foo
 \section{Weapons}
-foo
+\input{phb/equipment/weapons}
 \section{Gear}
 foo
 \section{Animals}
