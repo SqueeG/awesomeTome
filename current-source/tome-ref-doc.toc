@@ -19,19 +19,20 @@
 \contentsline {section}{\numberline {2.12}Orc}{6}{section.2.12}
 \contentsline {chapter}{\chapternumberline {3}Classes}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Class Basics}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Barbarian}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Bard}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}Cleric}{7}{section.3.4}
-\contentsline {section}{\numberline {3.5}Druid}{7}{section.3.5}
-\contentsline {section}{\numberline {3.6}Fighter}{7}{section.3.6}
-\contentsline {section}{\numberline {3.7}Knight}{7}{section.3.7}
-\contentsline {section}{\numberline {3.8}Monk}{7}{section.3.8}
-\contentsline {section}{\numberline {3.9}Paladin}{7}{section.3.9}
-\contentsline {section}{\numberline {3.10}Ranger}{8}{section.3.10}
-\contentsline {section}{\numberline {3.11}Rogue}{8}{section.3.11}
-\contentsline {section}{\numberline {3.12}Samurai}{8}{section.3.12}
-\contentsline {section}{\numberline {3.13}Sorcerer}{8}{section.3.13}
-\contentsline {section}{\numberline {3.14}Wizard}{8}{section.3.14}
+\contentsline {section}{\numberline {3.2}Example}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Barbarian}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}Bard}{7}{section.3.4}
+\contentsline {section}{\numberline {3.5}Cleric}{8}{section.3.5}
+\contentsline {section}{\numberline {3.6}Druid}{8}{section.3.6}
+\contentsline {section}{\numberline {3.7}Fighter}{8}{section.3.7}
+\contentsline {section}{\numberline {3.8}Knight}{8}{section.3.8}
+\contentsline {section}{\numberline {3.9}Monk}{8}{section.3.9}
+\contentsline {section}{\numberline {3.10}Paladin}{8}{section.3.10}
+\contentsline {section}{\numberline {3.11}Ranger}{8}{section.3.11}
+\contentsline {section}{\numberline {3.12}Rogue}{8}{section.3.12}
+\contentsline {section}{\numberline {3.13}Samurai}{8}{section.3.13}
+\contentsline {section}{\numberline {3.14}Sorcerer}{8}{section.3.14}
+\contentsline {section}{\numberline {3.15}Wizard}{8}{section.3.15}
 \contentsline {chapter}{\chapternumberline {4}Skills}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}How Skills Work}{9}{section.4.1}
 \contentsline {section}{\numberline {4.2}Appraise}{9}{section.4.2}

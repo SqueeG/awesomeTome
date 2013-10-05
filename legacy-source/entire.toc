@@ -1,0 +1,701 @@
+\contentsline {chapter}{\numberline {1}Basics}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Basics}{11}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The Core Mechanic}{11}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Dice}{11}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Rounding Fractions}{11}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Multiplying}{11}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Ability Scores}{12}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Ability Modifiers}{12}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}The Abilities}{12}{subsection.1.2.2}
+\contentsline {subsubsection}{STRENGTH (STR)}{12}{section*.2}
+\contentsline {subsubsection}{DEXTERITY (DEX)}{13}{section*.3}
+\contentsline {subsubsection}{CONSTITUTION (CON)}{13}{section*.4}
+\contentsline {subsubsection}{INTELLIGENCE (INT)}{13}{section*.5}
+\contentsline {subsubsection}{WISDOM (WIS)}{13}{section*.6}
+\contentsline {subsubsection}{CHARISMA (CHA)}{14}{section*.7}
+\contentsline {chapter}{\numberline {2}Character Creation}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Generating Your Stats}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Rolling}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Point Buy}{15}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Choose a Race}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}Choose an Alignment}{16}{section.2.3}
+\contentsline {section}{\numberline {2.4}Choose a Class}{17}{section.2.4}
+\contentsline {section}{\numberline {2.5}Skills}{17}{section.2.5}
+\contentsline {section}{\numberline {2.6}Feats}{17}{section.2.6}
+\contentsline {section}{\numberline {2.7}Equipment}{17}{section.2.7}
+\contentsline {chapter}{\numberline {3}Races}{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Unusual Races}{18}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Aasimar}{18}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Drow}{19}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Feytouched}{19}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Goblin}{20}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Hobgoblin}{21}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Orc}{21}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Half-Orc}{22}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Tiefling}{22}{subsection.3.1.8}
+\contentsline {section}{\numberline {3.2}Powerful Races}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Converting Monsters Into Characters}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Method 1: The Easy Way}{24}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Method 2}{24}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Method 3}{24}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Sample conversions}{24}{subsection.3.3.4}
+\contentsline {subsubsection}{Gnoll (Minimum Level 2)}{24}{section*.8}
+\contentsline {subsubsection}{Bugbear (Minimum Level 3)}{25}{section*.9}
+\contentsline {subsubsection}{Ogre (Minimum Level 4)}{25}{section*.10}
+\contentsline {subsubsection}{Frost Giant (Minimum Level 10)}{26}{section*.11}
+\contentsline {chapter}{\numberline {4}Alignment}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Alignment}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Good and Evil: How Black is the Night?}{27}{subsection.4.1.1}
+\contentsline {subsubsection}{Moral Option 1: A Worthy Opponent}{27}{section*.12}
+\contentsline {subsubsection}{Moral Option 2: The Banality of Evil}{28}{section*.13}
+\contentsline {subsubsection}{Moral Option 3: The Face of Horror.}{28}{section*.14}
+\contentsline {subsubsection}{Moral Option 4: Perfection in Balance}{29}{section*.15}
+\contentsline {subsection}{\numberline {4.1.2}Law and Chaos: Your Rules or Mine?}{29}{subsection.4.1.2}
+\contentsline {subsubsection}{Ethics Option 1: A level of Organization.}{30}{section*.16}
+\contentsline {subsubsection}{Ethics Option 2: A Question of Sanity.}{30}{section*.17}
+\contentsline {subsubsection}{Ethics Option 3: The Laws of the Land.}{30}{section*.18}
+\contentsline {subsubsection}{Ethics Option 4: My Word is My Bond.}{30}{section*.19}
+\contentsline {subsubsection}{Adherence to Self: Not a Rubric for Law}{31}{section*.20}
+\contentsline {subsubsection}{Rigidity: Not a Rubric for Law}{31}{section*.21}
+\contentsline {subsection}{\numberline {4.1.3}To Triumph Over Evil}{31}{subsection.4.1.3}
+\contentsline {subsubsection}{The Importance of Consequentialism}{31}{section*.22}
+\contentsline {subsubsection}{Godliness isn't Goodliness}{31}{section*.23}
+\contentsline {subsubsection}{There is no Salvation or Redemption in D\&D}{32}{section*.24}
+\contentsline {subsubsection}{Code of Conduct: Paladins}{32}{section*.25}
+\contentsline {subsection}{\numberline {4.1.4}I Fought the Law}{33}{subsection.4.1.4}
+\contentsline {subsubsection}{Code of Conduct: \hyperref [class:barbarian]{Barbarian}}{33}{section*.26}
+\contentsline {subsubsection}{Code of Conduct: Bard}{33}{section*.27}
+\contentsline {subsection}{\numberline {4.1.5}Beating Back Chaos}{33}{subsection.4.1.5}
+\contentsline {subsubsection}{Code of Conduct: \hyperref [class:knight]{Knight}}{33}{section*.28}
+\contentsline {subsubsection}{Code of Conduct: \hyperref [class:monk]{Monk}}{34}{section*.29}
+\contentsline {subsubsection}{Code of Conduct: Paladin Again}{34}{section*.30}
+\contentsline {section}{\numberline {4.2}The Morality of Necromancy: Black and Gray}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Moral Option 1: The Crawling Darkness}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Moral Option 2: Playing with Fire}{35}{subsection.4.2.2}
+\contentsline {subsubsection}{Implications}{35}{section*.31}
+\contentsline {subsection}{\numberline {4.2.3}Creatures}{35}{subsection.4.2.3}
+\contentsline {subsubsection}{Revenants}{35}{section*.32}
+\contentsline {subsubsection}{Skeletons}{35}{section*.33}
+\contentsline {subsubsection}{Vampires}{35}{section*.34}
+\contentsline {subsubsection}{Zombies}{36}{section*.35}
+\contentsline {subsubsection}{Energons}{36}{section*.36}
+\contentsline {subsection}{\numberline {4.2.4}Spells}{36}{subsection.4.2.4}
+\contentsline {subsubsection}{Animate Dead}{36}{section*.37}
+\contentsline {subsubsection}{Deathwatch}{36}{section*.38}
+\contentsline {subsubsection}{Create Undead}{36}{section*.39}
+\contentsline {chapter}{\numberline {5}Character Base Classes}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Core PC Classes}{37}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Assassin}{37}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Barbarian}{40}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Cleric}{41}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Druid}{43}{subsection.5.1.4}
+\contentsline {subsubsection}{The Druid's Animal Companion}{45}{section*.40}
+\contentsline {subsection}{\numberline {5.1.5}Fighter}{46}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Paladin}{48}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Knight}{51}{subsection.5.1.7}
+\contentsline {subsection}{\numberline {5.1.8}Monk}{54}{subsection.5.1.8}
+\contentsline {subsection}{\numberline {5.1.9}Rogue}{57}{subsection.5.1.9}
+\contentsline {subsection}{\numberline {5.1.10}Samurai}{59}{subsection.5.1.10}
+\contentsline {subsection}{\numberline {5.1.11}Wizard}{61}{subsection.5.1.11}
+\contentsline {subsubsection}{School Specialization}{63}{section*.41}
+\contentsline {subsubsection}{Familiars}{63}{section*.42}
+\contentsline {subsubsection}{Arcane Spells and Armor}{65}{section*.43}
+\contentsline {section}{\numberline {5.2}Additional PC Classes}{65}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Curator}{65}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Elementalist}{68}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Fire Mage}{70}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Jester}{73}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Marshall}{75}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Monster Tamer}{77}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Ninja}{81}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}Puppeteer}{85}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.2.9}Shadow Warrior}{86}{subsection.5.2.9}
+\contentsline {subsection}{\numberline {5.2.10}Sohei}{88}{subsection.5.2.10}
+\contentsline {subsection}{\numberline {5.2.11}Soldier}{92}{subsection.5.2.11}
+\contentsline {subsection}{\numberline {5.2.12}Soulborn}{100}{subsection.5.2.12}
+\contentsline {subsection}{\numberline {5.2.13}Storm Lord}{104}{subsection.5.2.13}
+\contentsline {subsection}{\numberline {5.2.14}Spirit Shaman}{107}{subsection.5.2.14}
+\contentsline {subsection}{\numberline {5.2.15}Summoner}{110}{subsection.5.2.15}
+\contentsline {subsection}{\numberline {5.2.16}Swashbuckler}{112}{subsection.5.2.16}
+\contentsline {subsection}{\numberline {5.2.17}Thief Acrobat}{115}{subsection.5.2.17}
+\contentsline {subsection}{\numberline {5.2.18}Totemist}{117}{subsection.5.2.18}
+\contentsline {subsection}{\numberline {5.2.19}Thaumaturge}{123}{subsection.5.2.19}
+\contentsline {subsection}{\numberline {5.2.20}Warlock}{124}{subsection.5.2.20}
+\contentsline {subsection}{\numberline {5.2.21}Warmage}{126}{subsection.5.2.21}
+\contentsline {section}{\numberline {5.3}Monster Base Classes}{130}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Fiendish Brute [Fiend]}{130}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Conduit of the Lower Planes [Fiend]}{131}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}True Fiend [Fiend]}{132}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Genie}{134}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}NPC Classes}{137}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Adept [NPC]}{137}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Warrior [NPC]}{138}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Multiclassing Characters}{139}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}XP Penalties}{139}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Favored Classes}{139}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Saving Throws}{140}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Skill Points}{140}{subsection.5.5.4}
+\contentsline {chapter}{\numberline {6}Feats}{141}{chapter.6}
+\contentsline {section}{\numberline {6.1}Character Backgrounds}{141}{section.6.1}
+\contentsline {section}{\numberline {6.2}The Failure of Feats}{144}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Exploits}{144}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}The New Feat System}{144}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}[Combat] Feats}{145}{section.6.3}
+\contentsline {section}{\numberline {6.4}[Skill] Feats}{149}{section.6.4}
+\contentsline {section}{\numberline {6.5}[Celestial] and [Fiend] Feats}{156}{section.6.5}
+\contentsline {section}{\numberline {6.6}[Elemental] Feats}{161}{section.6.6}
+\contentsline {section}{\numberline {6.7}[Necromantic] Feats}{162}{section.6.7}
+\contentsline {section}{\numberline {6.8}[Undead] Feats}{165}{section.6.8}
+\contentsline {chapter}{\numberline {7}Prestige Classes}{166}{chapter.7}
+\contentsline {section}{\numberline {7.1}Spellcasting}{166}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Arcane Archer}{166}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Arcane Strategist}{168}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Barrister of the Nine}{170}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Bladesinger}{171}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Boneblade Reaper}{173}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Celestial Beacon}{175}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.7}Corpselight Whisperer}{176}{subsection.7.1.7}
+\contentsline {subsection}{\numberline {7.1.8}Death King}{177}{subsection.7.1.8}
+\contentsline {subsection}{\numberline {7.1.9}Defiler of Temples}{178}{subsection.7.1.9}
+\contentsline {subsection}{\numberline {7.1.10}Eldritch Knight}{179}{subsection.7.1.10}
+\contentsline {subsection}{\numberline {7.1.11}Heartless Mage}{180}{subsection.7.1.11}
+\contentsline {subsection}{\numberline {7.1.12}Hellwalker}{181}{subsection.7.1.12}
+\contentsline {subsection}{\numberline {7.1.13}Initiate of the Black Tower}{182}{subsection.7.1.13}
+\contentsline {subsection}{\numberline {7.1.14}Lord of the Damned}{184}{subsection.7.1.14}
+\contentsline {subsection}{\numberline {7.1.15}Lurker in the Swarm}{185}{subsection.7.1.15}
+\contentsline {subsection}{\numberline {7.1.16}Master of the Seven Necromantic Mysteries}{187}{subsection.7.1.16}
+\contentsline {subsection}{\numberline {7.1.17}Master of Snake Mountain}{188}{subsection.7.1.17}
+\contentsline {subsection}{\numberline {7.1.18}Ninja of Gax}{189}{subsection.7.1.18}
+\contentsline {subsection}{\numberline {7.1.19}Ogre Mage}{190}{subsection.7.1.19}
+\contentsline {subsection}{\numberline {7.1.20}Pumpkin King}{191}{subsection.7.1.20}
+\contentsline {subsection}{\numberline {7.1.21}Seeker of the Lost Wizard Traditions}{192}{subsection.7.1.21}
+\contentsline {subsection}{\numberline {7.1.22}Seer of the Tempest}{194}{subsection.7.1.22}
+\contentsline {subsection}{\numberline {7.1.23}Skindancer}{195}{subsection.7.1.23}
+\contentsline {subsection}{\numberline {7.1.24}Speaker for the Dead}{196}{subsection.7.1.24}
+\contentsline {subsection}{\numberline {7.1.25}Stranger with the Burning Eyes}{197}{subsection.7.1.25}
+\contentsline {subsection}{\numberline {7.1.26}Soul Merchant}{199}{subsection.7.1.26}
+\contentsline {subsection}{\numberline {7.1.27}Thief of Souls}{200}{subsection.7.1.27}
+\contentsline {subsection}{\numberline {7.1.28}Uttercold Assault Necromancer}{202}{subsection.7.1.28}
+\contentsline {subsection}{\numberline {7.1.29}Widow Queen}{204}{subsection.7.1.29}
+\contentsline {section}{\numberline {7.2}Martial}{206}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Big Nob}{206}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Boatman of Styx}{207}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Bone Rider}{208}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Crusader of the Elemental Forces}{209}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Death Knight}{211}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Defender of the Woods}{212}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {7.2.7}Demon Samurai}{213}{subsection.7.2.7}
+\contentsline {subsection}{\numberline {7.2.8}Disciple of the Spirit Wave}{214}{subsection.7.2.8}
+\contentsline {subsection}{\numberline {7.2.9}Dragon Disciple}{216}{subsection.7.2.9}
+\contentsline {subsection}{\numberline {7.2.10}Dragon Lancer}{218}{subsection.7.2.10}
+\contentsline {subsection}{\numberline {7.2.11}Drunken Master}{220}{subsection.7.2.11}
+\contentsline {subsection}{\numberline {7.2.12}Dungeon Veteran}{222}{subsection.7.2.12}
+\contentsline {subsection}{\numberline {7.2.13}Elothar Warrior of Bladereach}{223}{subsection.7.2.13}
+\contentsline {subsection}{\numberline {7.2.14}Enlightened Disciple of Wel Hung Temple, Long Wang Province}{225}{subsection.7.2.14}
+\contentsline {subsection}{\numberline {7.2.15}Gentle Monk}{227}{subsection.7.2.15}
+\contentsline {subsection}{\numberline {7.2.16}Holy Crusader}{228}{subsection.7.2.16}
+\contentsline {subsection}{\numberline {7.2.17}Legendary Strategist}{229}{subsection.7.2.17}
+\contentsline {subsection}{\numberline {7.2.18}Lunar Knight}{230}{subsection.7.2.18}
+\contentsline {subsection}{\numberline {7.2.19}Maelstrom of Fiery Ki}{232}{subsection.7.2.19}
+\contentsline {subsection}{\numberline {7.2.20}Meteor Ninja}{233}{subsection.7.2.20}
+\contentsline {subsection}{\numberline {7.2.21}Tiger Monk}{234}{subsection.7.2.21}
+\contentsline {section}{\numberline {7.3}Racial}{235}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Half Dragon}{235}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Progenitor of the Gith}{236}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}The Monitor}{237}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Paragon}{238}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Ghoul Paragon}{238}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Swordwraith Paragon}{239}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Vampire Paragon Class}{239}{subsection.7.4.3}
+\contentsline {chapter}{\numberline {8}Money and Equipment}{241}{chapter.8}
+\contentsline {section}{\numberline {8.1}Weapons}{241}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Bows}{241}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Ammunition}{242}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Necromatic Weapons}{242}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Armor}{242}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Fantastic Armors}{243}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Armor Non-Proficiency}{243}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Armor Penalties}{243}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Not Armors}{245}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}Light Armors}{245}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.6}Medium Armors}{246}{subsection.8.2.6}
+\contentsline {subsection}{\numberline {8.2.7}Heavy Armors}{248}{subsection.8.2.7}
+\contentsline {subsection}{\numberline {8.2.8}Shields}{249}{subsection.8.2.8}
+\contentsline {subsection}{\numberline {8.2.9}Great Shields}{250}{subsection.8.2.9}
+\contentsline {subsection}{\numberline {8.2.10}Necromantic Armors}{251}{subsection.8.2.10}
+\contentsline {section}{\numberline {8.3}The Economicon}{251}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Wish and the Economy}{251}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Wartime Economies Make for Shortages}{252}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Coins are Big and Heavy}{252}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Bad Money Drives Out Good: The Penalties of Paper}{253}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.5}Powerful Creatures Have a Powerful Economy}{253}{subsection.8.3.5}
+\contentsline {subsubsection}{Gems: Truth or Dare}{254}{section*.45}
+\contentsline {subsubsection}{Magical Currency}{254}{section*.46}
+\contentsline {subsection}{\numberline {8.3.6}The Service Economy: The Profession Rules Don't Work}{255}{subsection.8.3.6}
+\contentsline {subsubsection}{Professions and their Pay Scale}{255}{section*.47}
+\contentsline {subsection}{\numberline {8.3.7}Running a Business}{256}{subsection.8.3.7}
+\contentsline {subsubsection}{Capitalization}{256}{section*.48}
+\contentsline {subsubsection}{Risk}{256}{section*.49}
+\contentsline {subsubsection}{Resources}{257}{section*.50}
+\contentsline {subsubsection}{Growing the Business}{257}{section*.51}
+\contentsline {subsubsection}{Profits}{257}{section*.52}
+\contentsline {subsubsection}{Command Economies}{258}{section*.53}
+\contentsline {subsection}{\numberline {8.3.8}Bringing the World out of the Dark Ages}{258}{subsection.8.3.8}
+\contentsline {chapter}{\numberline {9}Combat Basics}{260}{chapter.9}
+\contentsline {section}{\numberline {9.1}Forward: A Brief History of Fighting Men}{260}{section.9.1}
+\contentsline {section}{\numberline {9.2}War in D\&D}{260}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Fighting with Honor}{261}{subsection.9.2.1}
+\contentsline {section}{\numberline {9.3}How Combat Works}{262}{section.9.3}
+\contentsline {section}{\numberline {9.4}Combat Statistics}{262}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Attack Rolls}{263}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Attack Bonus}{263}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Damage}{263}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.4}Armor}{263}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {9.4.5}Hit Points}{264}{subsection.9.4.5}
+\contentsline {subsection}{\numberline {9.4.6}Speed}{264}{subsection.9.4.6}
+\contentsline {subsection}{\numberline {9.4.7}Saving Throws}{264}{subsection.9.4.7}
+\contentsline {subsection}{\numberline {9.4.8}Initiative}{265}{subsection.9.4.8}
+\contentsline {subsection}{\numberline {9.4.9}Surprise}{265}{subsection.9.4.9}
+\contentsline {subsection}{\numberline {9.4.10}Attacks of Opportunity}{265}{subsection.9.4.10}
+\contentsline {section}{\numberline {9.5}Actions in Combat}{266}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}The Combat Round}{266}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.2}Action Types}{266}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {9.5.3}Standard Actions}{267}{subsection.9.5.3}
+\contentsline {subsubsection}{Attack}{267}{section*.54}
+\contentsline {subsubsection}{Casting a Spell}{268}{section*.55}
+\contentsline {subsubsection}{Activate Magic Item}{269}{section*.56}
+\contentsline {subsubsection}{Use Special Ability}{269}{section*.57}
+\contentsline {subsubsection}{Total Defense}{269}{section*.58}
+\contentsline {subsubsection}{Start/Complete Full-Round Action}{270}{section*.59}
+\contentsline {subsection}{\numberline {9.5.4}Move Actions}{270}{subsection.9.5.4}
+\contentsline {subsubsection}{Move}{270}{section*.60}
+\contentsline {subsubsection}{Draw or Sheathe a Weapon}{270}{section*.61}
+\contentsline {subsubsection}{Ready or Loose a Shield}{270}{section*.62}
+\contentsline {subsubsection}{Manipulate an Item}{270}{section*.63}
+\contentsline {subsubsection}{Direct or Redirect a Spell}{270}{section*.64}
+\contentsline {subsubsection}{Stand Up}{270}{section*.65}
+\contentsline {subsubsection}{Mount/Dismount a Steed}{270}{section*.66}
+\contentsline {subsection}{\numberline {9.5.5}Full-Round Actions}{271}{subsection.9.5.5}
+\contentsline {subsubsection}{Full Attack}{271}{section*.67}
+\contentsline {subsubsection}{Cast a Spell}{271}{section*.68}
+\contentsline {subsubsection}{Use Special Ability}{271}{section*.69}
+\contentsline {subsubsection}{Withdraw}{272}{section*.70}
+\contentsline {subsubsection}{Run}{272}{section*.71}
+\contentsline {subsubsection}{Move 5 Feet through Difficult Terrain}{272}{section*.72}
+\contentsline {subsection}{\numberline {9.5.6}Swift Actions}{272}{subsection.9.5.6}
+\contentsline {subsection}{\numberline {9.5.7}Immediate Actions}{272}{subsection.9.5.7}
+\contentsline {subsection}{\numberline {9.5.8}Free Actions}{273}{subsection.9.5.8}
+\contentsline {subsubsection}{Drop an Item}{273}{section*.73}
+\contentsline {subsubsection}{Drop Prone}{273}{section*.74}
+\contentsline {subsubsection}{Speak}{273}{section*.75}
+\contentsline {subsubsection}{Cease Concentration on Spell}{273}{section*.76}
+\contentsline {section}{\numberline {9.6}Miscellaneous Actions}{273}{section.9.6}
+\contentsline {subsubsection}{Take 5-Foot Step}{273}{section*.77}
+\contentsline {subsubsection}{Use Feat}{273}{section*.78}
+\contentsline {subsubsection}{Use Skill}{273}{section*.79}
+\contentsline {section}{\numberline {9.7}Injury and Death}{273}{section.9.7}
+\contentsline {section}{\numberline {9.8}Loss of Hitpoints}{274}{section.9.8}
+\contentsline {section}{\numberline {9.9}Disabled (0 Hit Points)}{274}{section.9.9}
+\contentsline {section}{\numberline {9.10}Dying (\textendash 1 to \textendash 9 Hit Points)}{274}{section.9.10}
+\contentsline {section}{\numberline {9.11}Dead (\textendash 10 Hit Points or Lower)}{274}{section.9.11}
+\contentsline {section}{\numberline {9.12}Stable Characters and Recovery}{274}{section.9.12}
+\contentsline {section}{\numberline {9.13}Healing}{275}{section.9.13}
+\contentsline {section}{\numberline {9.14}Temporary Hit Points}{275}{section.9.14}
+\contentsline {section}{\numberline {9.15}Nonlethal Damage}{275}{section.9.15}
+\contentsline {chapter}{\numberline {10}Advanced Combat}{277}{chapter.10}
+\contentsline {section}{\numberline {10.1}Movement, Position, and Distance}{277}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Tactical Movement}{277}{subsection.10.1.1}
+\contentsline {subsubsection}{How Far Can Your Character Move?}{277}{section*.80}
+\contentsline {subsubsection}{Measuring Distance}{277}{section*.81}
+\contentsline {subsubsection}{Moving through a Square}{278}{section*.82}
+\contentsline {subsubsection}{Terrain and Obstacles}{278}{section*.83}
+\contentsline {subsubsection}{Special Movement Rules}{278}{section*.84}
+\contentsline {subsection}{\numberline {10.1.2}Big and Little Creatures in Combat}{279}{subsection.10.1.2}
+\contentsline {section}{\numberline {10.2}Combat Modifiers}{280}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Favorable and Unfavorable Conditions}{280}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Cover}{280}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Concealment}{281}{subsection.10.2.3}
+\contentsline {subsection}{\numberline {10.2.4}Flanking}{281}{subsection.10.2.4}
+\contentsline {subsection}{\numberline {10.2.5}Helpless Defenders}{281}{subsection.10.2.5}
+\contentsline {subsection}{\numberline {10.2.6}Attack Options}{282}{subsection.10.2.6}
+\contentsline {section}{\numberline {10.3}Special Combat Actions}{282}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Combat Maneuvers}{282}{subsection.10.3.1}
+\contentsline {subsubsection}{Turning Checks}{287}{section*.85}
+\contentsline {subsubsection}{Evil Clerics and Undead}{288}{section*.86}
+\contentsline {subsubsection}{Neutral Clerics and Undead}{288}{section*.87}
+\contentsline {subsubsection}{Paladins and Undead}{288}{section*.88}
+\contentsline {subsubsection}{Turning Other Creatures}{289}{section*.89}
+\contentsline {subsection}{\numberline {10.3.2}Special Initiative Actions}{289}{subsection.10.3.2}
+\contentsline {section}{\numberline {10.4}The Mass Combat Mini-game}{290}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}The Basics}{290}{subsection.10.4.1}
+\contentsline {subsection}{\numberline {10.4.2}Battles}{290}{subsection.10.4.2}
+\contentsline {subsubsection}{Commander}{290}{section*.90}
+\contentsline {subsubsection}{Battle Turns}{291}{section*.91}
+\contentsline {subsubsection}{Tactics}{291}{section*.92}
+\contentsline {subsubsection}{Charge}{291}{section*.93}
+\contentsline {subsubsection}{Rush}{291}{section*.94}
+\contentsline {subsubsection}{Fortify/Set}{291}{section*.95}
+\contentsline {subsubsection}{Movement}{291}{section*.96}
+\contentsline {subsection}{\numberline {10.4.3}Player Characters in the Mass combat Mini-Game}{292}{subsection.10.4.3}
+\contentsline {subsubsection}{Attacking a Unit in Combat}{292}{section*.97}
+\contentsline {subsubsection}{Attacking a Unit with Spells or Effects}{292}{section*.98}
+\contentsline {subsubsection}{Building a Unit}{292}{section*.99}
+\contentsline {subsubsection}{Levy/Time}{293}{section*.100}
+\contentsline {subsubsection}{Special Qualities}{293}{section*.101}
+\contentsline {section}{\numberline {10.5}A World At War}{293}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}The Stone Ledger: The Dwarves Remember}{293}{subsection.10.5.1}
+\contentsline {subsubsection}{Campaign Seed: Secrets Revealed}{294}{section*.102}
+\contentsline {subsubsection}{Campaign Seed: The Blank Spot}{294}{section*.103}
+\contentsline {subsection}{\numberline {10.5.2}Gnolls: Too Lazy to Win}{294}{subsection.10.5.2}
+\contentsline {subsection}{\numberline {10.5.3}Vistas of the Giants: Big and Important Stuff}{294}{subsection.10.5.3}
+\contentsline {subsubsection}{Campaign Seed: The Land Above}{295}{section*.104}
+\contentsline {subsubsection}{Campaign Seed: Vacillating Terrors}{295}{section*.105}
+\contentsline {subsection}{\numberline {10.5.4}The Goblin Empire: Silent Loyalty, Silent Dissent}{295}{subsection.10.5.4}
+\contentsline {subsection}{\numberline {10.5.5}Elves: Servants of the High Wizards}{296}{subsection.10.5.5}
+\contentsline {subsection}{\numberline {10.5.6}Warrens of the Gnomes: Guerilla Illusionists}{296}{subsection.10.5.6}
+\contentsline {subsection}{\numberline {10.5.7}Orcs: The Endless War}{297}{subsection.10.5.7}
+\contentsline {subsection}{\numberline {10.5.8}Borderlands of the Sahuagin: Sore Winners}{297}{subsection.10.5.8}
+\contentsline {subsubsection}{Campaign Seed: Free Your World}{298}{section*.106}
+\contentsline {subsubsection}{Campaign Seed: The Price of Hubris}{298}{section*.107}
+\contentsline {section}{\numberline {10.6}After the War}{299}{section.10.6}
+\contentsline {subsection}{\numberline {10.6.1}Triumph of the Halflings: Reconstructing the Shire}{299}{subsection.10.6.1}
+\contentsline {subsection}{\numberline {10.6.2}Defeat of the Halflings: They Came and Took Our Land}{299}{subsection.10.6.2}
+\contentsline {subsection}{\numberline {10.6.3}Triumph of the Dwarves: Breaking the Cycles}{299}{subsection.10.6.3}
+\contentsline {subsection}{\numberline {10.6.4}Defeat of the Dwarves: The Tunnels Forgotten}{300}{subsection.10.6.4}
+\contentsline {subsection}{\numberline {10.6.5}Triumph of the Goblins: What's Yours is Mine}{300}{subsection.10.6.5}
+\contentsline {subsection}{\numberline {10.6.6}Defeat of the Goblins: A Land of Banditry}{300}{subsection.10.6.6}
+\contentsline {subsection}{\numberline {10.6.7}Triumph of the Necromancers: Endless Night}{300}{subsection.10.6.7}
+\contentsline {subsection}{\numberline {10.6.8}Defeat of the Necromancers: Resource Rush!}{301}{subsection.10.6.8}
+\contentsline {section}{\numberline {10.7}Logistics and Dragons}{301}{section.10.7}
+\contentsline {subsection}{\numberline {10.7.1}The Demographics of D\&D}{301}{subsection.10.7.1}
+\contentsline {subsection}{\numberline {10.7.2}Leaders of Men}{302}{subsection.10.7.2}
+\contentsline {subsection}{\numberline {10.7.3}Administering your People}{302}{subsection.10.7.3}
+\contentsline {subsection}{\numberline {10.7.4}Conquered People}{302}{subsection.10.7.4}
+\contentsline {subsection}{\numberline {10.7.5}Why We Fight}{303}{subsection.10.7.5}
+\contentsline {chapter}{\numberline {11}Conditions \& Special Abilities}{305}{chapter.11}
+\contentsline {section}{\numberline {11.1}Conditions}{305}{section.11.1}
+\contentsline {section}{\numberline {11.2}Special Abilities}{308}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Ability Score Loss}{308}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Antimagic}{309}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Blindsight and Blindsense}{309}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Breath Weapon}{309}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Charm and Compulsion}{310}{subsection.11.2.5}
+\contentsline {subsection}{\numberline {11.2.6}Cold Immunity}{310}{subsection.11.2.6}
+\contentsline {subsection}{\numberline {11.2.7}Damage Reduction}{310}{subsection.11.2.7}
+\contentsline {subsection}{\numberline {11.2.8}Darkvision}{311}{subsection.11.2.8}
+\contentsline {subsection}{\numberline {11.2.9}Death Attacks}{311}{subsection.11.2.9}
+\contentsline {subsection}{\numberline {11.2.10}Disease}{311}{subsection.11.2.10}
+\contentsline {subsubsection}{Healing a Disease}{312}{section*.108}
+\contentsline {subsection}{\numberline {11.2.11}Energy Drain and Negative Levels}{312}{subsection.11.2.11}
+\contentsline {subsection}{\numberline {11.2.12}Etherealness}{313}{subsection.11.2.12}
+\contentsline {subsection}{\numberline {11.2.13}Evasion and Improved Evasion}{313}{subsection.11.2.13}
+\contentsline {subsection}{\numberline {11.2.14}Fast Healing}{313}{subsection.11.2.14}
+\contentsline {subsection}{\numberline {11.2.15}Fear}{314}{subsection.11.2.15}
+\contentsline {subsection}{\numberline {11.2.16}Fire Immunity}{314}{subsection.11.2.16}
+\contentsline {subsection}{\numberline {11.2.17}Gaseous Form}{314}{subsection.11.2.17}
+\contentsline {subsection}{\numberline {11.2.18}Gaze Attacks}{314}{subsection.11.2.18}
+\contentsline {subsection}{\numberline {11.2.19}Incorporeality}{315}{subsection.11.2.19}
+\contentsline {subsection}{\numberline {11.2.20}Invisibility}{316}{subsection.11.2.20}
+\contentsline {subsection}{\numberline {11.2.21}Level Loss}{317}{subsection.11.2.21}
+\contentsline {subsection}{\numberline {11.2.22}Low\textendash Light Vision}{317}{subsection.11.2.22}
+\contentsline {subsection}{\numberline {11.2.23}Paralysis}{317}{subsection.11.2.23}
+\contentsline {subsection}{\numberline {11.2.24}Poison}{317}{subsection.11.2.24}
+\contentsline {subsubsection}{Perils of Using Poison}{318}{section*.109}
+\contentsline {subsubsection}{Poison Immunities}{318}{section*.110}
+\contentsline {subsection}{\numberline {11.2.25}Polymorph}{318}{subsection.11.2.25}
+\contentsline {subsection}{\numberline {11.2.26}Psionics}{318}{subsection.11.2.26}
+\contentsline {subsection}{\numberline {11.2.27}Rays}{320}{subsection.11.2.27}
+\contentsline {subsection}{\numberline {11.2.28}Regeneration}{320}{subsection.11.2.28}
+\contentsline {subsection}{\numberline {11.2.29}Resistance to Energy}{320}{subsection.11.2.29}
+\contentsline {subsection}{\numberline {11.2.30}Scent}{320}{subsection.11.2.30}
+\contentsline {subsection}{\numberline {11.2.31}Spell Resistance}{321}{subsection.11.2.31}
+\contentsline {subsubsection}{When Spell Resistance Applies}{321}{section*.111}
+\contentsline {subsubsection}{Successful Spell Resistance}{322}{section*.112}
+\contentsline {subsection}{\numberline {11.2.32}Tremorsense}{322}{subsection.11.2.32}
+\contentsline {subsection}{\numberline {11.2.33}Turn Resistance}{322}{subsection.11.2.33}
+\contentsline {chapter}{\numberline {12}Magic}{323}{chapter.12}
+\contentsline {section}{\numberline {12.1}The Maginomicon}{323}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Easter Egg Class Features: Artifact Swords and Powergloves}{323}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Your Money is No Good Here}{323}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}It's Not Stupid, It's Advanced!}{323}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.4}Material Components: A Joke Gone Way Out of Hand}{324}{subsection.12.1.4}
+\contentsline {subsection}{\numberline {12.1.5}Some Spells Don't Work}{324}{subsection.12.1.5}
+\contentsline {subsubsection}{Polymorph Version 1: Character Replacement}{324}{section*.113}
+\contentsline {subsubsection}{Polymorph Version 2: Fixed Forms}{325}{section*.114}
+\contentsline {subsection}{\numberline {12.1.6}Some Effects Don't work}{328}{subsection.12.1.6}
+\contentsline {subsubsection}{Stacking Spell Resistance}{328}{section*.115}
+\contentsline {subsubsection}{Hiding in 3.5 D\&D is Dumb}{328}{section*.116}
+\contentsline {subsubsection}{Clerics and Druids get Broken with Supplements}{328}{section*.117}
+\contentsline {section}{\numberline {12.2}The Necronomicon: Necromatic Spells}{329}{section.12.2}
+\contentsline {section}{\numberline {12.3}Fiendish Taint}{332}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Game Effects}{332}{subsection.12.3.1}
+\contentsline {section}{\numberline {12.4}Fiendish Spheres}{333}{section.12.4}
+\contentsline {section}{\numberline {12.5}Other Spheres}{336}{section.12.5}
+\contentsline {section}{\numberline {12.6}Optional Rules for Fiends}{341}{section.12.6}
+\contentsline {subsection}{\numberline {12.6.1}No Wishing for More Wishes!}{341}{subsection.12.6.1}
+\contentsline {subsection}{\numberline {12.6.2}Damage Reduction and Special Materials}{342}{subsection.12.6.2}
+\contentsline {subsection}{\numberline {12.6.3}Putting the Prime Back in Prime Material Plane (Alternate Prime Material Plane Rules)}{343}{subsection.12.6.3}
+\contentsline {subsubsection}{The Prime is Better Than Cancun}{343}{section*.118}
+\contentsline {subsubsection}{You Can Get Room Service}{343}{section*.119}
+\contentsline {subsubsection}{Better Service for VIPs}{343}{section*.120}
+\contentsline {subsection}{\numberline {12.6.4}Practical Demonology: Additional Rules for Summoning}{343}{subsection.12.6.4}
+\contentsline {subsubsection}{The Deal}{343}{section*.121}
+\contentsline {subsubsection}{Part 1: Differences between Summoning and Calling}{344}{section*.122}
+\contentsline {subsubsection}{Part 2: Choosing a Pawn}{344}{section*.123}
+\contentsline {subsubsection}{Part 3: Services!}{345}{section*.124}
+\contentsline {subsubsection}{Part 4: Closing the Deal}{345}{section*.125}
+\contentsline {subsubsection}{Part 5: The Business of Serving:}{346}{section*.126}
+\contentsline {subsubsection}{Part 6: Appendix: True Names and Use-names}{346}{section*.127}
+\contentsline {subsection}{\numberline {12.6.5}Weapon Proficiencies? You've got to be kidding me!}{346}{subsection.12.6.5}
+\contentsline {chapter}{\numberline {13}Adventuring}{348}{chapter.13}
+\contentsline {section}{\numberline {13.1}The Socialomicon}{348}{section.13.1}
+\contentsline {subsection}{\numberline {13.1.1}Living With Yourself After a Raid}{348}{subsection.13.1.1}
+\contentsline {subsection}{\numberline {13.1.2}Razing Hell: When Genocide is the Answer}{348}{subsection.13.1.2}
+\contentsline {subsection}{\numberline {13.1.3}The Hands of the Divine}{349}{subsection.13.1.3}
+\contentsline {subsection}{\numberline {13.1.4}Temporal Authority in D\&D}{349}{subsection.13.1.4}
+\contentsline {subsubsection}{The Basis for Hereditary Rule in D\&D}{349}{section*.128}
+\contentsline {subsubsection}{The Place of Aristocrats}{350}{section*.129}
+\contentsline {section}{\numberline {13.2}The Thermodynaminomicon}{350}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}Those whacky Mushrooms}{350}{subsection.13.2.1}
+\contentsline {subsection}{\numberline {13.2.2}Portals}{351}{subsection.13.2.2}
+\contentsline {subsection}{\numberline {13.2.3}Magic Deposits}{351}{subsection.13.2.3}
+\contentsline {subsection}{\numberline {13.2.4}Subduction}{351}{subsection.13.2.4}
+\contentsline {section}{\numberline {13.3}The Bionomicon}{351}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}The Chicken and the Egg}{351}{subsection.13.3.1}
+\contentsline {subsection}{\numberline {13.3.2}Small Isolated Populations are Bad}{352}{subsection.13.3.2}
+\contentsline {subsection}{\numberline {13.3.3}We Eat What We Like}{352}{subsection.13.3.3}
+\contentsline {section}{\numberline {13.4}Empirinomicon}{352}{section.13.4}
+\contentsline {subsection}{\numberline {13.4.1}The Myconids: Apathy Writ Large}{352}{subsection.13.4.1}
+\contentsline {subsection}{\numberline {13.4.2}The Aboleth: Inheritance of the Memory Fish}{353}{subsection.13.4.2}
+\contentsline {subsection}{\numberline {13.4.3}The Illithid: Slaves of the Elder Brain}{353}{subsection.13.4.3}
+\contentsline {subsection}{\numberline {13.4.4}The Drow: A Higher Technology Setting}{354}{subsection.13.4.4}
+\contentsline {subsection}{\numberline {13.4.5}The Eye Tyrants: Lingering Hatred}{355}{subsection.13.4.5}
+\contentsline {subsection}{\numberline {13.4.6}The Kuo-Toans: Opportunities Slip By}{355}{subsection.13.4.6}
+\contentsline {subsection}{\numberline {13.4.7}The Troglodytes: Persecution Complex}{356}{subsection.13.4.7}
+\contentsline {section}{\numberline {13.5}The Lexiconinomicon}{356}{section.13.5}
+\contentsline {subsection}{\numberline {13.5.1}Language in D\&D}{356}{subsection.13.5.1}
+\contentsline {subsubsection}{Regional Languages}{356}{section*.130}
+\contentsline {subsubsection}{Pidgins: Common and Undercommon}{357}{section*.131}
+\contentsline {subsubsection}{Language System I -- High Fantasy}{357}{section*.132}
+\contentsline {subsubsection}{Language System II -- Remotely Realistic}{357}{section*.133}
+\contentsline {subsection}{\numberline {13.5.2}Spellbooks}{358}{subsection.13.5.2}
+\contentsline {subsubsection}{Using Other Peoples' Spellbook}{358}{section*.134}
+\contentsline {subsubsection}{Getting by Without a Spellbook}{358}{section*.135}
+\contentsline {subsubsection}{Arcane Magical Writings}{358}{section*.136}
+\contentsline {section}{\numberline {13.6}High Adventure in the Lower Planes}{359}{section.13.6}
+\contentsline {subsection}{\numberline {13.6.1}High Adventure in\dots Acheron!}{359}{subsection.13.6.1}
+\contentsline {subsubsection}{Campaign Seed: The Tunnel to Pandemonium}{359}{section*.137}
+\contentsline {subsubsection}{Campaign Seed: You're in the Army Now}{359}{section*.138}
+\contentsline {subsubsection}{Ten Low Level Adventures in Acheron}{359}{section*.139}
+\contentsline {subsubsection}{Ten Mid Level Adventures in Acheron}{360}{section*.140}
+\contentsline {subsubsection}{Ten High Level Adventures in Acheron}{360}{section*.141}
+\contentsline {subsection}{\numberline {13.6.2}High Adventure in\dots Pandemonium!}{361}{subsection.13.6.2}
+\contentsline {subsubsection}{Campaign Seed: Life in the Big City}{361}{section*.142}
+\contentsline {subsubsection}{Campaign Seed: The Largest Dungeon}{361}{section*.143}
+\contentsline {subsubsection}{Ten Low Level Adventures in Pandemonium}{361}{section*.144}
+\contentsline {subsubsection}{Ten Mid Level Adventures in Pandemonium}{362}{section*.145}
+\contentsline {subsubsection}{Ten High Level Adventures in Pandemonium}{362}{section*.146}
+\contentsline {subsection}{\numberline {13.6.3}High Adventure in\dots Carceri!}{362}{subsection.13.6.3}
+\contentsline {subsubsection}{Campaign Seed: A Ring of Keys}{362}{section*.147}
+\contentsline {subsubsection}{Campaign Seed: Escape from Tartarus}{363}{section*.148}
+\contentsline {subsubsection}{Ten Low Level Adventures in Carceri}{363}{section*.149}
+\contentsline {subsubsection}{Ten Mid Level Adventures in Carceri}{363}{section*.150}
+\contentsline {subsubsection}{Ten High Level Adventures in Carceri}{363}{section*.151}
+\contentsline {subsection}{\numberline {13.6.4}High Adventure in\dots Hell!}{364}{subsection.13.6.4}
+\contentsline {subsubsection}{Campaign Seed: A Kafkaesque Nightmare}{364}{section*.152}
+\contentsline {subsubsection}{Campaign Seed: Law of the West}{364}{section*.153}
+\contentsline {subsubsection}{Ten Low Level Adventures in Hell}{364}{section*.154}
+\contentsline {subsubsection}{Ten Mid Level Adventures in Hell}{365}{section*.155}
+\contentsline {subsubsection}{Ten High Level Adventures in Hell}{365}{section*.156}
+\contentsline {subsection}{\numberline {13.6.5}High Adventure in\dots The Abyss!}{365}{subsection.13.6.5}
+\contentsline {subsubsection}{Campaign Seed: We're the Exotic Products Trading Company (Abyssal Branch!)}{366}{section*.157}
+\contentsline {subsubsection}{Campaign Seed: Pirates of the River Styx!}{366}{section*.158}
+\contentsline {subsubsection}{Ten Low Level Adventures in The Abyss}{366}{section*.159}
+\contentsline {subsubsection}{Ten Mid Level Adventures in The Abyss}{366}{section*.160}
+\contentsline {subsubsection}{Ten High Level Adventures in The Abyss}{367}{section*.161}
+\contentsline {subsection}{\numberline {13.6.6}High Adventure in\dots Gehenna!}{367}{subsection.13.6.6}
+\contentsline {subsubsection}{Campaign Seed: The Yugoloths Want You!}{368}{section*.162}
+\contentsline {subsubsection}{Campaign Seed: The Grand Game in the Crawling City}{368}{section*.163}
+\contentsline {subsubsection}{Ten Low Level Adventures in Gehenna}{368}{section*.164}
+\contentsline {subsubsection}{Ten Mid Level Adventures in Gehenna}{369}{section*.165}
+\contentsline {subsubsection}{Ten High Level Adventures in Gehenna}{369}{section*.166}
+\contentsline {subsection}{\numberline {13.6.7}High Adventure in\dots Hades!}{370}{subsection.13.6.7}
+\contentsline {subsubsection}{Campaign Seed: The End of Oasis}{370}{section*.167}
+\contentsline {subsubsection}{Campaign Seed: A World At War}{370}{section*.168}
+\contentsline {subsubsection}{Ten Low Level Adventures in Hades}{370}{section*.169}
+\contentsline {subsubsection}{Ten Mid Level Adventures in Hades}{371}{section*.170}
+\contentsline {subsubsection}{Ten High Level Adventures in Hades}{371}{section*.171}
+\contentsline {section}{\numberline {13.7}High Adventure in the Elemental Planes}{371}{section.13.7}
+\contentsline {subsection}{\numberline {13.7.1}High Adventure in\dots The Plane of Fire!}{371}{subsection.13.7.1}
+\contentsline {subsubsection}{Campaign Seed: Janissaries of the Fire Sultan:}{372}{section*.172}
+\contentsline {subsubsection}{Ten Low Level Adentures in The Plane of Fire:}{373}{section*.173}
+\contentsline {subsubsection}{Ten Mid Level Adentures in The Plane of Fire:}{373}{section*.174}
+\contentsline {subsubsection}{Ten High Level Adentures in The Plane of Fire:}{373}{section*.175}
+\contentsline {subsection}{\numberline {13.7.2}High Adventure in\dots The Plane of Water!}{374}{subsection.13.7.2}
+\contentsline {subsubsection}{Campaign Seed: Heralds of the Empire:}{374}{section*.176}
+\contentsline {subsubsection}{Campaign Seed: Tidal Merchants:}{375}{section*.177}
+\contentsline {subsubsection}{Ten Low Level Adventures in the Plane of Water:}{375}{section*.178}
+\contentsline {subsubsection}{Ten Mid Level Adventures in the Plane of Water:}{375}{section*.179}
+\contentsline {subsubsection}{Ten High Level Adventures in the Plane of Water:}{375}{section*.180}
+\contentsline {subsection}{\numberline {13.7.3}High Adventure in\dots The Negative Energy Plane!}{376}{subsection.13.7.3}
+\contentsline {subsubsection}{Campaign Seed: Death World:}{377}{section*.181}
+\contentsline {subsubsection}{Campaign Seed: Welcome to the Void Heart:}{377}{section*.182}
+\contentsline {subsubsection}{Ten Low-Level Adventures in The Negative Energy Plane}{377}{section*.183}
+\contentsline {subsubsection}{Ten Mid-Level Adventures in The Negative Energy Plane}{378}{section*.184}
+\contentsline {subsubsection}{Ten High-Level Adventures in The Negative Energy Plane}{378}{section*.185}
+\contentsline {section}{\numberline {13.8}To Rule in Hell\dots }{378}{section.13.8}
+\contentsline {subsection}{\numberline {13.8.1}Ascended to Godhood}{378}{subsection.13.8.1}
+\contentsline {subsubsection}{Slaying the Gods}{379}{section*.186}
+\contentsline {subsection}{\numberline {13.8.2}President of the Corporation}{379}{subsection.13.8.2}
+\contentsline {subsection}{\numberline {13.8.3}Powerful Adventurers}{379}{subsection.13.8.3}
+\contentsline {section}{\numberline {13.9}Rulership of the Lower Planes}{379}{section.13.9}
+\contentsline {subsection}{\numberline {13.9.1}Location, Location, Location}{380}{subsection.13.9.1}
+\contentsline {subsubsection}{Finality}{380}{section*.187}
+\contentsline {subsubsection}{Soul Veins}{380}{section*.188}
+\contentsline {subsubsection}{Portals}{381}{section*.189}
+\contentsline {subsubsection}{Planar Oases}{381}{section*.190}
+\contentsline {subsection}{\numberline {13.9.2}Wondrous Architecture of the Lower Planes}{382}{subsection.13.9.2}
+\contentsline {subsubsection}{Necromantic City}{382}{section*.191}
+\contentsline {subsubsection}{Serpentine Labyrinth}{382}{section*.192}
+\contentsline {subsubsection}{Redstone City}{382}{section*.193}
+\contentsline {subsubsection}{Spired}{383}{section*.194}
+\contentsline {subsubsection}{Basalt}{383}{section*.195}
+\contentsline {subsubsection}{Plague Town}{383}{section*.196}
+\contentsline {subsubsection}{Forgotten}{383}{section*.197}
+\contentsline {subsubsection}{Forsaken}{383}{section*.198}
+\contentsline {subsubsection}{Rune-built}{383}{section*.199}
+\contentsline {subsubsection}{Hungry}{384}{section*.200}
+\contentsline {subsubsection}{Magic Dead}{384}{section*.201}
+\contentsline {subsubsection}{Wicked}{384}{section*.202}
+\contentsline {subsubsection}{Infernal Fortress}{384}{section*.203}
+\contentsline {subsection}{\numberline {13.9.3}Business as Usual}{384}{subsection.13.9.3}
+\contentsline {subsubsection}{Orchards of Larvae}{384}{section*.204}
+\contentsline {subsubsection}{Pain Stills}{385}{section*.205}
+\contentsline {subsubsection}{Zombie Factories}{385}{section*.206}
+\contentsline {subsubsection}{Fossil Storage}{385}{section*.207}
+\contentsline {subsubsection}{Arbitrage and Skullduggery}{386}{section*.208}
+\contentsline {section}{\numberline {13.10}The Constructanomicon}{386}{section.13.10}
+\contentsline {subsection}{\numberline {13.10.1}Dungeons: By the Gods, Why?}{386}{subsection.13.10.1}
+\contentsline {subsubsection}{Dungeons: building dungeons for fun, profit, and defense}{387}{section*.209}
+\contentsline {subsubsection}{Chokepoints Are Your Friend}{387}{section*.210}
+\contentsline {subsubsection}{The Three ``M''s: Mobility, Manpower, and Morale}{387}{section*.211}
+\contentsline {subsubsection}{Form Follows Function}{388}{section*.212}
+\contentsline {subsubsection}{Castles and Manors: Taking the Dungeon out of the Dungeon}{388}{section*.213}
+\contentsline {subsubsection}{Unimportance}{388}{section*.214}
+\contentsline {subsubsection}{Magically Foiling Diviners}{388}{section*.215}
+\contentsline {subsubsection}{The Public Square: When Divination Doesn't Matter}{389}{section*.216}
+\contentsline {subsection}{\numberline {13.10.2}Traps}{389}{subsection.13.10.2}
+\contentsline {subsubsection}{Designing Traps}{389}{section*.217}
+\contentsline {subsubsection}{Placing Traps}{389}{section*.218}
+\contentsline {subsubsection}{Organizational Traps}{389}{section*.219}
+\contentsline {subsubsection}{Lethal Traps}{390}{section*.220}
+\contentsline {subsubsection}{Living Traps}{390}{section*.221}
+\contentsline {subsubsection}{Beneficial Traps}{390}{section*.222}
+\contentsline {section}{\numberline {13.11}Dungeons of Note}{391}{section.13.11}
+\contentsline {subsection}{\numberline {13.11.1}The Hall of Records}{391}{subsection.13.11.1}
+\contentsline {subsection}{\numberline {13.11.2}The Tomb of Iuchiban}{391}{subsection.13.11.2}
+\contentsline {subsection}{\numberline {13.11.3}The Garden of the Gretel the Snowshaper}{391}{subsection.13.11.3}
+\contentsline {subsection}{\numberline {13.11.4}The Closed Shafts}{392}{subsection.13.11.4}
+\contentsline {chapter}{\numberline {14}Monsters}{393}{chapter.14}
+\contentsline {section}{\numberline {14.1}New Rules for Undead}{393}{section.14.1}
+\contentsline {subsection}{\numberline {14.1.1}Subtypes}{393}{subsection.14.1.1}
+\contentsline {subsubsection}{Dark Minded (subtype)}{393}{section*.223}
+\contentsline {subsubsection}{Unliving (subtype)}{394}{section*.224}
+\contentsline {subsection}{\numberline {14.1.2}Undead and Aging}{394}{subsection.14.1.2}
+\contentsline {subsection}{\numberline {14.1.3}Becoming Undead}{394}{subsection.14.1.3}
+\contentsline {subsubsection}{Revenants}{394}{section*.225}
+\contentsline {subsubsection}{Vampires}{394}{section*.226}
+\contentsline {subsubsection}{Ghouls}{395}{section*.227}
+\contentsline {subsubsection}{Swordwraith}{395}{section*.228}
+\contentsline {section}{\numberline {14.2}Locations of Necromantic Importance}{396}{section.14.2}
+\contentsline {subsection}{\numberline {14.2.1}Necromantic Intelligence}{396}{subsection.14.2.1}
+\contentsline {subsubsection}{Aspected Necromantic Intelligence}{396}{section*.229}
+\contentsline {subsubsection}{Cleansing the Focus}{396}{section*.230}
+\contentsline {subsection}{\numberline {14.2.2}Tombs}{396}{subsection.14.2.2}
+\contentsline {subsection}{\numberline {14.2.3}Forsaken Graveyards}{397}{subsection.14.2.3}
+\contentsline {subsection}{\numberline {14.2.4}Pools of Deep Shadow}{397}{subsection.14.2.4}
+\contentsline {subsection}{\numberline {14.2.5}Finality}{398}{subsection.14.2.5}
+\contentsline {section}{\numberline {14.3}Undead Monsters}{398}{section.14.3}
+\contentsline {subsection}{\numberline {14.3.1}Artificial Intelligence}{398}{subsection.14.3.1}
+\contentsline {subsubsection}{Crawling Darkness}{398}{section*.231}
+\contentsline {subsubsection}{Playing with Fire}{399}{section*.232}
+\contentsline {subsubsection}{Previously Published Monsters}{399}{section*.233}
+\contentsline {chapter}{\numberline {A}The Book of Gears}{403}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introduction}{403}{section.A.1}
+\contentsline {section}{\numberline {A.2}Character Advancement: Power and Wealth}{403}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}XP: Beer Me}{404}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Reach for the Stars: Character Advancement}{404}{subsection.A.2.2}
+\contentsline {subsubsection}{Wealth By Level Has Got to Go.}{405}{section*.234}
+\contentsline {subsubsection}{Encounter XP Has Got to Go.}{405}{section*.235}
+\contentsline {subsection}{\numberline {A.2.3}Strategies of Advancement.}{405}{subsection.A.2.3}
+\contentsline {subsubsection}{Steady State 1: Serial Heroism}{405}{section*.236}
+\contentsline {subsubsection}{Steady State 2: Trophy Hunting}{406}{section*.237}
+\contentsline {subsubsection}{Rapid Advancement: Level a Session}{406}{section*.238}
+\contentsline {subsubsection}{Attenuating Advancement: Diminished Returns.}{407}{section*.239}
+\contentsline {section}{\numberline {A.3}Crafting}{407}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Why a Revision to the Crafting Rules?}{407}{subsection.A.3.1}
+\contentsline {section}{\numberline {A.4}Dangerous Locations: When the Floor has a CR}{408}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Location CRs: Quality and Quantity}{409}{subsection.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}WWMD? Disabling Traps.}{409}{subsection.A.4.2}
+\contentsline {subsection}{\numberline {A.4.3}I \textit {live} here: Setting off Traps}{410}{subsection.A.4.3}
+\contentsline {subsection}{\numberline {A.4.4}Facing the Architect: The CR of Locations}{411}{subsection.A.4.4}
+\contentsline {subsubsection}{Structuring Encounters in a Day}{411}{section*.240}
+\contentsline {section}{\numberline {A.5}Playing the Game}{412}{section.A.5}
+\contentsline {subsection}{\numberline {A.5.1}What's that Noise?! Playing at Low Level}{412}{subsection.A.5.1}
+\contentsline {subsection}{\numberline {A.5.2}The Rigors of Command: Playing at High Levels}{412}{subsection.A.5.2}
+\contentsline {section}{\numberline {A.6}Magic}{413}{section.A.6}
+\contentsline {subsection}{\numberline {A.6.1}Illusion Magic: I Don't Believe This Crap}{413}{subsection.A.6.1}
+\contentsline {section}{\numberline {A.7}Magic Items}{413}{section.A.7}
+\contentsline {subsection}{\numberline {A.7.1}The Core of Magic Item Design: Don't Do It Like Diablo}{414}{subsection.A.7.1}
+\contentsline {subsection}{\numberline {A.7.2}Magic Items with Class(ifications)}{414}{subsection.A.7.2}
+\contentsline {subsubsection}{Activation vs. Constant}{414}{section*.241}
+\contentsline {subsubsection}{Ownership is a Privilege, Not a Right}{415}{section*.242}
+\contentsline {subsubsection}{Wanna Take Some Body Slots?}{416}{section*.243}
+\contentsline {subsection}{\numberline {A.7.3}Magic Item Creation}{416}{subsection.A.7.3}
+\contentsline {subsubsection}{Building a Better Magic Item: the Minor Magic Item}{416}{section*.244}
+\contentsline {subsubsection}{Building a Better Magic Item: the Magic Weapon}{417}{section*.245}
+\contentsline {subsubsection}{Magic Ammunition}{419}{section*.246}
+\contentsline {subsubsection}{Magic Armor, Clothing, and Accessories}{419}{section*.247}
+\contentsline {subsubsection}{Magic Rings}{420}{section*.248}
+\contentsline {subsubsection}{Constant Miscellaneous Magic Objects}{420}{section*.249}
+\contentsline {subsubsection}{Building a Better Magic Item: Intelligent Items}{420}{section*.250}
+\contentsline {subsection}{\numberline {A.7.4}The Appearance of Magic Items}{421}{subsection.A.7.4}
+\contentsline {subsubsection}{Iconic Forms}{421}{section*.251}
+\contentsline {subsection}{\numberline {A.7.5}Disposing of Magic Items}{421}{subsection.A.7.5}
+\contentsline {section}{\numberline {A.8}Treasure and the World}{421}{section.A.8}
+\contentsline {subsection}{\numberline {A.8.1}Finding Treasure}{421}{subsection.A.8.1}
+\contentsline {subsubsection}{Books}{422}{section*.252}
+\contentsline {subsection}{\numberline {A.8.2}The Three (or so) Economies}{424}{subsection.A.8.2}
+\contentsline {subsubsection}{The Turnip Economy}{424}{section*.253}
+\contentsline {subsubsection}{The Gold Economy}{426}{section*.254}
+\contentsline {subsubsection}{The Wish Economy}{427}{section*.255}
+\contentsline {subsubsection}{Tamerlain's Economy: The Murderocracy}{427}{section*.256}
+\contentsline {subsubsection}{Beelzebub's Economy: The Trade in Favors}{428}{section*.257}
+\contentsline {section}{\numberline {A.9}Created Monsters: Forged and Bred}{428}{section.A.9}
+\contentsline {subsection}{\numberline {A.9.1}Vermin: Remnants of a Fallen Empire}{428}{subsection.A.9.1}
+\contentsline {subsubsection}{Who made the Vermin?}{429}{section*.258}
+\contentsline {subsubsection}{Vermin Alchemy}{429}{section*.259}
+\contentsline {subsection}{\numberline {A.9.2}Constructs: Durability at a Price}{430}{subsection.A.9.2}
+\contentsline {subsubsection}{Controlling Constructs: Robot Armies and Statuary Servants}{430}{section*.260}
+\contentsline {subsection}{\numberline {A.9.3}Specific Constructs Under the New Rules}{431}{subsection.A.9.3}
+\contentsline {subsubsection}{Simulacrum}{431}{section*.261}
+\contentsline {subsection}{\numberline {A.9.4}Denizens of the Planes of Law}{432}{subsection.A.9.4}
+\contentsline {subsubsection}{Modrons: Singularity of Purpose}{432}{section*.262}
+\contentsline {chapter}{\numberline {B}Community Material}{433}{appendix.B}
+\contentsline {section}{\numberline {B.1}Skills}{433}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Problems with the Skill System}{433}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Some Skills Don't Work Like They Should}{434}{subsection.B.1.2}
+\contentsline {subsubsection}{Craft}{434}{section*.263}
+\contentsline {subsubsection}{Diplomacy}{434}{section*.264}
+\contentsline {subsubsection}{Disable Device}{435}{section*.265}
+\contentsline {subsubsection}{Escape Artist}{435}{section*.266}
+\contentsline {subsubsection}{Hide}{435}{section*.267}
+\contentsline {subsubsection}{Knowledge}{435}{section*.268}
+\contentsline {subsubsection}{Open Lock}{436}{section*.269}
+\contentsline {subsubsection}{Profession}{436}{section*.270}
+\contentsline {subsubsection}{Sleight of Hand}{436}{section*.271}
+\contentsline {subsubsection}{Spot}{437}{section*.272}
+\contentsline {subsubsection}{Survival}{437}{section*.273}
+\contentsline {subsubsection}{Tumble}{437}{section*.274}
+\contentsline {subsubsection}{Use Magic Device}{437}{section*.275}
+\contentsline {section}{\numberline {B.2}Credits}{437}{section.B.2}

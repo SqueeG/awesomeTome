@@ -23,10 +23,13 @@
 \usepackage{xparse}
 \usepackage{letltxmacro}
 \usepackage{makeidx} \makeindex
-\usepackage[table]{xcolor}
+\usepackage[table,dvipsnames]{xcolor}
 \definecolor{offyellow}{RGB}{255,255,128}
 \definecolor{links}{RGB}{200,0,50}
 \usepackage{placeins}
+
+\usepackage[xcolor]{mdframed}
+\usepackage{colortbl}
 
 %% Font
 \usepackage[T1]{fontenc}
@@ -246,6 +249,7 @@ foo
 \chapter{Classes}
 \section{Class Basics}
 foo
+\input{classtemplate}
 \section{Barbarian}
 foo
 \section{Bard}
