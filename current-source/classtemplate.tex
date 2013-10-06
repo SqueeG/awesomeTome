@@ -1,51 +1,68 @@
-%%%
+\newcommand{\originallineskip}{\baselineskip}
+
 \newmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}
 
 \newcommand{\ability}[2]{\smallskip \noindent \textbf{#1} #2}
 
-\newcommand{\verifya}{verify}
-\newcommand{\verifyb}{verify}
+\newcommand{\testempty}{\empty}
+\newcommand{\isempty}{\empty}
+
+\newcommand{\headercolor}{gray!50}
+\newcommand{\colorone}{gray!15}
+\newcommand{\colortwo}{white}
 
 \newcommand{\class}{placeholder}
-\newcommand{\classname}[1]{\section{#1} \renewcommand{\class}{#1} \renewcommand{\verifya}{noverify}}
+
+\newcommand{\ClassEntry}[1]{\newpage \section{#1} \renewcommand{\class}{#1} \renewcommand{\testempty}{a}}
 
 \newcommand{\quot}[1]{\noindent\emph{#1}\medskip}
 
+\newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
+\newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
+\newcommand{\spell}[1]{\emph{\MakeLowercase{#1}}}
+
 \newcommand{\desc}[1]{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
 \begin{abilitybox}#1 \medskip\end{abilitybox}}
 
 \newcommand{\hitdie}[1]{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
   \begin{abilitybox}\ability{Hit Die:}{#1}\end{abilitybox}}
+
+\newcommand{\alignment}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Alignment:}{#1}\end{abilitybox}}
+
+\newcommand{\races}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{races:}{#1}\end{abilitybox}}
+
+\newcommand{\startinggold}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Starting Gold:}{#1}\end{abilitybox}}
+  
+\newcommand{\startingage}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Starting Age:}{#1}\end{abilitybox}}  
   
 \newcommand{\skillpoints}[1]{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
   \begin{abilitybox}\ability{Skill Points per Level:}{#1 + Intelligence Bonus}\end{abilitybox}}
   
 \newcommand{\classskills}[1]{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=\colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=\colortwo]{abilitybox}\fi
   \begin{abilitybox}\ability{Class Skills:}{The {\class}'s class skills (and the key ability for each skill) are #1}\end{abilitybox}}
 
 \newcommand{\startclassfeatures}{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
-  \begin{abilitybox}\smallskip\noindent All of the following are class features of the \class ~class.\end{abilitybox}}
+ \smallskip\noindent All of the following are class features of the \class ~class.}
 
 \newcommand{\proficiencies}[1]{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
-\begin{abilitybox}\ability{Weapon and Armor Proficiencies:}{The \class is proficient with #1}\end{abilitybox}}
+ \ability{Weapon and Armor Proficiencies:}{The \class ~is proficient with #1}}
 
 \newcommand{\classfeature}[2]{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
-  \begin{abilitybox}\ability{#1}{#2}\end{abilitybox}}
+  \ability{#1}{#2}}
 
-\newcommand{\startclasstable}{
-  \ifx\verifya\verifyb\renewmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}\renewcommand{\verifya}{unverified}\else\renewcommand{\verifya}{verify}\renewmdenv[hidealllines=true,backgroundcolor=white]{abilitybox}\fi
-  \begin{abilitybox}}
-  
-\newcommand{\stopclasstable}{\end{abilitybox}}
-
-\classname{Example}
+\ClassEntry{Example}
 \vspace{-8pt}
 \quot{``There is no flavor quote for an example class.''}
 
@@ -60,16 +77,12 @@
 \begin{table}[htb]
 \centering
 \begin{small}
+\rowcolors{1}{gray!40}{gray!20}
 \begin{tabular}{lp{.75in}p{0.275in}p{0.275in}p{0.275in}l}
-\rowcolor{gray!50}
-Level &Base Attack &Fort. &Ref. &Will &Special\\
-\rowcolor{gray!40}
+\rowcolor{gray!50} Level &Base Attack &Fort. &Ref. &Will &Special\\
 1st & +1 & +2 & +2 & +2 & Class Feature \\
-\rowcolor{gray!20}
 2nd & +2 & +3 & +3 & +3 & Another Class Feature \\
-\rowcolor{gray!40}
 3rd & +3 & +3 & +3 & +3 & One More Class Feature \\
-\rowcolor{gray!20}
 4th & +4 & +4 & +4 & +4 & Final Class Feature \\
 \end{tabular}
 \end{small}

@@ -19,119 +19,122 @@
 \contentsline {section}{\numberline {2.12}Orc}{6}{section.2.12}
 \contentsline {chapter}{\chapternumberline {3}Classes}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Class Basics}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Example}{7}{section.3.2}
-\contentsline {section}{\numberline {3.3}Barbarian}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}Bard}{7}{section.3.4}
-\contentsline {section}{\numberline {3.5}Cleric}{8}{section.3.5}
-\contentsline {section}{\numberline {3.6}Druid}{8}{section.3.6}
-\contentsline {section}{\numberline {3.7}Fighter}{8}{section.3.7}
-\contentsline {section}{\numberline {3.8}Knight}{8}{section.3.8}
-\contentsline {section}{\numberline {3.9}Monk}{8}{section.3.9}
-\contentsline {section}{\numberline {3.10}Paladin}{8}{section.3.10}
-\contentsline {section}{\numberline {3.11}Ranger}{8}{section.3.11}
-\contentsline {section}{\numberline {3.12}Rogue}{8}{section.3.12}
-\contentsline {section}{\numberline {3.13}Samurai}{8}{section.3.13}
-\contentsline {section}{\numberline {3.14}Sorcerer}{8}{section.3.14}
-\contentsline {section}{\numberline {3.15}Wizard}{8}{section.3.15}
-\contentsline {chapter}{\chapternumberline {4}Skills}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}How Skills Work}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Appraise}{9}{section.4.2}
-\contentsline {section}{\numberline {4.3}Athletics}{9}{section.4.3}
-\contentsline {section}{\numberline {4.4}Balance}{9}{section.4.4}
-\contentsline {section}{\numberline {4.5}Bluff}{9}{section.4.5}
-\contentsline {section}{\numberline {4.6}Concentration}{9}{section.4.6}
-\contentsline {section}{\numberline {4.7}Craft}{9}{section.4.7}
-\contentsline {section}{\numberline {4.8}Decipher Script}{9}{section.4.8}
-\contentsline {section}{\numberline {4.9}Diplomacy}{9}{section.4.9}
-\contentsline {section}{\numberline {4.10}Disable Device}{10}{section.4.10}
-\contentsline {section}{\numberline {4.11}Disguise}{10}{section.4.11}
-\contentsline {section}{\numberline {4.12}Escape Artist}{10}{section.4.12}
-\contentsline {section}{\numberline {4.13}Forgery}{10}{section.4.13}
-\contentsline {section}{\numberline {4.14}Gather Information}{10}{section.4.14}
-\contentsline {section}{\numberline {4.15}Handle Animal}{10}{section.4.15}
-\contentsline {section}{\numberline {4.16}Heal}{10}{section.4.16}
-\contentsline {section}{\numberline {4.17}Intimidate}{10}{section.4.17}
-\contentsline {section}{\numberline {4.18}Knowledge}{10}{section.4.18}
-\contentsline {section}{\numberline {4.19}Perception}{10}{section.4.19}
-\contentsline {section}{\numberline {4.20}Perform}{10}{section.4.20}
-\contentsline {section}{\numberline {4.21}Profession}{11}{section.4.21}
-\contentsline {section}{\numberline {4.22}Ride}{11}{section.4.22}
-\contentsline {section}{\numberline {4.23}Search}{11}{section.4.23}
-\contentsline {section}{\numberline {4.24}Sense Motive}{11}{section.4.24}
-\contentsline {section}{\numberline {4.25}Sleight of Hand}{11}{section.4.25}
-\contentsline {section}{\numberline {4.26}Speak Language}{11}{section.4.26}
-\contentsline {section}{\numberline {4.27}Spellcraft}{11}{section.4.27}
-\contentsline {section}{\numberline {4.28}Stealth}{11}{section.4.28}
-\contentsline {section}{\numberline {4.29}Survival}{11}{section.4.29}
-\contentsline {section}{\numberline {4.30}Tumble}{11}{section.4.30}
-\contentsline {section}{\numberline {4.31}Use Magic Device}{11}{section.4.31}
-\contentsline {chapter}{\chapternumberline {5}Feats}{12}{chapter.5}
-\contentsline {section}{\numberline {5.1}How Feats Work}{12}{section.5.1}
-\contentsline {section}{\numberline {5.2}General Feats}{12}{section.5.2}
-\contentsline {section}{\numberline {5.3}Combat Feats}{12}{section.5.3}
-\contentsline {section}{\numberline {5.4}Skill Feats}{12}{section.5.4}
-\contentsline {section}{\numberline {5.5}Metamagic Feats}{12}{section.5.5}
-\contentsline {chapter}{\chapternumberline {6}Goods and Services}{13}{chapter.6}
-\contentsline {section}{\numberline {6.1}The Three Economies}{13}{section.6.1}
-\contentsline {section}{\numberline {6.2}Armor}{13}{section.6.2}
-\contentsline {section}{\numberline {6.3}Weapons}{13}{section.6.3}
-\contentsline {subsection}{Weapon Qualities}{15}{section*.2}
-\contentsline {subsection}{Individual Weapon Rules}{19}{section*.3}
-\contentsline {section}{\numberline {6.4}Gear}{22}{section.6.4}
-\contentsline {section}{\numberline {6.5}Animals}{22}{section.6.5}
-\contentsline {section}{\numberline {6.6}Services}{22}{section.6.6}
-\contentsline {chapter}{\chapternumberline {7}Description}{23}{chapter.7}
-\contentsline {section}{\numberline {7.1}Physical Appearance}{23}{section.7.1}
-\contentsline {section}{\numberline {7.2}Personality}{23}{section.7.2}
-\contentsline {section}{\numberline {7.3}Alignment}{23}{section.7.3}
-\contentsline {section}{\numberline {7.4}Religion}{23}{section.7.4}
-\contentsline {chapter}{\chapternumberline {8}Adventuring}{24}{chapter.8}
-\contentsline {section}{\numberline {8.1}Overland Travel}{24}{section.8.1}
-\contentsline {section}{\numberline {8.2}Exploration}{24}{section.8.2}
-\contentsline {section}{\numberline {8.3}Traps}{24}{section.8.3}
-\contentsline {section}{\numberline {8.4}Encounters}{24}{section.8.4}
-\contentsline {chapter}{\chapternumberline {9}Combat}{25}{chapter.9}
-\contentsline {section}{\numberline {9.1}How Combat Works}{25}{section.9.1}
-\contentsline {section}{\numberline {9.2}Combat Statistics}{25}{section.9.2}
-\contentsline {section}{\numberline {9.3}Initiative and Actions}{25}{section.9.3}
-\contentsline {section}{\numberline {9.4}Standard Actions}{25}{section.9.4}
-\contentsline {section}{\numberline {9.5}Move Actions}{25}{section.9.5}
-\contentsline {section}{\numberline {9.6}Swift and Free Actions}{25}{section.9.6}
-\contentsline {section}{\numberline {9.7}Full-Round Actions}{25}{section.9.7}
-\contentsline {section}{\numberline {9.8}Movement, Position, and Distance}{25}{section.9.8}
-\contentsline {section}{\numberline {9.9}Injury and Death}{25}{section.9.9}
-\contentsline {section}{\numberline {9.10}Combat Modifiers}{26}{section.9.10}
-\contentsline {section}{\numberline {9.11}Special Attacks}{26}{section.9.11}
-\contentsline {section}{\numberline {9.12}Special Abilities}{26}{section.9.12}
-\contentsline {section}{\numberline {9.13}Conditions}{26}{section.9.13}
-\contentsline {chapter}{\chapternumberline {10}Magic}{27}{chapter.10}
-\contentsline {section}{\numberline {10.1}Casting Spells}{27}{section.10.1}
-\contentsline {section}{\numberline {10.2}How To Read A Spell Description}{27}{section.10.2}
-\contentsline {section}{\numberline {10.3}Arcane Spells}{27}{section.10.3}
-\contentsline {section}{\numberline {10.4}Divine Spells}{27}{section.10.4}
-\contentsline {section}{\numberline {10.5}Special Abilities and Spells}{27}{section.10.5}
-\contentsline {section}{\numberline {10.6}Spell Lists}{27}{section.10.6}
-\contentsline {chapter}{\chapternumberline {11}Magic Items}{28}{chapter.11}
-\contentsline {section}{\numberline {11.1}Magic Item Basics}{28}{section.11.1}
-\contentsline {section}{\numberline {11.2}Minor Magical Items}{28}{section.11.2}
-\contentsline {section}{\numberline {11.3}Moderate Magical Items}{28}{section.11.3}
-\contentsline {section}{\numberline {11.4}Major Magical Items}{28}{section.11.4}
-\contentsline {chapter}{\chapternumberline {12}Running The Game}{29}{chapter.12}
-\contentsline {section}{\numberline {12.1}Writing GM Advice Is Hard}{29}{section.12.1}
-\contentsline {chapter}{Appendices}{30}{section*.4}
-\contentsline {appendix}{\chapternumberline {A}Spells}{31}{appendix.A}
-\contentsline {section}{\numberline {A.1}Spells, A through Z}{31}{section.A.1}
-\contentsline {appendix}{\chapternumberline {B}Prestige Classes}{32}{appendix.B}
-\contentsline {section}{\numberline {B.1}Prestige Class Basics}{32}{section.B.1}
-\contentsline {section}{\numberline {B.2}?WhatClasses?}{32}{section.B.2}
-\contentsline {appendix}{\chapternumberline {C}Monsters}{33}{appendix.C}
-\contentsline {section}{\numberline {C.1}Reading a Monster Entry}{33}{section.C.1}
-\contentsline {section}{\numberline {C.2}Monsters, A though Z}{33}{section.C.2}
-\contentsline {appendix}{\chapternumberline {D}NPC Classes}{34}{appendix.D}
-\contentsline {section}{\numberline {D.1}Adept}{34}{section.D.1}
-\contentsline {section}{\numberline {D.2}Aristocrat}{34}{section.D.2}
-\contentsline {section}{\numberline {D.3}Commoner}{34}{section.D.3}
-\contentsline {section}{\numberline {D.4}Expert}{34}{section.D.4}
-\contentsline {section}{\numberline {D.5}Warrior}{34}{section.D.5}
-\contentsline {appendix}{\chapternumberline {E}The Open Game License}{35}{appendix.E}
-\contentsline {chapter}{List of Tables}{38}{section*.7}
+\contentsline {section}{\numberline {3.2}Example}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}Assassin (12pt)}{9}{section.3.3}
+\contentsline {section}{\numberline {3.4}Assassin (10pt)}{13}{section.3.4}
+\contentsline {section}{\numberline {3.5}Assassin (8pt)}{16}{section.3.5}
+\contentsline {section}{\numberline {3.6}Barbarian}{18}{section.3.6}
+\contentsline {section}{\numberline {3.7}Bard}{18}{section.3.7}
+\contentsline {section}{\numberline {3.8}Cleric}{18}{section.3.8}
+\contentsline {section}{\numberline {3.9}Druid}{18}{section.3.9}
+\contentsline {section}{\numberline {3.10}Fighter}{18}{section.3.10}
+\contentsline {section}{\numberline {3.11}Knight}{18}{section.3.11}
+\contentsline {section}{\numberline {3.12}Monk}{18}{section.3.12}
+\contentsline {section}{\numberline {3.13}Paladin}{18}{section.3.13}
+\contentsline {section}{\numberline {3.14}Ranger}{18}{section.3.14}
+\contentsline {section}{\numberline {3.15}Rogue}{18}{section.3.15}
+\contentsline {section}{\numberline {3.16}Samurai}{18}{section.3.16}
+\contentsline {section}{\numberline {3.17}Sorcerer}{18}{section.3.17}
+\contentsline {section}{\numberline {3.18}Wizard}{19}{section.3.18}
+\contentsline {chapter}{\chapternumberline {4}Skills}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}How Skills Work}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}Appraise}{20}{section.4.2}
+\contentsline {section}{\numberline {4.3}Athletics}{20}{section.4.3}
+\contentsline {section}{\numberline {4.4}Balance}{20}{section.4.4}
+\contentsline {section}{\numberline {4.5}Bluff}{20}{section.4.5}
+\contentsline {section}{\numberline {4.6}Concentration}{20}{section.4.6}
+\contentsline {section}{\numberline {4.7}Craft}{20}{section.4.7}
+\contentsline {section}{\numberline {4.8}Decipher Script}{20}{section.4.8}
+\contentsline {section}{\numberline {4.9}Diplomacy}{20}{section.4.9}
+\contentsline {section}{\numberline {4.10}Disable Device}{20}{section.4.10}
+\contentsline {section}{\numberline {4.11}Disguise}{21}{section.4.11}
+\contentsline {section}{\numberline {4.12}Escape Artist}{21}{section.4.12}
+\contentsline {section}{\numberline {4.13}Forgery}{21}{section.4.13}
+\contentsline {section}{\numberline {4.14}Gather Information}{21}{section.4.14}
+\contentsline {section}{\numberline {4.15}Handle Animal}{21}{section.4.15}
+\contentsline {section}{\numberline {4.16}Heal}{21}{section.4.16}
+\contentsline {section}{\numberline {4.17}Intimidate}{21}{section.4.17}
+\contentsline {section}{\numberline {4.18}Knowledge}{21}{section.4.18}
+\contentsline {section}{\numberline {4.19}Perception}{21}{section.4.19}
+\contentsline {section}{\numberline {4.20}Perform}{21}{section.4.20}
+\contentsline {section}{\numberline {4.21}Profession}{21}{section.4.21}
+\contentsline {section}{\numberline {4.22}Ride}{21}{section.4.22}
+\contentsline {section}{\numberline {4.23}Search}{22}{section.4.23}
+\contentsline {section}{\numberline {4.24}Sense Motive}{22}{section.4.24}
+\contentsline {section}{\numberline {4.25}Sleight of Hand}{22}{section.4.25}
+\contentsline {section}{\numberline {4.26}Speak Language}{22}{section.4.26}
+\contentsline {section}{\numberline {4.27}Spellcraft}{22}{section.4.27}
+\contentsline {section}{\numberline {4.28}Stealth}{22}{section.4.28}
+\contentsline {section}{\numberline {4.29}Survival}{22}{section.4.29}
+\contentsline {section}{\numberline {4.30}Tumble}{22}{section.4.30}
+\contentsline {section}{\numberline {4.31}Use Magic Device}{22}{section.4.31}
+\contentsline {chapter}{\chapternumberline {5}Feats}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}How Feats Work}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}General Feats}{23}{section.5.2}
+\contentsline {section}{\numberline {5.3}Combat Feats}{23}{section.5.3}
+\contentsline {section}{\numberline {5.4}Skill Feats}{23}{section.5.4}
+\contentsline {section}{\numberline {5.5}Metamagic Feats}{23}{section.5.5}
+\contentsline {chapter}{\chapternumberline {6}Goods and Services}{24}{chapter.6}
+\contentsline {section}{\numberline {6.1}The Three Economies}{24}{section.6.1}
+\contentsline {section}{\numberline {6.2}Armor}{24}{section.6.2}
+\contentsline {section}{\numberline {6.3}Weapons}{24}{section.6.3}
+\contentsline {subsection}{Weapon Qualities}{25}{section*.2}
+\contentsline {subsection}{Individual Weapon Rules}{29}{section*.3}
+\contentsline {section}{\numberline {6.4}Gear}{30}{section.6.4}
+\contentsline {section}{\numberline {6.5}Animals}{31}{section.6.5}
+\contentsline {section}{\numberline {6.6}Services}{31}{section.6.6}
+\contentsline {chapter}{\chapternumberline {7}Description}{32}{chapter.7}
+\contentsline {section}{\numberline {7.1}Physical Appearance}{32}{section.7.1}
+\contentsline {section}{\numberline {7.2}Personality}{32}{section.7.2}
+\contentsline {section}{\numberline {7.3}Alignment}{32}{section.7.3}
+\contentsline {section}{\numberline {7.4}Religion}{32}{section.7.4}
+\contentsline {chapter}{\chapternumberline {8}Adventuring}{33}{chapter.8}
+\contentsline {section}{\numberline {8.1}Overland Travel}{33}{section.8.1}
+\contentsline {section}{\numberline {8.2}Exploration}{33}{section.8.2}
+\contentsline {section}{\numberline {8.3}Traps}{33}{section.8.3}
+\contentsline {section}{\numberline {8.4}Encounters}{33}{section.8.4}
+\contentsline {chapter}{\chapternumberline {9}Combat}{34}{chapter.9}
+\contentsline {section}{\numberline {9.1}How Combat Works}{34}{section.9.1}
+\contentsline {section}{\numberline {9.2}Combat Statistics}{34}{section.9.2}
+\contentsline {section}{\numberline {9.3}Initiative and Actions}{34}{section.9.3}
+\contentsline {section}{\numberline {9.4}Standard Actions}{34}{section.9.4}
+\contentsline {section}{\numberline {9.5}Move Actions}{34}{section.9.5}
+\contentsline {section}{\numberline {9.6}Swift and Free Actions}{34}{section.9.6}
+\contentsline {section}{\numberline {9.7}Full-Round Actions}{34}{section.9.7}
+\contentsline {section}{\numberline {9.8}Movement, Position, and Distance}{34}{section.9.8}
+\contentsline {section}{\numberline {9.9}Injury and Death}{34}{section.9.9}
+\contentsline {section}{\numberline {9.10}Combat Modifiers}{34}{section.9.10}
+\contentsline {section}{\numberline {9.11}Special Attacks}{35}{section.9.11}
+\contentsline {section}{\numberline {9.12}Special Abilities}{35}{section.9.12}
+\contentsline {section}{\numberline {9.13}Conditions}{35}{section.9.13}
+\contentsline {chapter}{\chapternumberline {10}Magic}{36}{chapter.10}
+\contentsline {section}{\numberline {10.1}Casting Spells}{36}{section.10.1}
+\contentsline {section}{\numberline {10.2}How To Read A Spell Description}{36}{section.10.2}
+\contentsline {section}{\numberline {10.3}Arcane Spells}{36}{section.10.3}
+\contentsline {section}{\numberline {10.4}Divine Spells}{36}{section.10.4}
+\contentsline {section}{\numberline {10.5}Special Abilities and Spells}{36}{section.10.5}
+\contentsline {section}{\numberline {10.6}Spell Lists}{36}{section.10.6}
+\contentsline {chapter}{\chapternumberline {11}Magic Items}{37}{chapter.11}
+\contentsline {section}{\numberline {11.1}Magic Item Basics}{37}{section.11.1}
+\contentsline {section}{\numberline {11.2}Minor Magical Items}{37}{section.11.2}
+\contentsline {section}{\numberline {11.3}Moderate Magical Items}{37}{section.11.3}
+\contentsline {section}{\numberline {11.4}Major Magical Items}{37}{section.11.4}
+\contentsline {chapter}{\chapternumberline {12}Running The Game}{38}{chapter.12}
+\contentsline {section}{\numberline {12.1}Writing GM Advice Is Hard}{38}{section.12.1}
+\contentsline {chapter}{Appendices}{39}{section*.4}
+\contentsline {appendix}{\chapternumberline {A}Spells}{40}{appendix.A}
+\contentsline {section}{\numberline {A.1}Spells, A through Z}{40}{section.A.1}
+\contentsline {appendix}{\chapternumberline {B}Prestige Classes}{41}{appendix.B}
+\contentsline {section}{\numberline {B.1}Prestige Class Basics}{41}{section.B.1}
+\contentsline {section}{\numberline {B.2}?WhatClasses?}{41}{section.B.2}
+\contentsline {appendix}{\chapternumberline {C}Monsters}{42}{appendix.C}
+\contentsline {section}{\numberline {C.1}Reading a Monster Entry}{42}{section.C.1}
+\contentsline {section}{\numberline {C.2}Monsters, A though Z}{42}{section.C.2}
+\contentsline {appendix}{\chapternumberline {D}NPC Classes}{43}{appendix.D}
+\contentsline {section}{\numberline {D.1}Adept}{43}{section.D.1}
+\contentsline {section}{\numberline {D.2}Aristocrat}{43}{section.D.2}
+\contentsline {section}{\numberline {D.3}Commoner}{43}{section.D.3}
+\contentsline {section}{\numberline {D.4}Expert}{43}{section.D.4}
+\contentsline {section}{\numberline {D.5}Warrior}{43}{section.D.5}
+\contentsline {appendix}{\chapternumberline {E}The Open Game License}{44}{appendix.E}
+\contentsline {chapter}{List of Tables}{47}{section*.7}
