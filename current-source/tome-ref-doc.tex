@@ -1,4 +1,4 @@
-\documentclass[12pt,oneside,onecolumn,openany,final]{memoir}
+\documentclass[10pt,oneside,onecolumn,openany,final]{memoir}
 \setstocksize{11in}{8.5in}
 
 \usepackage[toc,lot,lof]{multitoc}
@@ -40,7 +40,7 @@
 
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=links,pdfstartview={XYZ null null 1.00},bookmarksdepth=2]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%%%% End of Import Section %%%%%%%%%%%
+%%%% End of Import tion %%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,24 +100,126 @@
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} %New type of column 'L' that is ragged-right, behaves like a paragraph, and allows manual definition of width like a 'p' column.
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}  %New type of column 'C' that is centered, behaves like a paragraph, and allows manual definition of width like a 'p' column.
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}  %New type of column 'R' that is ragged-left, behaves like a paragraph, and allows manual definition of width like a 'p' column.
-
+\newcommand{\startclasstable}{
+	\begin{table}[htb]
+	\centering
+	\begin{small}
+	\rowcolors{1}{colorone}{colortwo}}
+%sets up the basic formatting for class entry tables without needing manual entry. Just place the tabular after this.
+\newcommand{\stopclasstable}{
+	\end{small}
+	\end{table}}
+%twin of \classtable, ends the small and table environments, place after \end{tabular}
+\newcommand{\header}{\rowcolor{headercolor}}
+%when inserted in a row, makes that row the color headercolor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% New Commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\tagline}[1]{\vspace{-6pt} \textit{#1} \medskip}
-
-\newcommand{\gameterm}[1]{#1\index{#1}}
-
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Basic Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\originallineskip}{\baselineskip}
+ %A command that is equal to the original \baselineskip of the doc, in case we change it for a section and want to change it back later
+\newmdenv[hidealllines=true,backgroundcolor=gray!20]{abilitybox}
+%A new environemnt, abilty box, that gets redefined by other commands later, notably to produce color backgrounds for classes
+\newcommand{\ability}[2]{\smallskip \noindent \textbf{#1} #2} 
+%The \ability{#1}{#2} command from legacy-source. Should rarely be directly used, changes to this will cascade into other new commands that use its functionality
+\newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
+%A command from legacy-source for compatabilty
+\newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
+%A type of list from legacy sorce
+\newcommand{\spell}[1]{\emph{\MakeLowercase{#1}}}
+%makes spell name lowercase italics.
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Logic
+%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\testempty}{\empty}
+\newcommand{\isempty}{\empty}
+%Two commands that can be compared to one another for \ifx logic tests. \isempty should never be changed. If \testempty holds a value of anything but empty, the test should return false.
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Colors
+%%%%%%%%%%%%%%%%%%%%%%%%
+\colorlet{colorone}{white}
+\colorlet{colortwo}{gray!15}
+\colorlet{headercolor}{gray!50}
+\colorlet{tablecolorone}{gray!40}
+\colorlet{tablecolortwo}{gray!20}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Sectioning
+%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\classentry}[1]{\newpage \section{#1} \renewcommand{\class}{#1} \index{#1 (class)} \renewcommand{\testempty}{\empty}}
+%Starts a new page, creates a section with the name of the class (#1), sets \class to be the name of the class, indexes the class.
 \newcommand{\raceentry}[1]{\oldsection{#1}\index{#1 (race)}\label{race:#1}}
 
-\newcommand{\classentry}[1]{\oldsection{#1}\index{#1 (class)}\label{class:#1}}
 \newcommand{\Requirements}{\oldsubsubsection*{Requirements}}
+
 \newcommand{\Basics}{\oldsubsubsection*{Basics}}
+
 \newcommand{\ClassFeatures}{\oldsubsubsection*{Class Features}}
 
 \newcommand{\skillentry}[2]{\oldsubsection[#1]{#1 #2}\index{#1 (skill)}\label{skill:#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Class Chapter
+%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\class}{placeholder}
+%Holds the classes name, as defined by \classentry
+\newcommand{\quot}[1]{
+	\vspace{-8pt}
+	\noindent\emph{#1}\medskip}
+%Displays a flavor quote.}
+\newcommand{\desc}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+\begin{abilitybox}#1 \medskip\end{abilitybox}}
+%Places descriptive text for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Implimentation looks like \desc{Text text text text etc.}
+\newcommand{\playingaclass}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Playing a \class :}{#1}\end{abilitybox}}
+%Places the "playing a CLASS" text for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Reliant on \ability command. Implimentaion looks like \playingaclass{how to play the class}
+\newcommand{\hitdie}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Hit Die:}{#1}\end{abilitybox}}
+%Places hit die text for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Reliant on \ability command. Implimentaion looks like \hitdie{d#}
+\newcommand{\alignment}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Alignment:}{#1}\end{abilitybox}}
+%Places alignment requirement for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Implimentation looks like \alignment{chosen alignment(s)}
+\newcommand{\races}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Races:}{#1}\end{abilitybox}}
+%Places races requirement for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Implimentation looks like \races{List of races}
+\newcommand{\startinggold}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Starting Gold:}{#1}\end{abilitybox}}
+%Places starting gold for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Implimentation looks like \startinggold{#d#}
+\newcommand{\startingage}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Starting Age:}{#1}\end{abilitybox}}  
+%Places starting age for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Implimentation looks like \startingage{age at which you start}
+\newcommand{\skillpoints}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Skill Points per Level:}{#1 + Intelligence Bonus}\end{abilitybox}}
+%Places skill points gained per level for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Implimentation looks like \skillpoints{#}
+\newcommand{\classskills}[1]{
+  \ifx\testempty\isempty\renewmdenv[hidealllines=true,backgroundcolor=colorone]{abilitybox}\renewcommand{\testempty}{a}\else\renewcommand{\testempty}{\empty}\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{abilitybox}\fi
+  \begin{abilitybox}\ability{Class Skills:}{The {\class}'s class skills (and the key ability for each skill) are #1}\end{abilitybox}}
+%Places class skills for class in an abilitybox environment and colors it automatically based on colorone and colortwo. Implimentation looks like \classskills{Skill (Key Ability), Skill Two (Key Ability), and Etc. (etc)}
+\newcommand{\startclassfeatures}{
+ \smallskip\noindent All of the following are class features of the \class ~class.}
+%place before actual class features entries.
+\newcommand{\proficiencies}[1]{
+ \ability{Weapon and Armor Proficiencies:}{The \class ~is proficient with #1}}
+%Displays proficiencies with minimal input, implimentation looks like \proficiencies{the proficiencies}
+\newcommand{\classfeature}[2]{
+  \ability{#1}{#2}}
+%No functional difference from \ability currently
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Unsorted Commands
+%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\tagline}[1]{\vspace{-6pt} \textit{#1} \medskip}
+
+\newcommand{\gameterm}[1]{#1\index{#1}}
 
 \NewDocumentCommand\featentry{m+g}{%
   \IfNoValueTF{#2}
@@ -251,7 +353,6 @@ foo
 \chapter{Classes}
 \section{Class Basics}
 foo
-\input{classtemplate}
 \input{phb/base-classes/assassin}
 \section{Barbarian}
 foo
