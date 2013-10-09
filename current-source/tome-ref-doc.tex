@@ -32,6 +32,7 @@
 
 \usepackage[xcolor]{mdframed}
 \usepackage{colortbl}
+\usepackage{tabularx}
 
 %% Font
 \usepackage[T1]{fontenc}
@@ -97,7 +98,6 @@
 %%% Table Formatting
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} %New type of column 'L' that is ragged-right, behaves like a paragraph, and allows manual definition of width like a 'p' column.
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}  %New type of column 'C' that is centered, behaves like a paragraph, and allows manual definition of width like a 'p' column.
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}  %New type of column 'R' that is ragged-left, behaves like a paragraph, and allows manual definition of width like a 'p' column.
@@ -142,6 +142,16 @@
 \newcommand{\testempty}{\empty}
 \newcommand{\isempty}{\empty}
 %Two commands that can be compared to one another for \ifx logic tests. \isempty should never be changed. If \testempty holds a value of anything but empty, the test should return false.
+\newcommand{\zero}{0}
+\newcommand{\one}{1}
+\newcommand{\two}{2}
+\newcommand{\three}{3}
+\newcommand{\four}{4}
+\newcommand{\five}{5}
+\newcommand{\six}{6}
+\newcommand{\seven}{7}
+\newcommand{\eight}{8}
+\newcommand{\nine}{9}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Colors
@@ -261,14 +271,20 @@
 \newcommand{\poorwil}{\renewcommand{\will}{a}}
 %A set of commands to tell LaTeX what Will progression the class has. Only one should be called per class.
 
-\newcommand{\classtableautohead}[1]{
-\begin{table}[htb]
-\centering
-\begin{small}
+\newenvironment{classtable}[1]
+{
+\table[htb]
+\center
 \rowcolors{1}{colorone}{colortwo}
-\begin{tabular}{p{.275in}p{.75in}p{0.275in}p{0.275in}p{0.275in}L{3.075in}C{0.575in}}
-\rowcolor{gray!50} Level & Base Attack & fort. & Ref. & Will & Special #1 \\}
-%A command that sets up the class feature table.
+\tabularx{\textwidth}{p{.275in}p{.75in}p{0.275in}p{0.275in}p{0.275in}Xllll}
+\rowcolor{gray!50} Level & Base Attack & fort. & Ref. & Will & Special #1\\
+}{
+\endtabularx
+\endcenter
+\endtable
+}
+
+%A a new environment that sets up the class tables. Include the \level commands between \begin{classtable}.
 
 \newcommand{\levelone}[1]{
 1st  & \ifx\gbab\isempty +1 \else\ifx\mbab\isempty +0 \else +0 \fi \fi
@@ -429,14 +445,6 @@
 	 & \ifx\will\isempty +12 \else +6 \fi
 	 & #1 \\}
 %A command that declares a table row within the class feature table.
-	 
-
-\newcommand{\classtableautofoot}{
-\end{tabular}
-\end{small}
-\end{table}}
-%A command that declares the end of the class feature table.
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Unsorted Commands

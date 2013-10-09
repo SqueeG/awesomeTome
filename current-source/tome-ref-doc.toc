@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {3.4}Bard}{9}{section.3.4}
 \contentsline {section}{\numberline {3.5}Cleric}{9}{section.3.5}
 \contentsline {section}{\numberline {3.6}Druid}{9}{section.3.6}
-\contentsline {section}{\numberline {3.7}Fighter}{10}{section.3.7}
+\contentsline {section}{\numberline {3.7}Fighter}{9}{section.3.7}
 \contentsline {section}{\numberline {3.8}Knight}{10}{section.3.8}
 \contentsline {section}{\numberline {3.9}Monk}{10}{section.3.9}
 \contentsline {section}{\numberline {3.10}Paladin}{10}{section.3.10}
