@@ -1,0 +1,131 @@
+\classentry{Templar}
+
+\newcommand{\vow}[6]{
+\subsubsection{Vow of #1}
+\quot{``#2''}
+\listone
+	\item \ability{First: }{#3}
+	\item \ability{Second: }{#4}
+	\item \ability{Third: }{#5}
+\end{list}
+\vspace{8pt}
+\ability{Roleplaying Ideas: }{#6}
+}
+
+\newcommand{\faith}[7]{
+\subsubsection{#1}
+#2
+\begin{list}{\textbf{\arabic{counter}}:~}{\itemspace\usecounter{counter}}
+	\item #3
+	\item #4
+	\item #5
+	\item #6
+	\item #7
+\end{list}
+\vspace{8pt}
+}
+
+\goodbab
+\goodfor
+\poorref
+\goodwil
+\quot{``Nobody is more dangerous than he who imagines himself pure in heart, for his purity, by definition, is unassailable.''}
+
+\begin{classpreamble}
+\desc{Every religion has clerics, those tasked with performing the duties of the religion. Many also have faithful members who leave their homes to travel distant lands, spreading the word of their god or pantheon. Templars are ordained warriors tasked with spreading the faith and defending the faithful, while also beating down the foes of a deity.
+\newline
+Templars are the militant arm of their church and/or cause. They are often guards of sacred places, dispatched away from the temples as agents of higher powers, or simply wander to share the virtues of their philosophy and ideal with others. Initially able and zealous warriors combining martial abilities with the power of their deity, they eventually become an active sword or shield for their deity, with high levels of offensive prowess and devastating crowd control. Whether as a bodyguard or a support character, they often find themselves in the ranks of adventuring parties who can make use of the talents.
+\newline
+A templar generally exemplifies a particular ideology of life, and associated nomenclature may depend on the side with which he aligns himself. A good templar, for instance, might assume the title of paladin while those who embrace evil are often known as blackguards and those who serve neutrality are called gray wardens. What truly differentiates these characters are the vows that they swear to uphold.}
+\playingaclass{Templars value Charisma greatly, as it allows them to better convince those they encounter of the importance of their deity and provides force to their spells. They also value Strength as it allows them to beat up those who steadfastly refuse to believe and get in the way of the templar's work. Constitution is often the third most important ability for a templar, as it allows them to stand longer in the fray.}
+\alignment{Any, though a templar may only select a deity who allows worshipers of the templar's alignment. Conversely, a templar of a specific deity is limited to only those alignments which would be allowed by the deity for a follower. Templars without a patron deity may select any alignment they like.}
+\races{Any. Every race that has deities has templars to spread their teachings.}
+\startinggold{3d10x10 gp (165 gp).}
+%\startingage{Moderate}
+\hitdie{d10}
+\classskills{Appraise (Int), Climb (Str), Concentration (Con), Craft (Int), Heal (Wis), Intimidate (Cha), Jump (Str), Knowledge (nobility and royalty) (religion) (Int), Listen (Wis), Ride (Dex), Sense Motive (Wis), Speak Language (None), Spellcraft (Int), Swim (Str).}
+\skillpoints{4}
+\end{classpreamble}
+
+\afterpage{
+\begin{minorcastingclasstable}
+\levelone{Divine Vow (Once Vowed), Vow of Piety (Once Vowed)& 						2&-&-&-&-&-&-}
+\leveltwo{Avenger of the Faith (Primary)& 															3&-&-&-&-&-&-}
+\levelthree{Divine Vow (Once Vowed)& 																3&2&-&-&-&-&-}
+\levelfour{Avenger of the Faith (Secondary)& 														3&2&-&-&-&-&-}
+\levelfive{Divine Vow (Once Vowed)& 																	3&3&2&-&-&-&-}
+\levelsix{Avenger of the Faith (Primary), Arms of the Faithful& 							3&3&2&-&-&-&-}
+\levelseven{Divine Vow (Twice Vowed), Vow of Piety (Twice Vowed)& 				3&3&3&2&-&-&-}
+\leveleight{Avenger of the Faith (Secondary), Inquisitor& 									3&3&3&2&-&-&-}
+\levelnine{Divine Vow (Twice Vowed)& 																3&3&3&2&-&-&-}
+\levelten{Avenger of the Faith (Primary)& 															3&3&3&3&2&-&-}
+\leveleleven{Divine Vow (Twice Vowed)& 															3&3&3&3&2&-&-}
+\leveltwelve{Avenger of the Faith (Secondary), Sustained by Faith& 					3&3&3&3&2&-&-}
+\levelthirteen{Divine Vow (Thrice Vowed)& 															3&3&3&3&3&2&-}
+\levelfourteen{Avenger of the Faith (Primary)& 													4&3&3&3&3&2&-}
+\levelfifteen{Divine Vow (Thrice Vowed), Undying Faith (as raise dead)& 			4&4&3&3&3&2&-}
+\levelsixteen{Avenger of the Faith (Secondary)& 													4&4&4&3&3&3&2}
+\levelseventeen{Divine Vow (Thrice Vowed)& 														4&4&4&4&3&3&2}
+\leveleighteen{Avenger of the Faith (Primary), Undying Faith (as resurrection)&	4&4&4&4&4&3&3}
+\levelnineteen{Divine Vow (Thrice Vowed)& 														4&4&4&4&4&4&3}
+\leveltwenty{Avenger of the Faith (Secondary), All Things Are Possible& 			4&4&4&4&4&4&4}
+\end{minorcastingclasstable}}
+
+\startclassfeatures
+
+\proficiencies{simple and martial weapons, all forms of armor, and all shields.}
+
+\classfeature{Spells:}{A templar cast divine spells, which are drawn from the list below and supplemented by their deity's domains (see Vow of Piety). His caster level for these spells is equal to his class level. The save DCs for these spells are equal to 10 + the spell's level + his Charisma modifier. A templar must have a charisma score of at least 10 + the spell's level in order to cast the spell.
+\newline
+A Templar know all of the spells on his class list, and may cast any of them without preparation so long as he has an appropriate spell slot available and an charisma score of at least 10 + the spell's level. His maximum available slots per day are determined by his class level (as seen on Table: The Templar), and he gains bonus slots from his charisma score.
+\newline
+In order to receive their spell slots, the templar must pray for 1 hour without interruption in a place free from distractions or noise. At the end of this time, he receives his spell slots. After praying, the templar cannot pray again until one whole day (24 hours) has passed.
+A templar’s spells are more for utility than combat efficacy, either allowing him to better solve problems through non-violent means or enhancing his combat abilities past even their already formidable limits.}
+
+\classfeature{Code of Conduct (Ex):}{Like any other character, a templar does what he must to uphold the duties given to him by an organization of which he is a part, even if that organization is as loose as his alignment group. But let’s face it; sometimes even the good and honorable knight may want to lie about his identity or consort with unscrupulous characters in order to root out the evil, demonic cult. And evil knights can be obsessed with battle, honor, and battling with honor. A templar is not specifically prohibited from acts that lie outside of their alignment or run counter to their deity's wishes. Many aspire to these things and most follow them, but not all do so and no templar is punished for being found slightly wanting. Templars who actively displease or betray their deity may still be stripped of their powers and dismissed, however.}
+
+\classfeature{Divine Vow (Su):}{A templar’s code is somewhat variable; different deities and philosophies extol different virtues that a templar must try to uphold. But more than that, each templar is permitted to extol these virtues in slightly different ways. The vows a templar makes are a representation of his personal or religious code, and determine which aspects he attempts to uphold most strongly. These vows grant him extraordinary powers (the nature of which vary based on the vows he takes). These are detailed in the section on divine vows below.
+\listone
+	\item At 1st level the templar gains the Vow of Piety and one other rank 1 vow of their choice. At every odd-numbered class level thereafter the templar may take a new vow, but he may not advance one of his existing vows beyond rank 1 at this time.
+	\item At 7th level, he reaffirms his Vow of Piety and gains a second domain. He may also reaffirm any other vow which he already possesses to gain the rank 2 ability. A vow that has been reaffirmed in this way is known as "twice vowed." Instead of reaffirming a rank 1 vow, he may instead select two new vows at rank 1. He may not advance a vow beyond rank 2 at this time.
+	\item At 13th level, he may reaffirm any other vow in which he already possesses the rank 2 ability to gain the rank 3 ability. A vow that has been reaffirmed in this way is known as "thrice vowed." Instead of reaffirming a rank 2 vow, he may instead select two rank 1 vows at advance to rank 2, or may select a new vow to gain both the rank 1 and rank 2 benefits.
+\end{list}}
+
+\classfeature{Avenger of the Faith:}{A templar trains himself in multiple forms of combat, so as to serve as both the weapon and shield of their church or ideals. Starting at second level, he chooses a primary combat form (see Avenger of the Faith Styles) for which he gains the corresponding abilities at 2nd level and every four class levels thereafter. At 4th level, he chooses his secondary style, and gains the benefits thereof at each 4 class levels.}
+
+\classfeature{Arms of the Faithful (Ex):}{At sixth level a templar gains Craft Magic Arms and Armor as a bonus feat. When crafting any magic items with this feat, they are treated as having access to the spells of the war domain in addition to those on their class list. If they already possess Craft Magic Arms and Armor, they may select another item creation feat for which they qualify.}
+
+\classfeature{Inquisitor (Su):}{An eigth level templar can detect the alignments of any creature that he can see as a swift action. He instantly gains all information about their alignment as if he had spent three rounds concentrating on them with the appropriate spells. If the creature is warded, the templar may make a caster level check against the warding spell to gain the information if such a check is allowed by the ward. In addition, all the templar’s attacks are automatically considered aligned (good or evil, lawful or chaotic, etc. based on his alignment) for the purposes of overcoming damage reduction.}
+
+\classfeature{Sustained by Faith (Ex):}{An eleventh level templar gains everything they need to live from their relationship with their deity. They no longer need to eat, drink, breathe, or sleep. They can still do these things if they want to of course.}
+
+\classfeature{Undying Faith (Su):}{Fifteenth level templars are extremely difficult to kill. The templar may elect to gain the benefit of a raise dead spell at any time within 1 minute of being killed. If they do, their return is announced by a powerful flash of light (as a daylight spell) for 1 round. Instead of the normal level loss, they instead suffer 2 points of Charisma burn. Once used, they may not return from the dead in this way for 24 hours; a templar who dies twice in a day will need someone else to bring them back to continue their work. At eighteenth level, this ability improves to offer the benefit of a resurrection spell instead, though the templar only returns with half of their maximum hit points.}
+
+\classfeature{All Things Are Possible (Sp):}{The prayers of a twentieth level templar are taken very seriously. Once per day they may cast miracle as a spell-like ability, though they must still spend experience points if the effect would require them from a spellcaster casting it.}
+
+\subsection{Ex-Templars}
+
+A templar who wishes to pursue other classes is welcome to do so. There are no multiclssing restrictions against the templar.
+A templar who willingly leaves his faith or who is cast out loses all spells, spell-like, and supernatural abilities, as well as any ability stemming from one of their vows. They may return to the faith if a ranking member casts an atonement for them. They may also pursue a new faith entirely. They must still find a member of the faith to atone them, however. When joining a new faith in this way, the templar loses all of their old vows. They may swear a new one each day until they have reached the level allotted them based on their level.
+
+\subsection{Vows}
+\quot{``So many vows, they make you swear and swear. Defend the King, obey the King. Obey your father. Protect the innocent. Defend the weak. What if your father despises the King? What if the King massacres the innocent? It's too much. No matter what you do, you're forsaking one vow or another.''}
+
+\vow{Charity
+}{A bone to the dog is not charity. Charity is the bone shared with the dog, when you are just as hungry as the dog.
+}{Once per round on your turn you may aid another as a free action.
+}{Once per round when you are targeted by a spell with an effect beneficial to you, you may allow another creature within Close Range to also gain the benefits of that spell. The spell must also be beneficial to the creature you wish to share it with (interpreted at the DM's discretion), or the sharing fails.
+}{An ally within Close range of you may use your spell slots to cast a spell of an equivalent or lower spell level, so long as you possess the minimum charisma score to use the slot yourself. Your ally may use this slot to cast any spell that they have prepared or that they know (in the case of spontaneous casters), using your slot instead of their own. Your ally may also cast spells from your spell list, even if they would not normally be capable of casting divine spells. Anyone casting a spell in this fashion uses their own attributes, feats, and character level to determine the effects and DC of the spell. They do not need to meet the minimum charisma score requirement for a particular spell level cast from your list, but they must be of a sufficient level that they would be able to use the spell slot were they a templar of the same level.
+}{Perhaps your church decrees that its members must give aid to others, or maybe you give out of the goodness of your heart. You are the quintessential selfless knight, giving to others without necessarily thinking of your own gains. There are times when you may give up more important things than money; the truest sacrifice a templar can make is to offer their own life in the service of their cause.}
+
+\subsection{Avenger of the Faith Styles}
+As there are many different vows that a templar can swear, so to are there different combat styles that they may practice. A templar selects one of these styles as their primary style and another as a secondary. They are both then advanced as the templar gains levels.
+
+\faith{Charger
+}{A charger is a very straightforward templar. They see their foes, and they run or ride out to meet them. This generally leads to the defeat of their foes.
+}{\ability{Knight Errant (Ex):}{A charger needs to work around the limitations of the bulky armor that is so often part of his attire. You no longer suffer penalties to your base speed from wearing medium or heavy armor. You also gain additional benefits while charging. You may make 1 turn up to 90 degrees as part of your charge action, though you must still travel at least 10 feet in a straight line immediately before you attack a target. Additionally, you are not required to move to the closest space to your opponent during a charge, and may make your charge attack when your opponent is in any of your threatened spaces. This would allow you to take a charge attack while running past an opponent, but this movement would provoke attacks of opportunity as normal.}
+}{\ability{Cataphract (Ex):}{When charging you gain a +4 bonus to your attack roll instead of the normal +2 and you may make a full attack on a charge. You also may charge up to three times your normal base speed when you make a charge as a full-round action. If you would only be limited to a partial charge, you may move twice your base speed as part of that action. You may not make a full-attack when you perform a partial charge, however. This benefit also applies while you are mounted.}
+}{\ability{Charge of Necessity (Su):}{While charging or running, you gain the benefit or air walk for the round, until the start of your next turn. If you do not continue running or charging at the start of the next round, you instead fall to the ground under the effect of feather fall. If you begin a fall from other circumstances you do not benefit from this effect. This benefit also applies while you are mounted.}
+}{\ability{Charge of Glory (Ex):}{You can trample over those who fall before your charge, continuing to seek more blood. If you destroy an effect in your path, render a charged opponent unconscious or dead, or otherwise clear the way forward while charging you may continue the charge along the same path (following all normal restrictions as they apply) up to your full allowed distance. You may make additional attacks against those in your way along this additional distance as if they were your intended charge target. This benefit also applies while you are mounted.}
+}{\ability{Charge of Destruction (Su):}{When a foe is struck with your charge attack and killed, they are destroyed utterly as if they had been immolated or disintegrated. Further, while charging or running you may leave behind a blade barrier as you leaves each space. The wall need not be continuous, and may have as many or as few breaks in it as you desire. This wall deals 15d6 points of damage, has a save DC of 16 + the templar's Charisma modifer, and dissipates at the start of your next turn. This benefit also applies while you are mounted.}
+}

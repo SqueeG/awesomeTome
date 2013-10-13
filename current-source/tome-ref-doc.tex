@@ -134,6 +134,7 @@
 \newcommand{\testempty}{\empty}
 \newcommand{\isempty}{\empty}
 %Two commands that can be compared to one another for \ifx logic tests. \isempty should never be changed. If \testempty holds a value of anything but empty, the test should return false.
+\newcounter{counter}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Colors
@@ -170,16 +171,15 @@
 	\noindent\emph{#1}\medskip}
 %Displays a flavor quote.}
 
-\newenvironment{preamble}
-{
-\table[h]
+\newenvironment{classpreamble}{
+\renewcommand\tabularxcolumn[1]{m{##1}}
 \center
 \rowcolors{1}{colorone}{colortwo}
 \tabularx{\textwidth}{X}
 }{
 \endtabularx
 \endcenter
-\endtable
+\renewcommand\tabularxcolumn[1]{p{##1}}
 }
 
 \newcommand{\desc}[1]{  #1 \\}
@@ -230,24 +230,27 @@
 \newcommand{\poorwil}{\renewcommand{\will}{a}}
 %A set of commands to tell LaTeX what Will progression the class has. Only one should be called per class.
 
-\newenvironment{classpreamble}{
-\renewcommand\tabularxcolumn[1]{m{##1}}
-\center
-\rowcolors{1}{colorone}{colortwo}
-\tabularx{\textwidth}{X}
-}{
-\endtabularx
-\endcenter
-\renewcommand\tabularxcolumn[1]{p{##1}}
-}
-
 \newenvironment{classtable}[1]
 {
 \table[htb]
 \center
 \rowcolors{1}{colorone}{colortwo}
 \tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xllll}
-\rowcolor{headercolor} Level & Base Attack & fort. & Ref. & Will & Special #1\\
+\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special #1\\
+}{
+\endtabularx
+\endcenter
+\endtable
+}
+
+\newenvironment{minorcastingclasstable}
+{
+\table[htb]
+\center
+\rowcolors{1}{colorone}{colortwo}
+\tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xccccccc}
+\rowcolor{headercolor} & & & & & &\multicolumn{7}{c}{Spells Per Day (By Level)} \\
+\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special &0&1&2&3&4&5&6\\
 }{
 \endtabularx
 \endcenter
@@ -578,6 +581,7 @@ foo
 foo
 \section{Sorcerer}
 foo
+\input{phb/base-classes/templar}
 \section{Wizard}
 foo
 
