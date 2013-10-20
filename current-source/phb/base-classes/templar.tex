@@ -1,8 +1,10 @@
 \classentry{Templar}
 
 \newcommand{\vow}[6]{
-\subsubsection{Vow of #1}
-\quot{``#2''}
+\option{Vow of #1
+}
+{
+\textit{``#2''}
 \listone
 	\item \ability{First: }{#3}
 	\item \ability{Second: }{#4}
@@ -10,12 +12,13 @@
 \end{list}
 \vspace{8pt}
 \ability{Roleplaying Ideas: }{#6}
-}
+}}
 
 \newcommand{\faith}[7]{
-\subsubsection{#1}
+\option{#1
+}{
 #2
-\begin{list}{\textbf{\arabic{counter}}:~}{\itemspace\usecounter{counter}}
+\begin{list}{\textbf{\arabic{counter}}:~}{\usecounter{counter}}
 	\item #3
 	\item #4
 	\item #5
@@ -23,7 +26,7 @@
 	\item #7
 \end{list}
 \vspace{8pt}
-}
+}}
 
 \goodbab
 \goodfor
@@ -103,24 +106,24 @@ A templar’s spells are more for utility than combat efficacy, either allowing 
 
 \classfeature{All Things Are Possible (Sp):}{The prayers of a twentieth level templar are taken very seriously. Once per day they may cast miracle as a spell-like ability, though they must still spend experience points if the effect would require them from a spellcaster casting it.}
 
-\subsection{Ex-Templars}
+\classfeature{Ex-Templars}{A templar who wishes to pursue other classes is welcome to do so. There are no multiclssing restrictions against the templar.
+A templar who willingly leaves his faith or who is cast out loses all spells, spell-like, and supernatural abilities, as well as any ability stemming from one of their vows. They may return to the faith if a ranking member casts an atonement for them. They may also pursue a new faith entirely. They must still find a member of the faith to atone them, however. When joining a new faith in this way, the templar loses all of their old vows. They may swear a new one each day until they have reached the level allotted them based on their level.}
+\vspace{8pt}
 
-A templar who wishes to pursue other classes is welcome to do so. There are no multiclssing restrictions against the templar.
-A templar who willingly leaves his faith or who is cast out loses all spells, spell-like, and supernatural abilities, as well as any ability stemming from one of their vows. They may return to the faith if a ranking member casts an atonement for them. They may also pursue a new faith entirely. They must still find a member of the faith to atone them, however. When joining a new faith in this way, the templar loses all of their old vows. They may swear a new one each day until they have reached the level allotted them based on their level.
-
-\subsection{Vows}
-\quot{``So many vows, they make you swear and swear. Defend the King, obey the King. Obey your father. Protect the innocent. Defend the weak. What if your father despises the King? What if the King massacres the innocent? It's too much. No matter what you do, you're forsaking one vow or another.''}
-
+\begin{optional}
+{Vows}
+{\textit{``So many vows, they make you swear and swear. Defend the King, obey the King. Obey your father. Protect the innocent. Defend the weak. What if your father despises the King? What if the King massacres the innocent? It's too much. No matter what you do, you're forsaking one vow or another.''}}
 \vow{Charity
 }{A bone to the dog is not charity. Charity is the bone shared with the dog, when you are just as hungry as the dog.
 }{Once per round on your turn you may aid another as a free action.
 }{Once per round when you are targeted by a spell with an effect beneficial to you, you may allow another creature within Close Range to also gain the benefits of that spell. The spell must also be beneficial to the creature you wish to share it with (interpreted at the DM's discretion), or the sharing fails.
 }{An ally within Close range of you may use your spell slots to cast a spell of an equivalent or lower spell level, so long as you possess the minimum charisma score to use the slot yourself. Your ally may use this slot to cast any spell that they have prepared or that they know (in the case of spontaneous casters), using your slot instead of their own. Your ally may also cast spells from your spell list, even if they would not normally be capable of casting divine spells. Anyone casting a spell in this fashion uses their own attributes, feats, and character level to determine the effects and DC of the spell. They do not need to meet the minimum charisma score requirement for a particular spell level cast from your list, but they must be of a sufficient level that they would be able to use the spell slot were they a templar of the same level.
 }{Perhaps your church decrees that its members must give aid to others, or maybe you give out of the goodness of your heart. You are the quintessential selfless knight, giving to others without necessarily thinking of your own gains. There are times when you may give up more important things than money; the truest sacrifice a templar can make is to offer their own life in the service of their cause.}
+\end{optional}
 
-\subsection{Avenger of the Faith Styles}
-As there are many different vows that a templar can swear, so to are there different combat styles that they may practice. A templar selects one of these styles as their primary style and another as a secondary. They are both then advanced as the templar gains levels.
-
+\begin{optional}
+{Avenger of the Faith Styles}
+{As there are many different vows that a templar can swear, so to are there different combat styles that they may practice. A templar selects one of these styles as their primary style and another as a secondary. They are both then advanced as the templar gains levels.}
 \faith{Charger
 }{A charger is a very straightforward templar. They see their foes, and they run or ride out to meet them. This generally leads to the defeat of their foes.
 }{\ability{Knight Errant (Ex):}{A charger needs to work around the limitations of the bulky armor that is so often part of his attire. You no longer suffer penalties to your base speed from wearing medium or heavy armor. You also gain additional benefits while charging. You may make 1 turn up to 90 degrees as part of your charge action, though you must still travel at least 10 feet in a straight line immediately before you attack a target. Additionally, you are not required to move to the closest space to your opponent during a charge, and may make your charge attack when your opponent is in any of your threatened spaces. This would allow you to take a charge attack while running past an opponent, but this movement would provoke attacks of opportunity as normal.}
@@ -129,3 +132,4 @@ As there are many different vows that a templar can swear, so to are there diffe
 }{\ability{Charge of Glory (Ex):}{You can trample over those who fall before your charge, continuing to seek more blood. If you destroy an effect in your path, render a charged opponent unconscious or dead, or otherwise clear the way forward while charging you may continue the charge along the same path (following all normal restrictions as they apply) up to your full allowed distance. You may make additional attacks against those in your way along this additional distance as if they were your intended charge target. This benefit also applies while you are mounted.}
 }{\ability{Charge of Destruction (Su):}{When a foe is struck with your charge attack and killed, they are destroyed utterly as if they had been immolated or disintegrated. Further, while charging or running you may leave behind a blade barrier as you leaves each space. The wall need not be continuous, and may have as many or as few breaks in it as you desire. This wall deals 15d6 points of damage, has a save DC of 16 + the templar's Charisma modifer, and dissipates at the start of your next turn. This benefit also applies while you are mounted.}
 }
+\end{optional}
