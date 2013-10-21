@@ -31,7 +31,7 @@
 \usepackage{anyfontsize}
 \usepackage{colortbl}
 \usepackage{tabularx}
-
+\usepackage{mdframed}
 \usepackage{longtable}
 \usepackage{tabu}
 \usepackage{afterpage}
@@ -117,7 +117,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\originallineskip}{\baselineskip}
  %A command that is equal to the original \baselineskip of the doc, in case we change it for a section and want to change it back later
-\newcommand{\ability}[2]{\smallskip%\noindent 
+\newcommand{\ability}[2]{\smallskip
  \textbf{#1} #2} 
 %The \ability{#1}{#2} command from legacy-source. Should rarely be directly used, changes to this will cascade into other new commands that use its functionality
 \newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
@@ -435,26 +435,18 @@
 	 & #1 \\}
 %A command that declares a table row within the class feature table.
 
-%\newmdenv[hidealllines=true,backgroundcolor=gray!20]{optionbox}
-%A new environemnt, abilty box, that gets redefined by other commands later, notably to produce color backgrounds for classes
+\newmdenv[hidealllines=true,backgroundcolor=gray!20]{optionbox}
 
-\newenvironment{optional}[2]{
-   \renewcommand\tabularxcolumn[1]{m{##1}}
-   \begin{tabularx}{\textwidth}{X}
-   \rowcolor{headercolor}\textbf{#1} \\
-   \ifx#2\isempty\else#2 \\
-   \end{tabularx}
-}{
-\renewcommand\tabularxcolumn[1]{p{##1}}
+\newcommand{\option}[1]{
+  \renewmdenv[hidealllines=true,backgroundcolor=colorone]{optionbox}
+   \begin{optionbox}\noindent{#1}\end{optionbox}
 }
 
-\newcommand{\option}[2]{
-\begin{tabularx}{\textwidth}{X}
-\rowcolor{colortwo} #1 \\
-\end{tabularx}
-#2
-~\\*
+\newenvironment{optional}{
+\colorlet{colortwo}{white}
+\colorlet{colorone}{gray!15}
 }
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Unsorted Commands
