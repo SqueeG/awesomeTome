@@ -1,16 +1,17 @@
 \classentry{Templar}
 
 \newcommand{\vow}[6]{
-\option{Vow of #1
-}
-{
+\option{Vow of #1}{
 \textit{``#2''}
-\listone
-	\item \ability{First: }{#3}
-	\item \ability{Second: }{#4}
-	\item \ability{Third: }{#5}
-\end{list}
-\vspace{8pt}
+\listone \item \ability{First: }{#3} \item \ability{Second: }{#4} \item \ability{Third: }{#5} \end{list}
+\ability{Roleplaying Ideas: }{#6}
+}}
+
+\newcommand{\specialvow}[7]{
+\option{Vow of #1}{
+\textit{``#2''}
+\listone \item \ability{First: }{#3} \item \ability{Second: }{#4} \item \ability{Third: }{#5} \end{list}
+\ability{Special: }{#7}
 \ability{Roleplaying Ideas: }{#6}
 }}
 
@@ -18,7 +19,7 @@
 \option{#1
 }{
 #2
-\begin{list}{\textbf{\arabic{counter}}:~}{\usecounter{counter}}
+\listnum
 	\item #3
 	\item #4
 	\item #5
@@ -110,20 +111,105 @@ A templar’s spells are more for utility than combat efficacy, either allowing 
 A templar who willingly leaves his faith or who is cast out loses all spells, spell-like, and supernatural abilities, as well as any ability stemming from one of their vows. They may return to the faith if a ranking member casts an atonement for them. They may also pursue a new faith entirely. They must still find a member of the faith to atone them, however. When joining a new faith in this way, the templar loses all of their old vows. They may swear a new one each day until they have reached the level allotted them based on their level.}
 \vspace{8pt}
 
-\begin{optional}
-{Vows}
-{\textit{``So many vows, they make you swear and swear. Defend the King, obey the King. Obey your father. Protect the innocent. Defend the weak. What if your father despises the King? What if the King massacres the innocent? It's too much. No matter what you do, you're forsaking one vow or another.''}}
+\begin{optional}{Vows}{\textit{``So many vows, they make you swear and swear. Defend the King, obey the King. Obey your father. Protect the innocent. Defend the weak. What if your father despises the King? What if the King massacres the innocent? It's too much. No matter what you do, you're forsaking one vow or another.''}}
+
 \vow{Charity
 }{A bone to the dog is not charity. Charity is the bone shared with the dog, when you are just as hungry as the dog.
 }{Once per round on your turn you may aid another as a free action.
 }{Once per round when you are targeted by a spell with an effect beneficial to you, you may allow another creature within Close Range to also gain the benefits of that spell. The spell must also be beneficial to the creature you wish to share it with (interpreted at the DM's discretion), or the sharing fails.
 }{An ally within Close range of you may use your spell slots to cast a spell of an equivalent or lower spell level, so long as you possess the minimum charisma score to use the slot yourself. Your ally may use this slot to cast any spell that they have prepared or that they know (in the case of spontaneous casters), using your slot instead of their own. Your ally may also cast spells from your spell list, even if they would not normally be capable of casting divine spells. Anyone casting a spell in this fashion uses their own attributes, feats, and character level to determine the effects and DC of the spell. They do not need to meet the minimum charisma score requirement for a particular spell level cast from your list, but they must be of a sufficient level that they would be able to use the spell slot were they a templar of the same level.
 }{Perhaps your church decrees that its members must give aid to others, or maybe you give out of the goodness of your heart. You are the quintessential selfless knight, giving to others without necessarily thinking of your own gains. There are times when you may give up more important things than money; the truest sacrifice a templar can make is to offer their own life in the service of their cause.}
+
+\vow{Clemency
+}{An eye for an eye makes the whole world blind.
+}{Whenever you deal lethal damage with a weapon or spell, you may freely opt to deal nonlethal damage instead without suffering a penalty to attack or damage rolls.
+}{You may automatically stabilize any creature within Close range of yourself. Additionally, you may keep them from being killed outright through hit point or ability damage. If a creature within Close range would reach -10 hit points or 0 in an attribute, you may instead set them to -9 hit point or 1 in the attribute, whichever is more appropriate. Creatures who are saved from reaching 0 in an ability score are rendered unconscious for 24 hours, though you may rouse them as a standard action at any time before that. You must be aware of a creature to use this ability.
+}{You may administer healing or other status restoration effects to creatures who have been dead for less than 1 hour as if they were still alive. If you would heal a creature in such a way that they would not be dead, they recover from that condition without penalty.
+}{A good templar may see legitimacy in the concept of defeating enemies in a non-fatal fashion, but it's just as possible that you may simply need to capture them so as to transport them to a more grisly fate.}
+
+\vow{Confrontation
+}{In the name of the church, I declare your life forfeit.	
+}{When you deal damage to a creature with an alignment component opposed to your own, you add your templar level to the damage. A lawful good templar, for example, would add this damage to chaotic or evil creatures. Neutral creatures are considered opposed to creatures with no neutral portion of their alignment. You may suppress this bonus damage at-will.
+}{Any weapon you wield gains the benefits of an alignment related weapon ability. Chaotic templars grant the anarchic property, lawful templars grant the axiomatic property, good templars grant then holy property, and evil templars grant the unholy weapon property. If you would qualify for multiple properties, you gain them both. If you qualify for only 1 property, you may gain that one or select one from your neutral alignment axis. If you do not qualify for any property, you may select one.
+}{Any foe who suffers additional damage from your alignment related weapon properties must also succeed on a Fortitude save or die. You may suppress this effect at will, and may not combine this with any other strike that would inflict a status condition. A creature that makes their save suffers normal damage from the strike and is immune to this effect until the start of your next turn. If the creature would only suffer additional damage from one weapon property, they gain a +4 bonus to this save. If you are a Neutral templar, the target gains an additional +2 on their save. This is a [Death] effect.
+}{You don't back down in the face of your enemy, don't stomach the foes of your faith, and do what you can to quickly remove them from the world. It doesn't really matter what the rest of the world thinks about the plan.}
+
+\vow{Diligence
+}{My path to success is simple. I worked hard and I didn't stop until I was finished.
+}{You no longer need to sleep 8 hours or trance for 4 hours in a night, instead being sufficiently rested after a single hour. You have no sense of the outside world during this time and are treated as unconscious, though you can be roused in the same way as any sleeper would be. This does not affect the schedule on which you regain spells, and any other classes you possess must still meet any other rest requirement, but it does allow them to craft things twice as quickly (if they have sufficient spells available in the case of magical items) or perform other downtime tasks in half as much time. Further, you gain immunity to any natural or magical effect that would cause you to lose consciousness, aside from the dying condition.
+}{You do not suffer the [[SRD:Fatigued|fatigued]] or [[SRD:Exhausted|exhausted]] conditions directly. An effect that would normally cause you to be fatigued is reduced to having no effect, while an effect that would normally cause you to become exhausted is instead reduced to fatigued. Should you be exhausted again while suffering fatigue from a previous exhaustion, that still stacks to exhausted as normal.
+}{Once per round, you can elect to not be affected by an attack, ability, or other effect that would cause you to die or be transformed into an inanimate form. You may do so even if you have already failed a save against the ability or been successfully hit by the attack. You ignore all parts of it when you ignore it in this fashion.
+}{A good templar may work tirelessly for the advancement of a city or group, while an evil one might work tirelessly for their own.  He can sleep when he wants to, or when he's dead.}
+
+\vow{Greed
+}{I did it for the hoard of dragon gold. Your village needing help was just a coincidence.
+}{As a standard action, you may detect metals and minerals as a [[SRD:Rod of Metal and Mineral Detection|Rod of Metal and Mineral Detection]] for 1 round. After this time you must wait 5 minutes before acting in this fashion again.
+}{You can steal the health from those you harm, and recover hit points equal to the damage you deal to a living creature in melee or your class level, whichever is less. This healing cannot restore you beyond your normal hit point total.
+}{Once per round when a spell is targeted on another creature within Close range of you, you may also gain the effects of that spell. A spell leeched in this fashion has the same duration (if applicable) for you as it does for the other recipient, but if it ends prematurely for the recipient it does not end for you. This ability is only useable at the moment the spell is cast, but does not grant you any particular knowledge of what spell is being cast. You must be a valid target for the spell; if you are not this ability is not considered expended. You can even use this ability to teleport along with a caster; if you do so you appear in the space next to them instead of in the same space.
+}{While many religions place Greed among their sins, being selfish and simply taking your due is seen as a virtue in many eyes. The church also loves money and various assorted shiny things, and has its knights seek to recover either wherever possible (by scrupulous methods as often as not). Or perhaps covetousness and greed is more specific to you, and the church merely puts up with it because they like having badasses who do good things for them.}
+
+\vow{Loyalty
+}{If by my life or death I can protect you, I will.
+}{Once per round you may intercept an attack, spell, or supernatural effect that specifically targets a creature adjacent to you. When you do this, you become treated as the intended recipient of the attack or effect. You must declare this before an attack roll is made against the target and before the target has made any saves against the effect.
+}{Once per round as a free action, you may teleport to a space adjacent to any ally within Close Range (25 feet + 5 ft./2 levels) of you. This provokes attacks of opportunity.
+}{You may designate one creature adjacent to you as protected as a free action on your turn. So long as you remain adjacent to them and don't designate a different creature, you grant them full cover and block line of effect from anyone other than yoruself. You may still intercept attacks for other adjacent allies as normal, however, and if you use your ability to teleport to a nearby ally you bring the protected creature with you as well.
+}{Whether it's guarding a cleric of the church or some other less individually capable VIP, you protect them with your body and your life.}
+
+\specialvow{Piety
+}{I can hear the lord's voice in my ear; such communion is the mark of the truly faithful.
+}{You gain one of the domains of your patron deity. If your deity offers more than 5 domains, you must also select which 5 you will have access to. The domain spells are added to your list of spells know, and you use your templar level to determine the strength of the domain power. If you wish, you may select a different domain (subject to the same restrictions) when you pray to restore your spells, losing access to the old domain spells and powers in favor of the new ones.
+}{You gain a second domain of your patron deity, and access to its domain power. This domain is subject to all of the use and selection limitations as your first domain.
+}{You gain a third domain of your patron deity, and access to its domain power. This domain is subject to all of the use and selection limitations as your first domain.
+}{You have a talent for spellcasting that has never measured up to the clerics in the faith, but one that you can pursue should you choose.
+}{A templar may have, at most, a total of 5 domains to choose from for the purposes of this vow. If a deity offers more than 5 domains, you must select which 5 you will have access to while you are in their service. If a deity offers less than 5 domains, you may supplement your options with an alignment domain (Chaos, Evil, Good, or Law) provided it matches a component of your own alignment.}
+
+\vow{Perfidity
+}{You didn't take my advice. Didn't I tell you not to trust anyone?
+}{You gain Bluff as a class skill, and any effect that would interfere with your ability to lie has a 50\% chance to not affect you at all. This is rolled before spell resistance and saving throws.
+}{You are shielded by a constant ''[[SRD:Nondetection|nondetection]]'' effect with a caster level equal to your class level. If you successfully block a ''detect'' spell, you may provide instead provide a false reading for the caster of the divination if you wish.
+}{You are able to mimic other templars, down to gaining the benefits of vows that they receive. You gain the once vowed and twice vowed ability of one vow that you do not already possess; by meditating without interruption for 8 hours, you may change which vow you possess the abilities of.
+}{Deceitful churches employ deceitful templars, able to disguise themselves and assume the mantles of other churches and knightly orders. In order to protect the secrets of your faith, you have sworn to become such a templar.}
+
+\vow{Perseverance
+}{Yes, our comrades have fallen. But we still stand, and we shall remember them.
+}{You become immune to the shaken and frightened conditions, and only suffer the penalties of the shaken condition if you happen to become panicked. Against [Fear] effects that do not result in one of the above conditions, you gain a +4 bonus on your saves.
+}{You can prevent yourself from losing consciousness or dying as a result of hit point loss for 1 round, no matter how low your hit point total falls. You may gain this protection as a swift or immediate action, and it automatically activates in any round you use an ability from your Avenger of the Faith styles.
+}{Once per round as a free action you may revive a dead ally within Medium range in order to allow them to keep fighting. This ability lasts until the ally takes damage again, suffers a condition that would kill them, or until the beginning of your next turn. You may revive an ally multiple times with this ability, but may not return them to life permanently without suitable magic.
+}{Open to cliches galore. You are the sole survivor of a group of knights slaughtered by some great opponent. Your experience in the horrors of war has seen you lose many comrades, but hardened your body and soul in the face of imminent danger.}
+
+\vow{Purity
+}{Cleanliness is next to godliness.
+}{You gain immunity to all poisons and diseases (even those of magical nature
+}{You gain immunity to [Mind-Affecting] effects cast by those whose alignments are oppose yours. Neutral creatures are considered opposed to creatures with no neutral portion of their alignment. 
+}{As a move action useable at will, you may purge your system of any negative condition affecting you including: ability penalties (such as from ray of enfeeblement, touch of idiocy, etc.), ability burn, ability damage, ability drain, blindness, confusion, dazing, dazzling, deafness, entanglement, exhaustion, fatigue, fascination, fright, level drain, shaken, panicked, cowering, nausea, paralysis, sickness, stunning, uncenteredness and any other condition that this list does not include but the DM deems permissible.. If you are unable to take a move action but are still conscious, you may purge yourself of one negative effect as a 1-round interruptable action.
+}{You keep a clean body, and a clean soul. And maybe you force everyone to try to live that way as well...}
+
+\vow{Taint
+}{Watch yourself. You might catch something.
+}{If an ally within Close range is afflicted by a harmful condition listed below (death and dying do not count) that could also affect you, you may take a move action to take that condition from them and instead apply it to yourself: ability penalties (such as from ray of enfeeblement, touch of idiocy, etc.), ability burn, ability damage, ability drain, blindness, confusion, dazing, dazzling, deafness, entanglement, exhaustion, fatigue, fascination, fright, level drain, shaken, panicked, cowering, nausea, paralysis, sickness, stunning, uncenteredness and any other condition that this list does not include but the DM deems permissible.
+}{You may suppress the effects of one of the above negative status effects currently imposed on yourself. While suppressing it in this fashion, you suffer no penalties for it. You may suppress an effect or select a new effect to suppress once per round as a free action on your turn.<br />Additionally, you may spread your suppressed condition to an enemy struck with a melee attack, forcing them to make saving throws as needed to avoid contracting the same ailment. If they make their save, they are immune to this effect until the start of your next turn. You may not apply this effect when your attack would deliver another status effect. If the ailment stacks, such as negative levels, you may apply it to a target additional times in later rounds.
+}{Taint oozes off of you, even when you're otherwise clean. On a successful attack, you may force the target to make a save or become Nauseated for 1 round. If they make their save, you may not attempt to nauseate them again until the start of your next turn. You may not apply this effect when your attack would deliver another status effect, either with the above ability or another spell, feat, or similar feature.
+}{Evil power can only be contained by the body and will of good's greatest servants, or harnessed by the most ambitious and ruthless of tyrants.}
+
+\vow{Truth
+}{Whoever is careless with the truth in small matters cannot be trusted with important matters.
+}{You may radiate a [[SRD:Zone of Truth|Zone of Truth]] for 1 round by concentrating as a standard action. This is a supernatural ability useable at will.
+}{You may not be compelled to lie or be untruthful to your faith. If a spell would cause you to act against a known adherent to your faith or philosophy (including alignment), break a vow, or lie you may instead state that you are unable to commit such an act and perform no actions for the round. If the effect would end following the completion of the compulsion, as in ''suggestion'', it is automatically discharged and ended at the start of your next turn. Otherwise you gain a new save against the effect, with a +4 bonus.
+}{You are constantly under the effects of a ''[[SRD:True Seeing|true seeing]]'' spell. This is a supernatural ability. 
+}{Dishonesty really sticks in your craw, and you like to rattle the saber against those who would use treachery and subterfuge. For without truth, how can anything ever be accomplished in the world?}
+
+\vow{Valor
+}{Cowards die a thousand times before their deaths, whilst the brave man dies but once.
+}{You respond quickly to the threat of a charge. If a charge attack is ever declared against you, you may declare a charge against the opponent charging you as an immediate action. You gain all normal charge benefits on this action. You and the opponent charging meet at the midpoint of your charges, regardless of your respective speeds.
+}{Your valor allows you to stand in the face of adversity when others can not. As a swift or immediate action (or as a free-action in any round you use an ability from your Avenger of the Faith styles) you can become rooted to a space unless you elect to move from it. If you are falling or sinking, you immediately cease at your current elevation. Should you allow yourself to fall in later rounds, you suffer falling damage from your new position. Your position can be changed, however, but it requires substantial effort. You gain a bonus equal to twice your templar level on any check or save to resist falling, losing your footing, or being forcibly moved to another space. This protection lasts until the beginning of your next turn. You may take move actions normally while this effect is active.
+}{Your fearlessness is terrifying in its own right. On a successful attack, you may force the target to make a save or become Frightened for 1 round. If they make their save, they are immune to this effect until the start of your next turn. You may not apply this effect when your attack would deliver another status effect.
+}{You are one of those hardcore zealots who throw themselves at the enemy, striking fear deep into their hearts. It's hard for enemies to fight someone who doesn't fear death.}
 \end{optional}
 
 \begin{optional}
 {Avenger of the Faith Styles}
 {As there are many different vows that a templar can swear, so to are there different combat styles that they may practice. A templar selects one of these styles as their primary style and another as a secondary. They are both then advanced as the templar gains levels.}
+
 \faith{Charger
 }{A charger is a very straightforward templar. They see their foes, and they run or ride out to meet them. This generally leads to the defeat of their foes.
 }{\ability{Knight Errant (Ex):}{A charger needs to work around the limitations of the bulky armor that is so often part of his attire. You no longer suffer penalties to your base speed from wearing medium or heavy armor. You also gain additional benefits while charging. You may make 1 turn up to 90 degrees as part of your charge action, though you must still travel at least 10 feet in a straight line immediately before you attack a target. Additionally, you are not required to move to the closest space to your opponent during a charge, and may make your charge attack when your opponent is in any of your threatened spaces. This would allow you to take a charge attack while running past an opponent, but this movement would provoke attacks of opportunity as normal.}
@@ -132,4 +218,33 @@ A templar who willingly leaves his faith or who is cast out loses all spells, sp
 }{\ability{Charge of Glory (Ex):}{You can trample over those who fall before your charge, continuing to seek more blood. If you destroy an effect in your path, render a charged opponent unconscious or dead, or otherwise clear the way forward while charging you may continue the charge along the same path (following all normal restrictions as they apply) up to your full allowed distance. You may make additional attacks against those in your way along this additional distance as if they were your intended charge target. This benefit also applies while you are mounted.}
 }{\ability{Charge of Destruction (Su):}{When a foe is struck with your charge attack and killed, they are destroyed utterly as if they had been immolated or disintegrated. Further, while charging or running you may leave behind a blade barrier as you leaves each space. The wall need not be continuous, and may have as many or as few breaks in it as you desire. This wall deals 15d6 points of damage, has a save DC of 16 + the templar's Charisma modifer, and dissipates at the start of your next turn. This benefit also applies while you are mounted.}
 }
+
+\faith{Herald
+}{A herald is a shining beacon of the strength of their patron or philosophy. While they generally do so with protective and restorative auras, they are eventually capable of showing the terrible might of their beliefs as well.
+}{\ability{Aura of Vitality (Su): }{As a swift or move action, you may radiate a protective divine aura. All designated creatures within Close range (25 ft, +5 feet per 2 class levels) of you when you activate the aura gain its benefits until the start of your next turn. You must have line-of-effect to a creature to designate them, however. You may also exclude yourself from the effect if you prefer. There is no limit to the number of times per day that a herald may create a dine aura. <br />Creatures benefiting from your protective aura gain temporary hit points equal to your class level or your charisma modifier, whichever is higher. These temporary hit points last until used or 1 day has passed, and they do not stack with additional exposure to the aura or with any other source of temporary hit points.}
+}{\ability{Aura of Sanctuary (Su): }{Creatures benefiting from your protective aura also gain the effects of the \spell{Sanctuary} spell. If a warded creature takes an offensive action, the sanctuary effect is only broken for them. The effect may be restored next round as long as they remain within range of you when your aura is renewed, however. If a creature attacks any warded creature and successfully saves against the sanctuary effect, they are considered to have saved against it for all creatures protected by your aura. Further, they need not make any additional saves against the sanctuary effect of your aura for 24 hours, and ignore it even if you continue to renew it during that time.}
+}{\ability{Aura of Protection (Su): }{Creatures benefiting from your protective aura are protected by a ''protection from X'' spell, where X is any alignment descriptor opposed to your own. Characters with a Neutral alignment may select an opposed alignment. You may change the alignment protected against whenever your aura is renewed.}
+}{\ability{Aura of Assistance (Su):}{You may add the benefits of one personal or touch range spell of level 2 or less that you currently benefit from to your protective aura. A creature who is not a legal target for the spell may not gain the benefit of it from your aura, however.}
+}{\ability{Otherworldly Aura (Su): }{As a standard action, you can project an otherworldly aura of divine might. You may project this aura in addition to your protective aura, but you must spend both actions to do so. When you project this aura, every creature within close range must make a will save or cower for 1 round. Creatures that are immune to fear are instead dazed for 1 round on a failed save.}
+}
+
+\faith{Hoplite
+}{Templars who follow the hoplite path are those who feel that a combination of offense and defense is often the most appropriate one to bring against your foes. These templars can wait behind the increased protection of their shield, and then strike with an unexpectedly strong blow.
+}{\ability{Vanguard (Ex): }{When wielding a shield in your off hand, you may wield a spear in one hand. When you do so, you still deal damage with the spear as though it is wielded in two hands.}
+}{\ability{Resolute Strike (Ex): }{You pour your passion and devotion into your strikes, and your foes can tell. While wielding a shield in your off hand, you may add your Charisma modifier to your damage rolls. If you wield a tower shield, you may also add your Charisma modifier to your attack rolls. Additionally, you may set your spear against a charge as an immediate action.}
+}{\ability{Divine Thrust (Ex): }{Your spear thrusts are so strong that you need not even strike a foe with the tip to pierce them. This increases the area you threaten while wielding a spear by 5', and movement through this expanded area provokes attacks of opportunity as normal. If your wielded spear is a reach weapon, this ability does not allow you to attack adjacent targets though you can strike even farther away.}
+}{\ability{Warding Strike (Su): }{You spear strikes hurl back the targets you hit. Targets are moved away from you a distance equal to the half the damage dealt (rounded down to the nearest 5 foot increment), with a minimum of 10 feet. If they can not move the full distance, they take 1d6 points of damage for every 2 squares they are unable to move. They land in their destination square prone. A successful reflex save negates the hurling effect.}
+}{\ability{Resounding Strike (Su): }{When you strike a foe with your warding strike, you may expand the effect to include all others in a 30' cone which expands away from you with your struck target in the middle. The creature hit by your strike suffers damage normally and makes their save against the effect as above. Other targets within this cone are entitled to a reflex save against the same DC. On a successful save they suffer only half the damage of your strike and are not moved. On a failed save they suffer the full damage of your strike and are hurled as above.}
+}
+
+\faith{Protector
+}{Protectors understand a simple truth about the world and faith: when faced with throngs of unbelievers or the enemies of your deity, it's important to stand your ground. Which they do quite admirably.
+}{\ability{Hardline Stance (Ex): }{You may enter a hardline stance as a move action, and may maintain it additional rounds as either a move or swift action. While holding a hardline stance you are treated as if you had readied an attack against any foe's movement within the spaces you threaten. There is no limit to the number of attacks you can make against moving opponents in this way, and you may make an attack against a foe for each space moved. These attacks are not attacks of opportunity and occur in place of them. You may use an attack of opportunity instead of these bonus attacks if you wish. Your movement rate is reduced to 5' in all movement forms, however, regardless of bonuses or their values before you entered the stance. There is no limit to the number of times in a day when a protector can enter a hardline stance.}
+}{\ability{Emenating Stance (Su): }{You visibly radiate a tangible divine energy that can be used to harm foes as well as deflect blows. This grants you reach as if they were one size larger (small and medium are considered to be the same size category for these purposes). Additionally, if you are carrying a shield, the emanations provide you with [[SRD:Cover|cover]]. Your threatened spaces may deflect attacks passing through them, if you wish it, granting cover to creatures targeted by any attack or spell that passes through a space you threaten.}
+}{\ability{Hold the Line (Su): }{While holding a hardline stance you may, you may break line of effect across your threatened spaces as a free action on your turn. This break must be a straight line that passes from one side of your threatened area to the opposite side and passes through yourself. It can be maintained for as long as you maintains your hardline stance, but it may only be changed on your turn.}
+}{\ability{Persistant Stance (Su): }{Rounds spent in a hardline stance do not count against the duration of any spell that you have cast on yourself.}
+}{\ability{Sacred Space (Su): }{When you take on their hardline stance, you may also choose to radiate an effect similar to forbiddance in a 60' radius. You may activate or deactivate this effect as a free action on your turn, but it must remain activated or deactivated for 1 round before you may change it. This effect otherwise lasts as long as you maintains the stance, and it travels with you.\newline
+Additionally, you may block any attempt to teleport by a creature that you can see if the shortest distance between their start and end points would pass through this effect. Your own travel powers, those granted by class feature and by spells, are not blocked by this effect. Any creatures who enter on their own suffer the appropriate damage, but creatures within the area of effect when the effect begins, or who find themselves in it because of your movement, do not suffer damage from the effect. Similarly, summoned creatures in the area when the effect is activated are not dispelled, nor are those who wind up in the area of effect as a result of your movement.}
+}
+
 \end{optional}

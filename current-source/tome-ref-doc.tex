@@ -36,8 +36,6 @@
 \usepackage{tabu}
 \usepackage{afterpage}
 
-\usepackage{mdframed}
-
 %% Font
 \usepackage[T1]{fontenc}
 \usepackage[bitstream-charter]{mathdesign}
@@ -119,16 +117,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\originallineskip}{\baselineskip}
  %A command that is equal to the original \baselineskip of the doc, in case we change it for a section and want to change it back later
-\newcommand{\ability}[2]{\smallskip
-% \noindent 
+\newcommand{\ability}[2]{\smallskip%\noindent 
  \textbf{#1} #2} 
 %The \ability{#1}{#2} command from legacy-source. Should rarely be directly used, changes to this will cascade into other new commands that use its functionality
 \newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
 %A command from legacy-source for compatabilty
 \newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
 %A type of list from legacy sorce
+\newcommand{\listnum}{\begin{list}{\textbf{\arabic{counter}}:}{\usecounter{counter}}}
 \newcommand{\spell}[1]{\emph{\MakeLowercase{#1}}}
 %makes spell name lowercase italics.
+\setlength{\parindent}{0pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Logic
@@ -244,6 +243,7 @@
 \endcenter
 \endtable
 }
+%A a new environment that sets up the class tables. Include the \level commands between \begin{classtable}.
 
 \newenvironment{minorcastingclasstable}
 {
@@ -258,7 +258,22 @@
 \endcenter
 \endtable
 }
-%A a new environment that sets up the class tables. Include the \level commands between \begin{classtable}.
+%A a new environment similar to classtable, but with columns for a minor (zero through six) spell slot progression.
+
+\newenvironment{fullcastingclasstable}
+{
+\table[htb]
+\center
+\rowcolors{1}{colorone}{colortwo}
+\tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xcccccccccc}
+\rowcolor{headercolor} & & & & & &\multicolumn{10}{c}{Spells Per Day (By Level)} \\
+\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special &0&1&2&3&4&5&6&7&8&9\\
+}{
+\endtabularx
+\endcenter
+\endtable
+}
+%Another environment for class tables, this one for full (0 through 9) spell slot progression.
 
 \newcommand{\levelone}[1]{
 1st  & \ifx\gbab\isempty +1 \else\ifx\mbab\isempty +0 \else +0 \fi \fi
@@ -420,33 +435,26 @@
 	 & #1 \\}
 %A command that declares a table row within the class feature table.
 
-\newmdenv[hidealllines=true,backgroundcolor=gray!20]{optionbox}
+%\newmdenv[hidealllines=true,backgroundcolor=gray!20]{optionbox}
 %A new environemnt, abilty box, that gets redefined by other commands later, notably to produce color backgrounds for classes
 
-\newcommand{\option}[2]{
-  \renewmdenv[hidealllines=true,backgroundcolor=colorone]{optionbox}
-   \begin{optionbox}\noindent\textbf{#1}\end{optionbox}
-  \renewmdenv[hidealllines=true,backgroundcolor=colortwo]{optionbox}
-   \begin{optionbox}#2\end{optionbox}
-}
-
-\newenvironment{optional}[2]
-{
-\colorlet{colorone}{gray!30}
-\colorlet{colortwo}{gray!15}
-
- \ifx#1\isempty\else\renewmdenv[hidealllines=true,backgroundcolor=headercolor]{optionbox}
-  \begin{optionbox}\begin{large}\noindent\textbf{#1}\end{large}\end{optionbox}\fi
-  \ifx#2\isempty\else\renewmdenv[hidealllines=true,backgroundcolor=colortwo]{optionbox}\fi
-  \begin{optionbox}#2\end{optionbox}
+\newenvironment{optional}[2]{
+   \renewcommand\tabularxcolumn[1]{m{##1}}
+   \begin{tabularx}{\textwidth}{X}
+   \rowcolor{headercolor}\textbf{#1} \\
+   \ifx#2\isempty\else#2 \\
+   \end{tabularx}
 }{
-\colorlet{colorone}{white}
-\colorlet{colortwo}{gray!15}
+\renewcommand\tabularxcolumn[1]{p{##1}}
 }
 
-
-
-\newcommand{\suboption}
+\newcommand{\option}[2]{
+\begin{tabularx}{\textwidth}{X}
+\rowcolor{colortwo} #1 \\
+\end{tabularx}
+#2
+~\\*
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Unsorted Commands
@@ -589,31 +597,19 @@ foo
 foo
 \input{phb/base-classes/assassin}
 \input{phb/base-classes/barbarian}
-\section{Bard}
-foo
-\section{Cleric}
-foo
-\section{Druid}
-foo
-\section{Fighter}
-foo
-\section{Knight}
-foo
-\section{Monk}
-foo
-\section{Paladin}
-foo
-\section{Ranger}
-foo
-\section{Rogue}
-foo
-\section{Samurai}
-foo
-\section{Sorcerer}
-foo
+%\input{Bard}
+%\input{Cleric}
+%\input{Druid}
+%\input{Fighter}
+%\input{Knight}
+%\input{Monk}
+%\input{Paladin}
+%\input{Ranger}
+%\input{Rogue}
+%\input{Samurai}
+%\input{Sorcerer}
 \input{phb/base-classes/templar}
-\section{Wizard}
-foo
+\input{phb/base-classes/wizard}
 
 \chapter{Skills}
 \section{How Skills Work}
