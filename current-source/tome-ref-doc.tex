@@ -149,9 +149,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Sectioning
 %%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\classentry}[1]{\newpage \section{#1} \renewcommand{\class}{#1} \index{#1 (class)} \renewcommand{\testempty}{\isempty}}
+\newcommand{\classentry}[1]{\newpage \section{#1} \label{class:#1} \renewcommand{\class}{#1} \index{#1 (class)} \renewcommand{\testempty}{\isempty}}
 %Starts a new page, creates a section with the name of the class (#1), sets \class to be the name of the class, indexes the class.
-\newcommand{\raceentry}[1]{\oldsection{#1}\index{#1 (race)}\label{race:#1}}
+\newcommand{\raceentry}[1]{\subsection{#1} \label{race:#1}}
+%\newcommand{\raceentry}[1]{\oldsection{#1}\index{#1 (race)}\label{race:#1}}
 
 \newcommand{\Requirements}{\oldsubsubsection*{Requirements}}
 
@@ -160,6 +161,11 @@
 \newcommand{\ClassFeatures}{\oldsubsubsection*{Class Features}}
 
 \newcommand{\skillentry}[2]{\oldsubsection[#1]{#1 #2}\index{#1 (skill)}\label{skill:#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Race Chapter
+%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Class Chapter
@@ -567,30 +573,22 @@ foo
 foo
 
 \chapter{Races}
-\section{Race Basics}
-foo
-\section{Drow}
-foo
-\section{Dwarf}
-foo
-\section{Elf}
-foo
-\section{Gnome}
-foo
-\section{Goblin}
-foo
-\section{Half-Elf}
-foo
-\section{Halfling}
-foo
-\section{Hobgoblin}
-foo
-\section{Human}
-foo
-\section{Kobold}
-foo
-\section{Orc}
-foo
+%need a race basics section here
+\input{phb/races/aasimar}
+\input{phb/races/drow}
+\input{phb/races/dwarf}
+\input{phb/races/elf}
+\input{phb/races/feytouched}
+\input{phb/races/gnome}
+\input{phb/races/goblin}
+\input{phb/races/half-elf}
+\input{phb/races/half-orc}
+\input{phb/races/halfling}
+\input{phb/races/hobgoblin}
+\input{phb/races/human}
+\input{phb/races/kobold}
+\input{phb/races/orc}
+\input{phb/races/tiefling}
 
 \chapter{Classes}
 \section{Class Basics}
