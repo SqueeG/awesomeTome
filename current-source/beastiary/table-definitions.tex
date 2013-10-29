@@ -1,0 +1,127 @@
+
+%%%New monster table environments for consistency%%%
+\newenvironment{monstersingle}{
+\rowcolors{0}{white}{tablegrey}
+\begin{longtabu} to \linewidth{X X}
+\toprule
+}{
+\bottomrule
+\end{longtabu}
+}
+
+\newenvironment{monsterdouble}{
+\rowcolors{0}{white}{tablegrey}
+\begin{longtabu} to \linewidth{X X X X}
+\toprule
+}{
+\bottomrule
+\end{longtabu}
+}
+
+%%%Generic row formats for consistency%%%
+\newcommand{\singlemonsterline}[4]{{\bf #1} #3 & {\bf #2} #4 \\}
+
+\newcommand{\singlemonsterspanline}[2]{\multicolumn{2}{p{0.975\linewidth\hangindent=0.3cm}}{\raggedright{{\bf #1} #2}} \\}
+
+\newcommand{\singlemonsterabilityline}[2]{\multicolumn{2}{p{0.975\linewidth\hangindent=0.3cm}}{{\bf #1:} #2} \\}
+
+\newcommand{\doublemonsterline}[6]{{\bf #1} #3 & {\bf #2} #4 & {\bf #1} #5 & {\bf #2} #6 \\}
+
+\newcommand{\doublemonsterspanline}[3]{\multicolumn{2}{p{0.475\linewidth\hangindent=0.3cm}}{\raggedright{{\bf #1} #2}} & \multicolumn{2}{p{0.475\linewidth\hangindent=0.3cm}}{\raggedright{{\bf #1} #3}} \\}
+
+\newcommand{\doublemonsterabilityline}[2]{\multicolumn{4}{p{0.975\linewidth\hangindent=0.3cm}}{{\bf #1:} #2} \\}
+
+%%%%%
+%%%Specific row commands for easier entry and increased row function obviousness%%%
+%%%%%
+
+%%%Single monster table lines
+\newcommand{\namelevelsingle}[2]{\rowcolor{gray!50}
+\singlemonsterline{}{LEVEL}{\textbf{#1}}{\textbf{#2}}}
+
+\newcommand{\typesingle}[1]{\singlemonsterspanline{}{#1}}
+
+\newcommand{\initsensessingle}[2]{\singlemonsterline{Init}{Senses}{#1}{#2}}
+
+\newcommand{\speedsingle}[1]{\singlemonsterspanline{Speed}{#1}}
+
+\newcommand{\languagessingle}[1]{\singlemonsterspanline{Languages}{#1}
+\midrule}
+
+\newcommand{\hpsingle}[1]{\singlemonsterspanline{HP}{#1}}
+
+\newcommand{\acsingle}[1]{\singlemonsterspanline{AC}{#1}}
+
+\newcommand{\savessingle}[1]{\singlemonsterspanline{Saves}{#1}}
+
+\newcommand{\vulnerabilitiessingle}[1]{\singlemonsterspanline{Vulnerabilities}{#1}
+\midrule}
+
+\newcommand{\spacereachsingle}[2]{\singlemonsterline{Space}{Reach}{#1}{#2}}
+
+\newcommand{\stdattacksingle}[1]{\singlemonsterspanline{Std Attack}{#1}}
+
+\newcommand{\fullattacksingle}[1]{\singlemonsterspanline{Full Attack}{#1}}
+
+\newcommand{\optionssingle}[1]{\singlemonsterspanline{Attack Options}{#1}}
+
+\newcommand{\babedgesingle}[2]{\singlemonsterline{BAB}{Edge}{#1}{#2}}
+
+\newcommand{\feintsingle}[1]{\singlemonsterspanline{Feint}{#1}
+\midrule}
+
+\newcommand{\attributessingle}[1]{\singlemonsterspanline{Abilities}{#1}}
+
+\newcommand{\qualitiessingle}[1]{\singlemonsterspanline{Special Qualities}{#1}}
+
+\newcommand{\featssingle}[1]{\singlemonsterspanline{Feats}{#1}}
+
+\newcommand{\skillssingle}[1]{\singlemonsterspanline{Skills}{#1}
+\midrule}
+
+\newcommand{\abilitysingle}[2]{\singlemonsterabilityline{#1}{#2}}
+
+%%%Double monster table lines
+\newcommand{\nameleveldouble}[4]{\rowcolor{gray!50}
+\doublemonsterline{}{LEVEL}{\textbf{#1}}{\textbf{#2}}{\textbf{#3}}{\textbf{#4}}}
+
+\newcommand{\typedouble}[2]{\doublemonsterspanline{}{#1}{#2}}
+
+\newcommand{\initsensesdouble}[4]{\doublemonsterline{Init}{Senses}{#1}{#2}{#3}{#4}}
+
+\newcommand{\speeddouble}[2]{\doublemonsterspanline{Speed}{#1}{#2}}
+
+\newcommand{\languagesdouble}[2]{\doublemonsterspanline{Languages}{#1}{#2}
+\midrule}
+
+\newcommand{\hpdouble}[2]{\doublemonsterspanline{HP}{#1}{#2}}
+
+\newcommand{\acdouble}[2]{\doublemonsterspanline{AC}{#1}{#2}}
+
+\newcommand{\savesdouble}[2]{\doublemonsterspanline{Saves}{#1}{#2}}
+
+\newcommand{\vulnerabilitiesdouble}[2]{\doublemonsterspanline{Vulnerabilities}{#1}{#2}\midrule}
+
+\newcommand{\spacereachdouble}[4]{\doublemonsterline{Space}{Reach}{#1}{#2}{#3}{#4}}
+
+\newcommand{\stdattackdouble}[2]{\doublemonsterspanline{Std Attack}{#1}{#2}}
+
+\newcommand{\fullattackdouble}[2]{\doublemonsterspanline{Full Attack}{#1}{#2}}
+
+\newcommand{\babedgedouble}[4]{\doublemonsterline{BAB}{Edge}{#1}{#2}{#3}{#4}}
+
+\newcommand{\optionsdouble}[2]{\doublemonsterspanline{Attack Options}{#1}{#2}}
+
+\newcommand{\feintdouble}[2]{\doublemonsterspanline{Feint}{#1}{#2}
+\midrule}
+
+\newcommand{\attributesdouble}[2]{\doublemonsterspanline{Attributes}{#1}{#2}}
+
+\newcommand{\qualitiesdouble}[2]{\doublemonsterspanline{Special Qualities}{#1}{#2}}
+
+\newcommand{\featsdouble}[2]{\doublemonsterspanline{Feats}{#1}{#2}}
+
+\newcommand{\skillsdouble}[2]{\doublemonsterspanline{Skills}{#1}{#2}
+\midrule}
+
+\newcommand{\abilitydouble}[2]{\doublemonsterabilityline{#1}{#2}}

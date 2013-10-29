@@ -1,0 +1,26 @@
+\documentclass[10pt]{article}
+
+%packages with options
+\usepackage[margin=2cm]{geometry}
+\usepackage[table, usenames, dvipsnames]{xcolor}
+
+%all other packages
+\usepackage{array, booktabs, caption, colortbl, enumerate, hyperref, longtable, tabu, tabularx}
+
+%settings
+\definecolor{tablegrey}{gray}{0.9}
+
+%commands
+
+%%%%The table commands are ugly and repetitive and not worth looking at unless you want to change something globally. They are stored in a separate file.%%%%
+\input{beastiary/table-definitions}
+
+\begin{document}
+
+\part{Monsters}
+
+\input{beastiary/single-monster-template}
+
+\input{beastiary/double-monster-template}
+
+\end{document}
