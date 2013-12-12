@@ -1,0 +1,23 @@
+\goodbab\goodfor\poorref\poorwil 
+\begin{classtable}{} 
+\levelone{Rage, Fast Healing 1} 
+\leveltwo{Rage Dice +1d6, Combat Movement +5'} 
+\levelthree{Battle Hardened} 
+\levelfour{Rage Dice +2d6, Combat Movement +10'} 
+\levelfive{Sidestep Hazards , Fast Healing 5} 
+\levelsix{Rage Dice +3d6, Combat Movement +15'} 
+\levelseven{Great Blows} 
+\leveleight{Rage Dice +4d6, Combat Movement +20'} 
+\levelnine{Great Life} 
+\levelten{Rage Dice +5d6, Combat Movement +25', Fast Healing 10} 
+\leveleleven{Call the Horde} 
+\leveltwelve{Rage Dice +6d6, Combat Movement +30'} 
+\levelthirteen{Watched by Totems} 
+\levelfourteen{Rage Dice +7d6, Combat Movement +35'} 
+\levelfifteen{Primal Assault, Fast Healing 15} 
+\levelsixteen{Rage Dice +8d6, Combat Movement +40'} 
+\levelseventeen{Savagery} 
+\leveleighteen{Rage Dice +9d6, Combat Movement +45'} 
+\levelnineteen{One With The Beast} 
+\leveltwenty{Rage Dice +10d6, Combat Movement +50', Fast Healing 20} 
+\end{classtable}
