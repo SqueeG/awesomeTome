@@ -68,6 +68,7 @@ function setdefault(){
 
     if( filter[ s ] ){
       ( filter[ s ] == 1 ) ? y[ x[i] ] = '\\begin{'+s+'}' : y[ x[i] ] = '\\end{'+s+'}';
+      if ( filter[ s ] == 'classtable' && filter[ s ] == 1 ){ y[ x[i] ] += '{}' };
       filter[ s ]++;
     } else {
       trd.data[ x[i] ]='';
