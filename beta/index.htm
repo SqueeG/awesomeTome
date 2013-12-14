@@ -4,7 +4,8 @@
 		<title>Simple Tome Class LaTEX generator</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
-		<link href="css/yeti.min.css" rel="stylesheet">
+		<!-- <link href="css/yeti.min.css" rel="stylesheet">-->
+		<link href="../css/yeti.min.css" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -172,6 +173,23 @@
                 </div>
 
                 <div class="form-group">
+                  <label class="control-label">Class Feature</label>
+                  <div class="input-group">
+                    <span class="input-group-btn">
+											<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Level
+											<span class="caret"></span></button>
+											<ul class="dropdown-menu" id="">
+											</ul>
+										</span>
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Button</button>
+                    </span>
+                  </div>
+                </div>
+
+                <!--
+                <div class="form-group">
 									<label for="levelone" class="col-sm-1 control-label">Level One</label>
 									<div class="col-md-6">
 										<input type="text" class="form-control" id="levelone" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
@@ -322,6 +340,7 @@
 										<span class="help-block">Copy and paste this into a .tex file</span>
 									</div>
 								</div>
+								-->
 
 							</fieldset>
 							</form>
@@ -335,8 +354,11 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
+		<!--<script src="js/bootstrap.min.js"></script>
 		<script src="js/autosize.min.js"></script>
-		<script src="base-class.js"></script>
+		<script src="base-class.js"></script>-->
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/autosize.min.js"></script>
+		<script src="../base-class.js"></script>
 	</body>
 </html>
