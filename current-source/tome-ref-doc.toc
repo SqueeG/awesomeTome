@@ -29,12 +29,12 @@
 \contentsline {section}{\numberline {3.6}Knight}{20}{section.3.6}
 \contentsline {section}{\numberline {3.7}Monk}{23}{section.3.7}
 \contentsline {section}{\numberline {3.8}Templar}{26}{section.3.8}
-\contentsline {subsubsection}{Vows}{28}{section*.17}
-\contentsline {subsubsection}{Avenger of the Faith Styles}{33}{section*.18}
+\contentsline {subsubsection}{Vows}{28}{section*.26}
+\contentsline {subsubsection}{Avenger of the Faith Styles}{33}{section*.27}
 \contentsline {section}{\numberline {3.9}Wizard}{36}{section.3.9}
-\contentsline {subsubsection}{School Specialization}{37}{section*.19}
-\contentsline {subsubsection}{Familiars}{37}{section*.20}
-\contentsline {subsubsection}{Arcane Spells and Armor}{39}{section*.21}
+\contentsline {subsubsection}{School Specialization}{37}{section*.29}
+\contentsline {subsubsection}{Familiars}{37}{section*.30}
+\contentsline {subsubsection}{Arcane Spells and Armor}{39}{section*.33}
 \contentsline {chapter}{\chapternumberline {4}Skills}{40}{chapter.4}
 \contentsline {section}{\numberline {4.1}How Skills Work}{40}{section.4.1}
 \contentsline {section}{\numberline {4.2}Appraise}{40}{section.4.2}
@@ -77,8 +77,8 @@
 \contentsline {section}{\numberline {6.1}The Three Economies}{44}{section.6.1}
 \contentsline {section}{\numberline {6.2}Armor}{44}{section.6.2}
 \contentsline {section}{\numberline {6.3}Weapons}{44}{section.6.3}
-\contentsline {subsection}{Weapon Qualities}{45}{section*.22}
-\contentsline {subsection}{Individual Weapon Rules}{47}{section*.23}
+\contentsline {subsection}{Weapon Qualities}{45}{section*.34}
+\contentsline {subsection}{Individual Weapon Rules}{47}{section*.35}
 \contentsline {section}{\numberline {6.4}Gear}{50}{section.6.4}
 \contentsline {section}{\numberline {6.5}Animals}{50}{section.6.5}
 \contentsline {section}{\numberline {6.6}Services}{50}{section.6.6}
@@ -95,52 +95,52 @@
 \contentsline {chapter}{\chapternumberline {9}Combat}{53}{chapter.9}
 \contentsline {section}{\numberline {9.1}How Combat Works}{53}{section.9.1}
 \contentsline {section}{\numberline {9.2}Combat Statistics}{53}{section.9.2}
-\contentsline {subsection}{Attack Rolls}{53}{section*.24}
-\contentsline {subsection}{Attack Bonus}{53}{section*.25}
-\contentsline {subsection}{Damage}{53}{section*.26}
-\contentsline {subsection}{Armor}{54}{section*.27}
-\contentsline {subsection}{Hit Points}{54}{section*.28}
-\contentsline {subsection}{Speed}{54}{section*.29}
-\contentsline {subsection}{Saving Throws}{55}{section*.30}
-\contentsline {subsection}{Initiative}{55}{section*.31}
-\contentsline {subsection}{Surprise}{55}{section*.32}
-\contentsline {subsection}{Attacks of Opportunity}{55}{section*.33}
+\contentsline {subsection}{Attack Rolls}{53}{section*.36}
+\contentsline {subsection}{Attack Bonus}{53}{section*.37}
+\contentsline {subsection}{Damage}{53}{section*.38}
+\contentsline {subsection}{Armor}{54}{section*.39}
+\contentsline {subsection}{Hit Points}{54}{section*.41}
+\contentsline {subsection}{Speed}{54}{section*.42}
+\contentsline {subsection}{Saving Throws}{55}{section*.43}
+\contentsline {subsection}{Initiative}{55}{section*.44}
+\contentsline {subsection}{Surprise}{55}{section*.45}
+\contentsline {subsection}{Attacks of Opportunity}{55}{section*.46}
 \contentsline {section}{\numberline {9.3}Actions in Combat}{56}{section.9.3}
-\contentsline {subsection}{The Combat Round}{56}{section*.34}
-\contentsline {subsection}{Action Types}{56}{section*.35}
-\contentsline {subsection}{Standard Actions}{57}{section*.36}
-\contentsline {subsubsection}{Attack}{57}{section*.37}
-\contentsline {subsubsection}{Casting a Spell}{58}{section*.38}
-\contentsline {subsubsection}{Activate Magic Item}{59}{section*.39}
-\contentsline {subsubsection}{Use Special Ability}{59}{section*.40}
-\contentsline {subsubsection}{Total Defense}{59}{section*.41}
-\contentsline {subsubsection}{Start/Complete Full-Round Action}{60}{section*.42}
-\contentsline {subsection}{Move Actions}{60}{section*.43}
-\contentsline {subsubsection}{Move}{60}{section*.44}
-\contentsline {subsubsection}{Draw or Sheathe a Weapon}{60}{section*.45}
-\contentsline {subsubsection}{Ready or Loose a Shield}{60}{section*.46}
-\contentsline {subsubsection}{Manipulate an Item}{60}{section*.47}
-\contentsline {subsubsection}{Direct or Redirect a Spell}{60}{section*.48}
-\contentsline {subsubsection}{Stand Up}{60}{section*.49}
-\contentsline {subsubsection}{Mount/Dismount a Steed}{60}{section*.50}
-\contentsline {subsection}{Full-Round Actions}{61}{section*.51}
-\contentsline {subsubsection}{Full Attack}{61}{section*.52}
-\contentsline {subsubsection}{Cast a Spell}{61}{section*.53}
-\contentsline {subsubsection}{Use Special Ability}{61}{section*.54}
-\contentsline {subsubsection}{Withdraw}{61}{section*.55}
-\contentsline {subsubsection}{Run}{62}{section*.56}
-\contentsline {subsubsection}{Move 5 Feet through Difficult Terrain}{62}{section*.57}
-\contentsline {subsection}{Swift Actions}{62}{section*.58}
-\contentsline {subsection}{Immediate Actions}{62}{section*.59}
-\contentsline {subsection}{Free Actions}{62}{section*.60}
-\contentsline {subsubsection}{Drop an Item}{62}{section*.61}
-\contentsline {subsubsection}{Drop Prone}{62}{section*.62}
-\contentsline {subsubsection}{Speak}{63}{section*.63}
-\contentsline {subsubsection}{Cease Concentration on Spell}{63}{section*.64}
+\contentsline {subsection}{The Combat Round}{56}{section*.47}
+\contentsline {subsection}{Action Types}{56}{section*.48}
+\contentsline {subsection}{Standard Actions}{57}{section*.49}
+\contentsline {subsubsection}{Attack}{57}{section*.50}
+\contentsline {subsubsection}{Casting a Spell}{58}{section*.51}
+\contentsline {subsubsection}{Activate Magic Item}{59}{section*.52}
+\contentsline {subsubsection}{Use Special Ability}{59}{section*.53}
+\contentsline {subsubsection}{Total Defense}{59}{section*.54}
+\contentsline {subsubsection}{Start/Complete Full-Round Action}{60}{section*.55}
+\contentsline {subsection}{Move Actions}{60}{section*.56}
+\contentsline {subsubsection}{Move}{60}{section*.57}
+\contentsline {subsubsection}{Draw or Sheathe a Weapon}{60}{section*.58}
+\contentsline {subsubsection}{Ready or Loose a Shield}{60}{section*.59}
+\contentsline {subsubsection}{Manipulate an Item}{60}{section*.60}
+\contentsline {subsubsection}{Direct or Redirect a Spell}{60}{section*.61}
+\contentsline {subsubsection}{Stand Up}{60}{section*.62}
+\contentsline {subsubsection}{Mount/Dismount a Steed}{60}{section*.63}
+\contentsline {subsection}{Full-Round Actions}{61}{section*.64}
+\contentsline {subsubsection}{Full Attack}{61}{section*.65}
+\contentsline {subsubsection}{Cast a Spell}{61}{section*.66}
+\contentsline {subsubsection}{Use Special Ability}{61}{section*.67}
+\contentsline {subsubsection}{Withdraw}{61}{section*.68}
+\contentsline {subsubsection}{Run}{62}{section*.69}
+\contentsline {subsubsection}{Move 5 Feet through Difficult Terrain}{62}{section*.70}
+\contentsline {subsection}{Swift Actions}{62}{section*.71}
+\contentsline {subsection}{Immediate Actions}{62}{section*.72}
+\contentsline {subsection}{Free Actions}{62}{section*.73}
+\contentsline {subsubsection}{Drop an Item}{62}{section*.74}
+\contentsline {subsubsection}{Drop Prone}{62}{section*.75}
+\contentsline {subsubsection}{Speak}{63}{section*.76}
+\contentsline {subsubsection}{Cease Concentration on Spell}{63}{section*.77}
 \contentsline {section}{\numberline {9.4}Miscellaneous Actions}{63}{section.9.4}
-\contentsline {subsubsection}{Take 5-Foot Step}{63}{section*.65}
-\contentsline {subsubsection}{Use Feat}{63}{section*.66}
-\contentsline {subsubsection}{Use Skill}{63}{section*.67}
+\contentsline {subsubsection}{Take 5-Foot Step}{63}{section*.78}
+\contentsline {subsubsection}{Use Feat}{63}{section*.79}
+\contentsline {subsubsection}{Use Skill}{63}{section*.80}
 \contentsline {section}{\numberline {9.5}Injury and Death}{63}{section.9.5}
 \contentsline {section}{\numberline {9.6}Loss of Hitpoints}{63}{section.9.6}
 \contentsline {section}{\numberline {9.7}Disabled (0 Hit Points)}{63}{section.9.7}
@@ -151,28 +151,28 @@
 \contentsline {section}{\numberline {9.12}Temporary Hit Points}{65}{section.9.12}
 \contentsline {section}{\numberline {9.13}Nonlethal Damage}{65}{section.9.13}
 \contentsline {section}{\numberline {9.14}Movement, Position, and Distance}{65}{section.9.14}
-\contentsline {subsection}{Tactical Movement}{65}{section*.68}
-\contentsline {subsubsection}{How Far Can Your Character Move?}{65}{section*.69}
-\contentsline {subsubsection}{Measuring Distance}{66}{section*.70}
-\contentsline {subsubsection}{Moving through a Square}{66}{section*.71}
-\contentsline {subsubsection}{Terrain and Obstacles}{66}{section*.72}
-\contentsline {subsubsection}{Special Movement Rules}{66}{section*.73}
-\contentsline {subsection}{Big and Little Creatures in Combat}{67}{section*.74}
+\contentsline {subsection}{Tactical Movement}{65}{section*.81}
+\contentsline {subsubsection}{How Far Can Your Character Move?}{65}{section*.82}
+\contentsline {subsubsection}{Measuring Distance}{66}{section*.84}
+\contentsline {subsubsection}{Moving through a Square}{66}{section*.85}
+\contentsline {subsubsection}{Terrain and Obstacles}{66}{section*.86}
+\contentsline {subsubsection}{Special Movement Rules}{66}{section*.87}
+\contentsline {subsection}{Big and Little Creatures in Combat}{67}{section*.88}
 \contentsline {section}{\numberline {9.15}Combat Modifiers}{68}{section.9.15}
-\contentsline {subsection}{Favorable and Unfavorable Conditions}{68}{section*.75}
-\contentsline {subsection}{Cover}{68}{section*.76}
-\contentsline {subsection}{Concealment}{69}{section*.77}
-\contentsline {subsection}{Flanking}{69}{section*.78}
-\contentsline {subsection}{Helpless Defenders}{69}{section*.79}
-\contentsline {subsection}{Attack Options}{70}{section*.80}
+\contentsline {subsection}{Favorable and Unfavorable Conditions}{68}{section*.90}
+\contentsline {subsection}{Cover}{68}{section*.91}
+\contentsline {subsection}{Concealment}{69}{section*.92}
+\contentsline {subsection}{Flanking}{69}{section*.93}
+\contentsline {subsection}{Helpless Defenders}{69}{section*.94}
+\contentsline {subsection}{Attack Options}{70}{section*.95}
 \contentsline {section}{\numberline {9.16}Special Combat Actions}{70}{section.9.16}
-\contentsline {subsection}{Combat Maneuvers}{70}{section*.81}
-\contentsline {subsubsection}{Turning Checks}{75}{section*.82}
-\contentsline {subsubsection}{Evil Clerics and Undead}{76}{section*.83}
-\contentsline {subsubsection}{Neutral Clerics and Undead}{76}{section*.84}
-\contentsline {subsubsection}{Paladins and Undead}{76}{section*.85}
-\contentsline {subsubsection}{Turning Other Creatures}{76}{section*.86}
-\contentsline {subsection}{Special Initiative Actions}{76}{section*.87}
+\contentsline {subsection}{Combat Maneuvers}{70}{section*.96}
+\contentsline {subsubsection}{Turning Checks}{75}{section*.98}
+\contentsline {subsubsection}{Evil Clerics and Undead}{75}{section*.100}
+\contentsline {subsubsection}{Neutral Clerics and Undead}{76}{section*.101}
+\contentsline {subsubsection}{Paladins and Undead}{76}{section*.102}
+\contentsline {subsubsection}{Turning Other Creatures}{76}{section*.103}
+\contentsline {subsection}{Special Initiative Actions}{76}{section*.104}
 \contentsline {section}{\numberline {9.17}Conditions}{77}{section.9.17}
 \contentsline {chapter}{\chapternumberline {10}Magic}{81}{chapter.10}
 \contentsline {section}{\numberline {10.1}Casting Spells}{81}{section.10.1}
@@ -188,7 +188,7 @@
 \contentsline {section}{\numberline {11.4}Major Magical Items}{82}{section.11.4}
 \contentsline {chapter}{\chapternumberline {12}Running The Game}{83}{chapter.12}
 \contentsline {section}{\numberline {12.1}Writing GM Advice Is Hard}{83}{section.12.1}
-\contentsline {chapter}{Appendices}{84}{section*.88}
+\contentsline {chapter}{Appendices}{84}{section*.105}
 \contentsline {appendix}{\chapternumberline {A}Spells}{85}{appendix.A}
 \contentsline {section}{\numberline {A.1}Spells, A through Z}{85}{section.A.1}
 \contentsline {appendix}{\chapternumberline {B}Prestige Classes}{86}{appendix.B}
@@ -204,4 +204,4 @@
 \contentsline {section}{\numberline {D.4}Expert}{88}{section.D.4}
 \contentsline {section}{\numberline {D.5}Warrior}{88}{section.D.5}
 \contentsline {appendix}{\chapternumberline {E}The Open Game License}{89}{appendix.E}
-\contentsline {chapter}{List of Tables}{91}{section*.91}
+\contentsline {chapter}{List of Tables}{91}{section*.108}

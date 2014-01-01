@@ -72,8 +72,8 @@
 \BOOKMARK [1][-]{section.6.1}{The Three Economies}{chapter.6}% 72
 \BOOKMARK [1][-]{section.6.2}{Armor}{chapter.6}% 73
 \BOOKMARK [1][-]{section.6.3}{Weapons}{chapter.6}% 74
-\BOOKMARK [2][-]{section*.22}{Weapon Qualities}{section.6.3}% 75
-\BOOKMARK [2][-]{section*.23}{Individual Weapon Rules}{section.6.3}% 76
+\BOOKMARK [2][-]{section*.34}{Weapon Qualities}{section.6.3}% 75
+\BOOKMARK [2][-]{section*.35}{Individual Weapon Rules}{section.6.3}% 76
 \BOOKMARK [1][-]{section.6.4}{Gear}{chapter.6}% 77
 \BOOKMARK [1][-]{section.6.5}{Animals}{chapter.6}% 78
 \BOOKMARK [1][-]{section.6.6}{Services}{chapter.6}% 79
@@ -90,25 +90,25 @@
 \BOOKMARK [0][-]{chapter.9}{Combat}{}% 90
 \BOOKMARK [1][-]{section.9.1}{How Combat Works}{chapter.9}% 91
 \BOOKMARK [1][-]{section.9.2}{Combat Statistics}{chapter.9}% 92
-\BOOKMARK [2][-]{section*.24}{Attack Rolls}{section.9.2}% 93
-\BOOKMARK [2][-]{section*.25}{Attack Bonus}{section.9.2}% 94
-\BOOKMARK [2][-]{section*.26}{Damage}{section.9.2}% 95
-\BOOKMARK [2][-]{section*.27}{Armor}{section.9.2}% 96
-\BOOKMARK [2][-]{section*.28}{Hit Points}{section.9.2}% 97
-\BOOKMARK [2][-]{section*.29}{Speed}{section.9.2}% 98
-\BOOKMARK [2][-]{section*.30}{Saving Throws}{section.9.2}% 99
-\BOOKMARK [2][-]{section*.31}{Initiative}{section.9.2}% 100
-\BOOKMARK [2][-]{section*.32}{Surprise}{section.9.2}% 101
-\BOOKMARK [2][-]{section*.33}{Attacks of Opportunity}{section.9.2}% 102
+\BOOKMARK [2][-]{section*.36}{Attack Rolls}{section.9.2}% 93
+\BOOKMARK [2][-]{section*.37}{Attack Bonus}{section.9.2}% 94
+\BOOKMARK [2][-]{section*.38}{Damage}{section.9.2}% 95
+\BOOKMARK [2][-]{section*.39}{Armor}{section.9.2}% 96
+\BOOKMARK [2][-]{section*.41}{Hit Points}{section.9.2}% 97
+\BOOKMARK [2][-]{section*.42}{Speed}{section.9.2}% 98
+\BOOKMARK [2][-]{section*.43}{Saving Throws}{section.9.2}% 99
+\BOOKMARK [2][-]{section*.44}{Initiative}{section.9.2}% 100
+\BOOKMARK [2][-]{section*.45}{Surprise}{section.9.2}% 101
+\BOOKMARK [2][-]{section*.46}{Attacks of Opportunity}{section.9.2}% 102
 \BOOKMARK [1][-]{section.9.3}{Actions in Combat}{chapter.9}% 103
-\BOOKMARK [2][-]{section*.34}{The Combat Round}{section.9.3}% 104
-\BOOKMARK [2][-]{section*.35}{Action Types}{section.9.3}% 105
-\BOOKMARK [2][-]{section*.36}{Standard Actions}{section.9.3}% 106
-\BOOKMARK [2][-]{section*.43}{Move Actions}{section.9.3}% 107
-\BOOKMARK [2][-]{section*.51}{Full-Round Actions}{section.9.3}% 108
-\BOOKMARK [2][-]{section*.58}{Swift Actions}{section.9.3}% 109
-\BOOKMARK [2][-]{section*.59}{Immediate Actions}{section.9.3}% 110
-\BOOKMARK [2][-]{section*.60}{Free Actions}{section.9.3}% 111
+\BOOKMARK [2][-]{section*.47}{The Combat Round}{section.9.3}% 104
+\BOOKMARK [2][-]{section*.48}{Action Types}{section.9.3}% 105
+\BOOKMARK [2][-]{section*.49}{Standard Actions}{section.9.3}% 106
+\BOOKMARK [2][-]{section*.56}{Move Actions}{section.9.3}% 107
+\BOOKMARK [2][-]{section*.64}{Full-Round Actions}{section.9.3}% 108
+\BOOKMARK [2][-]{section*.71}{Swift Actions}{section.9.3}% 109
+\BOOKMARK [2][-]{section*.72}{Immediate Actions}{section.9.3}% 110
+\BOOKMARK [2][-]{section*.73}{Free Actions}{section.9.3}% 111
 \BOOKMARK [1][-]{section.9.4}{Miscellaneous Actions}{chapter.9}% 112
 \BOOKMARK [1][-]{section.9.5}{Injury and Death}{chapter.9}% 113
 \BOOKMARK [1][-]{section.9.6}{Loss of Hitpoints}{chapter.9}% 114
@@ -120,18 +120,18 @@
 \BOOKMARK [1][-]{section.9.12}{Temporary Hit Points}{chapter.9}% 120
 \BOOKMARK [1][-]{section.9.13}{Nonlethal Damage}{chapter.9}% 121
 \BOOKMARK [1][-]{section.9.14}{Movement, Position, and Distance}{chapter.9}% 122
-\BOOKMARK [2][-]{section*.68}{Tactical Movement}{section.9.14}% 123
-\BOOKMARK [2][-]{section*.74}{Big and Little Creatures in Combat}{section.9.14}% 124
+\BOOKMARK [2][-]{section*.81}{Tactical Movement}{section.9.14}% 123
+\BOOKMARK [2][-]{section*.88}{Big and Little Creatures in Combat}{section.9.14}% 124
 \BOOKMARK [1][-]{section.9.15}{Combat Modifiers}{chapter.9}% 125
-\BOOKMARK [2][-]{section*.75}{Favorable and Unfavorable Conditions}{section.9.15}% 126
-\BOOKMARK [2][-]{section*.76}{Cover}{section.9.15}% 127
-\BOOKMARK [2][-]{section*.77}{Concealment}{section.9.15}% 128
-\BOOKMARK [2][-]{section*.78}{Flanking}{section.9.15}% 129
-\BOOKMARK [2][-]{section*.79}{Helpless Defenders}{section.9.15}% 130
-\BOOKMARK [2][-]{section*.80}{Attack Options}{section.9.15}% 131
+\BOOKMARK [2][-]{section*.90}{Favorable and Unfavorable Conditions}{section.9.15}% 126
+\BOOKMARK [2][-]{section*.91}{Cover}{section.9.15}% 127
+\BOOKMARK [2][-]{section*.92}{Concealment}{section.9.15}% 128
+\BOOKMARK [2][-]{section*.93}{Flanking}{section.9.15}% 129
+\BOOKMARK [2][-]{section*.94}{Helpless Defenders}{section.9.15}% 130
+\BOOKMARK [2][-]{section*.95}{Attack Options}{section.9.15}% 131
 \BOOKMARK [1][-]{section.9.16}{Special Combat Actions}{chapter.9}% 132
-\BOOKMARK [2][-]{section*.81}{Combat Maneuvers}{section.9.16}% 133
-\BOOKMARK [2][-]{section*.87}{Special Initiative Actions}{section.9.16}% 134
+\BOOKMARK [2][-]{section*.96}{Combat Maneuvers}{section.9.16}% 133
+\BOOKMARK [2][-]{section*.104}{Special Initiative Actions}{section.9.16}% 134
 \BOOKMARK [1][-]{section.9.17}{Conditions}{chapter.9}% 135
 \BOOKMARK [0][-]{chapter.10}{Magic}{}% 136
 \BOOKMARK [1][-]{section.10.1}{Casting Spells}{chapter.10}% 137
@@ -147,7 +147,7 @@
 \BOOKMARK [1][-]{section.11.4}{Major Magical Items}{chapter.11}% 147
 \BOOKMARK [0][-]{chapter.12}{Running The Game}{}% 148
 \BOOKMARK [1][-]{section.12.1}{Writing GM Advice Is Hard}{chapter.12}% 149
-\BOOKMARK [0][-]{section*.88}{Appendices}{}% 150
+\BOOKMARK [0][-]{section*.105}{Appendices}{}% 150
 \BOOKMARK [0][-]{appendix.A}{Spells}{}% 151
 \BOOKMARK [1][-]{section.A.1}{Spells, A through Z}{appendix.A}% 152
 \BOOKMARK [0][-]{appendix.B}{Prestige Classes}{}% 153
@@ -163,4 +163,4 @@
 \BOOKMARK [1][-]{section.D.4}{Expert}{appendix.D}% 163
 \BOOKMARK [1][-]{section.D.5}{Warrior}{appendix.D}% 164
 \BOOKMARK [0][-]{appendix.E}{The Open Game License}{}% 165
-\BOOKMARK [0][-]{section*.91}{List of Tables}{}% 166
+\BOOKMARK [0][-]{section*.108}{List of Tables}{}% 166

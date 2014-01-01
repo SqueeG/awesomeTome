@@ -6,23 +6,12 @@ Miniatures are on the 30mm scale - a miniature figure of a six\textendash foot t
 
 \subsubsection{How Far Can Your Character Move?}
 
-Your speed is determined by your race and your armor (see Table: Tactical Speed). Your speed while unarmored is your base land speed.
-
-\vspace*{10pt}
-
-\ability{Encumbrance:}A character encumbered by carrying a large amount of gear, treasure, or fallen comrades may move slower than normal.  
-
-\ability{Hampered Movement:}Difficult terrain, obstacles, or poor visibility can hamper movement.
-
-\ability{Movement in Combat:}Generally, you can move your speed in a round and still do something (take a move action and a standard action).
-If you do nothing but move (that is, if you use both of your actions in a round to move your speed), you can move double your speed.
-If you spend the entire round running, you can move quadruple your speed. If you do something that requires a full round you can only take a 5\textendash foot step.
-
-%This is not the original table from the SRD, but instead a better one partly lifted out of the Rules Compendium
+%This is not the original table from the SRD, but instead a better one that encompases a wider range of speeds.
 \begin{wraptable}{o}{2in}
 \caption{Reduced Speed}
-\begin{tabular}[h]{c|c}
-Base Speed & Reduced Speed \\ \hline
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabular}[h]{cc}
+\rowcolor{headercolor} Base Speed & Reduced Speed \\
 20 ft. & 15 ft. \\
 30 ft. & 20 ft. \\
 40 ft. & 30 ft. \\
@@ -34,6 +23,18 @@ Base Speed & Reduced Speed \\ \hline
 100 ft. & 70 ft. \\
 \end{tabular}
 \end{wraptable}
+
+Your speed is determined by your race and your armor (see Table: Tactical Speed). Your speed while unarmored is your base land speed.
+
+\vspace*{10pt}
+
+\ability{Encumbrance:}A character encumbered by carrying a large amount of gear, treasure, or fallen comrades may move slower than normal.  
+
+\ability{Hampered Movement:}Difficult terrain, obstacles, or poor visibility can hamper movement.
+
+\ability{Movement in Combat:}Generally, you can move your speed in a round and still do something (take a move action and a standard action).
+If you do nothing but move (that is, if you use both of your actions in a round to move your speed), you can move double your speed.
+If you spend the entire round running, you can move quadruple your speed. If you do something that requires a full round you can only take a 5\textendash foot step.
 
 \ability{Bonuses to Speed:}Some class features or magical items may grant bonuses to a characters speed. Always apply any modifiers to a character's speed before adjusting the character's speed based on armor or encumbrance, and remember that multiple bonuses of the same type to a character's speed don't stack.
 
@@ -91,8 +92,9 @@ Creatures smaller than Small or larger than Medium have special rules relating t
 
 \begin{wraptable}{O}{3in}
 \caption{Creature Size and Scale}
-\begin{tabular}[h]{c|c|c}
-Creature Size & Space\textsuperscript{1} &	Natural Reach\textsuperscript{1} \\ \hline
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabular}[h]{ccc}
+\rowcolor{headercolor} Creature Size & Space\textsuperscript{1} &	Natural Reach\textsuperscript{1} \\
 Fine & 1/2 ft. & 0 \\
 Diminutive & 1 ft. & 0 \\
 Tiny & 2\textendash1/2 ft. & 0 \\
@@ -105,7 +107,7 @@ Huge (long) & 15 ft. & 10 ft. \\
 Gargantuan (tall) & 20 ft. & 20 ft. \\
 Gargantuan (long) & 20 ft. & 15 ft.	\\
 Colossal (tall) & 30 ft. & 30 ft. \\
-Colossal (long) & 30 ft. & 20 ft. \\ \hline
+Colossal (long) & 30 ft. & 20 ft. \\ 
 \multicolumn{3}{p{3in}}{\textsuperscript{1} These values are typical for creatures of the indicated size.}
 \end{tabular}
 \end{wraptable}
@@ -120,14 +122,14 @@ Colossal (long) & 30 ft. & 20 ft. \\ \hline
 
 \subsection{Favorable and Unfavorable Conditions}
 
-\begin{multicols}{2}
-
-\begin{tabular}[h]{l|cc}
-\multicolumn{3}{c}{\textbf{Table: Armor Class Modifiers}} \\
-Defender is \ldots & Melee & Ranged	\\ \hline
+\begin{minipage}[t]{0.5\textwidth}
+\noindent\captionof{table}{Armor Class Modifiers}
+\rowcolors{1}{colorone}{colortwo}
+\noindent\begin{tabular}[h]{lcc}
+\rowcolor{headercolor} Defender is \ldots & Melee & Ranged	\\
 Behind cover & +4 & +4 \\	   
 Blinded & \textendash2\textsuperscript{1} & \textendash2\textsuperscript{1} \\
-Concealed or invisible & \multicolumn{2}{c}{— See Concealment —} \\
+Concealed or invisible & \multicolumn{2}{c}{See Concealment} \\
 Cowering & \textendash2\textsuperscript{1} & \textendash2\textsuperscript{1} \\
 Entangled & +0\textsuperscript{2} & +0\textsuperscript{2} \\
 Flat\textendash footed & +0\textsuperscript{1} & +0\textsuperscript{1} \\
@@ -137,16 +139,18 @@ Kneeling or sitting & \textendash2 & +2 \\
 Pinned & \textendash4\textsuperscript{4} & +0\textsuperscript{4} \\
 Prone  & \textendash4 & +4 \\
 Squeezing through a space & \textendash4 & \textendash4 \\
-Stunned & \textendash2\textsuperscript{1} & \textendash2\textsuperscript{1} \\ \hline
+Stunned & \textendash2\textsuperscript{1} & \textendash2\textsuperscript{1} \\
 \multicolumn{3}{p{3in}}{\textsuperscript{1} The defender loses any Dexterity bonus to AC.} \\
 \multicolumn{3}{p{3in}}{\textsuperscript{2} An entangled character takes a \textendash4 penalty to Dexterity.} \\
 \multicolumn{3}{p{3in}}{\textsuperscript{3} Roll randomly to see which grappling combatant you strike. That defender loses any Dexterity bonus to AC.} \\
 \multicolumn{3}{p{3in}}{\textsuperscript{4} Treat the defender's Dexterity as 0 (\textendash5 modifier). Rogues can sneak attack helpless or pinned defenders.} \\
 \end{tabular}
-
-\begin{tabular}[h]{l|cc} 
-\multicolumn{3}{c}{\textbf{Table: Attack Roll Modifiers}} \\
-Attacker is \ldots & Melee & Ranged \\ \hline	   
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\noindent\captionof{table}{Attack Roll Modifiers}
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabular}[h]{lcc} 
+\rowcolor{headercolor} Attacker is \ldots & Melee & Ranged \\
 Dazzled & \textendash1 & \textendash1 \\	   
 Entangled & \textendash2\textsuperscript{1} &	\textendash2\textsuperscript{1} \\	   
 Flanking defender & +2 & \textendash \\	   
@@ -154,13 +158,12 @@ Invisible & +2\textsuperscript{2} & +2\textsuperscript{2} \\
 On higher ground & +1 & +0 \\	   
 Prone & \textendash4 & \textendash3 \\   
 Shaken or frightened & \textendash2 & \textendash2 \\	   
-Squeezing through a space & \textendash4 & \textendash4 \\ \hline
+Squeezing through a space & \textendash4 & \textendash4 \\
 \multicolumn{3}{p{3in}}{\textsuperscript{1} An entangled character also takes a \textendash4 penalty to Dexterity, which may affect his attack roll.} \\
 \multicolumn{3}{p{3in}}{\textsuperscript{2} The defender loses any Dexterity bonus to AC. This bonus doesn't apply if the target is blinded.} \\
 \multicolumn{3}{p{3in}}{\textsuperscript{3} Most ranged weapons can't be used while the attacker is prone, but you can use a crossbow or shuriken while prone at no penalty.} \\
 \end{tabular}
-
-\end{multicols}
+\end{minipage}
 
 \subsection{Cover}
 
@@ -407,8 +410,9 @@ You can use a melee attack with a slashing or bludgeoning weapon to strike a wea
 
 \begin{table}
 \caption{Armor, weapon, and Shield Hardness and Hit Points}
-\begin{tabular}[t!]{l|cc} 
-Weapon or Shield & Hardness & HP\textsuperscript{1} \\ \hline
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabularx}{0.75\linewidth}{lcc} 
+\rowcolor{headercolor}Weapon or Shield & Hardness & HP\textsuperscript{1} \\
 Light blade & 10 & 2 \\ 
 One\textendash handed blade & 10 & 5 \\
 Two\textendash handed blade & 10 & 10	\\   
@@ -424,10 +428,10 @@ Light wooden shield & 5 & 7 \\
 Heavy wooden shield & 5 & 15 \\   
 Light steel shield & 10 & 10 \\	   
 Heavy steel shield & 10 & 20 \\	   
-Tower shield & 5 & 20 \\ \hline	   
+Tower shield & 5 & 20 \\
 \multicolumn{3}{p{6.75in}}{\textsuperscript{1} The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.} \\
 \multicolumn{3}{p{6.75in}}{\textsuperscript{2} Varies by material.} \\
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \normalsize\item\textbf{{Throw Splash Weapon}}\\\small
@@ -451,12 +455,28 @@ As an attack action, you may attempt to knock an opponent prone. Make a touch at
 \normalsize\item\textbf{{Turn or Rebuke Undead}}\\\small
 
 \subsubsection{Turning Checks}
-
 Good clerics and paladins and some neutral clerics can channel positive energy, which can halt, drive off (rout), or destroy undead.
 Evil clerics and some neutral clerics can channel negative energy, which can halt, awe (rebuke), control (command), or bolster undead.
 Regardless of the effect, the general term for the activity is ``turning.'' When attempting to exercise their divine control over these creatures, characters make turning checks.
 
 Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity.
+
+\begin{table}[b]
+\caption{Turning Undead}
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabu}to \linewidth{X[2,l,m]X[3,l,m]}
+\rowcolor{headercolor}Turning Check Result & Most Powerful Undead Affected (Maximum Hit Dice) \\
+0 or lower & Cleric's level \textendash 4	 \\   
+1\textendash3 & Cleric's level \textendash 3 \\
+4\textendash6 & Cleric's level \textendash 2 \\
+7\textendash9 & Cleric's level \textendash 1 \\
+10\textendash12 & Cleric's level \\
+13\textendash15 & Cleric's level + 1 \\
+16\textendash18 & Cleric's level + 2 \\
+19\textendash21 & Cleric's level + 3 \\
+22 or higher & Cleric's level + 4 \\
+\end{tabu}
+\end{table}
 
 You must present your holy symbol to turn undead. Turning is considered an attack.
 
@@ -474,24 +494,6 @@ You may skip over already turned undead that are still within range, so that you
 \ability{Effect and Duration of Turning:}{Turned undead flee from you by the best and fastest means available to them. They flee for 10 rounds (1 minute). If they cannot flee, they cower (giving any attack rolls against them a +2 bonus). If you approach within 10 feet of them, however, they overcome being turned and act normally. (You can stand within 10 feet without breaking the turning effect—you just can't approach them.) You can attack them with ranged attacks (from at least 10 feet away), and others can attack them in any fashion, without breaking the turning effect.}
 
 \ability{Destroying Undead:}{If you have twice as many levels (or more) as the undead have Hit Dice, you destroy any that you would normally turn.}
-
-\begin{table}
-\caption{Turning Undead}
-\centering
-\begin{tabular}[h!]{c|c}
-Turning & Most Powerful Undead Affected \\
-Check Result & (Maximum Hit Dice) \\ \hline
-0 or lower & Cleric's level \textendash 4	 \\   
-1\textendash3 & Cleric's level \textendash 3 \\
-4\textendash6 & Cleric's level \textendash 2 \\
-7\textendash9 & Cleric's level \textendash 1 \\
-10\textendash12 & Cleric's level \\
-13\textendash15 & Cleric's level + 1 \\
-16\textendash18 & Cleric's level + 2 \\
-19\textendash21 & Cleric's level + 3 \\
-22 or higher & Cleric's level + 4 \\
-\end{tabular}
-\end{table}
 
 \ability{Effect and Duration of Turning:}{Turned undead flee from you by the best and fastest means available to them. They flee for 10 rounds (1 minute). If they cannot flee, they cower (giving any attack rolls against them a +2 bonus). If you approach within 10 feet of them, however, they overcome being turned and act normally. (You can stand within 10 feet without breaking the turning effect—you just can't approach them.) You can attack them with ranged attacks (from at least 10 feet away), and others can attack them in any fashion, without breaking the turning effect.}
 
