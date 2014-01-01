@@ -120,9 +120,12 @@
 \newcommand{\ability}[2]{\smallskip
  \textbf{#1} #2} 
 %The \ability{#1}{#2} command from legacy-source. Should rarely be directly used, changes to this will cascade into other new commands that use its functionality
+\newcommand{\shortability}[2]{\noindent\textbf{#1} #2\\}
+%A specialized version of the \ability command
 \newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
 %A command from legacy-source for compatabilty
 \newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
+\newcommand{\listtwo}{\begin{list}{$\triangleright$}{\itemspace}}
 %A type of list from legacy sorce
 \newcommand{\listnum}{\begin{list}{\textbf{\arabic{counter}}:}{\usecounter{counter}}}
 \newcommand{\spell}[1]{\emph{\MakeLowercase{#1}}}
@@ -717,32 +720,9 @@ foo
 foo
 
 \chapter{Combat}
-\section{How Combat Works}
-foo
-\section{Combat Statistics}
-foo
-\section{Initiative and Actions}
-foo
-\section{Standard Actions}
-foo
-\section{Move Actions}
-foo
-\section{Swift and Free Actions}
-foo
-\section{Full-Round Actions}
-foo
-\section{Movement, Position, and Distance}
-foo
-\section{Injury and Death}
-foo
-\section{Combat Modifiers}
-foo
-\section{Special Attacks}
-foo
-\section{Special Abilities}
-foo
-\section{Conditions}
-foo
+\input{phb/combat/combat}
+\input{phb/combat/combat2}
+\input{phb/combat/conditions}
 
 \chapter{Magic}
 \section{Casting Spells}
