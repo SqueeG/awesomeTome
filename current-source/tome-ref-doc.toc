@@ -7,16 +7,16 @@
 \contentsline {chapter}{\chapternumberline {2}Races}{5}{chapter.2}
 \contentsline {subsection}{Aasimar}{5}{section*.2}
 \contentsline {subsection}{Drow}{5}{section*.3}
-\contentsline {subsection}{Dwarf}{5}{section*.4}
+\contentsline {subsection}{Dwarf}{6}{section*.4}
 \contentsline {subsection}{Elf}{6}{section*.5}
 \contentsline {subsection}{Feytouched}{6}{section*.6}
 \contentsline {subsection}{Gnome}{7}{section*.7}
 \contentsline {subsection}{Goblin}{7}{section*.8}
-\contentsline {subsection}{Half-Elf}{7}{section*.9}
+\contentsline {subsection}{Half-Elf}{8}{section*.9}
 \contentsline {subsection}{Half-Orc}{8}{section*.10}
 \contentsline {subsection}{Halfling}{8}{section*.11}
 \contentsline {subsection}{Hobgoblin}{8}{section*.12}
-\contentsline {subsection}{Human}{8}{section*.13}
+\contentsline {subsection}{Human}{9}{section*.13}
 \contentsline {subsection}{Kobold}{9}{section*.14}
 \contentsline {subsection}{Orc}{9}{section*.15}
 \contentsline {subsection}{Tiefling}{9}{section*.16}
