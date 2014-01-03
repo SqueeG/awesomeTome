@@ -17,7 +17,7 @@
       "init"  : function(){}
     },
     "input"   : function(k,v,t){ //key, value, type
-      if( v && v !+ '' ){
+      if( v && v !== '' ){
         ( t ) ? trd.data[k] = "\\"+k+"{ "+v+" }" : trd.data[k] = "\\"+v ; //classfeature will need to send 'v' fully formed -> classfeature{xx}{xxx}
       } else {
         trd.data[k] = "";
