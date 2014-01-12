@@ -82,15 +82,6 @@ function setdefault(){
 
 function feature(){
 
-}
-
-//handle dropdown clicks for stat allocation
-	$('.dropdown-menu').on("click", "a", function(e) {
-		e.preventDefault();
-		//e.stopPropagation();
-    	var x = $(this).hide().text();
-    	$('.stats ul.dropdown-menu').append("<li><a href='#'>"+i+"</a></li>");
-    	$(this).closest("div").find('.form-control').val(x);
-	});    
+}   
 
 }(jQuery));
