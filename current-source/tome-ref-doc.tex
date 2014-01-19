@@ -35,10 +35,6 @@
 \usepackage{longtable}
 \usepackage{tabu}
 \usepackage{afterpage}
-<<<<<<< HEAD
-\usepackage{import}
-=======
->>>>>>> 513934aaa27cc71439ca0cda1d5a44c3ff20f12a
 
 \usepackage{caption}
 
@@ -46,15 +42,12 @@
 \usepackage[T1]{fontenc}
 \usepackage[bitstream-charter]{mathdesign}
 \usepackage{aurical}
-<<<<<<< HEAD
-%\usepackage{lmodern}
-=======
->>>>>>> 513934aaa27cc71439ca0cda1d5a44c3ff20f12a
 
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=links,pdfstartview={XYZ null null 1.00},bookmarksdepth=2]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% End of Import tion %%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -105,6 +98,8 @@
 %makes a subsubsection start off indented.
 \setlength{\beforesubsubsecskip}{-\beforesubsubsecskip}
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Table Formatting
@@ -116,35 +111,88 @@
 \newcommand{\header}{\rowcolor{headercolor}}
 %when inserted in a row, makes that row the color headercolor
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% List Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\let\olditemize\itemize
+\renewcommand{\itemize}{
+  \olditemize
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+%fixes itemize spacing
+
+\let\olddescription\description
+\renewcommand{\description}{
+  \olddescription
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+%fixes description spacing
+
+\let\oldenumerate\enumerate
+\renewcommand{\enumerate}{
+  \oldenumerate
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+%fixes enumerate spacing
+
+\newcommand{\descability}[2]{\item[#1:] #2}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% New Commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Basic Formatting
 %%%%%%%%%%%%%%%%%%%%%%%%
+
 \newcommand{\originallineskip}{\baselineskip}
  %A command that is equal to the original \baselineskip of the doc, in case we change it for a section and want to change it back later
-\newcommand{\ability}[2]{\smallskip
- \textbf{#1} #2} 
+
+\newcommand{\ability}[2]{\textbf{#1:} #2} 
 %The \ability{#1}{#2} command from legacy-source. Should rarely be directly used, changes to this will cascade into other new commands that use its functionality
+
 \newcommand{\shortability}[2]{\noindent\textbf{#1} #2\\}
 %A specialized version of the \ability command
+
 \newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
 %A command from legacy-source for compatabilty
+
 \newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
+
 \newcommand{\listtwo}{\begin{list}{$\triangleright$}{\itemspace}}
 %A type of list from legacy sorce
+
 \newcommand{\listnum}{\begin{list}{\textbf{\arabic{counter}}:}{\usecounter{counter}}}
+
 \newcommand{\spell}[1]{\emph{\MakeLowercase{#1}}}
 %makes spell name lowercase italics.
-\setlength{\parindent}{0pt}
+
+\setlength{\parindent}{12pt}
+%sets the indentation of all paragraphs in the work
 
 \newcommand{\half}[0]{\ensuremath{\sfrac{1}{2}} }
+
 \newcommand{\third}[0]{\ensuremath{\sfrac{1}{3}} }
+
 \newcommand{\fourth}[0]{\ensuremath{\sfrac{1}{4}} }
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Logic
@@ -152,7 +200,11 @@
 \newcommand{\testempty}{\empty}
 \newcommand{\isempty}{\empty}
 %Two commands that can be compared to one another for \ifx logic tests. \isempty should never be changed. If \testempty holds a value of anything but empty, the test should return false.
+
 \newcounter{counter}
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Colors
@@ -163,11 +215,16 @@
 \colorlet{tablecolorone}{gray!40}
 \colorlet{tablecolortwo}{gray!20}
 
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Sectioning
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\classentry}[1]{\newpage \section{#1} \label{class:#1} \renewcommand{\class}{#1} \index{#1 (class)} \renewcommand{\testempty}{\isempty}}
 %Starts a new page, creates a section with the name of the class (#1), sets \class to be the name of the class, indexes the class.
+
 \newcommand{\raceentry}[1]{\subsection{#1} \label{race:#1} \renewcommand{\race}{#1}}
 %\newcommand{\raceentry}[1]{\oldsection{#1}\index{#1 (race)}\label{race:#1}}
 
@@ -179,14 +236,21 @@
 
 \newcommand{\skillentry}[2]{\oldsubsection[#1]{#1 #2}\index{#1 (skill)}\label{skill:#1}}
 
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Race Chapter
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\race}{placeholder}
 
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Class Chapter
 %%%%%%%%%%%%%%%%%%%%%%%%
+
 \newcommand{\class}{placeholder}
 %Holds the classes name, as defined by \classentry
 
@@ -196,25 +260,23 @@
 %Displays a flavor quote.}
 
 \newenvironment{classpreamble}{
-\renewcommand\tabularxcolumn[1]{m{##1}}
-\center
+\begin{table}[h]
 \rowcolors{1}{colorone}{colortwo}
-\tabularx{\textwidth}{X}
+\begin{tabu} to \textwidth {X}
 }{
-\endtabularx
-\endcenter
-\renewcommand\tabularxcolumn[1]{p{##1}}
+\end{tabu}
+\end{table}
 }
 
 \newcommand{\desc}[1]{  #1 \\}
-\newcommand{\playingaclass}[1]{\ability{Playing a \class :}{#1}\\}
-\newcommand{\hitdie}[1]{\ability{Hit Die:}{#1}\\}
-\newcommand{\alignment}[1]{\ability{Alignment:}{#1}\\}
-\newcommand{\races}[1]{\ability{Races:}{#1}\\}
-\newcommand{\startinggold}[1]{\ability{Starting Gold:}{#1}\\}
-\newcommand{\startingage}[1]{\ability{Starting Age:}{#1}\\}  
-\newcommand{\skillpoints}[1]{\ability{Skill Points per Level:}{#1 + Intelligence Bonus}\\}
-\newcommand{\classskills}[1]{\ability{Class Skills:}{The {\class}'s class skills (and the key ability for each skill) are #1}\\}
+\newcommand{\playingaclass}[1]{\ability{Playing a \class : }{#1}\\}
+\newcommand{\hitdie}[1]{\ability{Hit Die: }{#1}\\}
+\newcommand{\alignment}[1]{\ability{Alignment: }{#1}\\}
+\newcommand{\races}[1]{\ability{Races: }{#1}\\}
+\newcommand{\startinggold}[1]{\ability{Starting Gold: }{#1}\\}
+\newcommand{\startingage}[1]{\ability{Starting Age: }{#1}\\}  
+\newcommand{\skillpoints}[1]{\ability{Skill Points per Level: }{#1 + Intelligence Bonus}\\}
+\newcommand{\classskills}[1]{\ability{Class Skills: }{The {\class}'s class skills (and the key ability for each skill) are #1}\\}
 
 \newcommand{\startclassfeatures}{
  \smallskip\noindent All of the following are class features of the \class ~class.}
@@ -256,15 +318,14 @@
 
 \newenvironment{classtable}[1]
 {
-\table[htb]
-\center
+\begin{table}[htb]
+\centering
 \rowcolors{1}{colorone}{colortwo}
-\tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xllll}
+\begin{tabu} to \textwidth {p{.275in} l p{0.275in} p{0.275in} p{0.275in} X l l l l}
 \rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special #1\\
 }{
-\endtabularx
-\endcenter
-\endtable
+\end{tabu}
+\end{table}
 }
 %A a new environment that sets up the class tables. Include the \level commands between \begin{classtable}.
 
@@ -564,7 +625,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Main Content
+%%% Main Content %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -572,7 +633,6 @@
 
 \clearpage
 
-<<<<<<< HEAD
 \chapter{Introduction}
 \section{What is a Role-playing Game?}
 foo
@@ -585,25 +645,40 @@ foo
 
 \chapter{Races}
 %need a race basics section here
-\subimport{phb/}{02-races}
+\input{phb/races/aasimar}
+\input{phb/races/drow}
+\input{phb/races/dwarf}
+\input{phb/races/elf}
+\input{phb/races/feytouched}
+\input{phb/races/gnome}
+\input{phb/races/goblin}
+\input{phb/races/half-elf}
+\input{phb/races/half-orc}
+\input{phb/races/halfling}
+\input{phb/races/hobgoblin}
+\input{phb/races/human}
+\input{phb/races/kobold}
+\input{phb/races/orc}
+\input{phb/races/tiefling}
 
 \chapter{Classes}
 \section{Class Basics}
-%%\input{phb/base-classes/assassin}
-%%\input{phb/base-classes/barbarian}
+foo
+\input{phb/base-classes/assassin}
+\input{phb/base-classes/barbarian}
 %\input{Bard}
-%%\input{phb/base-classes/cleric}
+\input{phb/base-classes/cleric}
 %\input{Druid}
-%%\input{phb/base-classes/fighter}
-%%\input{phb/base-classes/knight}
-%%\input{phb/base-classes/monk}
+\input{phb/base-classes/fighter}
+\input{phb/base-classes/knight}
+\input{phb/base-classes/monk}
 %\input{Paladin}
 %\input{Ranger}
 %\input{Rogue}
 %\input{Samurai}
 %\input{Sorcerer}
-%%\input{phb/base-classes/templar}
-%%\input{phb/base-classes/wizard}
+\input{phb/base-classes/templar}
+\input{phb/base-classes/wizard}
 
 \chapter{Skills}
 \section{How Skills Work}
@@ -681,8 +756,6 @@ foo
 \section{Metamagic Feats}
 foo
 
-=======
->>>>>>> 513934aaa27cc71439ca0cda1d5a44c3ff20f12a
 \chapter{Goods and Services}
 \section{The Three Economies}
 foo
@@ -697,7 +770,6 @@ foo
 \section{Services}
 foo
 
-<<<<<<< HEAD
 \chapter{Description}
 \section{Physical Appearance}
 foo
@@ -793,10 +865,8 @@ foo
 \section{Expert}
 \section{Warrior}
 
-\input{tome-srd-ogl}
+%\input{tome-srd-ogl}
 
-=======
->>>>>>> 513934aaa27cc71439ca0cda1d5a44c3ff20f12a
 \clearpage
 \phantomsection
 \listoftables
