@@ -225,7 +225,7 @@
 \newcommand{\classentry}[1]{\newpage \section{#1} \label{class:#1} \renewcommand{\class}{#1} \index{#1 (class)} \renewcommand{\testempty}{\isempty}}
 %Starts a new page, creates a section with the name of the class (#1), sets \class to be the name of the class, indexes the class.
 
-\newcommand{\raceentry}[1]{\subsection{#1} \label{race:#1} \renewcommand{\race}{#1}}
+\newcommand{\raceentry}[2]{\newpage\renewcommand{\race}{#1}\subsection{#1} \label{race:#1}\textit{#2}}
 %\newcommand{\raceentry}[1]{\oldsection{#1}\index{#1 (race)}\label{race:#1}}
 
 \newcommand{\Requirements}{\oldsubsubsection*{Requirements}}
@@ -236,16 +236,67 @@
 
 \newcommand{\skillentry}[2]{\oldsubsection[#1]{#1 #2}\index{#1 (skill)}\label{skill:#1}}
 
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Race Chapter
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\race}{placeholder}
 
+\newcommand{\type}[1]{\ability{Type: }{#1}\\}
+\newcommand{\size}[1]{\ability{Size: }{#1}\\}
+\newcommand{\speed}[1]{\ability{Speed: }{#1}\\}
+\newcommand{\scores}[1]{\ability{Racial Ability Score Modifiers: }{#1}\\}
+\newcommand{\fakeitem}[1]{\textbullet ~{#1}\\}
+\newcommand{\senses}[1]{\ability{Senses: }{#1}\\}
+\newcommand{\standardsenses}{\ability{Senses: }Standard\\}
+\newcommand{\autolanguages}[1]{\ability{Automatic Languages: }{#1}\\}
+\newcommand{\bonuslanguages}[1]{\ability{Bonus Languages: }{#1}\\}
+\newcommand{\favoredclass}[1]{\ability{Favored Class: }{#1}\\}
+\newcommand{\favoredclasses}[1]{\ability{Favored Classes: }{#1}\\}
 
+\newcommand{\racetable}{
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabu}to \columnwidth{X[1, L, b]}
+\header \textbf{\race ~Racial Traits} \\
+}
 
+\newcommand{\agetable}[4]{
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabularx}{\columnwidth}{XXXX}
+\header\multicolumn{4}{l}{\textbf{\race ~Starting Age}}\\
+\textbf{Adulthood:}&\textbf{Simple:}&\textbf{Moderate:}&\textbf{Complex:}\\
+#1 Years&#2&#3&#4\\
+\end{tabularx}
+}
+
+\newcommand{\MALE}{placeholder}
+\newcommand{\male}[4]{\renewcommand{\MALE}{Male&#1&#2&#3&#4\\}}
+\newcommand{\FEMALE}{placeholder}
+\newcommand{\female}[4]{\renewcommand{\FEMALE}{Female&#1&#2&#3&#4\\}}
+
+\newcommand{\heightweighttable}{
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabularx}{\columnwidth}{XXXXX}
+\header\multicolumn{5}{l}{\textbf{\race ~Height and Weight}}\\
+\textbf{Gender}&\textbf{Base Height}&\textbf{Height Mod.}&\textbf{Base Weight}&\textbf{Weight Mod.}\\
+\MALE
+\FEMALE
+\end{tabularx}
+}
+
+\newenvironment{raceleft}
+{
+\vspace{0pt}
+\begin{minipage}[t]{0.5\linewidth}
+}{
+\end{minipage}
+}
+
+\newenvironment{raceright}
+{\begin{minipage}[t]{0.5\linewidth}
+\vspace{0pt}
+}{
+\end{minipage}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Class Chapter
