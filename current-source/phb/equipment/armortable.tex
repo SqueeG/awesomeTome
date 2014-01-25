@@ -3,13 +3,13 @@
 \newenvironment{armortable}[1]{
 \rowcolors{1}{colorone}{colortwo}
 \begin{longtabu} to \columnwidth {X[3l] c X[c] c l c}
-\hline\header\textbf{#1}& AC&Max  Dex& ACP& Price & Weight\\ \hline
+\hline\header\textbf{#1}& AC&Max  Dex& ACP& Cost & Weight\\ \hline
 }{
 \hline
 \end{longtabu}
 }
 
-\newcommand{\armorcat}[1]{\hline\header\textbf{#1}& AC&Max  Dex& ACP& Price & Weight \\ \hline}
+\newcommand{\armorcat}[1]{\hline\header\textbf{#1}& AC&Max  Dex& ACP& Cost & Weight \\ \hline}
 
 \begin{multicols}{2}
 \setbox\ltmcbox\vbox{
