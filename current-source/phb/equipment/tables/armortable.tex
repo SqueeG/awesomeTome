@@ -1,80 +1,40 @@
-\newsavebox\ltmcbox
+\newcommand{\armorcat}[1]{\cellcolor{headercolor}\textbf{#1}& \cellcolor{headercolor}AC& \cellcolor{headercolor}Max  Dex& \cellcolor{headercolor}ACP& \cellcolor{headercolor}Cost & \cellcolor{headercolor}Weight}
 
-\newenvironment{armortable}[1]{
-\rowcolors{1}{colorone}{colortwo}
-\begin{longtabu} to \columnwidth {X[3l] c X[c] c l c}
-\hline\header\textbf{#1}& AC&Max  Dex& ACP& Cost & Weight\\ \hline
-}{
-\hline
-\end{longtabu}
-}
+\newcommand{\armortablerow}[2]{#1 & #2\\}
 
-\newcommand{\armorcat}[1]{\hline\header\textbf{#1}& AC&Max  Dex& ACP& Cost & Weight \\ \hline}
-
-\begin{multicols}{2}
-\raggedcolumns
-\setbox\ltmcbox\vbox{
-\makeatletter\col@number\@ne
+\begin{table}
+\caption{Armor Types}
 {\tabulinesep=1mm
-\begin{armortable}{Non-\linebreak armors}
-Camouflaged \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb\\
-Functional \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb\\
-Thieves \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb\\
-Travelers \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb\\
-Fancy \linebreak Clothing & 0 & +6 & -1 & 30gp & 5 lb\\
-\armorcat{Light \linebreak Armor}
-Cord \linebreak Armor & +2 & - & 0 & 20gp & 10 lb\\
-Winter Clothes & +2 & +4 & -4 & 30gp & 25 lb\\
-Leather\linebreak Armor & +2  & +7  & 0 & 45gp & 10 lb\\
-Still Suit & +2 & +5 & -3 & 50gp & 25 lb\\
-Wicker \linebreak Armor & +3 & +7  & -1 & 55gp & 10 lb\\
-Studded Leather & +3 & +6 & -1 & 65gp & 16 lb\\
-Chain Shirt & +4 & +5 & -2 & 100gp & 25 lb\\
-Brigadine & +4 & +6 & -2 & 110gp & 25 lb\\
-Gray \linebreak Armor & +4 & - & 0 & 1,000gp & 15 lb\\
-Ironskin Leather\textsuperscript{1}& +5 & +5 & -2 & 3,300 gp & 15 lb\\
-Mithril Shirt\textsuperscript{1} & +5 & +6 & -1 & 4,000 gp & 15 lb\\ 
-\armorcat{Medium \linebreak Armor}
-Hide & +3 & +4 & -4 & 15gp & 25 lb \\
-Scale Mail & +4	 & +3 & -5 & 50gp & 35 lb \\
-Ringmail & +4 & +6 & -2 & 75gp & 30 lb \\
-Chainmail & +5 & +3 & -3 & 150gp & 40 lb \\ 
-Lamellar & +5 & +4 & -4 & 190gp & 40 lb \\
-Elaborate Gown & +1 & +3 & -5 & 300gp & 15 lb \\
-Lobster Mail & +5 & +2 & -5 & 350gp & 40 lb \\
-Breastplate & +6 & +2 & -4 & 450gp & 40 lb \\ 
-Chitin\linebreak Carapace & +6 & +4 & -3 & 500gp & 30 lb \\
-Gith Armor & +5 & +4 & -2 & 900gp & 25 lb \\
-Animal Spirit Armor & +4 & +3 & -3 & 1,000gp & 30 lb \\
-Dragonscale Shirt\textsuperscript{1} & +7 & +5 & -4 & 3,400gp & 30 lb\\ 
-Mithril Suit\textsuperscript{1} & +7 & +5 & -2 & 5,000gp & 25 lb \\ 
-Adamantine Breastplate\textsuperscript{1} & +8 & +3 & -6 & 5,000gp & 60lb \\ 
-\armorcat{Heavy \linebreak Armor}
-Hoplite\linebreak Armor & +6 & +1 & -9 & 250gp & 60 lb \\ 
-Half Plate & +7 & +2 & -5 & 800gp & 45 lb \\ 
-Coral Armor & +6 & +2 & -3 & 850gp & 40 lb \\ 
-Great Armor & +7 & +2 & -7 & 1,000gp & 50 lb \\ 
-Full Plate & +8 & +1 & -6 & 1,100gp & 50 lb \\ 
-Silk Steel\linebreak Armor\textsuperscript{1} & +7 & +3 & -4 & 3,400gp & 50 lb \\ 
-Dragonscale Suit\textsuperscript{1} & +9 & +4 & -5 & 5,500gp & 40lb \\ 
-Adamantine Carapace\textsuperscript{1} & +11 & +2 & -9 & 9,000gp & 75 lb \\ 
-\armorcat{Shields}
-Buckler & +1 & - & -1 & 15gp & 5 lb \\ 
-Wooden Shield & +1 & - & 0 & 15gp & 5 lb \\ 
-Steel Shield & +2 & - & -1 & 50gp & 10 lb \\ 
-Dragonscale Shield\textsuperscript{1} & +3 & - & -1 & 950gp & 15 lb \\ 
-Mithril Shield\textsuperscript{1} & +2 & - & 0 & 1,020gp & 5 lb \\ 
-Adamantine & +3 & - & -1 & 2,000gp & 25 lb \\ 
-\armorcat{Great \linebreak Shields}
-Tower Shield & +4 & - & -10 & 100gp & 45 lb \\ 
-Kite Shield & +4 & - & -5 & 120gp & 35 lb \\ 
-Bone Wall & +3 & - & -10 & 150gp & 30 lb \\ 
-Kappa Shell & +3 & - & -12 & 500gp & 30 lb \\ \hline
-\multicolumn{6}{l}{\textsuperscript{ 1 This armor is already masterwork, and cannot be improved further.}}\\
-\end{armortable}
-}
-\unskip
-\unpenalty
-\unpenalty}
-\unvbox\ltmcbox
-\end{multicols}
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabu} to \linewidth {X[3l] c X[c] c l c   |   X[3l] c X[c] c l c}
+\armortablerow{\armorcat{Non-\linebreak Armors}}{\armorcat{Medium\linebreak Armor}} \hline
+\armortablerow{Camouflaged \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb}{Gith Armor & +5 & +4 & -2 & 900gp & 25 lb}
+\armortablerow{Functional \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb}{Animal Spirit Armor & +4 & +3 & -3 & 1,000gp & 30 lb}
+\armortablerow{Thieves \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb}{Dragonscale Shirt\textsuperscript{1} & +7 & +5 & -4 & 3,400gp & 30 lb}
+\armortablerow{Travelers \linebreak Clothing & 0 & - & 0 & 1gp & 5 lb}{Mithril Suit\textsuperscript{1} & +7 & +5 & -2 & 5,000gp & 25 lb}
+\armortablerow{Fancy \linebreak Clothing & 0 & +6 & -1 & 30gp & 5 lb}{Adamantine Breastplate\textsuperscript{1} & +8 & +3 & -6 & 5,000gp & 60 lb}
+\armortablerow{\armorcat{Light \linebreak Armor}}{\armorcat{Heavy \linebreak Armor}} \hline
+\armortablerow{Cord \linebreak Armor & +2 & - & 0 & 20gp & 10 lb}{Hoplite\linebreak Armor & +6 & +1 & -9 & 250gp & 60 lb}
+\armortablerow{Winter Clothes & +2 & +4 & -4 & 30gp & 25 lb}{Half Plate & +7 & +2 & -5 & 800gp & 45 lb}
+\armortablerow{Leather\linebreak Armor & +2  & +7  & 0 & 45gp & 10 lb}{Coral Armor & +6 & +2 & -3 & 850gp & 40 lb}
+\armortablerow{Still Suit & +2 & +5 & -3 & 50gp & 25 lb}{Great Armor & +7 & +2 & -7 & 1,000gp & 50 lb}
+\armortablerow{Wicker \linebreak Armor & +3 & +7  & -1 & 55gp & 10 lb}{Full Plate & +8 & +1 & -6 & 1,100gp & 50 lb}
+\armortablerow{Studded Leather & +3 & +6 & -1 & 65gp & 16 lb}{Silk Steel\linebreak Armor\textsuperscript{1} & +7 & +3 & -4 & 3,400gp & 50 lb}
+\armortablerow{Chain Shirt & +4 & +5 & -2 & 100gp & 25 lb}{Dragonscale Suit\textsuperscript{1} & +9 & +4 & -5 & 5,500gp & 40 lb}
+\armortablerow{Brigadine & +4 & +6 & -2 & 110gp & 25 lb}{Adamantine Carapace\textsuperscript{1} & +11 & +2 & -9 & 9,000gp & 75 lb}
+\armortablerow{Gray \linebreak Armor & +4 & - & 0 & 1,000gp & 15 lb}{\armorcat{Shields}}\tabucline{7-12}
+\armortablerow{Ironskin Leather\textsuperscript{1}& +5 & +5 & -2 & 3,300 gp & 15 lb}{Buckler & +1 & - & -1 & 15gp & 5 lb}
+\armortablerow{Mithril Shirt\textsuperscript{1} & +5 & +6 & -1 & 4,000 gp & 15 lb}{Wooden Shield & +1 & - & 0 & 15gp & 5 lb}
+\armortablerow{\armorcat{Medium \linebreak Armor}}{Steel Shield & +2 & - & -1 & 50gp & 10 lb}\tabucline{1-6}
+\armortablerow{Hide & +3 & +4 & -4 & 15gp & 25 lb}{Dragonscale Shield\textsuperscript{1} & +3 & - & -1 & 950gp & 15 lb}
+\armortablerow{Scale Mail & +4	 & +3 & -5 & 50gp & 35 lb}{Mithril Shield\textsuperscript{1} & +2 & - & 0 & 1,020gp & 5 lb}
+\armortablerow{Ringmail & +4 & +6 & -2 & 75gp & 30 lb}{Adamantine & +3 & - & -1 & 2,000gp & 25 lb}
+\armortablerow{Chainmail & +5 & +3 & -3 & 150gp & 40 lb}{\armorcat{Great \linebreak Shields}}\tabucline{7-12}
+\armortablerow{Lamellar & +5 & +4 & -4 & 190gp & 40 lb}{Tower Shield & +4 & - & -10 & 100gp & 45 lb}
+\armortablerow{Elaborate Gown & +1 & +3 & -5 & 300gp & 15 lb}{Kite Shield & +4 & - & -5 & 120gp & 35 lb}
+\armortablerow{Lobster Mail & +5 & +2 & -5 & 350gp & 40 lb}{Bone Wall & +3 & - & -10 & 150gp & 30 lb}
+\armortablerow{Breastplate & +6 & +2 & -4 & 450gp & 40 lb}{Kappa Shell & +3 & - & -12 & 500gp & 30 lb}
+\armortablerow{Chitin\linebreak Carapace & +6 & +4 & -3 & 500gp & 30 lb}{& & & & & }
+\hline\multicolumn{12}{l}{\textsuperscript{1} This armor is already masterwork, and cannot be improved further.}\\ \hline
+\end{tabu}}
+\end{table}
