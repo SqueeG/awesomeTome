@@ -1,15 +1,94 @@
-\input{races/aasimar}
-\input{races/drow}
-\input{races/dwarf}
-\input{races/elf}
-\input{races/feytouched}
-\input{races/gnome}
-\input{races/goblin}
-\input{races/half-elf}
-\input{races/halfling}
-\input{races/half-orc}
-\input{races/hobgoblin}
-\input{races/human}
-\input{races/kobold}
-\input{races/orc}
-\input{races/tiefling}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Race Chapter Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\race}{placeholder}
+
+\newcommand{\racedescription}[1]{\newline\indent\ability{Physical Description}{#1}}
+\newcommand{\racepersonality}[1]{\newline\indent\ability{Personality}{#1}}
+\newcommand{\racesociety}[1]{\newline\indent\ability{Society}{#1}}
+\newcommand{\racealignment}[1]{\newline\indent\ability{Alignment}{#1}}
+
+\newcommand{\type}[1]{\ability{Type}{#1}\\}
+\newcommand{\size}[1]{\ability{Size}{#1}\\}
+\newcommand{\speed}[1]{\ability{Speed}{#1 speed}\\}
+\newcommand{\scores}[1]{\ability{Racial Ability Score Modifiers}{#1}\\}
+\newcommand{\racialtraits}[1]{\ability{Unique Racial Traits}{#1}\\}
+\newcommand{\racetrait}[2]{\newline\textbullet{ \ability{#1}{#2}}}
+\newcommand{\senses}[1]{\ability{Senses}{#1}\\}
+\newcommand{\autolanguages}[1]{\ability{Automatic Languages}{#1}\\}
+\newcommand{\bonuslanguages}[1]{\ability{Bonus Languages}{#1}\\}
+\newcommand{\favoredclasses}[1]{\ability{Favored Classes}{#1}\\}
+\newcommand{\male}[4]{Male &#1 &#2 &#3 &#4\\}
+\newcommand{\female}[4]{Female &#1 &#2 &#3 &#4\\}
+
+\newenvironment{racetable}
+{
+\tabulinesep=1mm
+\noindent
+\begin{tabu} to \columnwidth {X}
+\header\textbf{\race ~Racial Traits} \\
+\end{tabu}
+\rowcolors{1}{colortwo}{colorone}
+\begin{tabu} to \columnwidth {X [1, l]}
+}{
+\end{tabu}
+}
+
+\newcommand{\agetable}[4]{
+\tabulinesep=1mm
+\noindent
+\begin{tabu} to \columnwidth {X}
+\header\textbf{\race ~Starting Age} \\
+\end{tabu}
+\rowcolors{1}{colortwo}{colorone}
+\begin{tabu} to \columnwidth {X X X X}
+\textbf{Adulthood:} &\textbf{Simple:} &\textbf{Moderate:} &\textbf{Complex:} \\
+#1 Years &#2 &#3 &#4 \\
+\end{tabu}
+}
+
+\newenvironment{heightweighttable}
+{
+\tabulinesep=1mm
+\noindent
+\begin{tabu} to \columnwidth {X}
+\header\textbf{\race ~Height and Weight} \\
+\end{tabu}
+\rowcolors{1}{colortwo}{colorone}
+\begin{tabu} to \columnwidth {X X X X X}
+\textbf{Gender} &\textbf{Base Height} &\textbf{Height Mod.} &\textbf{Base Weight} &\textbf{Weight Mod.} \\
+}{
+\end{tabu}
+}
+
+\newenvironment{raceleft}
+{
+\vspace{0pt}
+\begin{minipage}[t]{0.5\linewidth}
+}{
+\end{minipage}
+}
+
+\newenvironment{raceright}
+{\begin{minipage}[t]{0.5\linewidth}
+\vspace{0pt}
+}{
+\end{minipage}
+}
+
+\chapter{Races}
+\input{phb/races/aasimar}
+\input{phb/races/drow}
+\input{phb/races/dwarf}
+\input{phb/races/elf}
+\input{phb/races/feytouched}
+\input{phb/races/gnome}
+\input{phb/races/goblin}
+\input{phb/races/half-elf}
+\input{phb/races/halfling}
+\input{phb/races/half-orc}
+\input{phb/races/hobgoblin}
+\input{phb/races/human}
+\input{phb/races/kobold}
+\input{phb/races/orc}
+\input{phb/races/tiefling}

@@ -1,0 +1,286 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%Class Chapter Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\class}{placeholder}
+%Holds the classes name, as defined by \classentry
+
+\newenvironment{classpreamble}{
+\begin{table}[h]
+\rowcolors{1}{colorone}{colortwo}
+\begin{tabu} to \textwidth {X}
+}{
+\end{tabu}
+\end{table}
+}
+
+\newcommand{\desc}[1]{  #1 \\}
+\newcommand{\playingaclass}[1]{\ability{Playing a \class : }{#1}\\}
+\newcommand{\hitdie}[1]{\ability{Hit Die: }{#1}\\}
+\newcommand{\alignment}[1]{\ability{Alignment: }{#1}\\}
+\newcommand{\races}[1]{\ability{Races: }{#1}\\}
+\newcommand{\startinggold}[1]{\ability{Starting Gold: }{#1}\\}
+\newcommand{\startingage}[1]{\ability{Starting Age: }{#1}\\}  
+\newcommand{\skillpoints}[1]{\ability{Skill Points per Level: }{#1 + Intelligence Bonus}\\}
+\newcommand{\classskills}[1]{\ability{Class Skills: }{The {\class}'s class skills (and the key ability for each skill) are #1}\\}
+
+\newcommand{\startclassfeatures}{
+ \smallskip\noindent All of the following are class features of the \class ~class.}
+%place before actual class features entries.
+
+\newcommand{\proficiencies}[1]{
+ \ability{Weapon and Armor Proficiencies:}{The \class ~is proficient with #1}}
+%Displays proficiencies with minimal input, implimentation looks like \proficiencies{the proficiencies}
+
+\newcommand{\classfeature}[2]{
+  \ability{#1}{#2}}
+%No functional difference from \ability currently
+
+%%%%Class Table Commands
+
+\newcommand{\gbab}{\empty}
+\newcommand{\mbab}{\empty}
+\newcommand{\fort}{\empty}
+\newcommand{\refl}{\empty}
+\newcommand{\will}{\empty}
+%Creates new commands for use in \ifx statements for formatting purposes.
+
+\newcommand{\goodbab}{\renewcommand{\gbab}{\empty}\renewcommand{\mbab}{a}}
+\newcommand{\modebab}{\renewcommand{\gbab}{a}\renewcommand{\mbab}{\empty}}
+\newcommand{\poorbab}{\renewcommand{\gbab}{a}\renewcommand{\mbab}{a}}
+%A set of commands to tell LaTeX what BAB progression the class has. Only one should be called per class.
+
+\newcommand{\goodfor}{\renewcommand{\fort}{\empty}}
+\newcommand{\poorfor}{\renewcommand{\fort}{a}}
+%A set of commands to tell LaTeX what Fortitude progression the class has. Only one should be called per class.
+
+\newcommand{\goodref}{\renewcommand{\refl}{\empty}}
+\newcommand{\poorref}{\renewcommand{\refl}{a}}
+%A set of commands to tell LaTeX what Reflex progression the class has. Only one should be called per class.
+
+\newcommand{\goodwil}{\renewcommand{\will}{\empty}}
+\newcommand{\poorwil}{\renewcommand{\will}{a}}
+%A set of commands to tell LaTeX what Will progression the class has. Only one should be called per class.
+
+\newenvironment{classtable}[1]
+{
+\begin{table}[htb]
+\centering
+\rowcolors{1}{colorone}{colortwo}
+\begin{longtabu} to \textwidth {p{.275in} l p{0.275in} p{0.275in} p{0.275in} X l l l l}
+\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special #1\\
+}{
+\end{longtabu}
+\end{table}
+}
+%A a new environment that sets up the class tables. Include the \level commands between \begin{classtable}.
+
+\newenvironment{minorcastingclasstable}
+{
+\table[htb]
+\center
+\rowcolors{1}{colorone}{colortwo}
+\tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xccccccc}
+\rowcolor{headercolor} & & & & & &\multicolumn{7}{c}{Spells Per Day (By Level)} \\
+\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special &0&1&2&3&4&5&6\\
+}{
+\endtabularx
+\endcenter
+\endtable
+}
+%A a new environment similar to classtable, but with columns for a minor (zero through six) spell slot progression.
+
+\newenvironment{fullcastingclasstable}
+{
+\table[htb]
+\center
+\rowcolors{1}{colorone}{colortwo}
+\tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xcccccccccc}
+\rowcolor{headercolor} & & & & & &\multicolumn{10}{c}{Spells Per Day (By Level)} \\
+\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special &0&1&2&3&4&5&6&7&8&9\\
+}{
+\endtabularx
+\endcenter
+\endtable
+}
+%Another environment for class tables, this one for full (0 through 9) spell slot progression.
+
+\newcommand{\levelone}[1]{
+1st  & \ifx\gbab\isempty +1 \else\ifx\mbab\isempty +0 \else +0 \fi \fi
+	 & \ifx\fort\isempty +2 \else +0 \fi
+	 & \ifx\refl\isempty +2 \else +0 \fi
+	 & \ifx\will\isempty +2 \else +0 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+
+\newcommand{\leveltwo}[1]{
+2nd  & \ifx\gbab\isempty +2 \else\ifx\mbab\isempty +1 \else +1 \fi \fi
+	 & \ifx\fort\isempty +3 \else +0 \fi
+	 & \ifx\refl\isempty +3 \else +0 \fi
+	 & \ifx\will\isempty +3 \else +0 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+
+\newcommand{\levelthree}[1]{
+3rd  & \ifx\gbab\isempty +3 \else\ifx\mbab\isempty +2 \else +1 \fi \fi
+	 & \ifx\fort\isempty +3 \else +1 \fi
+	 & \ifx\refl\isempty +3 \else +1 \fi
+	 & \ifx\will\isempty +3 \else +1 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+
+\newcommand{\levelfour}[1]{
+4th  & \ifx\gbab\isempty +4 \else\ifx\mbab\isempty +3 \else +2 \fi \fi
+	 & \ifx\fort\isempty +4 \else +1 \fi
+	 & \ifx\refl\isempty +4 \else +1 \fi
+	 & \ifx\will\isempty +4 \else +1 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+
+\newcommand{\levelfive}[1]{
+5th  & \ifx\gbab\isempty +5 \else\ifx\mbab\isempty +3 \else +2 \fi \fi
+	 & \ifx\fort\isempty +4 \else +1 \fi
+	 & \ifx\refl\isempty +4 \else +1 \fi
+	 & \ifx\will\isempty +4 \else +1 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelsix}[1]{
+6th  & \ifx\gbab\isempty +6/+1 \else\ifx\mbab\isempty +4 \else +3 \fi \fi
+	 & \ifx\fort\isempty +5 \else +2 \fi
+	 & \ifx\refl\isempty +5 \else +2 \fi
+	 & \ifx\will\isempty +5 \else +2 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+
+\newcommand{\levelseven}[1]{
+7th  & \ifx\gbab\isempty +7/+2 \else\ifx\mbab\isempty +5 \else +3 \fi \fi
+	 & \ifx\fort\isempty +5 \else +2 \fi
+	 & \ifx\refl\isempty +5 \else +2 \fi
+	 & \ifx\will\isempty +5 \else +2 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\leveleight}[1]{
+8th  & \ifx\gbab\isempty +8/+3 \else\ifx\mbab\isempty +6/+1 \else +4 \fi \fi
+	 & \ifx\fort\isempty +6 \else +2 \fi
+	 & \ifx\refl\isempty +6 \else +2 \fi
+	 & \ifx\will\isempty +6 \else +2 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelnine}[1]{
+9th  & \ifx\gbab\isempty +9/+4 \else\ifx\mbab\isempty +6/+1 \else +4 \fi \fi
+	 & \ifx\fort\isempty +6 \else +3 \fi
+	 & \ifx\refl\isempty +6 \else +3 \fi
+	 & \ifx\will\isempty +6 \else +3 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelten}[1]{
+10th & \ifx\gbab\isempty +10/+5 \else\ifx\mbab\isempty +7/+2 \else +5 \fi \fi
+	 & \ifx\fort\isempty +7 \else +3 \fi
+	 & \ifx\refl\isempty +7 \else +3 \fi
+	 & \ifx\will\isempty +7 \else +3 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\leveleleven}[1]{
+11th & \ifx\gbab\isempty +11/+6/+6 \else\ifx\mbab\isempty +8/+3 \else +5 \fi \fi
+	 & \ifx\fort\isempty +7 \else +3 \fi
+	 & \ifx\refl\isempty +7 \else +3 \fi
+	 & \ifx\will\isempty +7 \else +3 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\leveltwelve}[1]{
+12th & \ifx\gbab\isempty +12/+7/+7 \else\ifx\mbab\isempty +9/+4 \else +6/+1 \fi \fi
+	 & \ifx\fort\isempty +8 \else +4 \fi
+	 & \ifx\refl\isempty +8 \else +4 \fi
+	 & \ifx\will\isempty +8 \else +4 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelthirteen}[1]{
+13th & \ifx\gbab\isempty +13/+8/+8 \else\ifx\mbab\isempty +9/+4 \else +6/+1 \fi \fi
+	 & \ifx\fort\isempty +8 \else +4 \fi
+	 & \ifx\refl\isempty +8 \else +4 \fi
+	 & \ifx\will\isempty +8 \else +4 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelfourteen}[1]{
+14th & \ifx\gbab\isempty +14/+9/+9 \else\ifx\mbab\isempty +10/+5 \else +7/+2 \fi \fi
+	 & \ifx\fort\isempty +9 \else +4 \fi
+	 & \ifx\refl\isempty +9 \else +4 \fi
+	 & \ifx\will\isempty +9 \else +4 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelfifteen}[1]{
+15th & \ifx\gbab\isempty +15/+10/+10 \else\ifx\mbab\isempty +11/+6/+6 \else +7/+2 \fi \fi
+	 & \ifx\fort\isempty +9 \else +5 \fi
+	 & \ifx\refl\isempty +9 \else +5 \fi
+	 & \ifx\will\isempty +9 \else +5 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelsixteen}[1]{
+16th & \ifx\gbab\isempty +16/+11/+11/+11 \else\ifx\mbab\isempty +12/+7/+7 \else +8/+3 \fi \fi
+	 & \ifx\fort\isempty +10 \else +5 \fi
+	 & \ifx\refl\isempty +10 \else +5 \fi
+	 & \ifx\will\isempty +10 \else +5 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelseventeen}[1]{
+17th & \ifx\gbab\isempty +17/+12/+12/+12 \else\ifx\mbab\isempty +12/+7/+7 \else +8/+3 \fi \fi
+	 & \ifx\fort\isempty +10 \else +5 \fi
+	 & \ifx\refl\isempty +10 \else +5 \fi
+	 & \ifx\will\isempty +10 \else +5 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\leveleighteen}[1]{
+18th & \ifx\gbab\isempty +18/+13/+13/+13 \else\ifx\mbab\isempty +13/+8/+8 \else +9/+4 \fi \fi
+	 & \ifx\fort\isempty +11 \else +6 \fi
+	 & \ifx\refl\isempty +11 \else +6 \fi
+	 & \ifx\will\isempty +11 \else +6 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\levelnineteen}[1]{
+19th & \ifx\gbab\isempty +19/+14/+14/+14 \else\ifx\mbab\isempty +14/+9/+9 \else +9/+4 \fi \fi
+	 & \ifx\fort\isempty +11 \else +6 \fi
+	 & \ifx\refl\isempty +11 \else +6 \fi
+	 & \ifx\will\isempty +11 \else +6 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+	 
+\newcommand{\leveltwenty}[1]{
+20th & \ifx\gbab\isempty +20/+15/+15/+15 \else\ifx\mbab\isempty +15/+10/+10 \else +10/+5 \fi \fi
+	 & \ifx\fort\isempty +12 \else +6 \fi
+	 & \ifx\refl\isempty +12 \else +6 \fi
+	 & \ifx\will\isempty +12 \else +6 \fi
+	 & #1 \\}
+%A command that declares a table row within the class feature table.
+
+\newmdenv[hidealllines=true,backgroundcolor=gray!20]{optionbox}
+
+\newcommand{\option}[1]{
+  \renewmdenv[hidealllines=true,backgroundcolor=colorone]{optionbox}
+   \begin{optionbox}\noindent{#1}\end{optionbox}
+   ~\\*
+}
+
+\newenvironment{optional}{
+\colorlet{colortwo}{white}
+\colorlet{colorone}{gray!15}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Classes}
+\input{phb/base-classes/class-basics}
+\input{phb/base-classes/core-classes}
+\input{phb/base-classes/additional-classes}
