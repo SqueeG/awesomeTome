@@ -252,40 +252,51 @@
 \newcommand{\fakeitem}[1]{\textbullet ~{#1}}
 \newcommand{\senses}[1]{\ability{Senses}{#1}\\}
 \newcommand{\standardsenses}{\ability{Senses}Standard\\}
-\newcommand{\autolanguages}[1]{\ability{Automatic Languages:}{#1}\\}
+\newcommand{\autolanguages}[1]{\ability{Automatic Languages}{#1}\\}
 \newcommand{\bonuslanguages}[1]{\ability{Bonus Languages}{#1}\\}
 \newcommand{\favoredclass}[1]{\ability{Favored Class}{#1}\\}
 \newcommand{\favoredclasses}[1]{\ability{Favored Classes}{#1}\\}
+\newcommand{\male}[4]{Male &#1 &#2 &#3 &#4\\}
+\newcommand{\female}[4]{Female &#1 &#2 &#3 &#4\\}
 
-\newcommand{\racetable}{
-\rowcolors{1}{colorone}{colortwo}
-\centering
-\begin{tabu}to \columnwidth{X[1, L, b]}
-\header \textbf{\race ~Racial Traits} \\
+\newenvironment{racetable}
+{
+\tabulinesep=1mm
+\noindent
+\begin{tabu} to \columnwidth {X}
+\header\textbf{\race ~Racial Traits} \\
+\end{tabu}
+\rowcolors{1}{colortwo}{colorone}
+\begin{tabu} to \columnwidth {X [1, l]}
+}{
+\end{tabu}
 }
 
 \newcommand{\agetable}[4]{
-\rowcolors{1}{colorone}{colortwo}
-\begin{tabularx}{\columnwidth}{XXXX}
-\header\multicolumn{4}{l}{\textbf{\race ~Starting Age}}\\
-\textbf{Adulthood:}&\textbf{Simple:}&\textbf{Moderate:}&\textbf{Complex:}\\
-#1 Years&#2&#3&#4\\
-\end{tabularx}
+\tabulinesep=1mm
+\noindent
+\begin{tabu} to \columnwidth {X}
+\header\textbf{\race ~Starting Age} \\
+\end{tabu}
+\rowcolors{1}{colortwo}{colorone}
+\begin{tabu} to \columnwidth {X X X X}
+\textbf{Adulthood:} &\textbf{Simple:} &\textbf{Moderate:} &\textbf{Complex:} \\
+#1 Years &#2 &#3 &#4 \\
+\end{tabu}
 }
 
-\newcommand{\MALE}{placeholder}
-\newcommand{\male}[4]{\renewcommand{\MALE}{Male&#1&#2&#3&#4\\}}
-\newcommand{\FEMALE}{placeholder}
-\newcommand{\female}[4]{\renewcommand{\FEMALE}{Female&#1&#2&#3&#4\\}}
-
-\newcommand{\heightweighttable}{
-\rowcolors{1}{colorone}{colortwo}
-\begin{tabularx}{\columnwidth}{XXXXX}
-\header\multicolumn{5}{l}{\textbf{\race ~Height and Weight}}\\
-\textbf{Gender}&\textbf{Base Height}&\textbf{Height Mod.}&\textbf{Base Weight}&\textbf{Weight Mod.}\\
-\MALE
-\FEMALE
-\end{tabularx}
+\newenvironment{heightweighttable}
+{
+\tabulinesep=1mm
+\noindent
+\begin{tabu} to \columnwidth {X}
+\header\textbf{\race ~Height and Weight} \\
+\end{tabu}
+\rowcolors{1}{colortwo}{colorone}
+\begin{tabu} to \columnwidth {X X X X X}
+\textbf{Gender} &\textbf{Base Height} &\textbf{Height Mod.} &\textbf{Base Weight} &\textbf{Weight Mod.} \\
+}{
+\end{tabu}
 }
 
 \newenvironment{raceleft}
@@ -824,7 +835,7 @@ foo
 \section{Armor}
 \input{phb/equipment/armor}
 \section{Weapons}
-\input{phb/equipment/weapons}
+%\input{phb/equipment/weapons}
 \section{Adventuring Gear}
 \input{phb/equipment/adventuringgear}
 \section{Animals and Related Gear}
