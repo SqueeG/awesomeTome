@@ -1,0 +1,43 @@
+\raceentry{ <-race name, capitalized-> }{`` <-fluff quote about race-> "}
+\begin{multicols}{2}
+<- intro blurb. maybe a sentence or two->
+\racedescription{ <-physical description-> }
+\racepersonality{ <-default personality description-> }
+\racesociety{ <-default society description-> }
+\racealignment{ <-default alignment notes. if you're into that sort of thing-> }
+
+\columnbreak
+
+\begin{racetable}
+\type{ <-type and subtypes-> }
+\size{ <-size-> }
+\scores{+2 Wisdom, +2 Charisma}
+\speed{ <-base speed, in feet-> }
+\senses{ <-either "Standard" or something like "Low-light vision" or "Darkvision 120'"->
+\racialtraits{
+\racetrait{ <-name of racial trait. skill bonuses get a name too, like "Skill Bonus". use "\sp", "\su", or "\ex" after the name if needed-> }
+{ <-racial trait mechanical description. it's less complicated than it sounds.-> }
+} %%% repeat the whole '\racetrait' line as needed for extra abilities %%%
+\autolanguages{ <-automatic languages. "Common" and a racial language, if any, are probably here-> }
+\bonuslanguages{ <-bonus language options-> }
+\favoredclasses{ <-favored classes. plural-> }
+\end{racetable}
+
+\vspace{\baselineskip}
+\agetable{ <-age of adulthood-> }
+{ <-simple class extra years-> }
+{ <-moderate class extra years-> }
+{ <-complex class extra years-> }
+
+\vspace{\baselineskip}
+\begin{heightweighttable}
+\male{ <-base height, in [#' #"] format, -> }
+{ <-height mod. no units-> }
+{ <-base weight, in [# lb.] format-> }
+{ <-weight mod. no units-> }
+\female{ <-base height, in [#' #"] format, -> }
+{ <-height mod. no units-> }
+{ <-base weight, in [# lb.] format-> }
+{ <-weight mod. no units-> }
+\end{heightweighttable}
+\end{multicols}

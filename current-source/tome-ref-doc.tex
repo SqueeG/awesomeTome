@@ -244,17 +244,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\race}{placeholder}
 
+\newcommand{\racedescription}[1]{\newline\indent\ability{Physical Description}{#1}}
+\newcommand{\racepersonality}[1]{\newline\indent\ability{Personality}{#1}}
+\newcommand{\racesociety}[1]{\newline\indent\ability{Society}{#1}}
+\newcommand{\racealignment}[1]{\newline\indent\ability{Alignment}{#1}}
+
 \newcommand{\type}[1]{\ability{Type}{#1}\\}
 \newcommand{\size}[1]{\ability{Size}{#1}\\}
-\newcommand{\speed}[1]{\ability{Speed}{#1}\\}
+\newcommand{\speed}[1]{\ability{Speed}{#1 speed}\\}
 \newcommand{\scores}[1]{\ability{Racial Ability Score Modifiers}{#1}\\}
-\newcommand{\racespecial}[1]{\ability{Unique Racial Traits}{\linebreak #1}\\}
-\newcommand{\fakeitem}[1]{\textbullet ~{#1}}
+\newcommand{\racialtraits}[1]{\ability{Unique Racial Traits}{#1}\\}
+\newcommand{\racetrait}[2]{\newline\textbullet{ \ability{#1}{#2}}}
 \newcommand{\senses}[1]{\ability{Senses}{#1}\\}
-\newcommand{\standardsenses}{\ability{Senses}Standard\\}
 \newcommand{\autolanguages}[1]{\ability{Automatic Languages}{#1}\\}
 \newcommand{\bonuslanguages}[1]{\ability{Bonus Languages}{#1}\\}
-\newcommand{\favoredclass}[1]{\ability{Favored Class}{#1}\\}
 \newcommand{\favoredclasses}[1]{\ability{Favored Classes}{#1}\\}
 \newcommand{\male}[4]{Male &#1 &#2 &#3 &#4\\}
 \newcommand{\female}[4]{Female &#1 &#2 &#3 &#4\\}
@@ -604,7 +607,7 @@
 %%Equipment Chapter
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\armorentry}[4]{\ability{#1}{\textit{#3} #4}}
+\newcommand{\armorentry}[4]{\ability{#1}{#3\newline\indent\textbullet{ #4}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Unsorted Commands
