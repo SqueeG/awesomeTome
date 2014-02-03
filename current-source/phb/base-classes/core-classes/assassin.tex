@@ -41,8 +41,8 @@ While most societies consider assassination to be a vile art, or at best a disho
 
 \begin{floatingfigure}[r]{3.9in}
 \rowcolors{1}{colorone}{colortwo}
-\noindent\begin{tabular}{lllllllllllllllll}
-\header & \multicolumn{7}{c}{Assassin Spells Per Day} & & &\multicolumn{7}{c}{Assassin Spells Known}\\
+\noindent\begin{tabu}{lllllllllllllllll}
+\header & \multicolumn{7}{c}{Assassin Spells Per Day} & & &\multicolumn{7}{c}{Assassin Spells Known}\\ \hline
    &0 &1 &2 &3 &4 &5 &6 &  &   &0 &1 &2 &3 &4 &5 &6\\
 1  &2 &- &- &- &- &- &- &  &1  &4 &- &- &- &- &- &-\\
 2  &3 &0 &- &- &- &- &- &  &2  &5 &2 &- &- &- &- &-\\
@@ -63,8 +63,8 @@ While most societies consider assassination to be a vile art, or at best a disho
 17 &3 &3 &3 &3 &3 &3 &1 &  &17 &6 &5 &5 &4 &4 &4 &3\\
 18 &3 &3 &3 &3 &3 &3 &2 &  &18 &6 &5 &5 &5 &4 &4 &3\\
 19 &3 &3 &3 &3 &3 &3 &3 &  &19 &6 &5 &5 &5 &5 &4 &4\\
-20 &3 &3 &3 &3 &3 &3 &3 &  &20 &6 &5 &5 &5 &5 &5 &4\\
-\end{tabular}
+20 &3 &3 &3 &3 &3 &3 &3 &  &20 &6 &5 &5 &5 &5 &5 &4\\ \hline
+\end{tabu}
 \end{floatingfigure}
 
 \startclassfeatures
@@ -102,7 +102,7 @@ While most societies consider assassination to be a vile art, or at best a disho
 \classfeature{Poisonmaster:}{At 11th level, the Assassin learns alchemic secrets for creating short-term poisons. By expending an entire healer's kit worth of materials and an hour of time, he can synthesize one dose of any poison in the DMG. This poison degrades to uselessness in one week.}
 
 \classfeature{Exotic Method:}{At 13th, 16th, and 19th level the Assassin learns an exotic form of killing from the list below. Once chosen, this ability does not change:
-\listone
+\begin{awesomelist}
     \item \ability{Carrier:}{Three times per day, the Assassin can cast \spell{contagion} as a swift action spell-like ability.}
     \item \ability{Poison of the Cockatrice:}{Twice per day, the Assassin can cast \spell{flesh to stone} as a swift action spell-like ability.}
     \item \ability{Killer Faerie Arts:}{Twice per day, the Assassin can cast \spell{polymorph other} as a swift action spell-like ability.}
@@ -110,8 +110,7 @@ While most societies consider assassination to be a vile art, or at best a disho
     \item \ability{Death By Plane:}{Once per day, the Assassin can cast \spell{plane shift} as a spell-like ability.}
     \item \ability{Dimesional Rip:}{Once per day, the Assassin can cast \spell{implosion} as a spell-like ability. The duration of this effect is three rounds.}
     \item \ability{New School:}{The Assassin may now choose spells known from a new school.}
-\end{list}
-\vspace{8pt}}
+\end{awesomelist}}
 
 \classfeature{Killer's Proof (Su):}{At 15th level, the Assassin learns to steal the souls of those he kills. If he is holding an onyx worth at least 100 GP when he kills an enemy, he may place their soul within the gem as if he has cast \spell{soul bind} on them at the moment of their death.}
 

@@ -112,6 +112,7 @@
 \newcommand{\header}{\rowcolor{headercolor}}
 %when inserted in a row, makes that row the color headercolor
 
+\global\tabulinesep=1mm
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -172,6 +173,8 @@
 
 \newcommand{\itemspace}{\setlength{\itemsep}{-1mm}\setlength{\topsep}{-1mm} }
 %A command from legacy-source for compatabilty
+
+\newenvironment{awesomelist}{\begin{list}{$\bullet$}{\itemspace}}{\end{list}\vspace{8pt}}
 
 \newcommand{\listone}{\begin{list}{$\bullet$}{\itemspace}}
 

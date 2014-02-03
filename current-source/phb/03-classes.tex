@@ -67,10 +67,11 @@
 \begin{table}[htb]
 \centering
 \rowcolors{1}{colorone}{colortwo}
-\begin{longtabu} to \textwidth {p{.275in} l p{0.275in} p{0.275in} p{0.275in} X l l l l}
-\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special #1\\
+\begin{tabu} to \textwidth {p{.275in} l p{0.275in} p{0.275in} p{0.275in} X l l l l} 
+\rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special #1 \\
 }{
-\end{longtabu}
+\hline
+\end{tabu}
 \end{table}
 }
 %A a new environment that sets up the class tables. Include the \level commands between \begin{classtable}.
@@ -80,11 +81,11 @@
 \table[htb]
 \center
 \rowcolors{1}{colorone}{colortwo}
-\tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xccccccc}
+\begin{tabu}to \textwidth{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xccccccc}
 \rowcolor{headercolor} & & & & & &\multicolumn{7}{c}{Spells Per Day (By Level)} \\
 \rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special &0&1&2&3&4&5&6\\
 }{
-\endtabularx
+\end{tabu}
 \endcenter
 \endtable
 }
@@ -95,17 +96,19 @@
 \table[htb]
 \center
 \rowcolors{1}{colorone}{colortwo}
-\tabularx{\textwidth}{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xcccccccccc}
+\begin{tabu}to \textwidth{p{.275in}lp{0.275in}p{0.275in}p{0.275in}Xcccccccccc}
 \rowcolor{headercolor} & & & & & &\multicolumn{10}{c}{Spells Per Day (By Level)} \\
 \rowcolor{headercolor} Level & Base Attack & Fort. & Ref. & Will & Special &0&1&2&3&4&5&6&7&8&9\\
 }{
-\endtabularx
+\hline
+\end{tabu}
 \endcenter
 \endtable
 }
 %Another environment for class tables, this one for full (0 through 9) spell slot progression.
 
 \newcommand{\levelone}[1]{
+\hline
 1st  & \ifx\gbab\isempty +1 \else\ifx\mbab\isempty +0 \else +0 \fi \fi
 	 & \ifx\fort\isempty +2 \else +0 \fi
 	 & \ifx\refl\isempty +2 \else +0 \fi
