@@ -1,8 +1,79 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%Feats Chapter Formatting
 %%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\babfeat}[7]{\noindent\textbf{#1} \\ \emph{#2} \\ \textbf{Benefit:}#3 \\ \textbf{+1:}#4  \\ \textbf{+6:}#5 \\ \textbf{+11:}#6 \\ \textbf{+16:}#7 \bigskip \newline}
-\newcommand{\skillfeat}[8]{\noindent\textbf{#1} \\ \emph{#2} \\ \textbf{#3} \\ \textbf{0:}#4 \\ \textbf{4:}#5  \\ \textbf{9:}#6 \\ \textbf{14:}#7 \\ \textbf{19:} #8 \bigskip \newline}
+\newcommand{\combatfeat}[8]{
+\indent\hypertarget{feat:#1}{}\textbf{#1 [Combat] #2} \\
+%\indent\label{comm:feat:#1}{}\textbf{#1 [Combat] #2} \\
+\textit{#3} \\
+\ability{Benefit}{#4} \\
+\ability{BAB +1}{#5} \\
+\ability{BAB +6}{#6} \\
+\ability{BAB +11}{#7} \\
+\ability{BAB +16}{#8} \\
+%\begin{description}
+%\item[Benefit:] #4
+%\item[BAB +1:] #5
+%\item[BAB +6:] #6
+%\item[BAB +11:] #7
+%\item[BAB +16:] #8
+%\end{description}
+~\\*
+}
+
+\newcommand{\skillfeat}[9]{
+\indent\hypertarget{feat:#1}{}\textbf{#1 [Skill:#2] #3} \\
+%\indent\label{comm:feat:#1}{}\textbf{#1 [Skill] #2} \\
+\noindent\textit{#4} \\
+\ability{Benefit}{#5} \\
+\ability{4 Ranks}{#6} \\
+\ability{9 Ranks}{#7} \\
+\ability{14 Ranks}{#8} \\
+\ability{19 Ranks}{#9} \\
+%\begin{description}
+%\item[Benefit:] #4
+%\item[4 Ranks:] #5
+%\item[9 Ranks:] #6
+%\item[14 Ranks:] #7
+%\item[19 Ranks:] #8
+%\end{description}
+~\\*
+}
+
+\newcommand{\spellfeat}[8]{
+\indent\hypertarget{feat:#1}{}\textbf{#1 [Spellcasting] #2} \\
+%\indent\label{comm:feat:#1}{}\textbf{#1 [Spellcasting] #2} \\
+\noindent\textit{#3} \\
+\ability{Benefit}{#4} \\
+\ability{Level 1}{#5} \\
+\ability{Level 3}{#6} \\
+\ability{Level 6}{#7} \\
+\ability{Level 9}{#8} \\
+%\begin{description}
+%\item[Benefit:] #4
+%\item[Level 1:] #5
+%\item[Level 3:] #6
+%\item[Level 6:] #7
+%\item[Level 9:] #8
+%\end{description}
+~\\*
+}
+
+\newcommand{\feat}[5]{
+\indent\hypertarget{feat:#1}{}\textbf{#1 #2} \\
+%\indent\label{comm:feat:#1}{}\textbf{#1 #2} \\
+\textit{#3}
+\ability{Prerequisites}{#4}
+\ability{Benefit}{#5}
+}
+
+\newcommand{\specialfeat}[6]{
+\indent\hypertarget{feat:#1}{}\textbf{#1 #2} \\
+%\indent\label{comm:feat:#1}{}\textbf{#1 #2} \\
+\noindent\textit{#3}
+\ability{Prerequisites}{#4}
+\ability{Benefit}{#5}
+\ability{Special}{#5}
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
