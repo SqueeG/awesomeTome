@@ -13,15 +13,24 @@
 %\end{tabu}
 }
 
-\newcommand{\desc}[1]{\noindent#1 \\}
-\newcommand{\playingaclass}[1]{\indent\ability{Playing a \class : }{#1}\\}
-\newcommand{\hitdie}[1]{\indent\ability{Hit Die: }{#1}\\}
-\newcommand{\alignment}[1]{\indent\ability{Alignment: }{#1}\\}
-\newcommand{\races}[1]{\indent\ability{Races: }{#1}\\}
-\newcommand{\startinggold}[1]{\indent\ability{Starting Gold: }{#1}\\}
-\newcommand{\startingage}[1]{\indent\ability{Starting Age: }{#1}\\}  
-\newcommand{\skillpoints}[1]{\indent\ability{Skill Points per Level: }{#1 + Intelligence Bonus}\\}
-\newcommand{\classskills}[1]{\newline\indent\ability{Class Skills: }{The {\class}'s class skills (and the key ability for each skill) are #1}\\}
+\newcommand{\desc}[1]{\noindent#1}
+
+\newcommand{\playingaclass}[1]{\indent\ability{Playing a \class}{#1}}
+
+\newcommand{\alignment}[1]{\indent\ability{Alignment}{#1}}
+
+\newcommand{\races}[1]{\indent\ability{Races}{#1}}
+
+\newcommand{\startinggold}[1]{\indent\ability{Starting Gold}{#1}}
+
+\newcommand{\startingage}[1]{\indent\ability{Starting Age}{#1}}
+
+\newcommand{\hitdie}[1]{\indent\ability{Hit Die}{#1}}
+
+\newcommand{\classskills}[1]{\indent\ability{Class Skills}{The {\class}'s class skills (and the key ability for each skill) are #1}}
+
+\newcommand{\skillpoints}[1]{\indent\ability{Skill Points per Level}{#1 + Intelligence Bonus}}
+
 
 %\newcommand{\desc}[1]{ #1 \\}
 %\newcommand{\playingaclass}[1]{\selectfont\ability{Playing a \class : }{#1}\\}
@@ -35,11 +44,11 @@
 
 
 \newcommand{\startclassfeatures}{
- \smallskip\noindent All of the following are class features of the \class ~class.}
+ \vspace{0.5em}\smallskip\noindent All of the following are class features of the \class ~class.}
 %place before actual class features entries.
 
 \newcommand{\proficiencies}[1]{
- \ability{Weapon and Armor Proficiencies:}{The \class ~is proficient with #1}}
+ \ability{Weapon and Armor Proficiencies}{The \class ~is proficient with #1}}
 %Displays proficiencies with minimal input, implimentation looks like \proficiencies{the proficiencies}
 
 \newcommand{\classfeature}[2]{
@@ -74,6 +83,7 @@
 
 \newenvironment{classtable}[1]
 {
+\begin{table}[tpb]
 \centering
 \rowcolors{1}{colorone}{colortwo}
 \begin{tabu} to \textwidth {p{.275in} l p{0.275in} p{0.275in} p{0.275in} X l l l l} 
@@ -81,6 +91,7 @@
 }{
 \hline
 \end{tabu}
+\end{table}
 }
 %A a new environment that sets up the class tables. Include the \level commands between \begin{classtable}.
 

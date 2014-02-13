@@ -3,14 +3,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\race}{placeholder}
 
-\newcommand{\racedescription}[1]{\newline\indent\ability{Physical Description}{#1}}
-\newcommand{\racepersonality}[1]{\newline\indent\ability{Personality}{#1}}
-\newcommand{\racesociety}[1]{\newline\indent\ability{Society}{#1}}
-\newcommand{\racealignment}[1]{\newline\indent\ability{Alignment}{#1}}
+\newcommand{\racedescription}[1]{\indent\ability{Physical Description}{#1}}
+\newcommand{\racepersonality}[1]{\indent\ability{Personality}{#1}}
+\newcommand{\racesociety}[1]{\indent\ability{Society}{#1}}
+\newcommand{\racealignment}[1]{\indent\ability{Alignment}{#1}}
 
 \newcommand{\type}[1]{\ability{Type}{#1}\\}
 \newcommand{\size}[1]{\ability{Size}{#1}\\}
-\newcommand{\speed}[1]{\ability{Speed}{#1 speed}\\}
+\newcommand{\speed}[1]{\ability{Speed}{#1 feet}\\}
 \newcommand{\scores}[1]{\ability{Racial Ability Score Modifiers}{#1}\\}
 \newcommand{\racialtraits}[1]{\ability{Unique Racial Traits}{#1}\\}
 \newcommand{\racetrait}[2]{\newline\textbullet{ \ability{#1}{#2}}}
@@ -81,13 +81,30 @@
 \end{minipage}
 }
 
+\newenvironment{racebox}
+{
+\vspace{0pt}
+%\nointerlineskip
+\begin{minipage}[t][0.49\textheight][t]{\textwidth}
+}{
+\end{minipage}
+}
+
+
 \chapter{Races}
+
 \input{phb/races/aasimar}
+
 \input{phb/races/drow}
+
 \input{phb/races/dwarf}
+
 \input{phb/races/elf}
+
 \input{phb/races/feytouched}
+
 \input{phb/races/gnome}
+
 \input{phb/races/goblin}
 \input{phb/races/half-elf}
 \input{phb/races/halfling}
