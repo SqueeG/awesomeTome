@@ -39,7 +39,7 @@
 \usepackage{afterpage}
 \usepackage{caption}
 
-\usepackage{titlesec}
+%\usepackage[bf, big, raggedright]{titlesec}
 
 \usepackage{amsmath}
 
@@ -49,9 +49,22 @@
 \usepackage{aurical}
 
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=links,pdfstartview={XYZ null null 1.00},bookmarksdepth=2]{hyperref}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%%%% End of Import tion %%%%%%%%%%%
+%%%% End of Import %%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% General Font Display
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand*{\familydefault}{\sfdefault}
+%% sets default text to sans-serif, so text doesn't flip back to serif in some environments.
 
 
 
@@ -60,9 +73,9 @@
 %%% Sectioning Display
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\titleformat{\section}[block]{\Large\bfseries\selectfont}{}{0ex}{}[\vspace{-0ex}]
-\titleformat{\subsection}[block]{\Large\bfseries\selectfont}{}{0ex}{}[\vspace{-0ex}]
-\titleformat{\subsubsection}[block]{\Large\bfseries\selectfont}{}{0ex}{}[\vspace{-0ex}]
+
+
+
 
 
 

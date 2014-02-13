@@ -2,15 +2,15 @@
 %%Feats Chapter Formatting
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\combatfeat}[8]{
-\subsection{#1}
-\vspace{-0.5em}\Large\textbf{[Combat] #2} 
-\newline\textit{#3}
+\paragraph{\Large#1}\large\textbf{#2}
+
+\normalsize\noindent\textit{#3}
 %\indent\hypertarget{feat:#1}{}\textbf{#1 [Combat] #2} \\
-\newline\indent\ability{Benefit}{#4}
-\newline\indent\ability{BAB +1}{#5}
-\newline\indent\ability{BAB +6}{#6}
-\newline\indent\ability{BAB +11}{#7}
-\newline\indent\ability{BAB +16}{#8}
+\newline\indent\ability{+0 BAB}{#4}
+\newline\indent\ability{+1 BAB}{#5}
+\newline\indent\ability{+6 BAB}{#6}
+\newline\indent\ability{+11 BAB}{#7}
+\newline\indent\ability{+16 BAB}{#8}
 %\begin{description}
 %\item[Benefit:] #4
 %\item[BAB +1:] #5
@@ -21,16 +21,16 @@
 %~\\*
 }
 
-\newcommand{\skillfeat}[9]{
-\subsection{#1}
-\vspace{-0.5em}\Large\textbf{[Skill:#2] #3}
-\newline\textit{#4}
+\newcommand{\skillfeat}[8]{
+\paragraph{\Large#1}\large\textbf{#2}
+
+\normalsize\noindent\textit{#3}
 %\indent\hypertarget{feat:#1}{}\textbf{#1 [Skill:#2] #3} \\
-\newline\indent\ability{Benefit}{#5}
-\newline\indent\ability{4 Ranks}{#6}
-\newline\indent\ability{9 Ranks}{#7}
-\newline\indent\ability{14 Ranks}{#8}
-\newline\indent\ability{19 Ranks}{#9}
+\newline\indent\ability{0 Ranks}{#4}
+\newline\indent\ability{4 Ranks}{#5}
+\newline\indent\ability{9 Ranks}{#6}
+\newline\indent\ability{14 Ranks}{#7}
+\newline\indent\ability{19 Ranks}{#8}
 %\begin{description}
 %\item[Benefit:] #4
 %\item[4 Ranks:] #5
@@ -42,15 +42,15 @@
 }
 
 \newcommand{\spellfeat}[8]{
-\subsection{#1}
-\vspace{-0.5em}\Large\textbf{[Spellcasting] #2} \label{feat:#1} 
-\newline\textit{#3}
+\paragraph{\Large#1}\large\textbf{#2}
+
+\normalsize\noindent\textit{#3}
 %\indent\hypertarget{feat:#1}{}\textbf{#1 [Spellcasting] #2} \\
-\newline\indent\ability{Benefit}{#4}
-\newline\indent\ability{Level 1}{#5}
-\newline\indent\ability{Level 3}{#6}
-\newline\indent\ability{Level 6}{#7}
-\newline\indent\ability{Level 9}{#8}
+\newline\indent\ability{0th Level}{#4}
+\newline\indent\ability{1st Level}{#5}
+\newline\indent\ability{3rd Level}{#6}
+\newline\indent\ability{6th Level}{#7}
+\newline\indent\ability{9th Level}{#8}
 %\begin{description}
 %\item[Benefit:] #4
 %\item[Level 1:] #5
@@ -61,34 +61,22 @@
 %~\\*
 }
 
-\newcommand{\featb}[4]{
-\subsection{#1 #2} \label{feat:#1} \textit{#3}
-%\indent\hypertarget{feat:#1}{}\textbf{#1 #2} \\
-\newline\indent\ability{Benefit}{#4}
-%~\\*
+\newcommand{\genfeat}[3]{
+\paragraph{\Large#1}\large\textbf{#2}
+
+\normalsize\noindent\textit{#3}
 }
 
-\newcommand{\featpb}[5]{
-\indent\hypertarget{feat:#1}{}\textbf{#1 #2} \\
-\noindent\textit{#3} \\
-\ability{Prerequisites}{#4}
-\ability{Benefit}{#5}
+\newcommand{\featprereq}[1]{
+\newline\indent\ability{Prerequisite}{#1}
 }
 
-\newcommand{\featbs}[5]{
-\indent\hypertarget{feat:#1}{}\textbf{#1 #2} \\
-\noindent\textit{#3}
-\ability{Benefit}{#4}
-\ability{Special}{#5}
+\newcommand{\featbenefit}[1]{
+\newline\indent\ability{Benefit}{#1}
 }
 
-\newcommand{\featpbs}[6]{
-\indent\hypertarget{feat:#1}{}\textbf{#1 #2} \\
-%\indent\label{comm:feat:#1}{}\textbf{#1 #2} \\
-\noindent\textit{#3}
-\ability{Prerequisites}{#4}
-\ability{Benefit}{#5}
-\ability{Special}{#6}
+\newcommand{\featspecial}[1]{
+\newline\indent\ability{Special}{#1}
 }
 
 
@@ -102,3 +90,4 @@ foo
 \input{phb/feats/combatfeats}
 \input{phb/feats/skillfeats}
 \input{phb/feats/spellcastingfeats}
+%\input{phb/feats/necromancer/!necromancer}
