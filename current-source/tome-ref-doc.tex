@@ -16,7 +16,9 @@
 \usepackage{phonetic}
 \usepackage{bbding}
 \usepackage{linearb}
-	\usepackage{cypriot}
+
+%\usepackage{cypriot}
+
 \usepackage{tipa}
 \usepackage{xfrac}
 \usepackage{appendix}
@@ -37,6 +39,8 @@
 \usepackage{afterpage}
 \usepackage{caption}
 
+\usepackage{titlesec}
+
 \usepackage{amsmath}
 
 %% Font
@@ -50,6 +54,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Sectioning Display
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titleformat{\section}[block]{\Large\bfseries\selectfont}{}{0ex}{}[\vspace{-0ex}]
+\titleformat{\subsection}[block]{\Large\bfseries\selectfont}{}{0ex}{}[\vspace{-0ex}]
+\titleformat{\subsubsection}[block]{\Large\bfseries\selectfont}{}{0ex}{}[\vspace{-0ex}]
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Revised Commands
@@ -60,7 +76,7 @@
 %fiddles with how chapter titles are displayed
 \renewcommand{\@makechapterhead}[1]{%
 \vspace*{0 pt}{%
-\raggedright \normalfont \fontsize{32}{32} \selectfont \bfseries%
+\raggedright \fontsize{32}{32} \selectfont \bfseries%
 \ifnum \value{secnumdepth}>-1%
   \if@mainmatter \vspace{-8pt} {\fontsize{20}{20} \selectfont Chapter \thechapter:}\\[8pt]%
   \fi%
@@ -96,6 +112,7 @@
 
 %only put chapters and sections into the TOC
 \setcounter{secnumdepth}{1}
+
 %makes a subsubsection start off indented.
 \setlength{\beforesubsubsecskip}{-\beforesubsubsecskip}
 
@@ -234,7 +251,7 @@
 \newcommand{\classentry}[1]{\newpage \section{#1} \label{class:#1} \renewcommand{\class}{#1} \index{#1 (class)} \renewcommand{\testempty}{\isempty}}
 %Starts a new page, creates a section with the name of the class (#1), sets \class to be the name of the class, indexes the class.
 
-\newcommand{\raceentry}[2]{\newpage\renewcommand{\race}{#1}\subsection{#1} \label{race:#1}\textit{#2}}
+\newcommand{\raceentry}[2]{\newpage\renewcommand{\race}{#1}\section{#1} \label{race:#1}\textit{#2}}
 %\newcommand{\raceentry}[1]{\oldsection{#1}\index{#1 (race)}\label{race:#1}}
 
 \newcommand{\Requirements}{\oldsubsubsection*{Requirements}}
