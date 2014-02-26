@@ -1,5 +1,6 @@
 /*JSHint global vars*/
-/*global $:false, jQuery:false, console:false, tgdMech:false, expr:false */
+/*global $:false, jQuery:false, console:false, tgdMech:false */
+/*jshint expr:true */
 
 (function ($) {
   var trd = {
@@ -19,6 +20,7 @@
     "feature" : {
       "init"  : function(){}
     },
+    // take the ID and text of input field and add it to the trd.data object
     "input"   : function(k,v,t){ //key, value, type
       if( v && v !== '' ){
         ( t ) ? trd.data[k]["\\"+k+"{ "+v+" }"] : trd.data[k]["\\"+v+""]; //classfeature will need to send 'v' fully formed -> classfeature{xx}{xxx}
@@ -33,7 +35,7 @@
 //        if( trd.data[i] ){ out += trd.data[i]+"\n"; }
         var obj = trd.data[ trd.default[i] ];
         if(obj){
-          if( obj == "classfeature" ){ trd.feature.init(); }  //classfeature will be an array, need to loop that, adding /classfeature in front of entries
+          if( obj == "classfeature" ){ trd.feature.init(); }  //classfeature will be an array, need to loop that, adding \classfeature in front of entries
           out += obj+"\n";
         }
         
@@ -45,7 +47,7 @@
   setdefault();
   $('textarea').autosize();  
 
-  $('input').bind('keyup', function(e) {
+  $('input').on('keyup', function(e) {
     trd.input( $(this).attr('id'), this.value, 1 );
   });
 
