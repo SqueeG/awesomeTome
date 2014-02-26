@@ -1,3 +1,6 @@
+/*JSHint global vars*/
+/*global $:false, jQuery:false, console:false, tgdMech:false, expr:false */
+
 (function ($) {
   var trd = {
     "default" : ['classentry', 'quot', 'b_preamble',
@@ -18,7 +21,7 @@
     },
     "input"   : function(k,v,t){ //key, value, type
       if( v && v !== '' ){
-        ( t ) ? trd.data[k] = "\\"+k+"{ "+v+" }" : trd.data[k] = "\\"+v ; //classfeature will need to send 'v' fully formed -> classfeature{xx}{xxx}
+        ( t ) ? trd.data[k]["\\"+k+"{ "+v+" }"] : trd.data[k]["\\"+v+""]; //classfeature will need to send 'v' fully formed -> classfeature{xx}{xxx}
       } else {
         trd.data[k] = "";
       }
@@ -26,7 +29,7 @@
     },
     "init"    : function(){ 
       var out=''; 
-      for( i=0; i<trd.default.length; i++ ){
+      for( var i=0; i<trd.default.length; i++ ){
 //        if( trd.data[i] ){ out += trd.data[i]+"\n"; }
         var obj = trd.data[ trd.default[i] ];
         if(obj){
@@ -67,12 +70,12 @@ function output ( x ){
 function setdefault(){
   var filter = { 'preamble' : 1, 'classtable' : 1 };
   var x = trd.default; var y = trd.data; var s;
-  for( i=0; i<x.length; i++){
+  for( var i=0; i<x.length; i++){
     s = x[i].slice(2);
 
     if( filter[ s ] ){
       ( filter[ s ] == 1 ) ? y[ x[i] ] = '\\begin{'+s+'}' : y[ x[i] ] = '\\end{'+s+'}';
-      if ( filter[ s ] == 'classtable' && filter[ s ] == 1 ){ y[ x[i] ] += '{}' };
+      if ( (filter[ s ] == 'classtable') && (filter[ s ] == 1) ){ y[ x[i] ] += '{}'; }
       filter[ s ]++;
     } else {
       trd.data[ x[i] ]='';
