@@ -37,45 +37,19 @@ duration. During the second (and also the next-to-last) round, intense heat caus
 pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, 
 causing more damage, as shown on the table below.
 
-\begin{longtable}{llllll}
-\hline
-% ROW 1
-\multicolumn{1}{|p{0.552in}|}{\begin{minipage}[t]{0.552in}\raggedright
-\textbf{Round}\end{minipage}} & \multicolumn{1}{p{1.319in}|}{\begin{minipage}[t]{1.319in}\raggedright
-\textbf{Metal Temperature}\end{minipage}} & \multicolumn{1}{p{0.733in}|}{\begin{minipage}[t]{0.733in}\raggedright
-\textbf{Damage}\end{minipage}}\\
-\hline
-% ROW 2
-\multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-1\end{minipage}} & \multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-Warm\end{minipage}} & \multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-None\end{minipage}}\\
-\hline
-% ROW 3
-\multicolumn{1}{|p{0.552in}|}{\begin{minipage}[t]{0.552in}\raggedright
-2\end{minipage}} & \multicolumn{1}{p{1.319in}|}{\begin{minipage}[t]{1.319in}\raggedright
-Hot\end{minipage}} & \multicolumn{1}{p{0.733in}|}{\begin{minipage}[t]{0.733in}\raggedright
-1d4 points\end{minipage}}\\
-\hline
-% ROW 4
-\multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-3-5\end{minipage}} & \multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-Searing\end{minipage}} & \multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-2d4 points\end{minipage}}\\
-\hline
-% ROW 5
-\multicolumn{1}{|p{0.552in}|}{\begin{minipage}[t]{0.552in}\raggedright
-6\end{minipage}} & \multicolumn{1}{p{1.319in}|}{\begin{minipage}[t]{1.319in}\raggedright
-Hot\end{minipage}} & \multicolumn{4}{p{0.941in}|}{\begin{minipage}[t]{0.941in}\raggedright
-1d4 points\end{minipage}}\\
-\hline
-% ROW 6
-\multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-7\end{minipage}} & \multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-Warm\end{minipage}} & \multicolumn{1}{p{0.069in}|}{\begin{minipage}[t]{0.069in}\raggedright
-None\end{minipage}}\\
-\hline
-\end{longtable}
+\begin{table}[htb]
+\rowcolors{1}{white}{offyellow}
+\caption{Heat Metal}
+\centering
+\begin{tabular}{c l l}
+\textbf{Round} & \textbf{Metal Temperature} & \textbf{Damage}\\
+1 & Warm & None\\
+2 & Hot & 1d4\\
+3-5 & Searing & 2d4\\
+6 & Hot & 1d4\\
+7 & Warm & None\\
+\end{tabular}
+\end{table}
 
 Any cold intense enough to damage the creature negates fire damage from the spell 
 (and vice versa) on a point-for-point basis. If cast underwater, \textit{heat metal 

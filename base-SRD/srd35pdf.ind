@@ -11,21 +11,21 @@
   \item Abjuration, \hyperpage{38}, \hyperpage{232}, \hyperpage{241}
   \item Abjurer, \hyperpage{38}
   \item Adamantine, \hyperpage{136}
-  \item Adept (class), \hyperpage{682}
+  \item Adept (class), \hyperpage{670}
   \item Aid Another, \hyperpage{209}
   \item Alchemical Silver, \hyperpage{136}
   \item Alignment, \hyperpage{123}
   \item Animal Companion, \hyperpage{21}
   \item Antimagic, \hyperpage{220}
   \item Appraise (skill), \hyperpage{45}
-  \item Arcane Archer (class), \hyperpage{687}
+  \item Arcane Archer (class), \hyperpage{675}
   \item Arcane Spell Failure, \hyperpage{39}
-  \item Arcane Trickster (class), \hyperpage{689}
-  \item Archmage (class), \hyperpage{690}
+  \item Arcane Trickster (class), \hyperpage{677}
+  \item Archmage (class), \hyperpage{678}
   \item Area Spell, \hyperpage{245}
-  \item Aristocrat (class), \hyperpage{683}
+  \item Aristocrat (class), \hyperpage{671}
   \item Armor Class, \hyperpage{191}
-  \item Assassin (class), \hyperpage{691}
+  \item Assassin (class), \hyperpage{679}
   \item Astral Plane, \hyperpage{187}
   \item Attack Bonus, \hyperpage{190}
   \item Attacking, \hyperpage{196}
@@ -38,8 +38,8 @@
   \item Bard (class), \hyperpage{13}
   \item Bard Spells, \hyperpage{252}
   \item Base Attack Bonus, \hyperpage{40}
-  \item Base Class, \hyperpage{687}
-  \item Blackguard (class), \hyperpage{693}
+  \item Base Class, \hyperpage{675}
+  \item Blackguard (class), \hyperpage{681}
   \item Blind, \hyperpage{233}
   \item Blindsense, \hyperpage{220}
   \item Blindsight, \hyperpage{220}
@@ -57,15 +57,15 @@
 
   \item Calling, \hyperpage{241}
   \item Carrying Capacity, \hyperpage{127}
-  \item Caster Level, \hyperpage{687}
+  \item Caster Level, \hyperpage{675}
   \item Casting Defensively, \hyperpage{198}
-  \item Character Level, \hyperpage{8}, \hyperpage{40}, \hyperpage{687}
+  \item Character Level, \hyperpage{8}, \hyperpage{40}, \hyperpage{675}
   \item Charge, \hyperpage{210}
   \item Charisma, \hyperpage{7}
   \item Charm, \hyperpage{221}, \hyperpage{242}
   \item Chase, \hyperpage{132}
   \item Checked, \hyperpage{233}
-  \item Class Level, \hyperpage{40}, \hyperpage{687}
+  \item Class Level, \hyperpage{40}, \hyperpage{675}
   \item Cleric (class), \hyperpage{17}
   \item Cleric Domains, \hyperpage{260}
   \item Cleric Spells, \hyperpage{256}
@@ -76,7 +76,7 @@
   \item Cold Iron, \hyperpage{136}
   \item Cold Weather Effects, \hyperpage{163}
   \item Command Word Items, \hyperpage{198}
-  \item Commoner (class), \hyperpage{683}
+  \item Commoner (class), \hyperpage{671}
   \item Compulsion, \hyperpage{221}, \hyperpage{242}
   \item Concealment, \hyperpage{208}
   \item Concentration (skill), \hyperpage{48}
@@ -106,7 +106,7 @@
   \item Darkvision, \hyperpage{132}, \hyperpage{222}
   \item Darkwood, \hyperpage{136}
   \item Dazed, \hyperpage{233}
-  \item Dazzled, \hyperpage{234}
+  \item Dazzled, \hyperpage{233}
   \item Dead, \hyperpage{203}, \hyperpage{234}
   \item Deafened, \hyperpage{234}
   \item Death Attacks, \hyperpage{222}
@@ -127,19 +127,19 @@
   \item Divine Spell Focus, \hyperpage{244}
   \item Diviner, \hyperpage{38}
   \item Dodge Bonuses, \hyperpage{191}
-  \item Dragon Disciple (class), \hyperpage{696}
+  \item Dragon Disciple (class), \hyperpage{684}
   \item Dragonhide, \hyperpage{137}
   \item Drowning, \hyperpage{166}
   \item Druid (class), \hyperpage{19}
   \item Druid Spells, \hyperpage{270}
-  \item Duelist (class), \hyperpage{698}
+  \item Duelist (class), \hyperpage{686}
   \item Dwarf (race), \hyperpage{9}
-  \item Dwarven Defender (class), \hyperpage{699}
+  \item Dwarven Defender (class), \hyperpage{687}
   \item Dying, \hyperpage{203}, \hyperpage{234}
 
   \indexspace
 
-  \item Eldritch Knight (class), \hyperpage{700}
+  \item Eldritch Knight (class), \hyperpage{688}
   \item Elemental Plane of Air, \hyperpage{187}
   \item Elemental Plane of Earth, \hyperpage{187}
   \item Elemental Plane of Fire, \hyperpage{188}
@@ -161,7 +161,7 @@
   \item Evoker, \hyperpage{38}
   \item Exhausted, \hyperpage{234}
   \item Experience Points, \hyperpage{8}
-  \item Expert (class), \hyperpage{684}
+  \item Expert (class), \hyperpage{672}
   \item Extraordinary Ability, \hyperpage{199}, \hyperpage{219}, 
 		\hyperpage{252}
 
@@ -216,9 +216,9 @@
   \item Heat Dangers, \hyperpage{165}
   \item Helpless, \hyperpage{209}, \hyperpage{235}
   \item Hide (skill), \hyperpage{57}
-  \item Hierophant (class), \hyperpage{701}
+  \item Hierophant (class), \hyperpage{689}
   \item Hit Points, \hyperpage{40}, \hyperpage{191}
-  \item Horizon Walker (class), \hyperpage{702}
+  \item Horizon Walker (class), \hyperpage{690}
   \item Human (race), \hyperpage{9}
 
   \indexspace
@@ -256,7 +256,7 @@
   \item Line of Effect, \hyperpage{246}
   \item Listen (skill), \hyperpage{60}
   \item Long Range, \hyperpage{245}
-  \item Loremaster (class), \hyperpage{704}
+  \item Loremaster (class), \hyperpage{692}
   \item Low-Light Vision, \hyperpage{228}
   \item Low-light Vision, \hyperpage{132}
 
@@ -278,7 +278,7 @@
   \item Movement, \hyperpage{127}, \hyperpage{199}, \hyperpage{205}
     \subitem Diagonals, \hyperpage{205}
     \subitem Flying, \hyperpage{130}
-  \item Mystic Theurge (class), \hyperpage{705}
+  \item Mystic Theurge (class), \hyperpage{693}
 
   \indexspace
 
@@ -317,18 +317,18 @@
   \item Plane of Shadow, \hyperpage{186}
   \item Planes, \hyperpage{180}
   \item Poison, \hyperpage{228}
-  \item Polymorph, \hyperpage{229}
+  \item Polymorph, \hyperpage{230}
   \item Positive Energy Plane, \hyperpage{189}
   \item pp, \hyperpage{100}
   \item Profession (skill), \hyperpage{62}
   \item Prone, \hyperpage{236}
-  \item Psionics, \hyperpage{229}
+  \item Psionics, \hyperpage{230}
 
   \indexspace
 
   \item Ranger (class), \hyperpage{30}
   \item Ranger Spells, \hyperpage{274}
-  \item Ray, \hyperpage{229}, \hyperpage{245}
+  \item Ray, \hyperpage{230}, \hyperpage{245}
   \item Reach Weapons, \hyperpage{193}
   \item Readied Action, \hyperpage{218}
   \item Rebuke Undead, \hyperpage{216}
@@ -344,12 +344,12 @@
     \subitem and Item Surival, \hyperpage{247}
     \subitem of Items, \hyperpage{134}
     \subitem Voluntary Failure, \hyperpage{247}
-  \item Scent, \hyperpage{231}
+  \item Scent, \hyperpage{230}
   \item Scrying, \hyperpage{242}
   \item Search (skill), \hyperpage{64}
   \item Sense Motive (skill), \hyperpage{64}
   \item Shadow, \hyperpage{243}
-  \item Shadow Dancer (class), \hyperpage{706}
+  \item Shadow Dancer (class), \hyperpage{694}
   \item Shaken, \hyperpage{225}, \hyperpage{236}
   \item Shapeable, \hyperpage{246}
   \item Sickened, \hyperpage{236}
@@ -404,7 +404,7 @@
 
   \item Teleportation, \hyperpage{242}
   \item Temporary Hit Points, \hyperpage{204}
-  \item Thaumaturgist (class), \hyperpage{707}
+  \item Thaumaturgist (class), \hyperpage{695}
   \item Thirst, \hyperpage{166}
   \item Threat Range, \hyperpage{197}
   \item Total Defense, \hyperpage{199}
@@ -436,7 +436,7 @@
 
   \indexspace
 
-  \item Warrior (class), \hyperpage{685}
+  \item Warrior (class), \hyperpage{673}
   \item Water Dangers, \hyperpage{166}
   \item Wind, \hyperpage{161}
   \item Wisdom, \hyperpage{7}
