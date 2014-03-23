@@ -1,387 +1,234 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Simple Tome Class LaTEX generator</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Bootstrap -->
-		<!-- <link href="css/yeti.min.css" rel="stylesheet">-->
-		<link href="../css/yeti.min.css" rel="stylesheet">
-
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-
-				<div class="navbar-header">
-					<a href="https://github.com/SqueeG/awesomeTome" class="navbar-brand">TRD : tools</a>
-					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-
-				<div class="navbar-collapse collapse" id="navbar-main">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="../">SqueeG()</a>
-						</li>
-					</ul>
-
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://bootswatch.com/yeti/" target="_blank">Themed by Bootswatch (Yeti)</a></li>
-						<li><a href="http://builtwithbootstrap.com/" target="_blank">Built off Bootstrap</a></li>
-					</ul>
-				</div>
-
-			</div>
-		</nav>
-
-		<div class="container">
-			<div class="page-header" id="banner">
-				<div class="row">
-					<div class="col-lg-6">
-					<h1>TC<sup>2</sup></h1>
-					<p class="lead">Tome class table creator</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="bs-docs-section">
-				<div class="row">
-					<div class="col-lg-20">
-						<div class="well">
-							
-							<form class="bs-example form-horizontal" role="form">
-							<fieldset>
-								<legend>Let's Start!</legend>
-								<div class="form-group">
-									<label for="classentry" class="col-sm-1 control-label">Class Name</label>
-									<div class="col-md-2">
-										<input type="text" class="form-control" id="classentry" placeholder="Class Name">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="bab" class="col-xs-1 control-label">BAB</label>
-														<div class="col-md-1">
-															<select class="form-control" id="bab" name="2">
-																<option value="">---</option>
-																<option value="goodbab">good</option>
-																<option value="modebab">medium</option>
-																<option value="poorbab">bad</option>
-															</select>
-														</div>
-
-														<label for="for" class="col-xs-1 control-label">Fort Save</label>
-														<div class="col-md-1">
-															<select class="form-control" id="for" name="3">
-																<option value="">---</option>
-																<option value="goodfor">good</option>
-																<option value="poorfor">bad</option>
-															</select>
-														</div>
-														<label for="ref" class="col-xs-1 control-label">Ref Save</label>
-														<div class="col-md-1">
-															<select class="form-control" id="ref" name="4">
-															<option value="">---</option>
-																<option value="goodref">good</option>
-																<option value="poorref">bad</option>
-															</select>
-														</div>
-														<label for="wil" class="col-xs-1 control-label">Will Save</label>
-														<div class="col-md-1">
-															<select class="form-control" id="wil" name="5">
-																<option value="">---</option>
-																<option value="goodwil">good</option>
-																<option value="poorwil">bad</option>
-															</select>
-														</div>
-												</div>
-								<div class="form-group">
-									<label for="quot" class="col-sm-1 control-label">Quote</label>
-									<div class="col-lg-4">
-										<input type="text" class="form-control" id="quot" placeholder="'Go for the eyes Boo! THE EYES!'">
-									</div>
-								</div>
-
-
-								<div class="form-group">
-									<label for="desc" class="col-sm-1 control-label">Class Description</label>
-									<div class="col-lg-5">
-										<textarea class="form-control" rows="3" id="desc"></textarea>
-										<span class="help-block">Class description, you should write one, two... maybe three paragraphs even.</span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="playingaclass" class="col-sm-1 control-label">Playing the Class</label>
-									<div class="col-lg-5">
-										<textarea class="form-control" rows="3" id="playingaclass"></textarea>
-										<span class="help-block">Brief advice on how to play the class should go here</span>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="alignment" class="col-sm-1 control-label">Alignment restrictions</label>
-									<div class="col-md-2">
-										<input type="text" class="form-control" id="alignment" placeholder="Derp.">
-										<span class="help-block">Not suggested</span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="races" class="col-sm-1 control-label">Race restrictions</label>
-									<div class="col-md-2">
-										<input type="text" class="form-control" id="races" placeholder="What do you mean I can't play this?">
-										<span class="help-block">Not suggested</span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="startinggold" class="col-sm-1 control-label">Starting Gold</label>
-									<div class="col-md-2">
-										<input type="text" class="form-control" id="startinggold" placeholder="All teh muneez">
-										<span class="help-block">e.g : "gold6d4x10 gp (150 gold)"</span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="hitdie" class="col-sm-1 control-label">Hit Die (HD)</label>
-									<div class="col-md-2">
-										<input type="text" class="form-control" id="hitdie" placeholder="d12s all around!">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="classskills" class="col-sm-1 control-label">Class Skills</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="classskills" placeholder="To be replaced with a checklist... eventually">
-										<span class="help-block">Search, Spot, Listen, Percepti-wari-fication... it's all good.</span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="skillpoints" class="col-sm-1 control-label">Skill Points</label>
-									<div class="col-md-1">
-										<input type="text" class="form-control" id="skillpoints" placeholder="0">
-									</div>
-								</div>
-
-								<!-- custom rows not yet ready -->
-								<div class="form-group">
-								<label class="control-label" for="classtable">Class table custom rows</label>
-                  <input class="form-control" id="classtable" type="text" placeholder="Custom rows to be added... soon (tm)." disabled="">
-                </div>
-
-                <div class="form-group">
-                  <label class="control-label">Class Feature</label>
-                  <div class="input-group">
-                    <!--span class="input-group-btn">
-                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Level<span class="caret"></span>
-                        </button>
-                            <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#" id="levelone">        1</a></li>
-                                <li><a tabindex="-1" href="#" id="leveltwo">        2</a></li>
-                                <li><a tabindex="-1" href="#" id="levelthree">      3</a></li>
-                                <li><a tabindex="-1" href="#" id="levelfour">       4</a></li>
-                                <li><a tabindex="-1" href="#" id="levelfive">       5</a></li>
-                                <li><a tabindex="-1" href="#" id="levelsix">        6</a></li>
-                                <li><a tabindex="-1" href="#" id="levelseven">      7</a></li>
-                                <li><a tabindex="-1" href="#" id="levelseven">      8</a></li>
-                                <li><a tabindex="-1" href="#" id="levelseven">      9</a></li>
-                                <li><a tabindex="-1" href="#" id="levelten">        10</a></li>
-                                <li><a tabindex="-1" href="#" id="leveleleven">     11</a></li>
-                                <li><a tabindex="-1" href="#" id="leveltwelve">     12</a></li>
-                                <li><a tabindex="-1" href="#" id="levelthirteen">   13</a></li>
-                                <li><a tabindex="-1" href="#" id="levelfourteen">   14</a></li>
-                                <li><a tabindex="-1" href="#" id="levelfifteen">    15</a></li>
-                                <li><a tabindex="-1" href="#" id="levelsixten">     16</a></li>
-                                <li><a tabindex="-1" href="#" id="levelseventeen">  17</a></li>
-                                <li><a tabindex="-1" href="#" id="leveleighteen">   18</a></li>
-                                <li><a tabindex="-1" href="#" id="levelnineteen">   19</a></li>
-                                <li><a tabindex="-1" href="#" id="leveltwenty">     20</a></li>
-                            </ul>
-                        </span-->
-                    <input class="input-group-addon" type="text"/>
-                    <input type="text" class="form-control">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Button</button>
-                    </span>
+  <head>
+    <title>Simple Tome Class LaTEX generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap-->
+    <link href="../css/yeti.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!--[if lt IE 9] <!
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    -->
+    <!-- <![endif]-->
+  </head>
+  <!--</head>-->
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header"><a href="https://github.com/SqueeG/awesomeTome" class="navbar-brand">TRD : tools</a>
+          <button type="button" data-toggle="collapse" data-target="#navbar-main" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div id="navbar-main" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../">SqueeG()</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://bootswatch.com/yeti/" target="_blank">Themed by Bootswatch (Yeti)</a></li>
+            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built off Bootstrap</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div id="banner" class="page-header">
+        <div class="row">
+          <div class="col-lg-6"></div>
+          <h1>TC<sup>2</sup></h1>
+          <p class="lead">Tome class table creator</p>
+        </div>
+      </div>
+      <div class="bs-docs-section">
+        <div class="row">
+          <div class="col-lg-20">
+            <div class="well">
+              <form role="form" class="bs-example form-horizontal">
+                <fieldset>
+                  <legend>Let's Start!</legend>
+                  <div class="form-group">
+                    <label for="classentry" class="col-sm-1 control-label">Class Name</label>
+                    <div class="col-md-2">
+                      <input type="text" id="classentry" placeholder="Class Name" class="form-control">
+                    </div>
                   </div>
-                </div>
-
-                <!--
-                <div class="form-group">
-									<label for="levelone" class="col-sm-1 control-label">Level One</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelone" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block">Separate each class ability with commas</span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="leveltwo" class="col-sm-1 control-label">Level Two</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="leveltwo" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelthree" class="col-sm-1 control-label">Level Three</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelthree" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelfour" class="col-sm-1 control-label">Level Four</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelfour" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelfive" class="col-sm-1 control-label">Level Five</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelfive" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="levelsix" class="col-sm-1 control-label">Level Six</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelsix" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelseven" class="col-sm-1 control-label">Level Seven</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelseven" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="leveleight" class="col-sm-1 control-label">Level Eight</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="leveleight" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelnine" class="col-sm-1 control-label">Level Nine</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelnine" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelten" class="col-sm-1 control-label">Level Ten</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelten" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="leveleleven" class="col-sm-1 control-label">Level Eleven</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="leveleleven" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="leveltwelve" class="col-sm-1 control-label">Level Twelve</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="leveltwelve" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelthirteen" class="col-sm-1 control-label">Level Thirteen</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelthirteen" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelfourteen" class="col-sm-1 control-label">Level Fourteen</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelfourteen" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelfifteen" class="col-sm-1 control-label">Level Fifteen</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelfifteen" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="levelsixteen" class="col-sm-1 control-label">Level Sixteen</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelsixteen" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelseventeen" class="col-sm-1 control-label">Level Seventeen</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelseventeen" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="leveleighteen" class="col-sm-1 control-label">Level Eighteen</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="leveleighteen" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="levelnineteen" class="col-sm-1 control-label">Level Nineteen</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="levelnineteen" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="leveltwenty" class="col-sm-1 control-label">Level Twenty</label>
-									<div class="col-md-6">
-										<input type="text" class="form-control" id="leveltwenty" placeholder="Class Ability x/day, Movement Abilty +15', etc...">
-										<span class="help-block"></span>
-									</div>
-								</div>
-                                -->
-
-								<div class="form-group">
-									<label for="texout" class="col-lg-2 control-label">LaTEX output</label>
-									<div class="col-lg-5">
-										<textarea class="form-control" rows="3" id="texout"></textarea>
-										<span class="help-block">Copy and paste this into a .tex file</span>
-									</div>
-								</div>
-
-							</fieldset>
-							</form>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<!--<script src="js/bootstrap.min.js"></script>
-		<script src="js/autosize.min.js"></script>
-		<script src="base-class.js"></script>-->
-		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/autosize.min.js"></script>
-		<script src="../base-class.js"></script>
-	</body>
+                  <div class="form-group">
+                    <label for="bab" class="col-xs-1 control-label">BAB</label>
+                    <div class="col-md-1">
+                      <select id="bab" name="2" class="form-control">
+                        <option value="">---</option>
+                        <option value="goodbab">good</option>
+                        <option value="modebab">medium</option>
+                        <option value="poorbab">bad</option>
+                      </select>
+                    </div>
+                    <label for="for" class="col-xs-1 control-label">Fort Save</label>
+                    <div class="col-md-1">
+                      <select id="for" name="3" class="form-control">
+                        <option value="">---</option>
+                        <option value="goodfor">good</option>
+                        <option value="poorfor">bad</option>
+                      </select>
+                    </div>
+                    <label for="ref" class="col-xs-1 control-label">Ref Save</label>
+                    <div class="col-md-1">
+                      <select id="ref" name="4" class="form-control">
+                        <option value="">---</option>
+                        <option value="goodref">good</option>
+                        <option value="poorref">bad</option>
+                      </select>
+                    </div>
+                    <label for="wil" class="col-xs-1 control-label">Will Save</label>
+                    <div class="col-md-1">
+                      <select id="wil" name="5" class="form-control">
+                        <option value="">---</option>
+                        <option value="goodwil">good</option>
+                        <option value="poorwil">bad</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="quot" class="col-sm-1 control-label">Quote</label>
+                    <div class="col-lg-4">
+                      <input id="quot" type="text" placeholder="'Go for the eyes Boo! THE EYES!'" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="desc" class="col-sm-1 control-label">Class Description</label>
+                    <div class="col-lg-5">
+                      <textarea id="desc" rows="3" class="form-control"></textarea><span class="help-block">Class description, you should write one, two... maybe three paragraphs even.</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="playingaclass" class="col-sm-1 control-label">Playing the Class</label>
+                    <div class="col-lg-5">
+                      <textarea id="playingaclass" rows="3" class="form-control"></textarea><span class="help-block">Brief advice on how to play the class should go here</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="alignment" class="col-sm-1 control-label">Alignment restrictions</label>
+                    <div class="col-md-2">
+                      <input id="alignment" type="text" placeholder="Derp." class="form-control"><span class="help-block">Not suggested</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="races" class="col-sm-1 control-label">Race restrictions</label>
+                    <div class="col-md-2">
+                      <input id="races" type="text" placeholder="What do you mean I can't play this?" class="form-control"><span class="help-block">Not suggested</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="startinggold" class="col-sm-1 control-label">Starting Gold</label>
+                    <div class="col-md-2">
+                      <input id="startinggold" type="text" placeholder="All teh muneez" class="form-control"><span class="help-block">e.g : "gold6d4x10 gp (150 gold)"</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="hitdie" class="col-sm-1 control-label">Hit Die (HD)</label>
+                    <div class="col-md-2">
+                      <input id="hitdie" type="text" placeholder="d12s all around!" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="classskills" class="col-sm-1 control-label">Class Skills</label>
+                    <div class="col-md-6">
+                      <input id="classskills" type="text" placeholder="To be replaced with a checklist... eventually" class="form-control"><span class="help-block">Search, Spot, Listen, Percepti-wari-fication... it's all good.</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="skillpoints" class="col-sm-1 control-label">Skill Points</label>
+                    <div class="col-md-1">
+                      <input id="skillpoints" type="text" placeholder="0" class="form-control">
+                    </div>
+                  </div>
+                  <!--
+                  <custom>rows not yet ready </custom>
+                  -->
+                  <div class="form-group">
+                    <label for="classtable" class="control-label">Class table custom rows</label>
+                    <input id="classtable" type="text" placeholder="Custom rows to be added... soon (tm)." disabled="" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Username</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td rowspan="2">1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@TwBootstrap</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table id="feature-table" class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>Level</th>
+                          <th>Class Features</th>
+                        </tr>
+                      </thead>
+                    </table>
+                    <div class="input-group">
+                      <input id="addcol" type="text" class="form-control">
+                      <div class="input-group-btn">
+                        <button id="ftr-add-col" type="button" tabindex="-1" class="btn btn-default">Add column</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label">Class Feature</label>
+                    <div class="input-group">
+                      <div class="input-group-btn">
+                        <button type="button" data-toggle="dropdown" tabindex="-1" class="btn btn-primary dropdown-toggle">Level<span class="caret"></span></button>
+                        <ul id="CFlevels" class="dropdown-menu pull-left">
+                        </ul>
+                      </div>
+                      <input id="classfeature" type="text" class="form-control">
+                      <div class="input-group-btn">
+                        <button type="button" tabindex="-1" class="btn btn-default">Action</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="texout" class="col-lg-2 control-label">LaTEX output</label>
+                    <div class="col-lg-5">
+                      <textarea id="texout" rows="3" class="form-control"></textarea><span class="help-block">Copy and paste this into a .tex file</span>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/autosize.min.js"></script>
+      <script src="./base-class.js"></script>
+      <script src="./trd-lib.js"></script>
+    </div>
+  </body>
 </html>

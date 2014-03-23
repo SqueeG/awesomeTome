@@ -1,0 +1,97 @@
+\classentry{ <-class name-> }
+<- choose one of the following to indicate the BAB progression of the class: \goodbab \modebab \poorbab ->
+<- choose one of the following to indicate the Fort save progression of the class: \goodfor \poorfor ->
+<- choose one of the following to indicate the Ref save progression of the class: \goodref \poorref ->
+<- choose one of the following to indicate the Will save progression of the class: \goodwil \poorwil ->
+\quot{`` <-class quote-> ''}
+
+\desc{ <-class description. you should write one. two, maybe three paragraphs even. When you want to start a new paragraph, type \newline before it starts.-> }
+
+\playingaclass{ <-breif advice on how to play the class should go here.-> }
+
+\alignment{ <-allowed class alignments. probably "Any" because alignments are dumb.-> }
+
+\races{ <-allowed races. again, probably "Any" because racial restrictions on classes are dumb-> }
+
+\startinggold{ <-starting moneys, like "gold6d4x10 gp (150 gold)"-> }
+
+\startingage{ <-starting age, often written as a class reference like "As Rogue."-> }
+
+\hitdie{ <-this should be really easy, "d#"-> }
+
+\classskills{ <-a big pile of class skils, normally in the form of "Balance (Dex)" separated by commas. it ends with ".", because why not?-> }
+
+\skillpoints{ <-do I really need to tell you what to put here? because I can. it's a number}
+
+\begin{classtable}{ <-this part is kind of complicated. if you want any columns after Special, include them here preceded by an &, like this "& Death Attack & Whatever". and if you don't want any of those, level this blank, like "{}"-> }
+\levelone{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\leveltwo{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelthree{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelfour{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelfive{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelsix{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelseven{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\leveleight{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelnine{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelten{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\leveleleven{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\leveltwelve{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelthirteen{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelfourteen{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelfifteen{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelsixteen{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelseventeen{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\leveleighteen{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\levelnineteen{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\leveltwenty{ <-class features for this level. if you want anything in a custom column defined above, put it after an "&", like "Stuff & Other thing"-> }
+\end{classtable}
+
+<- if you need a custom extra table, you can drop it here by updating the following format. or you can skip it and ask for help, because this shit can be complicated....
+
+\begin{floatingfigure}[r]{3.9in}
+\rowcolors{1}{colorone}{colortwo}
+\noindent\begin{tabular}{lllllllllllllllll}
+\header & \multicolumn{7}{c}{Spells Per Day} & & &\multicolumn{7}{c}{Spells Known}\\
+   &0 &1 &2 &3 &4 &5 &6 &  &   &0 &1 &2 &3 &4 &5 &6\\
+1  &2 &- &- &- &- &- &- &  &1  &4 &- &- &- &- &- &-\\
+2  &3 &0 &- &- &- &- &- &  &2  &5 &2 &- &- &- &- &-\\
+3  &3 &1 &- &- &- &- &- &  &3  &6 &3 &- &- &- &- &-\\
+4  &3 &2 &0 &- &- &- &- &  &4  &6 &3 &2 &- &- &- &-\\
+5  &3 &3 &1 &- &- &- &- &  &5  &6 &4 &3 &- &- &- &-\\
+6  &3 &3 &2 &- &- &- &- &  &6  &6 &4 &3 &- &- &- &-\\
+7  &3 &3 &2 &0 &- &- &- &  &7  &6 &4 &4 &2 &- &- &-\\
+8  &3 &3 &3 &1 &- &- &- &  &8  &6 &4 &4 &3 &- &- &-\\
+9  &3 &3 &3 &2 &- &- &- &  &9  &6 &4 &4 &3 &- &- &-\\
+10 &3 &3 &3 &2 &0 &- &- &  &10 &6 &4 &4 &4 &2 &- &-\\
+11 &3 &3 &3 &3 &1 &- &- &  &11 &6 &4 &4 &4 &3 &- &-\\
+12 &3 &3 &3 &3 &2 &- &- &  &12 &6 &4 &4 &4 &3 &- &-\\
+13 &3 &3 &3 &3 &2 &0 &- &  &13 &6 &4 &4 &4 &4 &2 &-\\
+14 &3 &3 &3 &3 &3 &1 &- &  &14 &6 &4 &4 &4 &4 &3 &-\\
+15 &3 &3 &3 &3 &3 &2 &- &  &15 &6 &4 &4 &4 &4 &3 &-\\
+16 &3 &3 &3 &3 &3 &2 &0 &  &16 &6 &5 &4 &4 &4 &4 &2\\
+17 &3 &3 &3 &3 &3 &3 &1 &  &17 &6 &5 &5 &4 &4 &4 &3\\
+18 &3 &3 &3 &3 &3 &3 &2 &  &18 &6 &5 &5 &5 &4 &4 &3\\
+19 &3 &3 &3 &3 &3 &3 &3 &  &19 &6 &5 &5 &5 &5 &4 &4\\
+20 &3 &3 &3 &3 &3 &3 &3 &  &20 &6 &5 &5 &5 &5 &5 &4\\
+\end{tabular}
+\end{floatingfigure}
+
+and if you don't need it, delete this shit. please. -> 
+
+\startclassfeatures
+
+\proficiencies{ <-the proficiencies that the class is granted. refer to altered equipment if necessary, or leave blank. or make up something funny.-> }
+
+\classfeature{ <-class feature name. with stuff like "(Ex)" if appropriate.-> }{ <-class feature description. should be complete rules text, because that's what goes here.-> }
+
+<- repeat the above as necessary.-> 
+
+<-if you need a bulletted list in one of them, you can use the following:
+
+\listone
+    \item \ability{ <-ability name-> }{ <-ability description-> }
+    <-repeat the above as required, one per bullet point->
+\end{list}
+\vspace{8pt}
+
+this is probably contained in the ability description part of a class feature.->
