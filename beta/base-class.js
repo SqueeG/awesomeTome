@@ -1,138 +1,115 @@
-/*JSHint global vars*/
-/*global $:false, jQuery:false, console:false */
-/*jshint expr:true */
-var trd = {};
+/* JSHint global vars*/
 
-(function ($) {
-  trd = {
-    "default" : [
-        'classentry', 'quot', 'b_preamble',
-        
-        //\begin{classpreamble}
-         'desc', 'playingaclass', 'alignment', 'races', 'startinggold', 'hitdie', 'classskills', 'skillpoints',
-         'e_preamble',
-        //\end{classpreamble}
-        //make preamble it's own object?
-        
-         'bab', 'for', 'ref', 'wil',
-        
-         //\begin{classtable}{}
-          'b_classtable',
-          'levelone', 'leveltwo', 'levelthree', 'levelfour', 'levelfive', 'levelsix', 'levelseven', 'leveleight', 'levelnine', 'levelten', 'leveleleven', 'leveltwelve', 'levelthirteen', 'levelfourteen', 'levelfifteen', 'levelsixteen', 'levelseventeen', 'leveleighteen', 'levelnineteen', 'leveltwenty',
-          'e_classtable'
-    ],
-      
-    "data"    : {},
-      
-    "setData" : function(){ //sets the default data into the data obj
-        var out='';
-        
-        for( var i=0; i<trd.default.length; i++ ){
-            var obj = trd.data[ trd.default[i] ];
-            
-            if(obj){
-              if( obj == "classfeature" ){ trd.feature.init(); }  //classfeature will be an array, need to loop that, adding \classfeature in front of entries
-              out += obj+"\n";
+
+/* global $:false, jQuery:false, console:false*/
+
+
+/* jshint expr:true*/
+
+
+(function() {
+  var trd;
+
+  trd = (function() {
+    function trd(name) {
+      var setdefault;
+      this.name = name;
+      ({
+        "default": ['classentry', 'quot', 'b_preamble', 'desc', 'playingaclass', 'alignment', 'races', 'startinggold', 'hitdie', 'classskills', 'skillpoints', 'e_preamble', 'bab', 'for', 'ref', 'wil', 'b_classtable', 'levelone', 'leveltwo', 'levelthree', 'levelfour', 'levelfive', 'levelsix', 'levelseven', 'leveleight', 'levelnine', 'levelten', 'leveleleven', 'leveltwelve', 'levelthirteen', 'levelfourteen', 'levelfifteen', 'levelsixteen', 'levelseventeen', 'leveleighteen', 'levelnineteen', 'leveltwenty', 'e_classtable'],
+        data: {}
+      });
+      setdefault = function() {
+        var filter, i, s, x, y;
+        filter = {
+          "preamble": 1,
+          "classtable": 1
+        };
+        x = trd["default"];
+        y = trd.data;
+        s = void 0;
+        i = 0;
+        while (i < x.length) {
+          s = x[i].slice(2);
+          if (filter[s]) {
+            if (filter[s] === 1) {
+              y[x[i]] = "\\begin{" + s + "}";
+            } else {
+              y[x[i]] = "\\end{" + s + "}";
             }
+            if ((filter[s] === "classtable") && (filter[s] === 1)) {
+              y[x[i]] += "{}";
+            }
+            filter[s]++;
+          } else {
+            trd.data[x[i]] = "";
+          }
+          i++;
         }
-        
-        return out;
-    },
-      
-    "feature" : {
-      "init"  : function(){}
-    },
-      
-    // take the ID and text of input field and add it to the trd.data object
-    "input"   : function(k,v,t){ //key, value, type
-        console.log( "input -- k: "+k+" v: "+v+" t: "+t );
-      if( v && v !== '' ){
-          var filter = { 'addcol' : 1 }; //don't act on these IDs
-          if( filter[k] ){ return; }
-        ( t ) ? trd.data[k]["\\"+k+"{ "+v+" }"] : trd.data[k]["\\"+v+""]; //classfeature will need to send 'v' fully formed -> classfeature{xx}{xxx}
+      };
+    }
+
+    trd.prototype.input = function(k, v, t) {
+      var filter;
+      if (v && v !== "") {
+        filter = {
+          "addcol": 1
+        };
+        if (filter[k]) {
+          return;
+        }
+        trd.sanitize(v);
+        if (t) {
+          trd.data[k]["\\" + k + "{ " + v + " }"];
+        } else {
+          trd.data[k]["\\" + v + ""];
+        }
       } else {
         trd.data[k] = "";
       }
-      trd.init(); 
-    },
-      
-    "init"    : function(){
-        var out = trd.setData();
-        
-        trd.nullClick();
-        output(out);
-    }
-  };
+      trd.init();
+    };
 
-  setdefault();
+    trd.prototype.setData = function() {
+      var i, obj, out;
+      out = "";
+      i = 0;
+      while (i < trd["default"].length) {
+        obj = trd.data[trd["default"][i]];
+        console.log("o: " + obj);
+        if (obj) {
+          if (obj === "classfeature") {
+            trd.feature.init();
+          }
+          out += obj + "\n";
+        }
+        console.log("out " + out);
+        return out;
+        i++;
+      }
+    };
 
-  $('textarea').autosize();  
+    trd.prototype.init = function() {
+      var out;
+      out = trd.setData();
+      trd.nullClick();
+      output(out);
+    };
+
+    return trd;
+
+  })();
+
+  /*
+  ----------------------------
+  	Wire up the page
+  ----------------------------
+  */
+
 
   $('input').on('keyup', function(e) {
-    trd.input( $(this).attr('id'), this.value, 1 );
+    return trd.input($(this).attr('id'), this.value, 1);
   });
 
-  $('select').on("change", function(e) {
-  //  trd.babsav(this.value, this.name);
-    trd.input( $(this).attr('id'), this.value, 0 );
-  });
+  trd.setdefault();
 
-  $('textarea').on("keyup", function() {
-    var x = this.value;
-    var newpar = /\r|\n/.exec(this.value);
-    if( newpar ) {
-      x = this.value.replace(/(\r\n|\n\r|\r|\n)/gm, '\n\\newline ');
-    }
-    trd.input( $(this).attr('id'), x, 1);
-  });
-
-function output ( x ){  // resize the textarea to fit the new output
-  $('#texout').val(x).trigger('autosize.resize');
-}
-
-function setdefault(){
-  var filter = { 'preamble' : 1, 'classtable' : 1 };
-  var x = trd.default; var y = trd.data; var s;
-  for( var i=0; i<x.length; i++){
-    s = x[i].slice(2);
-
-    if( filter[ s ] ){
-      ( filter[ s ] == 1 ) ? y[ x[i] ] = '\\begin{'+s+'}' : y[ x[i] ] = '\\end{'+s+'}';
-      if ( (filter[ s ] == 'classtable') && (filter[ s ] == 1) ){ y[ x[i] ] += '{}'; }
-      filter[ s ]++;
-    } else {
-      trd.data[ x[i] ]='';
-    }
-  }
-}
-    
-trd.oPop = function( obj, id ){  // populate html list from object
-    $.each(obj, function(key, val){
-        //do something
-        var ret = '<li title="'+key+'"><a href="'+val+'">'+val+'</a></li>';
-        $( '#'+id ).append( ret );
-      //  console.log( ret );
-    });
-};
-    
-trd.nullClick = function(){
-    //add more elements to null out if necessary
-    $( 'ul.dropdown-menu li a' ).on( 'click', function(e){ e.preventDefault(); return false; });
-    
-};
-    
-    var languages = {
-    english: "Hello!",
-    french: "Bonjour!",
-    notALanguage: 4,
-    spanish: "Hola!"
-};
-
-// print hello in the 3 different languages
-for( var prop in languages ){
-    if( typeof languages.prop === "string" ){
-        console.log( languages.prop );
-    }
-}
-
-}(jQuery));
+}).call(this);
