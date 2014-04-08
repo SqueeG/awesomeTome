@@ -1,17 +1,5 @@
-\begin{racebox}
+%\begin{racebox}
 \raceentry{Aasimar}{``My ancestors were more beautiful than you can imagine."}
-\begin{multicols}{2}
-
-\begin{racetable}
-\type{Outsider (Native and Human Subtype)}
-\size{Medium}
-\scores{+2 Wisdom, +2 Charisma}
-\speed{30}
-\senses{Standard}
-\autolanguages{Common}
-\bonuslanguages{Abyssal, Aquan, Auran, Celestial, Formian, Ignan, Slaad, Sylvan, Terran.}
-\favoredclasses{Paladin and Sorcerer}
-\end{racetable}
 
 Aasimar are humans that have a beautiful outsider, usually but not always a celestial, somewhere in their ancestry.
 
@@ -23,13 +11,17 @@ Aasimar are humans that have a beautiful outsider, usually but not always a cele
 
 \racealignment{Most aasimar are the descendants of celestials, and tend towards the good alignments. Rarely, an aasimar might instead have an infernal heritage, being the descendant of an erinyes or succubus. Such aasimar instead tend towards an evil alignment.}
 
-\racialtraits{
-\racetrait{Inner Light \sla}{An Aasimar with a Charisma of at least 10 may cast \spell{light} as a spell-like ability with a caster level equal to their character level once per day.}
-\racetrait{Skill Bonus}{+2 bonus to Spot, and Listen checks.}
-}
-
-
-%\columnbreak
+\racedatastart
+\begin{racetable}
+\type{Outsider (Native and Human Subtype)}
+\size{Medium}
+\scores{+2 Wisdom, +2 Charisma}
+\speed{30}
+\senses{Standard}
+\autolanguages{Common}
+\bonuslanguages{Abyssal, Aquan, Auran, Celestial, Formian, Ignan, Slaad, Sylvan, Terran.}
+\favoredclasses{Paladin and Sorcerer}
+\end{racetable}
 
 \vspace{\baselineskip}
 \agetable{20}{+1d6}{+2d6}{+3d6}
@@ -39,5 +31,10 @@ Aasimar are humans that have a beautiful outsider, usually but not always a cele
 \male{4' 7"}{+2d8}{90 lb.}{x(2d4)}
 \female{4' 5"}{+2d8}{80 lb.}{x(2d4)}
 \end{heightweighttable}
-\end{multicols}
-\end{racebox}
+\racedataend
+
+\racialtraits{
+\racetrait{Inner Light \sla}{An Aasimar with a Charisma of at least 10 may cast \spell{light} as a spell-like ability with a caster level equal to their character level once per day.}
+\racetrait{Skill Bonus}{+2 bonus to Spot, and Listen checks.}
+}
+%\end{racebox}

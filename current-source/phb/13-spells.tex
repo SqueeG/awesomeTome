@@ -3,54 +3,52 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 \newenvironment{spellwriteup}{
-\vspace{0pt}
 \begin{minipage}[h]{\linewidth}
 }{
 \end{minipage}
 }
 
-\newenvironment{spellinformation}{
-\begin{wraptable}[10]{R}{.5\linewidth}
-\begin{tabular}{|r p{1.75in}|}
-\hline
-}{
-\hline
-\end{tabular}
-\end{wraptable}
+\newcommand{\spellhead}[4]{\belowpdfbookmark{#1}{spell:#1}\paragraph{\Large#1}\normalsize\textbf{#2 (#3) [#4]} \\}
+
+\newcommand{\spellfoot}{
+\vspace{1em}
 }
 
-\newcommand{\spellstart}{
-\begin{wraptable}{L!}{.45\linewidth}
-\vspace{-10pt}
+\newcommand{\spelldatastart}{
+\begin{wraptable}{R!}{.45\linewidth}
+\vspace{-1.1em}
+\tabulinesep=1mm
 \begin{tabular}{|r p{.55\linewidth}|}
+\hline
 }
 
-\newcommand{\spellend}{
+\newcommand{\spelldataend}{
 \hline
 \end{tabular}
-\vspace{-12pt}
+\vspace{-1em}
 \end{wraptable}
-\vspace{-12pt}
+\vspace{-1em}
 }
-
-\newcommand{\spellhead}[4]{\vspace{12pt}\belowpdfbookmark{#1}{spell:#1}\paragraph{\Large#1}\large\textbf{#2 (#3) [#4]}\normalsize \\}
-
-%\paragraph{\Large#1}\large\textbf{#2}
 
 %\newcommand{\spellschool}[3]{\multicolumn{2}{l}{\textbf{#1 (#2) [#3]}}\\}
 % unused
 
-\newcommand{\spelllevel}[1]{\textbf{Level:} & #1\\}
-\newcommand{\spellcomp}[1]{\textbf{Components:} & #1\\}
-\newcommand{\spellcast}[1]{\textbf{Casting Time:} & #1\\}
-\newcommand{\spellrange}[1]{\textbf{Range:} & #1\\}
-\newcommand{\spelleffect}[1]{\textbf{Effect:} & #1\\}
-\newcommand{\spellarea}[1]{\textbf{Area:} & #1\\}
-\newcommand{\spelltarget}[1]{\textbf{Target:} & #1\\}
-\newcommand{\spelltargets}[1]{\textbf{Targets:} & #1\\}
-\newcommand{\spellduration}[1]{\textbf{Duration:} & #1\\}
-\newcommand{\spellsave}[1]{\textbf{Saving Throw:} & #1\\}
-\newcommand{\spellsr}[1]{\textbf{Spell Resistance:} & #1\\}
+\newcommand{\spelllevel}[1]{\vspace{-.9em} & \vspace{-.9em} \\
+\textbf{Level:} & #1\\}
+\newcommand{\spellcomp}[1]{\textbf{Components:} & #1 \\}
+\newcommand{\spellcast}[1]{\textbf{Casting Time:} & #1 \\}
+\newcommand{\spellrange}[1]{\textbf{Range:} & #1 \\}
+\newcommand{\spelleffect}[1]{\textbf{Effect:} & #1 \\}
+\newcommand{\spellarea}[1]{\textbf{Area:} & #1 \\}
+\newcommand{\spelltarget}[1]{\textbf{Target:} & #1 \\}
+\newcommand{\spelltargets}[1]{\textbf{Targets:} & #1 \\}
+\newcommand{\spellduration}[1]{\textbf{Duration:} & #1 \\}
+\newcommand{\spellsave}[1]{\textbf{Saving Throw:} & #1 \\}
+\newcommand{\spellsr}[1]{\textbf{Spell Resistance:} & #1 \\}
+
+\newcommand{\closerange}{Close}
+\newcommand{\mediumrange}{Medium}
+\newcommand{\longrange}{Long}
 
 \newcommand{\component}[1]{\textit{Material Component:} #1}
 \newcommand{\focus}[1]{\textit{Focus:} #1}
@@ -59,6 +57,9 @@
 
 \chapter{Spells}
 \section{Spells, A through Z}
+\belowpdfbookmark{A}{Spells:A}
 \input{phb/spells/acid-arrow}
 \input{phb/spells/acid-fog}
-\input{phb/spells/acid-fog}
+\input{phb/spells/acid-splash}
+\input{phb/spells/aid}
+\input{phb/spells/air-walk}

@@ -12,8 +12,8 @@
 \newcommand{\size}[1]{\ability{Size}{#1}\\}
 \newcommand{\speed}[1]{\ability{Speed}{#1 feet}\\}
 \newcommand{\scores}[1]{\ability{Racial Ability Score Modifiers}{#1}\\}
-\newcommand{\racialtraits}[1]{~\\*\ability{Unique Racial Traits}{#1}\\}
-\newcommand{\racetrait}[2]{\newline\textbullet{ \ability{#1}{#2}}}
+\newcommand{\racialtraits}[1]{~\\*\ability{\race ~Special Abilities}{#1}\\}
+\newcommand{\racetrait}[2]{\newline\indent\ability{#1}{#2}}
 \newcommand{\senses}[1]{\ability{Senses}{#1}\\}
 \newcommand{\autolanguages}[1]{\ability{Automatic Languages}{#1}\\}
 \newcommand{\bonuslanguages}[1]{\ability{Bonus Languages}{#1}\\}
@@ -21,30 +21,44 @@
 \newcommand{\male}[4]{Male &#1 &#2 &#3 &#4\\}
 \newcommand{\female}[4]{Female &#1 &#2 &#3 &#4\\}
 
+\newcommand{\racedatastart}{
+\noindent
+\begin{minipage}[t]{\linewidth}
+\vspace{-.5em}
+\begin{multicols}{2}
+}
+
+\newcommand{\racedataend}{\
+\end{multicols}
+\end{minipage}
+}
+
 \newenvironment{racetable}
 {
 \tabulinesep=1mm
 \noindent
-\begin{tabu} to \columnwidth {X}
-\header\textbf{\race ~Racial Traits} \\ \hline
+\begin{tabu} to \linewidth {X}
+\header\textbf{\race ~Racial Traits} \\ 
+\hline
 \end{tabu}
-\vspace{-.1em}
 \rowcolors{1}{colortwo}{colorone}
-\begin{tabu} to \columnwidth {X [1, l]}
+\begin{tabu} to \linewidth {X [1, l]}
 }{
 \hline
 \end{tabu}
 }
 
 \newcommand{\agetable}[4]{
+\columnbreak
 \tabulinesep=1mm
 \noindent
-\begin{tabu} to \columnwidth {X}
+\begin{tabu} to \linewidth {X}
+\vspace{-1em} \\
 \header\textbf{\race ~Starting Age} \\ \hline
 \end{tabu}
-\vspace{-.15em}
+%\vspace{-.15em}
 \rowcolors{1}{colortwo}{colorone}
-\begin{tabu} to \columnwidth {X X X X}
+\begin{tabu} to \linewidth {X X X X}
 \textbf{Adulthood:} &\textbf{Simple:} &\textbf{Moderate:} &\textbf{Complex:} \\
 #1 Years &#2 &#3 &#4 \\ \hline
 \end{tabu}
@@ -54,12 +68,12 @@
 {
 \tabulinesep=1mm
 \noindent
-\begin{tabu} to \columnwidth {X}
+\begin{tabu} to \linewidth {X}
 \header\textbf{\race ~Height and Weight} \\ \hline
 \end{tabu}
-\vspace{-.5em}
+\vspace{-1pt}
 \rowcolors{1}{colortwo}{colorone}
-\begin{tabu} to \columnwidth {X X X X X}
+\begin{tabu} to \linewidth {X X X X X}
 \textbf{Gender} &\textbf{Base Height} &\textbf{Height Mod.} &\textbf{Base Weight} &\textbf{Weight Mod.} \\
 }{
 \hline
@@ -85,7 +99,7 @@
 {
 \vspace{0pt}
 %\nointerlineskip
-\begin{minipage}[t][0.49\textheight][t]{\textwidth}
+\begin{minipage}{\textwidth}
 }{
 \end{minipage}
 }
@@ -94,17 +108,12 @@
 \chapter{Races}
 
 \input{phb/races/aasimar}
-
 \input{phb/races/drow}
 
 \input{phb/races/dwarf}
-
 \input{phb/races/elf}
-
 \input{phb/races/feytouched}
-
 \input{phb/races/gnome}
-
 \input{phb/races/goblin}
 \input{phb/races/half-elf}
 \input{phb/races/halfling}
