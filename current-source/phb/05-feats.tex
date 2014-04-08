@@ -2,15 +2,15 @@
 %%Feats Chapter Formatting
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\combatfeat}[8]{
-\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\large\textbf{#2}
+\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\normalsize\textbf{#2}
 
-\normalsize\noindent\textit{#3}
+\noindent\textit{#3} \\
 %\indent\hypertarget{feat:#1}{}\textbf{#1 [Combat] #2} \\
-\newline\indent\ability{+0 BAB}{#4}
-\newline\indent\ability{+1 BAB}{#5}
-\newline\indent\ability{+6 BAB}{#6}
-\newline\indent\ability{+11 BAB}{#7}
-\newline\indent\ability{+16 BAB}{#8}
+\indent\ability{+0 BAB}{#4} \\
+\indent\ability{+1 BAB}{#5} \\
+\indent\ability{+6 BAB}{#6} \\
+\indent\ability{+11 BAB}{#7} \\
+\indent\ability{+16 BAB}{#8} \\
 %\begin{description}
 %\item[Benefit:] #4
 %\item[BAB +1:] #5
@@ -22,15 +22,15 @@
 }
 
 \newcommand{\skillfeat}[8]{
-\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\large\textbf{#2}
+\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\normalsize\textbf{#2}
 
-\normalsize\noindent\textit{#3}
+\noindent\textit{#3} \\
 %\indent\hypertarget{feat:#1}{}\textbf{#1 [Skill:#2] #3} \\
-\newline\indent\ability{0 Ranks}{#4}
-\newline\indent\ability{4 Ranks}{#5}
-\newline\indent\ability{9 Ranks}{#6}
-\newline\indent\ability{14 Ranks}{#7}
-\newline\indent\ability{19 Ranks}{#8}
+\indent\ability{0 Ranks}{#4} \\
+\indent\ability{4 Ranks}{#5} \\
+\indent\ability{9 Ranks}{#6} \\
+\indent\ability{14 Ranks}{#7} \\
+\indent\ability{19 Ranks}{#8} \\
 %\begin{description}
 %\item[Benefit:] #4
 %\item[4 Ranks:] #5
@@ -42,15 +42,15 @@
 }
 
 \newcommand{\spellfeat}[8]{
-\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\large\textbf{#2}
+\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\normalsize\textbf{#2}
 
-\normalsize\noindent\textit{#3}
+\noindent\textit{#3} \\
 %\indent\hypertarget{feat:#1}{}\textbf{#1 [Spellcasting] #2} \\
-\newline\indent\ability{0th Level}{#4}
-\newline\indent\ability{1st Level}{#5}
-\newline\indent\ability{3rd Level}{#6}
-\newline\indent\ability{6th Level}{#7}
-\newline\indent\ability{9th Level}{#8}
+\indent\ability{0th Level}{#4} \\
+\indent\ability{1st Level}{#5} \\
+\indent\ability{3rd Level}{#6} \\
+\indent\ability{6th Level}{#7} \\
+\indent\ability{9th Level}{#8} \\
 %\begin{description}
 %\item[Benefit:] #4
 %\item[Level 1:] #5
@@ -62,23 +62,22 @@
 }
 
 \newcommand{\genfeat}[3]{
-\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\large\textbf{#2}
+\belowpdfbookmark{#1}{feat:#1}\paragraph{\Large#1}\normalsize\textbf{#2}
 
-\normalsize\noindent\textit{#3}
+\noindent\textit{#3} \\
 }
 
 \newcommand{\featprereq}[1]{
-\newline\indent\ability{Prerequisite}{#1}
+\indent\ability{Prerequisite}{#1} \\
 }
 
 \newcommand{\featbenefit}[1]{
-\newline\indent\ability{Benefit}{#1}
+\indent\ability{Benefit}{#1} \\
 }
 
 \newcommand{\featspecial}[1]{
-\newline\indent\ability{Special}{#1}
+\indent\ability{Special}{#1} \\
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
