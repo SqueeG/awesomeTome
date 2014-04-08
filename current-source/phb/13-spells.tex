@@ -19,11 +19,27 @@
 \end{wraptable}
 }
 
-\newcommand{\spellhead}[4]{\belowpdfbookmark{#1}{spell:#1}\paragraph{\Large#1}\large\textbf{#2 (#3) [#4]}\normalsize \\}
+\newcommand{\spellstart}{
+\begin{wraptable}{L!}{.45\linewidth}
+\vspace{-10pt}
+\begin{tabular}{|r p{.55\linewidth}|}
+}
+
+\newcommand{\spellend}{
+\hline
+\end{tabular}
+\vspace{-12pt}
+\end{wraptable}
+\vspace{-12pt}
+}
+
+\newcommand{\spellhead}[4]{\vspace{12pt}\belowpdfbookmark{#1}{spell:#1}\paragraph{\Large#1}\large\textbf{#2 (#3) [#4]}\normalsize \\}
 
 %\paragraph{\Large#1}\large\textbf{#2}
 
-\newcommand{\spellschool}[3]{\multicolumn{2}{l}{\textbf{#1 (#2) [#3]}}\\}
+%\newcommand{\spellschool}[3]{\multicolumn{2}{l}{\textbf{#1 (#2) [#3]}}\\}
+% unused
+
 \newcommand{\spelllevel}[1]{\textbf{Level:} & #1\\}
 \newcommand{\spellcomp}[1]{\textbf{Components:} & #1\\}
 \newcommand{\spellcast}[1]{\textbf{Casting Time:} & #1\\}
@@ -44,4 +60,5 @@
 \chapter{Spells}
 \section{Spells, A through Z}
 \input{phb/spells/acid-arrow}
+\input{phb/spells/acid-fog}
 \input{phb/spells/acid-fog}
