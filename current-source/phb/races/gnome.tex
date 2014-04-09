@@ -1,17 +1,5 @@
-\begin{racebox}
+%\begin{racebox}
 \raceentry{Gnome}{``What's that you say little mole? Kobolds in the well!?"}
-\begin{multicols}{2}
-
-\begin{racetable}
-\type{Humanoid (Gnome subtype)}
-\size{Small}
-\scores{+2 Constitution, --2 Strength}
-\speed{20}
-\senses{Low Light Vision}
-\autolanguages{Common and Gnome}
-\bonuslanguages{Draconic, Dwarven, Elven, Giant, Goblin, and Orc. In addition, a gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like).}
-\favoredclasses{Bard}
-\end{racetable}
 
 Nothing until we find or write it.
 
@@ -23,19 +11,17 @@ Nothing until we find or write it.
 
 \racealignment{NYW}
 
-\racialtraits{
-\racetrait{Weapon Familiarity}{Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.}
-\racetrait{+2 racial bonus on saving throws against illusions.}
-\racetrait{Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes. This adjustment stacks with those from similar effects.}
-\racetrait{+1 racial bonus on attack rolls against kobolds and goblinoids.}
-\racetrait{+4 dodge bonus to Armor Class against monsters of the giant type.}
-\racetrait{+2 racial bonus on Listen checks.}
-\racetrait{+2 racial bonus on Craft (alchemy) checks.}
-\racetrait{Spell-Like Abilities: 1/day—speak with animals (burrowing mammal only, duration 1 minute). A gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day—dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + gnome’s Cha modifier + spell level.} % I'm pretty sure there's a much better way to format this, say by using the \sla used for aasimar. That Cha req goofs it up.
-}
-
-
-%\columnbreak
+\racedatastart
+\begin{racetable}
+\type{Humanoid (Gnome subtype)}
+\size{Small}
+\scores{+2 Constitution, --2 Strength}
+\speed{20}
+\senses{Low Light Vision}
+\autolanguages{Common and Gnome}
+\bonuslanguages{Draconic, Dwarven, Elven, Giant, Goblin, and Orc. In addition, a gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like).}
+\favoredclasses{Bard}
+\end{racetable}
 
 \vspace{\baselineskip}
 \agetable{40}{+4d6}{+6d6}{+9d6}
@@ -45,5 +31,19 @@ Nothing until we find or write it.
 \male{3' 0"}{+2d4}{40 lb.}{x(1)}
 \female{2' 10"}{+2d4}{35 lb.}{x(1)}
 \end{heightweighttable}
-\end{multicols}
-\end{racebox}
+\racedataend
+
+\racialtraits{
+\racetrait{Weapon Familiarity}{Gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.}
+\racetrait{Desensitized to Illusions}{+2 racial bonus on saving throws against illusions.}
+\racetrait{Practiced Illusions}{Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes. This adjustment stacks with those from similar effects.}
+\racetrait{Racial Enmity}{+1 racial bonus on attack rolls against kobolds and goblinoids.}
+\racetrait{+4 dodge bonus to Armor Class against monsters of the giant type.}
+\racetrait{Big Ears}{+2 racial bonus on Listen checks.}
+\racetrait{Gnomish Alchemy}{+2 racial bonus on Craft (alchemy) checks.}
+\racetrait{Burrowers Tongue \sla}{Gnomes may cast \spell{speak with animals} once per day, though they may only speak with burrowing mammals and only for one minute).}
+\racetrait{Innate Illusions \sla}{A gnome with a Charisma score of at least 10 may cast \spell{dancing lights}, \spell{ghost sound}, and \spell{prestidigitation} each once per day, with a caster level equal to their character level.}
+}
+
+
+%\end{racebox}
