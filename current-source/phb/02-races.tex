@@ -8,18 +8,18 @@
 \newcommand{\racesociety}[1]{\indent\ability{Society}{#1}}
 \newcommand{\racealignment}[1]{\indent\ability{Alignment}{#1}}
 
-\newcommand{\type}[1]{\ability{Type}{#1}\\}
-\newcommand{\size}[1]{\ability{Size}{#1}\\}
-\newcommand{\speed}[1]{\ability{Speed}{#1 feet}\\}
-\newcommand{\scores}[1]{\ability{Racial Ability Score Modifiers}{#1}\\}
-\newcommand{\racialtraits}[1]{~\\*\ability{\race ~Special Abilities}{#1}\\}
-\newcommand{\racetrait}[2]{\newline\indent\ability{#1}{#2}}
-\newcommand{\senses}[1]{\ability{Senses}{#1}\\}
-\newcommand{\autolanguages}[1]{\ability{Automatic Languages}{#1}\\}
-\newcommand{\bonuslanguages}[1]{\ability{Bonus Languages}{#1}\\}
-\newcommand{\favoredclasses}[1]{\ability{Favored Classes}{#1}\\}
-\newcommand{\male}[4]{Male &#1 &#2 &#3 &#4\\}
-\newcommand{\female}[4]{Female &#1 &#2 &#3 &#4\\}
+\newcommand{\type}[1]{\ability{Type}{#1}\\ }
+\newcommand{\size}[1]{\ability{Size}{#1}\\ }
+\newcommand{\speed}[1]{\ability{Speed}{#1 feet}\\ }
+\newcommand{\scores}[1]{\ability{Racial Ability Score Modifiers}{#1}\\ }
+\newcommand{\racialtraits}[1]{~\\*\ability{\race ~Special Abilities}{#1}\\ }
+\newcommand{\racetrait}[2]{\newline\indent\ability{#1}{#2} }
+\newcommand{\senses}[1]{\ability{Senses}{#1}\\ }
+\newcommand{\autolanguages}[1]{\ability{Automatic Languages}{#1}\\ }
+\newcommand{\bonuslanguages}[1]{\ability{Bonus Languages}{#1}\\ }
+\newcommand{\favoredclasses}[1]{\ability{Favored Classes}{#1}\\ }
+\newcommand{\male}[4]{Male &#1 &#2 &#3 &#4\\ }
+\newcommand{\female}[4]{Female &#1 &#2 &#3 &#4\\ }
 
 \newcommand{\racedatastart}{
 \noindent
@@ -36,6 +36,7 @@
 \newenvironment{racetable}
 {
 \tabulinesep=1mm
+\renewcommand\arraystretch{1.4}
 \noindent
 \begin{tabu} to \linewidth {X}
 \header\textbf{\race ~Racial Traits} \\ 
@@ -50,13 +51,12 @@
 
 \newcommand{\agetable}[4]{
 \columnbreak
+\renewcommand\arraystretch{1.4}
 \tabulinesep=1mm
 \noindent
 \begin{tabu} to \linewidth {X}
-\vspace{-1em} \\
 \header\textbf{\race ~Starting Age} \\ \hline
 \end{tabu}
-%\vspace{-.15em}
 \rowcolors{1}{colortwo}{colorone}
 \begin{tabu} to \linewidth {X X X X}
 \textbf{Adulthood:} &\textbf{Simple:} &\textbf{Moderate:} &\textbf{Complex:} \\
@@ -67,6 +67,7 @@
 \newenvironment{heightweighttable}
 {
 \tabulinesep=1mm
+\renewcommand\arraystretch{1.4}
 \noindent
 \begin{tabu} to \linewidth {X}
 \header\textbf{\race ~Height and Weight} \\ \hline
